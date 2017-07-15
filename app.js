@@ -1,5 +1,7 @@
 const restify = require('restify');
 const builder = require('botbuilder');
+const axios = require('axios');
+const HeroFactory = require('./Models/HeroFactory');
 
 // Setup Restify Server
 const server = restify.createServer();
@@ -13,10 +15,38 @@ const connector = new builder.ChatConnector({
     appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
+const heroFactory = new HeroFactory();
+
 // Listen for messages from users
 server.post('/api/messages', connector.listen());
 
+
+function createHeroCard(hero, session) {
+    return new builder.HeroCard(session)
+        .title(hero.name)
+        .subtitle(hero.primaryAttr + ' Hero')
+        .text("Base Health: " + hero.baseHealth + "\n\nBase Mana: " + hero.baseMana + "\n\nBaseDamage: " + hero.baseDamage)
+        .images([
+            builder.CardImage.create(session, hero.image)
+        ])
+        .buttons([
+            builder.CardAction.openUrl(session, 'https://docs.microsoft.com/bot-framework/', 'Get Started')
+        ]);
+}
+
 // Receive messages from the suer and respond by echoing each message back (prefixed with 'You said:')
 const bot = new builder.UniversalBot(connector, (session) => {
-    session.send('You said: %s', session.message.text);
+    let query = session.message.text;
+
+    if(heroFactory.heros.length == 0) {
+        heroFactory.getHeros().then(() => {
+            session.send("Whoopsies...Try again.");
+        });
+    }
+    else {
+        heroFactory.getHeros().then(() => {
+            var msg = new builder.Message(session).addAttachment(createHeroCard(heroFactory.heros[parseInt(session.message.text)], session));
+            session.send(msg);
+        });
+    }
 });

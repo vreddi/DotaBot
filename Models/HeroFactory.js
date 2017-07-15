@@ -21,6 +21,9 @@ class HeroFactory {
                 hero.primaryAttr = this.getFriendlyHeroAttributeString(data.primary_attr);
                 hero.roles = data.roles;
                 hero.legs = data.legs;
+                hero.baseHealth = data.base_health;
+                hero.baseMana = data.base_mana;
+                hero.baseDamage = data.base_attack_min + ' - ' + data.base_attack_max;
                 hero.image = OpenDotaBaseUri + data.img;
                 hero.icon = OpenDotaBaseUri + data.icon;
 
@@ -33,6 +36,7 @@ class HeroFactory {
         let friendlyStrings = {
             "agi": "Agility",
             "melee": "Melee",
+            "str": "Strength",
             "int": "Intelligence"
         }
 

@@ -25,6 +25,7 @@ function createHeroCard(hero, session) {
     return new builder.HeroCard(session)
         .title(hero.name)
         .subtitle(hero.primaryAttr + ' Hero')
+        .text("Base Health: " + hero.baseHealth + "\n\nBase Mana: " + hero.baseMana + "\n\nBaseDamage: " + hero.baseDamage)
         .images([
             builder.CardImage.create(session, hero.image)
         ])
@@ -35,6 +36,7 @@ function createHeroCard(hero, session) {
 
 // Receive messages from the suer and respond by echoing each message back (prefixed with 'You said:')
 const bot = new builder.UniversalBot(connector, (session) => {
+    let query = session.message.text;
 
     if(heroFactory.heros.length == 0) {
         heroFactory.getHeros().then(() => {

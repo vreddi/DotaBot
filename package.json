@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vreddi/DotaBot#readme",
   "dependencies": {
     "botbuilder": "^3.8.4",
+    "microsoft-adaptivecards": "^0.6.0",
     "mocha": "^3.4.2",
     "restify": "^5.0.0"
   }

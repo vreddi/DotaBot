@@ -17,10 +17,12 @@ class HeroFactory {
                 let data = response.data[id],
                     hero = new Hero();
 
+                hero.steamName = data.name;
                 hero.name = data.localized_name;
                 hero.primaryAttr = this.getFriendlyHeroAttributeString(data.primary_attr);
                 hero.roles = data.roles;
                 hero.legs = data.legs;
+                hero.movementSpeed = data.move_speed;
                 hero.baseHealth = data.base_health;
                 hero.baseMana = data.base_mana;
                 hero.baseDamage = data.base_attack_min + ' - ' + data.base_attack_max;

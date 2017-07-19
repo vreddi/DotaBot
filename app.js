@@ -1,10 +1,10 @@
 const restify = require('restify');
 const builder = require('botbuilder');
-const axios = require('axios');
 const HeroFactory = require('./Models/HeroFactory');
 const MatchResultCard = require('./Cards/MatchResultCard/MatchResultCard');
 const TI7Teams = require('./Metadata/TI7Teams');
 const Utils = require('./Shared/Utils');
+const HeroDialog = require('./Dialogs/HeroDialog');
 
 // Setup Restify Server
 const server = restify.createServer();
@@ -17,8 +17,6 @@ const connector = new builder.ChatConnector({
     appId: process.env.MICROSOFT_APP_ID,
     appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
-
-const heroFactory = new HeroFactory();
 
 // Listen for messages from users
 server.post('/api/messages', connector.listen());
@@ -36,7 +34,7 @@ function createHeroCard(hero, session) {
         ]);
 }
 
-// Receive messages from the suer and respond by echoing each message back (prefixed with 'You said:')
+// Receive messages from the user and respond by echoing each message back (prefixed with 'You said:')
 const bot = new builder.UniversalBot(connector, (session) => {
     let query = session.message.text,
         randomIndex = Utils.randomIntFromInterval(0, TI7Teams.length - 1);
@@ -51,18 +49,14 @@ const bot = new builder.UniversalBot(connector, (session) => {
             team2Score: 0
         });
 
-    var msg = new builder.Message(session).addAttachment(matchResultCard.cardAttachment);
-    session.send(msg);
+    if(query.includes('hero') || query.includes('Hero')) {
 
-    // if(heroFactory.heros.length == 0) {
-    //     heroFactory.getHeros().then(() => {
-    //         session.send("Whoopsies...Try again.");
-    //     });
-    // }
-    // else {
-    //     heroFactory.getHeros().then(() => {
-    //         var msg = new builder.Message(session).addAttachment(createHeroCard(heroFactory.heros[parseInt(session.message.text)], session));
-    //         session.send(msg);
-    //     });
-    // }
+        session.beginDialog('getHero');
+    }
+    else {
+        var msg = new builder.Message(session).addAttachment(matchResultCard.cardAttachment);
+        session.send(msg);
+    }
 });
+
+const heroDialog = new HeroDialog(bot);

@@ -26,6 +26,9 @@ class HeroCard {
         this.cardAttachment['content']['body'][1]['items'][0]['facts'][2]['value'] = this.attackDamage;
         this.cardAttachment['content']['body'][1]['items'][0]['facts'][3]['value'] = this.movementSpeed.toString();
 
+        // Clear the list
+        this.cardAttachment['content']['body'][2]['columns'] = [];
+
         // Populate hero skills
         if(heroData.steamName && HeroSkills[heroData.steamName]) {
             HeroSkills[heroData.steamName].forEach(skill => {

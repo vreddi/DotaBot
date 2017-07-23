@@ -1,3 +1,4 @@
+const dotenv = require('dotenv');
 const restify = require('restify');
 const builder = require('botbuilder');
 const HeroFactory = require('./Models/HeroFactory');
@@ -5,9 +6,14 @@ const MatchResultCard = require('./Cards/MatchResultCard/MatchResultCard');
 const TI7Teams = require('./Metadata/TI7Teams');
 const Utils = require('./Shared/Utils');
 const HeroDialog = require('./Dialogs/HeroDialog');
+const Interpreter = require('./Controller/Interpreter');
+
+// Configure environment variables
+dotenv.config();
 
 // Setup Restify Server
 const server = restify.createServer();
+
 server.listen(process.env.port || process.env.PORT || 3978, () => {
     console.log('%s listening to %s', server.name, server.url);
 });
@@ -49,14 +55,13 @@ const bot = new builder.UniversalBot(connector, (session) => {
             team2Score: 0
         });
 
-    if(query.includes('hero') || query.includes('Hero')) {
+    interpreter.session = session;
 
-        session.beginDialog('getHero');
-    }
-    else {
-        var msg = new builder.Message(session).addAttachment(matchResultCard.cardAttachment);
-        session.send(msg);
-    }
+    interpreter.queryLuis(query).then(() => {
+        interpreter.handleIntent();
+    }, (error) => {
+        throw error;
+    });
 });
 
-const heroDialog = new HeroDialog(bot);
+const interpreter = new Interpreter(bot);

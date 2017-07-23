@@ -1,15 +1,15 @@
 const builder = require('botbuilder');
-const HeroFactory = require('../Models/HeroFactory');
 const HeroCard = require('../Cards/HeroCard/HeroCard');
 
 class HeroDialog {
 
     constructor(bot) {
         this.bot = bot;
-        this.heroFactory = new HeroFactory();
+        this.heroFactory = null;
+        this.data = null;
 
         // Set basic get hero dialog
-        this.bot.dialog('getHero', [
+        this.bot.dialog('getHeroById', [
             (session) => {
                 builder.Prompts.text(session, "Please provide the HeroID...");
             },
@@ -31,6 +31,30 @@ class HeroDialog {
                     session.send(msg);
                     session.endDialog();
                 }
+            }
+        ]);
+
+        this.bot.dialog('getHero', [
+            (session) => {
+                let heroCard = this.getHeroCard(this.data),
+                    msg = new builder.Message(session).addAttachment(heroCard.cardAttachment);
+                session.send(msg);
+                session.endDialog();
+            }
+        ]);
+
+        this.bot.dialog('notSureWhichHero', [
+            (session) => {
+                session.send("Hmmm... I am not really sure which Hero you are reffering to. Give it to me one more time?");
+                session.endDialog();
+            }
+        ]);
+
+        // TODO complete this when HeroConfirmationCard is available
+        this.bot.dialog('confirmHero', [
+            (session) => {
+                session.send("Feature Unavailable: Confirm Hero");
+                session.endDialog();
             }
         ]);
     }

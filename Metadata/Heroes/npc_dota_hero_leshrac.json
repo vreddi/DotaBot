@@ -1,0 +1,19 @@
+{
+  "id": 52,
+  "name": "npc_dota_hero_leshrac",
+  "localized_name": "Leshrac",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Support",
+    "Nuker",
+    "Pusher",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": 112,
+  "name": "npc_dota_hero_winter_wyvern",
+  "localized_name": "Winter Wyvern",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": 56,
+  "name": "npc_dota_hero_clinkz",
+  "localized_name": "Clinkz",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

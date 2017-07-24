@@ -1,0 +1,17 @@
+{
+  "id": 50,
+  "name": "npc_dota_hero_dazzle",
+  "localized_name": "Dazzle",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": 63,
+  "name": "npc_dota_hero_weaver",
+  "localized_name": "Weaver",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

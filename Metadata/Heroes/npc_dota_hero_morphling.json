@@ -1,0 +1,45 @@
+{
+  "id": 10,
+  "name": "npc_dota_hero_morphling",
+  "localized_name": "Morphling",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Durable",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Waveform",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/9/97/Waveform_icon.png?version=06b1c6deeb112d930a1690237cbf7ff9",
+      "link": "http://dota2.gamepedia.com/Morphling#Waveform"
+    },
+    {
+      "name": "Adaptive Strike",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b0/Adaptive_Strike_icon.png?version=41db52b4d018f3d2b2c86a8886c8a6fc",
+      "link": "http://dota2.gamepedia.com/Morphling#Adaptive_Strike"
+    },
+    {
+      "name": "Morph (Agility Gain)",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/80/Morph_%28Agility_Gain%29_icon.png?version=8d35276815ecf538c62af208c2bd48fa",
+      "link": "http://dota2.gamepedia.com/Morphling#Morph_Agility"
+    },
+    {
+      "name": "Morph (Strength Gain)",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/7/75/Morph_%28Strength_Gain%29_icon.png?version=8802766abf6cf75fc152e5c5b5e1743a",
+      "link": "http://dota2.gamepedia.com/Morphling#Morph_Strength"
+    },
+    {
+      "name": "Morph Replicate",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9f/Morph_Replicate_icon.png?version=f927d15731de5d8f977e90782f0032bc",
+      "link": "http://dota2.gamepedia.com/Morphling#Morph_Replicate"
+    }
+  ]
+}

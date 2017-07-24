@@ -1,0 +1,18 @@
+{
+  "id": 29,
+  "name": "npc_dota_hero_tidehunter",
+  "localized_name": "Tidehunter",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

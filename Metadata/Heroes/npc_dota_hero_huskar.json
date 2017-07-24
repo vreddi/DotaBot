@@ -1,0 +1,17 @@
+{
+  "id": 59,
+  "name": "npc_dota_hero_huskar",
+  "localized_name": "Huskar",
+  "primary_attr": "str",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

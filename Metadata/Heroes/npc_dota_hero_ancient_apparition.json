@@ -1,0 +1,17 @@
+{
+  "id": 68,
+  "name": "npc_dota_hero_ancient_apparition",
+  "localized_name": "Ancient Apparition",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

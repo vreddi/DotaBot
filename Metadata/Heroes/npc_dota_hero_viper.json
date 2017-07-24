@@ -1,0 +1,18 @@
+{
+  "id": 47,
+  "name": "npc_dota_hero_viper",
+  "localized_name": "Viper",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

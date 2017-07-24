@@ -1,0 +1,19 @@
+{
+  "id": 54,
+  "name": "npc_dota_hero_life_stealer",
+  "localized_name": "Lifestealer",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Jungler",
+    "Escape",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

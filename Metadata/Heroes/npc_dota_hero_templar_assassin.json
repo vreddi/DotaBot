@@ -1,0 +1,16 @@
+{
+  "id": 46,
+  "name": "npc_dota_hero_templar_assassin",
+  "localized_name": "Templar Assassin",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

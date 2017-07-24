@@ -1,0 +1,19 @@
+{
+  "id": 42,
+  "name": "npc_dota_hero_skeleton_king",
+  "localized_name": "Wraith King",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Support",
+    "Durable",
+    "Disabler",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

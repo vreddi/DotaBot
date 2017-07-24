@@ -1,0 +1,19 @@
+{
+  "id": 23,
+  "name": "npc_dota_hero_kunkka",
+  "localized_name": "Kunkka",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": 32,
+  "name": "npc_dota_hero_riki",
+  "localized_name": "Riki",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

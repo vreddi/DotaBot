@@ -1,0 +1,18 @@
+{
+  "id": 95,
+  "name": "npc_dota_hero_troll_warlord",
+  "localized_name": "Troll Warlord",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Disabler",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": 90,
+  "name": "npc_dota_hero_keeper_of_the_light",
+  "localized_name": "Keeper of the Light",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Jungler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,36 +1,38 @@
 {
-    "id": 1,
-    "name": "Anti-Mage",
-    "primary": "int",
-    "description": "",
-    "lore": "The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms. Ascetic and pragmatic, in their remote monastic eyrie they remained aloof from mundane strife, wrapped in meditation that knew no gods or elements of magic. Then came the Legion of the Dead God, crusaders with a sinister mandate to replace all local worship with their Unliving Lord's poisonous nihilosophy. From a landscape that had known nothing but blood and battle for a thousand years, they tore the souls and bones of countless fallen legions and pitched them against Turstarkuri. The monastery stood scarcely a fortnight against the assault, and the few monks who bothered to surface from their meditations believed the invaders were but demonic visions sent to distract them from meditation. They died where they sat on their silken cushions. Only one youth survived--a pilgrim who had come as an acolyte, seeking wisdom, but had yet to be admitted to the monastery. He watched in horror as the monks to whom he had served tea and nettles were first slaughtered, then raised to join the ranks of the Dead God's priesthood. With nothing but a few of Turstarkuri's prized dogmatic scrolls, he crept away to the comparative safety of other lands, swearing to obliterate not only the Dead God's magic users--but to put an end to magic altogether.",
-    "image": "",
-    "aliases": [
-        "anti mage",
-        "anti-mage",
-        "am",
-        "animage"
-    ],
-    "skills": [
-        {
-            "name": "Mana Break",
-            "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Mana_Break_icon.png?version=0f9ecc20cc314a54d5b23c719f249396",
-            "link": "http://dota2.gamepedia.com/Anti-Mage#Mana_Break"
-        },
-        {
-            "name": "Blink",
-            "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ce/Blink_%28Anti-Mage%29_icon.png?version=7c40b943872d402ffaed1749b885e6e4",
-            "link": "http://dota2.gamepedia.com/Anti-Mage#Blink"
-        },
-        {
-            "name": "Spell Shield",
-            "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Spell_Shield_icon.png?version=2479009df0c60bfddc3d989fa3e66e68",
-            "link": "http://dota2.gamepedia.com/Anti-Mage#Spell_Shield"
-        },
-        {
-            "name": "Mana Void",
-            "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fe/Mana_Void_icon.png?version=74210e75d8c842248b142e23d2f3a621",
-            "link": "http://dota2.gamepedia.com/Anti-Mage#Mana_Void"
-        }
-    ]
+  "id": 1,
+  "name": "npc_dota_hero_antimage",
+  "localized_name": "Anti-Mage",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Mana Break",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Mana_Break_icon.png?version=0f9ecc20cc314a54d5b23c719f249396",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Mana_Break"
+    },
+    {
+      "name": "Blink",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ce/Blink_%28Anti-Mage%29_icon.png?version=7c40b943872d402ffaed1749b885e6e4",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Blink"
+    },
+    {
+      "name": "Spell Shield",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Spell_Shield_icon.png?version=2479009df0c60bfddc3d989fa3e66e68",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Spell_Shield"
+    },
+    {
+      "name": "Mana Void",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fe/Mana_Void_icon.png?version=74210e75d8c842248b142e23d2f3a621",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Mana_Void"
+    }
+  ]
 }

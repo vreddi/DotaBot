@@ -1,0 +1,17 @@
+{
+  "id": 72,
+  "name": "npc_dota_hero_gyrocopter",
+  "localized_name": "Gyrocopter",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

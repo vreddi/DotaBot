@@ -1,0 +1,18 @@
+{
+  "id": 88,
+  "name": "npc_dota_hero_nyx_assassin",
+  "localized_name": "Nyx Assassin",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Disabler",
+    "Nuker",
+    "Initiator",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

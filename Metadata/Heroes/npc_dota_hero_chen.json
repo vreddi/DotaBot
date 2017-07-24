@@ -1,0 +1,17 @@
+{
+  "id": 66,
+  "name": "npc_dota_hero_chen",
+  "localized_name": "Chen",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Jungler",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

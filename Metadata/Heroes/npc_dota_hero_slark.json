@@ -1,0 +1,18 @@
+{
+  "id": 93,
+  "name": "npc_dota_hero_slark",
+  "localized_name": "Slark",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

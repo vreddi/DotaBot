@@ -1,0 +1,18 @@
+{
+  "id": 114,
+  "name": "npc_dota_hero_monkey_king",
+  "localized_name": "Monkey King",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Disabler",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

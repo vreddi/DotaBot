@@ -1,0 +1,38 @@
+{
+  "id": 6,
+  "name": "npc_dota_hero_drow_ranger",
+  "localized_name": "Drow Ranger",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Frost Arrows",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8f/Frost_Arrows_icon.png?version=3b4326414adb5d8e120f59adc522af8e",
+      "link": "http://dota2.gamepedia.com/Drow_Ranger#Frost_Arrows"
+    },
+    {
+      "name": "Gust",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5b/Gust_icon.png?version=b339598bf597844e7b52412a68039c33",
+      "link": "http://dota2.gamepedia.com/Drow_Ranger#Gust"
+    },
+    {
+      "name": "Precision Aura",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Precision_Aura_icon.png?version=0d41f3ac417fdc5c203a926c1abd63db",
+      "link": "http://dota2.gamepedia.com/Drow_Ranger#Precision_Aura"
+    },
+    {
+      "name": "Marksmanship",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/af/Marksmanship_icon.png?version=8df2fb32e67f84416beb985bc602b6ad",
+      "link": "http://dota2.gamepedia.com/Drow_Ranger#Marksmanship"
+    }
+  ]
+}

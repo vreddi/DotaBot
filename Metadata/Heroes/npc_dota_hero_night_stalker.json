@@ -1,0 +1,19 @@
+{
+  "id": 60,
+  "name": "npc_dota_hero_night_stalker",
+  "localized_name": "Night Stalker",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": 28,
+  "name": "npc_dota_hero_slardar",
+  "localized_name": "Slardar",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Disabler",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

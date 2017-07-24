@@ -1,0 +1,17 @@
+{
+  "id": 48,
+  "name": "npc_dota_hero_luna",
+  "localized_name": "Luna",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

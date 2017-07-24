@@ -1,0 +1,40 @@
+{
+  "id": 4,
+  "name": "npc_dota_hero_bloodseeker",
+  "localized_name": "Bloodseeker",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Jungler",
+    "Nuker",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Bloodrage",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Bloodrage_icon.png?version=98e8206b5bde918dd92628dac252003a",
+      "link": "http://dota2.gamepedia.com/Bloodseeker#Bloodrage"
+    },
+    {
+      "name": "Blood Rite",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Blood_Rite_icon.png?version=935f22be309b0e62888f7e2fd59aae98",
+      "link": "http://dota2.gamepedia.com/Bloodseeker#Blood_Rite"
+    },
+    {
+      "name": "Thirst",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8e/Thirst_icon.png?version=41dac051af0c83a08ce154650ecb6b97",
+      "link": "http://dota2.gamepedia.com/Bloodseeker#Thirst"
+    },
+    {
+      "name": "Rupture",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f4/Rupture_icon.png?version=e48144306f0447829f2532b60100208d",
+      "link": "http://dota2.gamepedia.com/Bloodseeker#Rupture"
+    }
+  ]
+}

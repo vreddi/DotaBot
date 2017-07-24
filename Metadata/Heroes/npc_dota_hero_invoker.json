@@ -1,0 +1,19 @@
+{
+  "id": 74,
+  "name": "npc_dota_hero_invoker",
+  "localized_name": "Invoker",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler",
+    "Escape",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

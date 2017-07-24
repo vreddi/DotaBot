@@ -1,0 +1,17 @@
+{
+  "id": 86,
+  "name": "npc_dota_hero_rubick",
+  "localized_name": "Rubick",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

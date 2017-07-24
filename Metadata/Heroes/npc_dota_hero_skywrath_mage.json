@@ -1,0 +1,17 @@
+{
+  "id": 101,
+  "name": "npc_dota_hero_skywrath_mage",
+  "localized_name": "Skywrath Mage",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

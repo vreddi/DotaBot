@@ -1,0 +1,17 @@
+{
+  "id": 39,
+  "name": "npc_dota_hero_queenofpain",
+  "localized_name": "Queen of Pain",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

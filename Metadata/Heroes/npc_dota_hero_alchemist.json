@@ -1,0 +1,20 @@
+{
+  "id": 73,
+  "name": "npc_dota_hero_alchemist",
+  "localized_name": "Alchemist",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Support",
+    "Durable",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

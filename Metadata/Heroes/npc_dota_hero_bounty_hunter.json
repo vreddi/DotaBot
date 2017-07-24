@@ -1,0 +1,16 @@
+{
+  "id": 62,
+  "name": "npc_dota_hero_bounty_hunter",
+  "localized_name": "Bounty Hunter",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

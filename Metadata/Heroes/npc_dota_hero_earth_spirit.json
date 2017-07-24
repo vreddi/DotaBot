@@ -1,0 +1,19 @@
+{
+  "id": 107,
+  "name": "npc_dota_hero_earth_spirit",
+  "localized_name": "Earth Spirit",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Nuker",
+    "Escape",
+    "Disabler",
+    "Initiator",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

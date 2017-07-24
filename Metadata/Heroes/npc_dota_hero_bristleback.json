@@ -1,0 +1,18 @@
+{
+  "id": 99,
+  "name": "npc_dota_hero_bristleback",
+  "localized_name": "Bristleback",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

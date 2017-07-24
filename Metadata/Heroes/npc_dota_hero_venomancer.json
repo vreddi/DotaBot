@@ -1,0 +1,19 @@
+{
+  "id": 40,
+  "name": "npc_dota_hero_venomancer",
+  "localized_name": "Venomancer",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Initiator",
+    "Pusher",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

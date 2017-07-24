@@ -1,0 +1,18 @@
+{
+  "id": 25,
+  "name": "npc_dota_hero_lina",
+  "localized_name": "Lina",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Carry",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

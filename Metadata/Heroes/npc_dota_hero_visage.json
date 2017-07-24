@@ -1,0 +1,19 @@
+{
+  "id": 92,
+  "name": "npc_dota_hero_visage",
+  "localized_name": "Visage",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Durable",
+    "Disabler",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

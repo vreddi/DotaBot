@@ -1,0 +1,15 @@
+{
+  "id": 22,
+  "name": "npc_dota_hero_zuus",
+  "localized_name": "Zeus",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

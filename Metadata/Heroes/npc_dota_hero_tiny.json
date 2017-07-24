@@ -1,0 +1,20 @@
+{
+  "id": 19,
+  "name": "npc_dota_hero_tiny",
+  "localized_name": "Tiny",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher",
+    "Initiator",
+    "Durable",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

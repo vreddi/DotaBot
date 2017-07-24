@@ -1,0 +1,19 @@
+{
+  "id": 16,
+  "name": "npc_dota_hero_sand_king",
+  "localized_name": "Sand King",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape",
+    "Jungler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": 77,
+  "name": "npc_dota_hero_lycan",
+  "localized_name": "Lycan",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Jungler",
+    "Durable",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

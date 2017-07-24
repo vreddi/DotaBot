@@ -1,0 +1,20 @@
+{
+  "id": 82,
+  "name": "npc_dota_hero_meepo",
+  "localized_name": "Meepo",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Disabler",
+    "Initiator",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

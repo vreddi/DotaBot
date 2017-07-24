@@ -1,0 +1,18 @@
+{
+  "id": 12,
+  "name": "npc_dota_hero_phantom_lancer",
+  "localized_name": "Phantom Lancer",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Pusher",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

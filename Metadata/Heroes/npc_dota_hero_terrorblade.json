@@ -1,0 +1,17 @@
+{
+  "id": 109,
+  "name": "npc_dota_hero_terrorblade",
+  "localized_name": "Terrorblade",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

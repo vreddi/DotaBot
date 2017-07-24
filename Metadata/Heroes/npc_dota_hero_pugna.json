@@ -1,0 +1,16 @@
+{
+  "id": 45,
+  "name": "npc_dota_hero_pugna",
+  "localized_name": "Pugna",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Nuker",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

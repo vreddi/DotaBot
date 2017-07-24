@@ -1,0 +1,16 @@
+{
+  "id": 31,
+  "name": "npc_dota_hero_lich",
+  "localized_name": "Lich",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

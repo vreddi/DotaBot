@@ -1,0 +1,17 @@
+{
+  "id": 94,
+  "name": "npc_dota_hero_medusa",
+  "localized_name": "Medusa",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

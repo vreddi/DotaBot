@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Marck+Script);
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #283593;
+    height: 100%;
+    margin: 0;
+    min-width: 1100px;
+}
+
+body iframe {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 75px black;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+}
+
+.microsoft-logo {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 5%;
+    margin-left: 1em;
+}
+
+.team-member {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+
+.directions {
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding-right: 1em;
+    height: 70%;
+}
+
+.directions-title {
+    font-size: 100px;
+    font-family: 'Marck Script', cursive;
+}
+
+.chat-client {
+    height: 90%;
+    width: 35%;
+}

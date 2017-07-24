@@ -1,0 +1,19 @@
+{
+  "id": 84,
+  "name": "npc_dota_hero_ogre_magi",
+  "localized_name": "Ogre Magi",
+  "primary_attr": "int",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Durable",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

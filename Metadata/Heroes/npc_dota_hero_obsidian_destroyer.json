@@ -1,0 +1,17 @@
+{
+  "id": 76,
+  "name": "npc_dota_hero_obsidian_destroyer",
+  "localized_name": "Outworld Devourer",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

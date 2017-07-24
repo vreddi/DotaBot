@@ -1,0 +1,16 @@
+{
+  "id": 105,
+  "name": "npc_dota_hero_techies",
+  "localized_name": "Techies",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

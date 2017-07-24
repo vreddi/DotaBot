@@ -1,0 +1,38 @@
+{
+  "id": 8,
+  "name": "npc_dota_hero_juggernaut",
+  "localized_name": "Juggernaut",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Blade Fury",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4c/Blade_Fury_icon.png?version=a09b759c41208d9f1deaefc422718a51",
+      "link": "http://dota2.gamepedia.com/Juggernaut#Blade_Fury"
+    },
+    {
+      "name": "Healing Ward",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/5/58/Healing_Ward_icon.png?version=ffdd8e37c8d4422a88af230888401de9",
+      "link": "http://dota2.gamepedia.com/Juggernaut#Healing_Ward"
+    },
+    {
+      "name": "Blade Dance",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Blade_Dance_icon.png?version=aade8b55e0657114faf0c6d57ff4e1d5",
+      "link": "http://dota2.gamepedia.com/Juggernaut#Blade_Dance"
+    },
+    {
+      "name": "Omnislash",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/3/39/Omnislash_icon.png?version=40d59d17876f17ab9e6c06fc47002f73",
+      "link": "http://dota2.gamepedia.com/Juggernaut#Omnislash"
+    }
+  ]
+}

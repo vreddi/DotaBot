@@ -1,0 +1,18 @@
+{
+  "id": 65,
+  "name": "npc_dota_hero_batrider",
+  "localized_name": "Batrider",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Initiator",
+    "Jungler",
+    "Disabler",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

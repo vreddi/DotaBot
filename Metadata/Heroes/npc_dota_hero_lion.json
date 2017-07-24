@@ -1,0 +1,18 @@
+{
+  "id": 26,
+  "name": "npc_dota_hero_lion",
+  "localized_name": "Lion",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

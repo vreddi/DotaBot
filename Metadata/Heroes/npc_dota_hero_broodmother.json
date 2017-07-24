@@ -1,0 +1,18 @@
+{
+  "id": 61,
+  "name": "npc_dota_hero_broodmother",
+  "localized_name": "Broodmother",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

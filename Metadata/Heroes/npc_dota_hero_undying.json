@@ -1,0 +1,18 @@
+{
+  "id": 85,
+  "name": "npc_dota_hero_undying",
+  "localized_name": "Undying",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Durable",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

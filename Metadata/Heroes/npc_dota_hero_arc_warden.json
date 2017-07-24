@@ -1,0 +1,17 @@
+{
+  "id": 113,
+  "name": "npc_dota_hero_arc_warden",
+  "localized_name": "Arc Warden",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

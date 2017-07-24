@@ -1,0 +1,18 @@
+{
+  "id": 33,
+  "name": "npc_dota_hero_enigma",
+  "localized_name": "Enigma",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Disabler",
+    "Jungler",
+    "Initiator",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

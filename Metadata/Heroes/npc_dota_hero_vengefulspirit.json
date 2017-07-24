@@ -1,0 +1,19 @@
+{
+  "id": 20,
+  "name": "npc_dota_hero_vengefulspirit",
+  "localized_name": "Vengeful Spirit",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": 15,
+  "name": "npc_dota_hero_razor",
+  "localized_name": "Razor",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Nuker",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

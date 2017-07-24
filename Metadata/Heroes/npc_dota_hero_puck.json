@@ -1,0 +1,18 @@
+{
+  "id": 13,
+  "name": "npc_dota_hero_puck",
+  "localized_name": "Puck",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

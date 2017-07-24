@@ -1,0 +1,19 @@
+{
+  "id": 106,
+  "name": "npc_dota_hero_ember_spirit",
+  "localized_name": "Ember Spirit",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Disabler",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

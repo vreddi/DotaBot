@@ -1,0 +1,19 @@
+{
+  "id": 53,
+  "name": "npc_dota_hero_furion",
+  "localized_name": "Nature's Prophet",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Jungler",
+    "Pusher",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

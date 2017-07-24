@@ -1,0 +1,18 @@
+{
+  "id": 80,
+  "name": "npc_dota_hero_lone_druid",
+  "localized_name": "Lone Druid",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Jungler",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

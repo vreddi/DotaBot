@@ -1,0 +1,18 @@
+{
+  "id": 55,
+  "name": "npc_dota_hero_dark_seer",
+  "localized_name": "Dark Seer",
+  "primary_attr": "int",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Jungler",
+    "Escape",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

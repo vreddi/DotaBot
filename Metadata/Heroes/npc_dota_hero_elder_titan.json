@@ -1,0 +1,18 @@
+{
+  "id": 103,
+  "name": "npc_dota_hero_elder_titan",
+  "localized_name": "Elder Titan",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

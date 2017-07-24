@@ -1,0 +1,20 @@
+{
+  "id": 89,
+  "name": "npc_dota_hero_naga_siren",
+  "localized_name": "Naga Siren",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Support",
+    "Pusher",
+    "Disabler",
+    "Initiator",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

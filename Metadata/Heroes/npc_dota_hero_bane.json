@@ -1,0 +1,39 @@
+{
+  "id": 3,
+  "name": "npc_dota_hero_bane",
+  "localized_name": "Bane",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Enfeeble",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Enfeeble_icon.png?version=c278ba13fb3d72a837c1ab28fc87243f",
+      "link": "http://dota2.gamepedia.com/Bane#Enfeeble"
+    },
+    {
+      "name": "Brain Sap",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0c/Brain_Sap_icon.png?version=d5d9c906851321ee3b7fe166419f7ad0",
+      "link": "http://dota2.gamepedia.com/Bane#Brain_Sap"
+    },
+    {
+      "name": "Nightmare",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6e/Nightmare_icon.png?version=528239e01e34939a32efa21c2026dfa7",
+      "link": "http://dota2.gamepedia.com/Bane#Nightmare"
+    },
+    {
+      "name": "Fiend's Grip",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7b/Fiend%27s_Grip_icon.png?version=5de97c308cc781d8c497fe58fb0afa0b",
+      "link": "http://dota2.gamepedia.com/Bane#Fiend.27s_Grip"
+    }
+  ]
+}

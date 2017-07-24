@@ -1,0 +1,39 @@
+{
+  "id": 2,
+  "name": "npc_dota_hero_axe",
+  "localized_name": "Axe",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Jungler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Berserker's Call",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d1/Berserker%27s_Call_icon.png?version=f15b2131acf66e1f8ff6d2a4ea8d2c1b",
+      "link": "http://dota2.gamepedia.com/Axe#Berserker.27s_Call"
+    },
+    {
+      "name": "Battle Hunger",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/0/00/Battle_Hunger_icon.png?version=034d7d418ace647b7b24e5b041c6d43b",
+      "link": "http://dota2.gamepedia.com/Axe#Battle_Hunger"
+    },
+    {
+      "name": "Counter Helix",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/1/14/Counter_Helix_icon.png?version=47275d1f40ddbfbe36e91ad03c514891",
+      "link": "http://dota2.gamepedia.com/Axe#Counter_Helix"
+    },
+    {
+      "name": "Culling Blade",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/3/30/Culling_Blade_icon.png?version=f4780cf87ae32493be5393c651156c52",
+      "link": "http://dota2.gamepedia.com/Axe#Culling_Blade"
+    }
+  ]
+}

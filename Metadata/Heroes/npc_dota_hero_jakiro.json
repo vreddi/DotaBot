@@ -1,0 +1,18 @@
+{
+  "id": 64,
+  "name": "npc_dota_hero_jakiro",
+  "localized_name": "Jakiro",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Pusher",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

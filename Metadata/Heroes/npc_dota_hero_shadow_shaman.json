@@ -1,0 +1,19 @@
+{
+  "id": 27,
+  "name": "npc_dota_hero_shadow_shaman",
+  "localized_name": "Shadow Shaman",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Pusher",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

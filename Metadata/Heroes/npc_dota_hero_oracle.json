@@ -1,0 +1,18 @@
+{
+  "id": 111,
+  "name": "npc_dota_hero_oracle",
+  "localized_name": "Oracle",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

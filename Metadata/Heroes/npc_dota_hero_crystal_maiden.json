@@ -1,0 +1,39 @@
+{
+  "id": 5,
+  "name": "npc_dota_hero_crystal_maiden",
+  "localized_name": "Crystal Maiden",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Jungler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Crystal Nova",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/7/72/Crystal_Nova_icon.png?version=8957b6a54c9ed0741ca4bdc77dca5c7c",
+      "link": "http://dota2.gamepedia.com/Crystal_Maiden#Crystal_Nova"
+    },
+    {
+      "name": "Frostbite",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d6/Frostbite_icon.png?version=4a23faddd60a73919459488572443d38",
+      "link": "http://dota2.gamepedia.com/Crystal_Maiden#Frostbite"
+    },
+    {
+      "name": "Arcane Aura",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5a/Arcane_Aura_icon.png?version=83bbf19281a2e99cf7819575629f9328",
+      "link": "http://dota2.gamepedia.com/Crystal_Maiden#Arcane_Aura"
+    },
+    {
+      "name": "Freezing Field",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/d/de/Freezing_Field_icon.png?version=cdb839eea84cb35baae95023943a96a0",
+      "link": "http://dota2.gamepedia.com/Crystal_Maiden#Freezing_Field"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 41,
+  "name": "npc_dota_hero_faceless_void",
+  "localized_name": "Faceless Void",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Initiator",
+    "Disabler",
+    "Escape",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

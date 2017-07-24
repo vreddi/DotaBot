@@ -1,0 +1,18 @@
+{
+  "id": 36,
+  "name": "npc_dota_hero_necrolyte",
+  "localized_name": "Necrophos",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Durable",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

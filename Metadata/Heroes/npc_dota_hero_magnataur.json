@@ -1,0 +1,18 @@
+{
+  "id": 97,
+  "name": "npc_dota_hero_magnataur",
+  "localized_name": "Magnus",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

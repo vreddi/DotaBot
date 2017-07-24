@@ -1,0 +1,19 @@
+{
+  "id": 17,
+  "name": "npc_dota_hero_storm_spirit",
+  "localized_name": "Storm Spirit",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Initiator",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

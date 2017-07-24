@@ -1,0 +1,17 @@
+{
+  "id": 91,
+  "name": "npc_dota_hero_wisp",
+  "localized_name": "Io",
+  "primary_attr": "str",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

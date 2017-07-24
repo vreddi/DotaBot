@@ -1,0 +1,17 @@
+{
+  "id": 34,
+  "name": "npc_dota_hero_tinker",
+  "localized_name": "Tinker",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

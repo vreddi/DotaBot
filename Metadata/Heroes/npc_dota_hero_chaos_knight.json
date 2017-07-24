@@ -1,0 +1,19 @@
+{
+  "id": 81,
+  "name": "npc_dota_hero_chaos_knight",
+  "localized_name": "Chaos Knight",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Durable",
+    "Pusher",
+    "Initiator"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

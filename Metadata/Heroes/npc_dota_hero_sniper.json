@@ -1,0 +1,16 @@
+{
+  "id": 35,
+  "name": "npc_dota_hero_sniper",
+  "localized_name": "Sniper",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

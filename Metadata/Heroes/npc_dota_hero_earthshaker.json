@@ -1,0 +1,39 @@
+{
+  "id": 7,
+  "name": "npc_dota_hero_earthshaker",
+  "localized_name": "Earthshaker",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Initiator",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Fissure",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Fissure_icon.png?version=d01e8f746e75ac4e5b44a0bb8449921a",
+      "link": "http://dota2.gamepedia.com/Earthshaker#Fissure"
+    },
+    {
+      "name": "Enchant Totem",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8f/Enchant_Totem_icon.png?version=1009ee2b7583b7313340360e871a2142",
+      "link": "http://dota2.gamepedia.com/Earthshaker#Enchant_Totem"
+    },
+    {
+      "name": "Aftershock",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f1/Aftershock_icon.png?version=6c15d43050afcff5cfc15fbc7cccc47a",
+      "link": "http://dota2.gamepedia.com/Earthshaker#Aftershock"
+    },
+    {
+      "name": "Echo Slam",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/0/01/Echo_Slam_icon.png?version=e1f1dd07d78fa2f929a7fed0238dad78",
+      "link": "http://dota2.gamepedia.com/Earthshaker#Echo_Slam"
+    }
+  ]
+}

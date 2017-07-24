@@ -1,0 +1,18 @@
+{
+  "id": 38,
+  "name": "npc_dota_hero_beastmaster",
+  "localized_name": "Beastmaster",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Durable",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

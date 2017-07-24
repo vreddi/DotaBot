@@ -1,0 +1,19 @@
+{
+  "id": 18,
+  "name": "npc_dota_hero_sven",
+  "localized_name": "Sven",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

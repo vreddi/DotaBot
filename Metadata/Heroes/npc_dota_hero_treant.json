@@ -1,0 +1,19 @@
+{
+  "id": 83,
+  "name": "npc_dota_hero_treant",
+  "localized_name": "Treant Protector",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

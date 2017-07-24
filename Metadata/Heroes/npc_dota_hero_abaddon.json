@@ -1,0 +1,17 @@
+{
+  "id": 102,
+  "name": "npc_dota_hero_abaddon",
+  "localized_name": "Abaddon",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Carry",
+    "Durable"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": 96,
+  "name": "npc_dota_hero_centaur",
+  "localized_name": "Centaur Warrunner",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Durable",
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

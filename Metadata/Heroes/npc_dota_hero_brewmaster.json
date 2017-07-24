@@ -1,0 +1,19 @@
+{
+  "id": 78,
+  "name": "npc_dota_hero_brewmaster",
+  "localized_name": "Brewmaster",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

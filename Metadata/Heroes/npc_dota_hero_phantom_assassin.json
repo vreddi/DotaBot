@@ -1,0 +1,16 @@
+{
+  "id": 44,
+  "name": "npc_dota_hero_phantom_assassin",
+  "localized_name": "Phantom Assassin",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

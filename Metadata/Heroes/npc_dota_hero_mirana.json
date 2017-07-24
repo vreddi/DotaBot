@@ -1,0 +1,40 @@
+{
+  "id": 9,
+  "name": "npc_dota_hero_mirana",
+  "localized_name": "Mirana",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Support",
+    "Escape",
+    "Nuker",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Starstorm",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9e/Starstorm_icon.png?version=18d17f0e3542b7d1f12fd53229b6819d",
+      "link": "http://dota2.gamepedia.com/Mirana#Starstorm"
+    },
+    {
+      "name": "Sacred Arrow",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/4/49/Sacred_Arrow_icon.png?version=7eb555d2d9f7212a5046884af89a831e",
+      "link": "http://dota2.gamepedia.com/Mirana#Sacred_Arrow"
+    },
+    {
+      "name": "Leap",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/8/88/Leap_icon.png?version=11c1fc342212117f16d0cb594a283ca7",
+      "link": "http://dota2.gamepedia.com/Mirana#Leap"
+    },
+    {
+      "name": "Moonlight Shadow",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6b/Moonlight_Shadow_icon.png?version=f4ad6deedfc25f87129337fe7fd7636d",
+      "link": "http://dota2.gamepedia.com/Mirana#Moonlight_Shadow"
+    }
+  ]
+}

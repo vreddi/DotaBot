@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "name": "npc_dota_hero_antimage",
+  "localized_name": "Anti-Mage",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Mana Break",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Mana_Break_icon.png?version=0f9ecc20cc314a54d5b23c719f249396",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Mana_Break"
+    },
+    {
+      "name": "Blink",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ce/Blink_%28Anti-Mage%29_icon.png?version=7c40b943872d402ffaed1749b885e6e4",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Blink"
+    },
+    {
+      "name": "Spell Shield",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Spell_Shield_icon.png?version=2479009df0c60bfddc3d989fa3e66e68",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Spell_Shield"
+    },
+    {
+      "name": "Mana Void",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fe/Mana_Void_icon.png?version=74210e75d8c842248b142e23d2f3a621",
+      "link": "http://dota2.gamepedia.com/Anti-Mage#Mana_Void"
+    }
+  ]
+}

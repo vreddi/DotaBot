@@ -1,0 +1,47 @@
+{
+  "id": 11,
+  "name": "npc_dota_hero_nevermore",
+  "localized_name": "Shadow Fiend",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": [
+    {
+      "name": "Shadowraze (Near)",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7c/Shadowraze_%28Near%29_icon.png?version=18748228f6ea879809eb3d81ca3f34e8",
+      "link": "http://dota2.gamepedia.com/Shadow_Fiend#Shadowraze"
+    },
+    {
+      "name": "Shadowraze (Medium)",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Shadowraze_%28Medium%29_icon.png?version=26b6f254e7e6aee7e622967239917183",
+      "link": "http://dota2.gamepedia.com/Shadow_Fiend#Shadowraze"
+    },
+    {
+      "name": "Shadowraze (Far)",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Shadowraze_%28Far%29_icon.png?version=9e3cbceb0be658af40d07ec253df4e68",
+      "link": "http://dota2.gamepedia.com/Shadow_Fiend#Shadowraze"
+    },
+    {
+      "name": "Necromastery",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9d/Necromastery_icon.png?version=44ed7d2493fa37bd7be46d1d3fc900ec",
+      "link": "http://dota2.gamepedia.com/Shadow_Fiend#Necromastery"
+    },
+    {
+      "name": "Presence of the Dark Lord",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Shadowraze_%28Far%29_icon.png?version=9e3cbceb0be658af40d07ec253df4e68",
+      "link": "http://dota2.gamepedia.com/Shadow_Fiend#Presence_of_the_Dark_Lord"
+    },
+    {
+      "name": "Requiem of Souls",
+      "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a8/Requiem_of_Souls_icon.png?version=a8e8af8f109fd93756cd6b05027fe2e1",
+      "link": "http://dota2.gamepedia.com/Shadow_Fiend#Requiem_of_Souls"
+    }
+  ]
+}

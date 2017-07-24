@@ -1,0 +1,17 @@
+{
+  "id": 37,
+  "name": "npc_dota_hero_warlock",
+  "localized_name": "Warlock",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Initiator",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

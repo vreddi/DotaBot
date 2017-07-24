@@ -1,0 +1,18 @@
+{
+  "id": 79,
+  "name": "npc_dota_hero_shadow_demon",
+  "localized_name": "Shadow Demon",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

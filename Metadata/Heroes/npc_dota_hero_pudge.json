@@ -1,0 +1,18 @@
+{
+  "id": 14,
+  "name": "npc_dota_hero_pudge",
+  "localized_name": "Pudge",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

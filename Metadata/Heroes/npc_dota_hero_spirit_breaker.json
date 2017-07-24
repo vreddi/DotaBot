@@ -1,0 +1,19 @@
+{
+  "id": 71,
+  "name": "npc_dota_hero_spirit_breaker",
+  "localized_name": "Spirit Breaker",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Initiator",
+    "Disabler",
+    "Durable",
+    "Escape"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

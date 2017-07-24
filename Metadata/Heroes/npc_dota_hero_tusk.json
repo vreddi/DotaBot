@@ -1,0 +1,17 @@
+{
+  "id": 100,
+  "name": "npc_dota_hero_tusk",
+  "localized_name": "Tusk",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": 110,
+  "name": "npc_dota_hero_phoenix",
+  "localized_name": "Phoenix",
+  "primary_attr": "str",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Initiator",
+    "Escape",
+    "Disabler"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

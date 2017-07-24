@@ -1,0 +1,17 @@
+{
+  "id": 57,
+  "name": "npc_dota_hero_omniknight",
+  "localized_name": "Omniknight",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Durable",
+    "Nuker"
+  ],
+  "description": "",
+  "lore": "",
+  "image": "",
+  "aliases": [],
+  "skills": null
+}

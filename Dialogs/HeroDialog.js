@@ -33,7 +33,7 @@ class HeroDialog {
                 }
 
                 if (resolutions.length > 1) {
-                    session.send('I\m not sure what hero you are talking about');
+                    session.send('I\'m not sure what hero you are talking about');
                     return;
                 }
 

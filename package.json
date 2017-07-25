@@ -21,6 +21,7 @@
     "axios": "^0.16.2",
     "botbuilder": "^3.8.4",
     "dotenv": "^4.0.0",
+    "gosugamers-api": "^0.1.2",
     "microsoft-adaptivecards": "^0.6.0",
     "mocha": "^3.4.2",
     "restify": "^5.0.0"

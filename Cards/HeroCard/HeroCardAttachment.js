@@ -47,34 +47,72 @@ let MatchResultCardAttachment = {
         				}
         			]
         		},
-        		{
-        			"type": "Container",
-        			"separation": "strong",
-        			"items": [
-        				{
-        					"type": "FactSet",
-        					"speak": "",
-        					"facts": [
-        						{
-        							"title": "Base Health:",
-        							"value": ""
-        						},
-        						{
-        							"title": "Base Mana:",
-        							"value": ""
-        						},
-        						{
-        							"title": "Attack Damage:",
-        							"value": ""
-        						},
-        						{
-        							"title": "Movement Speed:",
-        							"value": ""
-        						}
-        					]
-        				}
-        			]
-        		},
+	            {
+	                "type": "ColumnSet",
+	                "columns": [{
+	                        "type": "Column",
+	                        "size": "stretch",
+	                        "items": [{
+	                            "type": "Container",
+	                            "separation": "strong",
+	                            "items": [{
+	                                "type": "FactSet",
+	                                "speak": "",
+	                                "facts": [{
+	                                        "title": "Base Health:",
+	                                        "value": ""
+	                                    },
+	                                    {
+	                                        "title": "Base Mana:",
+	                                        "value": ""
+	                                    },
+	                                    {
+	                                        "title": "Attack Damage:",
+	                                        "value": ""
+	                                    },
+	                                    {
+	                                        "title": "Movement Speed:",
+	                                        "value": ""
+	                                    }
+	                                ]
+	                            }]
+	                        }],
+	                        "selectAction": {
+	                            "type": "Action.OpenUrl",
+	                            "url": null
+	                        }
+	                    },
+	                    {
+	                        "type": "Column",
+	                        "size": "stretch",
+	                        "items": [{
+	                            "type": "Container",
+	                            "separation": "strong",
+	                            "items": [{
+	                                "type": "FactSet",
+	                                "speak": "",
+	                                "facts": [{
+	                                        "title": "Str:",
+	                                        "value": ""
+	                                    },
+	                                    {
+	                                        "title": "Agi:",
+	                                        "value": ""
+	                                    },
+	                                    {
+	                                        "title": "Int:",
+	                                        "value": ""
+	                                    }
+	                                ]
+	                            }]
+	                        }],
+	                        "selectAction": {
+	                            "type": "Action.OpenUrl",
+	                            "url": null
+	                        }
+	                    }
+	                ]
+	            },
         		{
         			"type": "ColumnSet",
         			"columns": [

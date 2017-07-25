@@ -19,6 +19,12 @@ class Hero {
         this.lore = data.lore;
         this.img = "https://api.opendota.com" + data.img;
         this.aliases = data.aliases;
+		this.base_str = data.base_str;
+		this.base_agi = data.base_agi;
+		this.base_int = data.base_int;
+		this.str_gain = data.str_gain;
+		this.agi_gain = data.agi_gain;
+		this.int_gain = data.int_gain;
         this.skills = skills.map(function(skillData) { return new Skill(skillData); });
     }
 }

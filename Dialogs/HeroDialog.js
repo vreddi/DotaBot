@@ -77,8 +77,14 @@ class HeroDialog {
                 attribute: hero.primary_attr,
                 baseHealth: hero.base_health,
                 baseMana: hero.base_mana,
-                attackDamage: hero.base_attack_min, // TODO: attack is a range, not a single number
+                attackDamage: hero.base_attack_min + "-" + hero.base_attack_max,
                 movementSpeed: hero.move_speed,
+				str_gain: hero.str_gain,
+				agi_gain: hero.agi_gain,
+				int_gain: hero.int_gain,
+				base_str: hero.base_str,
+				base_agi: hero.base_agi,
+				base_int: hero.base_int,
                 skills: hero.skills
             });
     }

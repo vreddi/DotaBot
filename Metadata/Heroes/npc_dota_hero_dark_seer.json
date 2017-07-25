@@ -285,7 +285,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["ds"],
   "talents": [
     {
       "level": 25,

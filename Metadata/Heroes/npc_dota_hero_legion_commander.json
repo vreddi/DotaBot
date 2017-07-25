@@ -286,7 +286,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["lc"],
   "talents": [
     {
       "level": 25,

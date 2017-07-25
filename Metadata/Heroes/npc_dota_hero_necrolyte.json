@@ -302,7 +302,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["necro", "necrophos", "necrolyte"],
   "talents": [
     {
       "level": 25,

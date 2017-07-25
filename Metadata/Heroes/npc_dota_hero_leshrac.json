@@ -324,7 +324,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["lesh"],
   "talents": [
     {
       "level": 25,

@@ -288,7 +288,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["arc"],
   "talents": [
     {
       "level": 25,

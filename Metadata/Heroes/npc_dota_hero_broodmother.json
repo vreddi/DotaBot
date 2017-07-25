@@ -254,7 +254,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["brood"],
   "talents": [
     {
       "level": 25,

@@ -282,7 +282,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["pitlord", "underlord"],
   "talents": [
     {
       "level": 25,

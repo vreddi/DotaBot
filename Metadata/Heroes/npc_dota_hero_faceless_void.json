@@ -234,7 +234,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["void"],
   "talents": [
     {
       "level": 25,

@@ -52,7 +52,9 @@ class Interpreter {
             case "GetHero":
                 this.handleGetHeroIntent(topScoringIntent);
                 break;
-
+            case "GetSchedule":
+                this.handleGetScheduleIntent(topScoringIntent);
+                break;
             default:
                 // TODO: Did not understand dialog
                 break;
@@ -122,6 +124,64 @@ class Interpreter {
             // TODO change dialog to correct dialog. In this case the bot is not
             //      confident in its abilities.
             this.session.beginDialog('notSureWhichHero');
+        }
+    }
+
+    /**
+     * Handles the GetSchedule Intent from LUIS by performing relevant actions
+     * @param  Object :: The top scoring Intent provided by LUIS
+     * TODO - Implement logic. THIS IS JUST A STUB
+     */
+    handleGetScheduleIntent(topScoringIntent) {
+        if(this.isConfident(topScoringIntent.score)) {
+            let entities = this.luisAdapter.getEntities();
+
+            // Single Entity
+            if(entities) {
+                switch(entities.length) {
+                    case 0:
+                        this.session.beginDialog('Please rephrase');
+                        break;
+
+                    case 1:
+                        if(entities[0].resolution.values.length === 1) {
+                            this.heroDialog.data = HeroIdMetadata[entities[0].resolution.values[0]];
+                            this.session.beginDialog('getHero');
+                        }
+                        else {
+                            this.heroDialog.data = entities[0].resolution.values.map(value => {
+                                return HeroIdMetadata[value];
+                            });
+                            this.session.beginDialog('confirmHero');
+                        }
+                        break;
+
+                    // More than 1 entity
+                    default:
+                        this.heroDialog.data = entities.map((entity) => {
+                            if(entity.resolution.values.length === 1) {
+                                return HeroIdMetadata[entity.resolution.values[0]]
+                            }
+                            else {
+                                return entity.resolution.values.map(value => {
+                                    return HeroIdMetadata[value];
+                                });
+                            }
+                        });
+
+                        this.session.beginDialog('confirmHero');
+                        break;
+                }
+            }
+            else {
+                this.session.beginDialog('notSureWhichHero');
+            }
+
+        }
+        else {
+            // TODO change dialog to correct dialog. In this case the bot is not
+            //      confident in its abilities.
+            this.session.beginDialog('Please rephrase');
         }
     }
 }

@@ -38,7 +38,7 @@
     {
       "name": "Echo Stomp",
       "image": "https://dotabuff.com//assets/skills/elder-titan-echo-stomp-5589-98251a63e99642abcd6aec69588209901e7953fab077584b8715905581a43f02.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/elder-titan/abilities",
       "description": "Elder Titan and his Astral Spirit both stomp the ground, damaging and knocking nearby enemy units unconscious around their locations.  The Elder Titan stomp deals physical damage, while the Spirit stomp deals magical damage.",
       "effects": [
         {
@@ -105,7 +105,7 @@
     {
       "name": "Astral Spirit",
       "image": "https://dotabuff.com//assets/skills/elder-titan-astral-spirit-5591-05f2d9fb2bfc8ab4540418e031894e4cab962776ecd7bacf218b6ec5663f7f04.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/elder-titan/abilities",
       "description": "Elder Titan sends forth his Astral Spirit, damaging any units it passes through.  When the spirit rejoins the Titan, it grants bonus damage and movement speed for each unit it damaged.",
       "effects": [
         {
@@ -199,7 +199,7 @@
     {
       "name": "Natural Order",
       "image": "https://dotabuff.com//assets/skills/elder-titan-natural-order-5593-b8009b548de51b65029a084ea10237b45ac6d9fb84f82d67af6c0434e6879bd1.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/elder-titan/abilities",
       "description": "Reduces all elements to their basic levels, removing base armor and magic damage resistance from nearby enemy units. The armor reduction is centered around the hero, while the magic armor reduction is centered around Astral Spirit.",
       "effects": [
         {
@@ -247,7 +247,7 @@
     {
       "name": "Earth Splitter",
       "image": "https://dotabuff.com//assets/skills/elder-titan-earth-splitter-5594-f263ffedbd67835df8ccfbb72847a46d7d68cbfa9a4aad51d04e40a7f743384a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/elder-titan/abilities",
       "description": "Sends forth a jagged crack in front of Elder Titan. After 3 seconds, the crack implodes, slowing movement while dealing damage to each enemy based on their maximum life. Half of the damage dealt is Magical damage, while the other half is Physical damage.",
       "effects": [
         {
@@ -335,7 +335,10 @@
       ]
     }
   ],
-  "aliases": ["et", "titan"],
+  "aliases": [
+    "et",
+    "titan"
+  ],
   "talents": [
     {
       "level": 25,

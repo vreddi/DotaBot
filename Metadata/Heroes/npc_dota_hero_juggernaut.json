@@ -37,7 +37,7 @@
     {
       "name": "Blade Fury",
       "image": "https://dotabuff.com//assets/skills/juggernaut-blade-fury-5028-e68967ede4fc2bc676fceac9d719db1c3c2ecf6ce57f70f5dccb0988897bd2f1.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/juggernaut/abilities",
       "description": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.  Lasts 5 seconds.",
       "effects": [
         {
@@ -92,7 +92,7 @@
     {
       "name": "Healing Ward",
       "image": "https://dotabuff.com//assets/skills/juggernaut-healing-ward-5029-097e7c1eb2e706159cb4007d04b81b1207cbc7293e74007f6c75e801d5dba998.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/juggernaut/abilities",
       "description": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 420 movement speed after being summoned.  Lasts 25 seconds.",
       "effects": [
         {
@@ -127,7 +127,7 @@
     {
       "name": "Blade Dance",
       "image": "https://dotabuff.com//assets/skills/juggernaut-blade-dance-5027-e691aac30ef73af608158c0a04dc06f801618f1557d53737ec9370cbb1d0077c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/juggernaut/abilities",
       "description": "Gives Juggernaut a chance to deal double damage on each attack.",
       "effects": [
         {
@@ -158,7 +158,7 @@
     {
       "name": "Omnislash",
       "image": "https://dotabuff.com//assets/skills/juggernaut-omnislash-5030-7025fde82aa7ab8685087990538967a440271b255430cfbaacac97b5397de263.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/juggernaut/abilities",
       "description": "Juggernaut leaps towards the target enemy unit with a damaging attack, and then slashes other nearby enemy units, dealing between 200-225 damage per slash.  Juggernaut is invulnerable for the duration.",
       "effects": [
         {
@@ -226,7 +226,12 @@
       ]
     }
   ],
-  "aliases": ["jugger", "jug", "jugg", "yurnero"],
+  "aliases": [
+    "jugger",
+    "jug",
+    "jugg",
+    "yurnero"
+  ],
   "talents": [
     {
       "level": 25,

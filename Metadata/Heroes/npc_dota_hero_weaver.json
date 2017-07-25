@@ -36,7 +36,7 @@
     {
       "name": "The Swarm",
       "image": "https://dotabuff.com//assets/skills/weaver-the-swarm-5289-2bae884dd3f9adc0fc5194d415ffcd6d990d173afd668a8c3716a53eb9dbc94a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/weaver/abilities",
       "description": "Weaver launches a swarm of 12 young Weavers that latch on any enemy unit in their path, attacking and reducing armor until it is killed.",
       "effects": [
         {
@@ -118,7 +118,7 @@
     {
       "name": "Shukuchi",
       "image": "https://dotabuff.com//assets/skills/weaver-shukuchi-5290-391009516bf91307c6c5567b99c5e12d775b5f7f430de8a37e24e08e2a15bc02.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/weaver/abilities",
       "description": "Weaver shifts out of visibility, gaining the ability to move at maximum speed through physical units--doing harm to any enemies it passes through.",
       "effects": [
         {
@@ -182,7 +182,7 @@
     {
       "name": "Geminate Attack",
       "image": "https://dotabuff.com//assets/skills/weaver-geminate-attack-5291-f32aa4f2b4c8a5eb0cfe5dfca9e4da98103c4e0750124ce89f571455e8815bcb.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/weaver/abilities",
       "description": "Allows Weaver to dispatch two attacks at once.",
       "effects": [
         {
@@ -206,7 +206,7 @@
     {
       "name": "Time Lapse",
       "image": "https://dotabuff.com//assets/skills/weaver-time-lapse-5292-22fc2a8df2f3ce7c1937b50da02cab2b14f03661999b6bb859114790c668564f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/weaver/abilities",
       "description": "Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.",
       "effects": [
         {
@@ -250,7 +250,9 @@
       ]
     }
   ],
-  "aliases": ["Skitskurr"],
+  "aliases": [
+    "Skitskurr"
+  ],
   "talents": [
     {
       "level": 25,

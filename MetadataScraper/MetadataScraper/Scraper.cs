@@ -21,7 +21,7 @@ namespace MetadataScraper
 
         private const string DotabuffHeroSkillsClass = "hero-secondary-ability-icons";
 
-        public static async Task<List<OpenDotaHero>> GetAllHeroes()
+        public static async Task<List<OpenDotaHero>> GetAllHeroes(List<OpenDotaHero> oldHeroData = null)
         {
             var openDotaHeroesRequest = await Client.GetAsync(new Uri(OpenDotaEndpoint + "api/heroStats"));
             var openDotaHeroes = JsonConvert.DeserializeObject<List<OpenDotaHero>>(await openDotaHeroesRequest.Content.ReadAsStringAsync());
@@ -56,6 +56,23 @@ namespace MetadataScraper
                 openDotaHero.talents = ParseTalents(dotabuffDoc);
             }
 
+            if (oldHeroData != null)
+            {
+                foreach (var hero in openDotaHeroes)
+                {
+                    var oldHero = oldHeroData.FirstOrDefault(h => h.name.Equals(hero.name));
+                    if (oldHero != null)
+                    {
+                        hero.aliases = new List<string>();
+                        if (oldHero.aliases != null)
+                        {
+                            hero.aliases.AddRange(oldHero.aliases);
+                            hero.aliases = hero.aliases.Distinct().ToList();
+                        }
+                    }
+                }
+            }
+
             return openDotaHeroes;
         }
 
@@ -88,6 +105,14 @@ namespace MetadataScraper
             {
                 skill.Image = DotabuffEndpoint + skillImage.Attributes["src"].Value;
                 skill.Name = skillImage.Attributes["alt"].Value;
+            }
+
+            var abilityLink = skillDocument.DocumentNode.Descendants("a")
+                .FirstOrDefault(d => d.GetAttributeValue("href", "").Contains("abilities"));
+
+            if (abilityLink != null)
+            {
+                skill.Link = DotabuffEndpoint + abilityLink.Attributes["href"].Value;
             }
 
             var skillEffects = skillDocument.DocumentNode.Descendants("div")

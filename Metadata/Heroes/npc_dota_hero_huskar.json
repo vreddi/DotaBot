@@ -37,7 +37,7 @@
     {
       "name": "Inner Vitality",
       "image": "https://dotabuff.com//assets/skills/huskar-inner-vitality-5271-6a1674c52c7001351035de146f1b822bffdb59d7d281c05b12b53a846e477230.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/huskar/abilities",
       "description": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 35%, it will heal faster.  Lasts 16 seconds.",
       "effects": [
         {
@@ -94,7 +94,7 @@
     {
       "name": "Burning Spear",
       "image": "https://dotabuff.com//assets/skills/huskar-burning-spear-5272-72d3a66bb765a994e98eca6ec48b5243405f80ea8231c1c18ffb699e8997e8ba.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/huskar/abilities",
       "description": "Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts 8 seconds.",
       "effects": [
         {
@@ -147,7 +147,7 @@
     {
       "name": "Berserker&#39;s Blood",
       "image": "https://dotabuff.com//assets/skills/huskar-berserkers-blood-5273-9d706314f9b36afb191649b7e0d32afa49b1ea489c1fdedcf326377cd850478c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/huskar/abilities",
       "description": "Huskar's injuries feed his power, giving increased attack speed and magic damage resistance based on missing health.",
       "effects": [
         {
@@ -187,7 +187,7 @@
     {
       "name": "Life Break",
       "image": "https://dotabuff.com//assets/skills/huskar-life-break-5274-26d7e8a0d4e42fccc7894edebc14a73d298171c852c63b07bfae3868edf099de.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/huskar/abilities",
       "description": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.",
       "effects": [
         {
@@ -267,7 +267,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

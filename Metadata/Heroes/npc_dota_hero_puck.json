@@ -38,7 +38,7 @@
     {
       "name": "Illusory Orb",
       "image": "https://dotabuff.com//assets/skills/puck-illusory-orb-5069-292bacfd21dd2c39025ee4bb58b054a000d971bd066b6a244e303913cbdf13e0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/puck/abilities",
       "description": "Puck launches a magic orb that floats in a straight path, damaging enemy units along the way. At any point, Puck may teleport to the orb's location using Ethereal Jaunt.",
       "effects": [
         {
@@ -93,7 +93,7 @@
     {
       "name": "Waning Rift",
       "image": "https://dotabuff.com//assets/skills/puck-waning-rift-5071-4753adfec71b68e1322609393934a64fd2adbbecd0055ac978d058eebe7059f0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/puck/abilities",
       "description": "Puck releases a burst of faerie dust that deals damage and silences enemy units nearby.",
       "effects": [
         {
@@ -157,7 +157,7 @@
     {
       "name": "Phase Shift",
       "image": "https://dotabuff.com//assets/skills/puck-phase-shift-5072-7f62729df112f68a76a3a6fc393b4a3aa070f39acef9b71c1881087bb9aad3cd.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/puck/abilities",
       "description": "Puck briefly shifts into another dimension where it is immune from harm.",
       "effects": [
         {
@@ -192,7 +192,7 @@
     {
       "name": "Dream Coil",
       "image": "https://dotabuff.com//assets/skills/puck-dream-coil-5073-261579767391e69bc42c1f3f088ea23afcc06ebbf54b384fcec3af33238c9710.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/puck/abilities",
       "description": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for 0.5 seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.",
       "effects": [
         {
@@ -286,7 +286,10 @@
       ]
     }
   ],
-  "aliases": ["faerie", "faerie dragon"],
+  "aliases": [
+    "faerie",
+    "faerie dragon"
+  ],
   "talents": [
     {
       "level": 25,

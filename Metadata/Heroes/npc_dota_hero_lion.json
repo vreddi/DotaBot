@@ -38,7 +38,7 @@
     {
       "name": "Earth Spike",
       "image": "https://dotabuff.com//assets/skills/lion-earth-spike-5044-e80eb898cb525118a168597f286ee6b55848ffc2945bffcbef310e6c97368a4a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lion/abilities",
       "description": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.",
       "effects": [
         {
@@ -97,7 +97,7 @@
     {
       "name": "Hex",
       "image": "https://dotabuff.com//assets/skills/lion-hex-5045-67c3b12c89e7b01a02c0aafcac9ba9592eee0c38426c99af659c8b15a2483da0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lion/abilities",
       "description": "Transforms an enemy unit into a harmless beast, with all special abilities disabled.",
       "effects": [
         {
@@ -146,7 +146,7 @@
     {
       "name": "Mana Drain",
       "image": "https://dotabuff.com//assets/skills/lion-mana-drain-5046-aef8e1d15ef79f4504299e5432119df50fb1a91f853824b187997434b746a9b6.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lion/abilities",
       "description": "CHANNELED - Absorbs the magical energies of a target enemy unit by taking mana from it every second.",
       "effects": [
         {
@@ -204,7 +204,7 @@
     {
       "name": "Finger of Death",
       "image": "https://dotabuff.com//assets/skills/lion-finger-of-death-5047-d4d8c9e24cf94a6b165ff65c3ca16b8dd78b1f127b2350b22f8b66d3edd0a10a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lion/abilities",
       "description": "Rips at an enemy unit, trying to turn it inside-out. Deals massive damage.",
       "effects": [
         {
@@ -282,7 +282,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

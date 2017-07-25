@@ -39,7 +39,7 @@
     {
       "name": "Quas",
       "image": "https://dotabuff.com//assets/skills/invoker-quas-5370-14a0c4aeadf63503d26c1ece16ceef61d0b2a421832ea76c790209d13c956e7a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/invoker/abilities",
       "description": "Allows manipulation of ice elements. Each Quas instance provides increased health regeneration.",
       "effects": [
         {
@@ -71,7 +71,7 @@
     {
       "name": "Wex",
       "image": "https://dotabuff.com//assets/skills/invoker-wex-5371-f1ec224443e32636aff247d46c7ab134cbd733bda3e5b1d0490c5cc4aa44ce46.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/invoker/abilities",
       "description": "Allows manipulation of storm elements. Each Wex instance provides increased attack speed and movement speed.",
       "effects": [
         {
@@ -115,7 +115,7 @@
     {
       "name": "Exort",
       "image": "https://dotabuff.com//assets/skills/invoker-exort-5372-db347c10cd9def3d723553801227caac510af55ced7b0a5a487cd4cf901c3efc.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/invoker/abilities",
       "description": "Allows manipulation of fire elements. Each Exort instance provides increased attack damage.",
       "effects": [
         {
@@ -147,7 +147,7 @@
     {
       "name": "Invoke",
       "image": "https://dotabuff.com//assets/skills/invoker-invoke-5375-c463e32ce5fdb8b8e67bd0e1594f3812abcd16e39a10b1b6af73fd0c528ff881.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/invoker/abilities",
       "description": "Combines the properties of the elements currently being manipulated to create a new spell for Invoker to use.  Click the help button to see the list of possible spells.",
       "effects": [
         {
@@ -183,7 +183,10 @@
       ]
     }
   ],
-  "aliases": ["invoker", "carl"],
+  "aliases": [
+    "invoker",
+    "carl"
+  ],
   "talents": [
     {
       "level": 25,

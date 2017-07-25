@@ -36,7 +36,11 @@ namespace MetadataScraper
 
             if (line.Contains("1"))
             {
-                await ParseHeroData();
+                Console.WriteLine("Refresh hero data from DotaBuff? (y/n): ");
+                line = Console.ReadLine();
+
+                var refreshData = line.Contains("y");
+                await ParseHeroData(refreshData);
             }
             else if (line.Contains("2"))
             {
@@ -67,9 +71,9 @@ namespace MetadataScraper
                 JsonConvert.SerializeObject(luisList, jsonSerializerSettings));
         }
 
-        private static async Task ParseHeroData()
+        private static async Task ParseHeroData(bool overrideOldData = false)
         {
-            var heroes = await GetOpenDotaHeroes();
+            var heroes = await GetOpenDotaHeroes(overrideOldData);
 
             WriteHeroFiles(heroes);
         }
@@ -83,24 +87,33 @@ namespace MetadataScraper
             }
         }
 
-        private static async Task<List<OpenDotaHero>> GetOpenDotaHeroes()
+        private static async Task<List<OpenDotaHero>> GetOpenDotaHeroes(bool overrideOldData = false)
         {
             var heroes = new List<OpenDotaHero>();
             var files = Directory.GetFiles(HeroesMetadataDirectory);
 
             // File exists for all heroes
-            if (files.Length >= 113)
+            if (files.Length >= 113 && !overrideOldData)
             {
-                foreach (var file in files)
-                {
-                    Console.WriteLine("Parsing data from " + file);
-                    var fileContent = File.ReadAllText(file);
-                    heroes.Add(JsonConvert.DeserializeObject<OpenDotaHero>(fileContent));
-                }
+                heroes = GetLocalHeroData(files);
             }
             else
             {
-                heroes = await Scraper.GetAllHeroes();
+                var oldHeroes = GetLocalHeroData(files);
+                heroes = await Scraper.GetAllHeroes(oldHeroes);
+            }
+
+            return heroes;
+        }
+
+        private static List<OpenDotaHero> GetLocalHeroData(string[] files)
+        {
+            var heroes = new List<OpenDotaHero>();
+            foreach (var file in files)
+            {
+                Console.WriteLine("Parsing data from " + file);
+                var fileContent = File.ReadAllText(file);
+                heroes.Add(JsonConvert.DeserializeObject<OpenDotaHero>(fileContent));
             }
 
             return heroes;

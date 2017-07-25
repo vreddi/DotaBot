@@ -38,7 +38,7 @@
     {
       "name": "Disruption",
       "image": "https://dotabuff.com//assets/skills/shadow-demon-disruption-5421-a123f0b6182794e626127548dd56a57a6e94c69bfda6f059ea1527c8fe7f08da.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/shadow-demon/abilities",
       "description": "Banishes the targeted unit from the battlefield for a short duration.  Upon returning, two illusions of the banished unit are created under Shadow Demon's control.",
       "effects": [
         {
@@ -105,7 +105,7 @@
     {
       "name": "Soul Catcher",
       "image": "https://dotabuff.com//assets/skills/shadow-demon-soul-catcher-5422-e88f8d5170cefcd9bbc786a3fd7f93bb79d31af0a67863fe00e2898c996eb955.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/shadow-demon/abilities",
       "description": "Applies damage amplification on enemies in an area. The amplification is evenly spread among all enemies in the area. Units under the effect of Disruption can still be affected by Soul Catcher.",
       "effects": [
         {
@@ -166,7 +166,7 @@
     {
       "name": "Shadow Poison",
       "image": "https://dotabuff.com//assets/skills/shadow-demon-shadow-poison-5423-35ac5f4d76e072d4ccdc0674a2711dfeff4b72a49de38f718a588c4d63f6c502.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/shadow-demon/abilities",
       "description": "Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to 5 stacks. Additional stacks cause 50 damage each.  This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used.",
       "effects": [
         {
@@ -236,7 +236,7 @@
     {
       "name": "Demonic Purge",
       "image": "https://dotabuff.com//assets/skills/shadow-demon-demonic-purge-5425-e0f71970060b0b256cd6f28f379f36c673873a4a104c91a185772ec37fc06034.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/shadow-demon/abilities",
       "description": "Purges the target enemy unit, removing positive buffs, and slowing the target for the duration.  The unit slowly regains its speed until the end of the duration, upon which damage is dealt.  Units under the effect of Disruption can still be affected by Demonic Purge.",
       "effects": [
         {
@@ -292,7 +292,10 @@
       ]
     }
   ],
-  "aliases": ["Archimonde", "sd"],
+  "aliases": [
+    "Archimonde",
+    "sd"
+  ],
   "talents": [
     {
       "level": 25,

@@ -38,7 +38,7 @@
     {
       "name": "Decay",
       "image": "https://dotabuff.com//assets/skills/undying-decay-5442-0ebdaa9477084ff45c6d144f3fbd95a6ab0330834278af9e2da8dd36e616b9e7.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/undying/abilities",
       "description": "Undying steals strength from all enemy heroes in an area, dealing base damage as he claims the enemy's strength for himself.",
       "effects": [
         {
@@ -111,7 +111,7 @@
     {
       "name": "Soul Rip",
       "image": "https://dotabuff.com//assets/skills/undying-soul-rip-5443-129e2ef8ea169d59854397b7d465afeb3b1bc841b2a2f2b36ecc347d4a12321a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/undying/abilities",
       "description": "Undying rips health away from all nearby units and uses it to heal an ally, or damage an enemy. Soul Rip can also be used to heal Tombstone.",
       "effects": [
         {
@@ -184,7 +184,7 @@
     {
       "name": "Tombstone",
       "image": "https://dotabuff.com//assets/skills/undying-tombstone-5444-641ab5d3814adac1268f774f5fd9aa33ca87104e5e818cca700f79c093c54140.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/undying/abilities",
       "description": "Summons a tombstone at the target point.  Zombies will frequently spawn next to every enemy unit in the area around the Tombstone, and attack them.  Zombies have the Deathlust ability, which causes their attacks to slow the target, and if the target reaches below a certain amount of health, increases the attack and movement speed of the zombie.",
       "effects": [
         {
@@ -268,7 +268,7 @@
     {
       "name": "Flesh Golem",
       "image": "https://dotabuff.com//assets/skills/undying-flesh-golem-5447-a5d4e2fe72eb5fcaa6753fc298a4871c18dfe407dbd3ca8a39b1ac1d5420e629.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/undying/abilities",
       "description": "Undying transforms into a horrifying flesh golem that possesses a Plague Aura.  This aura slows all enemy units within 750 range and amplifies the damage they take; the closer to Undying, the more damage and slow.  When a plagued unit dies, Undying is healed equal to a percentage of his own maximum health.",
       "effects": [
         {
@@ -334,7 +334,9 @@
       ]
     }
   ],
-  "aliases": ["dirge"],
+  "aliases": [
+    "dirge"
+  ],
   "talents": [
     {
       "level": 25,

@@ -38,7 +38,7 @@
     {
       "name": "Viscous Nasal Goo",
       "image": "https://dotabuff.com//assets/skills/bristleback-viscous-nasal-goo-5548-b1287d16e305d70472623fc33fec07d9363fe4c6d8a84178ff710db31e52082e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bristleback/abilities",
       "description": "Covers a target in snot, causing it to have reduced armor and movement speed.  Multiple casts stack and refresh the duration.",
       "effects": [
         {
@@ -114,7 +114,7 @@
     {
       "name": "Quill Spray",
       "image": "https://dotabuff.com//assets/skills/bristleback-quill-spray-5549-3807397391968bf15a4f954781bb7c71f1143a6568b80bc414e4c5e4cedf8172.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bristleback/abilities",
       "description": "Sprays enemy units with quills dealing damage in an area of effect around Bristleback.  Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.",
       "effects": [
         {
@@ -184,7 +184,7 @@
     {
       "name": "Bristleback",
       "image": "https://dotabuff.com//assets/skills/bristleback-bristleback-5550-80bbc28781938440a50e86673661a17807ff5846dc41f07ad56d2f7db8edfa42.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bristleback/abilities",
       "description": "Bristleback takes less damage if hit on the sides or rear.  If Bristleback takes 210 damage from the rear, he releases a Quill Spray of the current level.",
       "effects": [
         {
@@ -224,7 +224,7 @@
     {
       "name": "Warpath",
       "image": "https://dotabuff.com//assets/skills/bristleback-warpath-5551-86388f86bc1da8a36568ae67db4799673de9bab10f55e330c99c4ce2cab4132b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bristleback/abilities",
       "description": "Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.",
       "effects": [
         {
@@ -268,7 +268,10 @@
       "manaCost": []
     }
   ],
-  "aliases": ["Bristleboar", "Bristlebog"],
+  "aliases": [
+    "Bristleboar",
+    "Bristlebog"
+  ],
   "talents": [
     {
       "level": 25,

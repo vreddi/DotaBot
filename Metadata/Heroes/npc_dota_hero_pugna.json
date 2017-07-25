@@ -36,7 +36,7 @@
     {
       "name": "Nether Blast",
       "image": "https://dotabuff.com//assets/skills/pugna-nether-blast-5186-50c07c779e7b20262e0f3f536f36d52f507581958186b8022b1eefb4ccae1d25.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/pugna/abilities",
       "description": "An exploding pulse deals damage to enemies and structures in the area.  Deals half damage to structures.",
       "effects": [
         {
@@ -94,7 +94,7 @@
     {
       "name": "Decrepify",
       "image": "https://dotabuff.com//assets/skills/pugna-decrepify-5187-434873a8dc3d003bb5a310dd94019f79f0506ad521c630c5950ba41d1b1942f3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/pugna/abilities",
       "description": "A powerful banishing spell that slows a unit and renders it unable to attack or be attacked. Afflicted units take extra magic damage.",
       "effects": [
         {
@@ -157,7 +157,7 @@
     {
       "name": "Nether Ward",
       "image": "https://dotabuff.com//assets/skills/pugna-nether-ward-5188-3d84fb986097bed4d0463e0575593e1d98bc352fa156ad898c7f7de7173a7928.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/pugna/abilities",
       "description": "Pugna places a Nether Ward at the target location. The ward reduces the mana regeneration of nearby enemy heroes, and will fire at any enemy hero who casts a spell. Nether Ward deals damage equal to the damage multiplier times the mana spent by the enemy hero.",
       "effects": [
         {
@@ -227,7 +227,7 @@
     {
       "name": "Life Drain",
       "image": "https://dotabuff.com//assets/skills/pugna-life-drain-5189-525a0300c68ad1cad0b8f175d9487a6c04bf712be5d19cb8209eb2512c676b65.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/pugna/abilities",
       "description": "CHANNELED - When cast on an enemy, Pugna drains health from the target enemy unit to heal himself and granting vision over the target. If Pugna has full HP, and the enemy target is a Hero, Life Drain will restore mana instead.",
       "effects": [
         {
@@ -293,7 +293,9 @@
       ]
     }
   ],
-  "aliases": ["pugnasty"],
+  "aliases": [
+    "pugnasty"
+  ],
   "talents": [
     {
       "level": 25,

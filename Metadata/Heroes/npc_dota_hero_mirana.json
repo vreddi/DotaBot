@@ -39,7 +39,7 @@
     {
       "name": "Starstorm",
       "image": "https://dotabuff.com//assets/skills/mirana-starstorm-5051-0e80add55e25a5ce007becc500984154810f2317bd424bf8ef605cedaf1516cc.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/mirana/abilities",
       "description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a 425 radius will be struck a second time for 75% of the damage.",
       "effects": [
         {
@@ -97,7 +97,7 @@
     {
       "name": "Sacred Arrow",
       "image": "https://dotabuff.com//assets/skills/mirana-sacred-arrow-5048-8731ce241ebfb376783fd5568b3889c2494dcc18f88b4939fd1b561c4732ed36.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/mirana/abilities",
       "description": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 5.0 seconds, with bonus damage up to 140 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.",
       "effects": [
         {
@@ -164,7 +164,7 @@
     {
       "name": "Leap",
       "image": "https://dotabuff.com//assets/skills/mirana-leap-5050-e34db43663a03f572c8fa76d191c3093a4cc387adfda4f377253f221df61510e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/mirana/abilities",
       "description": "Mirana leaps forward into battle, empowering allied units with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 5 seconds.",
       "effects": [
         {
@@ -223,7 +223,7 @@
     {
       "name": "Moonlight Shadow",
       "image": "https://dotabuff.com//assets/skills/mirana-moonlight-shadow-5049-ea0b8cf6f3647a6a3ac25ccf846c076812d974c7ca009cabcef102b3db6ccfa5.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/mirana/abilities",
       "description": "Turns Mirana and all allied heroes invisible. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired.",
       "effects": [
         {
@@ -263,7 +263,12 @@
       ]
     }
   ],
-  "aliases": ["potm", "priestess of the moon", "princess", "princess of the moon"],
+  "aliases": [
+    "potm",
+    "priestess of the moon",
+    "princess",
+    "princess of the moon"
+  ],
   "talents": [
     {
       "level": 25,

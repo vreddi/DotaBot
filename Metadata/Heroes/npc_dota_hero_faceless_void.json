@@ -39,7 +39,7 @@
     {
       "name": "Time Walk",
       "image": "https://dotabuff.com//assets/skills/faceless-void-time-walk-5182-6f033a2a1972ae169be64b312cae6c2ffb9889d6db0835027146b9a34404b7f5.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/faceless-void/abilities",
       "description": "Rushes to a target location while backtracking any damage taken the last 2.0 seconds.",
       "effects": [
         {
@@ -84,7 +84,7 @@
     {
       "name": "Time Dilation",
       "image": "https://dotabuff.com//assets/skills/faceless-void-time-dilation-5691-dc0949e124d62eb663535ad739ca78084bd3a1f20485e89c37b24b161bdd57a0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/faceless-void/abilities",
       "description": "Faceless Void traps all nearby enemies in a time dilation field for [6.0, 8.0, 10.0, 12.0] seconds, freezing their cooldowns and slowing their movement and attack speed by 14% for each cooldown frozen.",
       "effects": [
         {
@@ -134,7 +134,7 @@
     {
       "name": "Time Lock",
       "image": "https://dotabuff.com//assets/skills/faceless-void-time-lock-5184-62cfa24b0e483a07c2dced626d7db8077990cda1241cbe4f6fd07e1c1b98a68b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/faceless-void/abilities",
       "description": "Adds the chance for an attack to lock an enemy unit in time, stunning it and dealing bonus damage.",
       "effects": [
         {
@@ -182,7 +182,7 @@
     {
       "name": "Chronosphere",
       "image": "https://dotabuff.com//assets/skills/faceless-void-chronosphere-5185-bdd29b8323785d7921c4029444697a761b5194fa75d4f40d8c573ca062df9c7f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/faceless-void/abilities",
       "description": "Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it.  Only Faceless Void and any units he controls are unaffected.  Invisible units in the sphere will be revealed.",
       "effects": [
         {
@@ -234,7 +234,9 @@
       ]
     }
   ],
-  "aliases": ["void"],
+  "aliases": [
+    "void"
+  ],
   "talents": [
     {
       "level": 25,

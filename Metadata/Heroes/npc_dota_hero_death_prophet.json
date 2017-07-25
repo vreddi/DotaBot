@@ -38,7 +38,7 @@
     {
       "name": "Crypt Swarm",
       "image": "https://dotabuff.com//assets/skills/death-prophet-crypt-swarm-5090-85194716e4ad2bfd1bb059922c7257cf0503a22c2dbdd8fffe14a72c49a65bb8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/death-prophet/abilities",
       "description": "Sends a swarm of winged beasts to savage enemy units in front of Death Prophet.",
       "effects": [
         {
@@ -97,7 +97,7 @@
     {
       "name": "Silence",
       "image": "https://dotabuff.com//assets/skills/death-prophet-silence-5091-f1194f33aef503db01ae588e56f3ffcb29ffc4be987508c3db15232ea7e4268b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/death-prophet/abilities",
       "description": "Prevents enemy units in a target area from casting spells.",
       "effects": [
         {
@@ -145,7 +145,7 @@
     {
       "name": "Spirit Siphon",
       "image": "https://dotabuff.com//assets/skills/death-prophet-spirit-siphon-5685-e92abe53b0777a6893e384bc8f9e31417e9103dae4a9c73e1e8ac50cfb260ea0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/death-prophet/abilities",
       "description": "Creates a spirit link between Death Prophet and an enemy unit, draining 14.0 + [1.0, 2.5, 4.0, 5.5]% Max HP per second and slowing the enemy's movement speed by [5, 10, 15, 20]%.",
       "effects": [
         {
@@ -231,7 +231,7 @@
     {
       "name": "Exorcism",
       "image": "https://dotabuff.com//assets/skills/death-prophet-exorcism-5093-f59ea614b9c2ecb972e6e3427fec0c4217557d81cc0797bd8e3c9164ef03f3ad.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/death-prophet/abilities",
       "description": "Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts 35 seconds.",
       "effects": [
         {
@@ -291,7 +291,11 @@
       ]
     }
   ],
-  "aliases": ["krob", "dp", "krobelus"],
+  "aliases": [
+    "krob",
+    "dp",
+    "krobelus"
+  ],
   "talents": [
     {
       "level": 25,

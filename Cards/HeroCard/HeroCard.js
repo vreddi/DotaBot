@@ -5,7 +5,7 @@ class HeroCard {
     constructor(heroData) {
         this.name = heroData.name;
         this.image = heroData.image;
-        this.attribute = heroData.attribute;
+        this.attribute = this.getFriendlyHeroAttributeString(heroData.attribute);
         this.baseHealth = heroData.baseHealth;
         this.baseMana = heroData.baseMana;
         this.attackDamage = heroData.attackDamage;
@@ -75,6 +75,17 @@ class HeroCard {
                 return "";
         }
     }
+	
+	getFriendlyHeroAttributeString(query) {		
+		let friendlyStrings = {		
+			"agi": "Agility",		
+			"melee": "Melee",		
+			"str": "Strength",		
+			"int": "Intelligence"		
+		}		
+
+		return friendlyStrings[query] === undefined ? query : friendlyStrings[query];		
+	}
 }
 
 module.exports = HeroCard;

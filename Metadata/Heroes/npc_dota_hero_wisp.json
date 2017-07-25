@@ -37,7 +37,7 @@
     {
       "name": "Tether",
       "image": "https://dotabuff.com//assets/skills/io-tether-5485-e8912070ebb5da0d038fa07a6c39806cba450e0874870b811e754680bc69229a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/io/abilities",
       "description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gain 1.5x the amount. Any enemy unit that crosses the tether is slowed. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
       "effects": [
         {
@@ -113,7 +113,7 @@
     {
       "name": "Spirits",
       "image": "https://dotabuff.com//assets/skills/io-spirits-5486-a291afff35ae4d6b74187c32f27658b8cfcd64ad0332b14e8d1f701116172eeb.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/io/abilities",
       "description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
       "effects": [
         {
@@ -186,7 +186,7 @@
     {
       "name": "Overcharge",
       "image": "https://dotabuff.com//assets/skills/io-overcharge-5487-fab77f8ec2778112cd17dce0d588f1412e3e66fb0d7937ffe7d8fa75dfbac37d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/io/abilities",
       "description": "Io gains bonus attack speed and damage reduction, at the cost of draining a percentage of its current health and mana per second.  If Io is Tethered to an ally, that unit also gains the bonuses.",
       "effects": [
         {
@@ -234,7 +234,7 @@
     {
       "name": "Relocate",
       "image": "https://dotabuff.com//assets/skills/io-relocate-5488-7f143ccb35ecf2848c09f336253b74d072852c89e345838289792cc9f31dfb47.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/io/abilities",
       "description": "Teleports Io and any tethered ally to any location. After the spell expires Io and any tethered ally will return to their original location. Double-click to teleport to your team's base fountain.",
       "effects": [
         {
@@ -274,7 +274,10 @@
       ]
     }
   ],
-  "aliases": ["wisp", "io"],
+  "aliases": [
+    "wisp",
+    "io"
+  ],
   "talents": [
     {
       "level": 25,

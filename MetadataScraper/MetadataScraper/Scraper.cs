@@ -29,8 +29,9 @@ namespace MetadataScraper
             foreach (var openDotaHero in openDotaHeroes)
             {
                 Console.WriteLine("Processing " + openDotaHero.localized_name);
+
                 var dotabuffHeroPath = string.Format(DotabuffHeroesPathFormat,
-                    string.Join("-", openDotaHero.localized_name.ToLowerInvariant().Split(' ')));
+                    string.Join("-", openDotaHero.localized_name.Replace("'", string.Empty).ToLowerInvariant().Split(' ')));
                 var dotabuffHeroUrl = DotabuffEndpoint + dotabuffHeroPath;
                 var htmlWeb = new HtmlWeb();
                 var dotabuffDoc = htmlWeb.Load(dotabuffHeroUrl);

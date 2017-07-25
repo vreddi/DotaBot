@@ -1,1 +1,307 @@
-{"id":102,"name":"npc_dota_hero_abaddon","localized_name":"Abaddon","primary_attr":"str","attack_type":"Melee","roles":["Support","Carry","Durable"],"img":"/apps/dota2/images/heroes/abaddon_full.png?","icon":"/apps/dota2/images/heroes/abaddon_icon.png","url":"Abaddon","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":32,"base_attack_max":42,"base_str":23,"base_agi":17,"base_int":21,"str_gain":2.6,"agi_gain":1.5,"int_gain":2.0,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":310,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Mist Coil","image":"https://dotabuff.com//assets/skills/abaddon-mist-coil-5585-b157c12ffd5aacbfa68946762110f62c39e69b88d3ad3cb44ade48fca6368b26.jpg","link":null,"description":"Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Creeps, Heroes"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"SELF DAMAGE","values":["75","100","125","150"]},{"label":"DAMAGE/HEAL","values":["100","150","200","250"]},{"label":"CAST POINT","values":["0.25s"]}],"cooldown":[4.5],"manaCost":[50,60,70,80]},{"name":"Aphotic Shield","image":"https://dotabuff.com//assets/skills/abaddon-aphotic-shield-5586-1a44e07ae66b1ecd1ea452eeb41672b0bd5b45ea3cbc34b3d3ed856635257007.jpg","link":null,"description":"Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Allied Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["15.0"]},{"label":"MAX DAMAGE ABSORBED","values":["110","140","170","200"]},{"label":"BURST RADIUS","values":["675"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[12.0,10.0,8.0,6.0],"manaCost":[115]},{"name":"Curse of Avernus","image":"https://dotabuff.com//assets/skills/abaddon-curse-of-avernus-5587-c280ac317a86e0f6e170b5dedbab5b58fbdb4e327528b5ece8857ee8cedf9c3e.jpg","link":null,"description":"Abaddon strikes an enemy with chilling curse on each attack, causing all units who attack the slowed enemy to gain increased movement speed, along with faster attack speed, for a limited time.","effects":[{"key":"behavior","value":"Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DEBUFF DURATION","values":["2.5"]},{"label":"BUFF DURATION","values":["4.5"]},{"label":"MOVEMENT SLOW","values":["8%","12%","16%","20%"]},{"label":"ATTACK SLOW","values":["8","12","16","20"]},{"label":"MOVE SPEED BONUS","values":["15%"]},{"label":"ATTACK SPEED BONUS","values":["10","20","30","40"]}],"cooldown":[],"manaCost":[]},{"name":"Borrowed Time","image":"https://dotabuff.com//assets/skills/abaddon-borrowed-time-5588-7dbf5fd8e8574eedffd4dbc44680d8ad541cb3ce4b4f7c97c4dbaa378dafcffa.jpg","link":null,"description":"When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below <span class=\"number\">400</span>.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"HEALTH THRESHOLD","values":["400"]},{"label":"DURATION","values":["4","5","6"]},{"label":"SCEPTER DURATION","values":["5","6","7"]},{"label":"SCEPTER DAMAGE REDIRECT","values":["50%"]},{"label":"SCEPTER REDIRECT RANGE","values":["900.0"]}],"cooldown":[60.0,50.0,40.0],"manaCost":[0]}],"aliases":null,"talents":[{"level":25,"options":["+300 Aphotic Shield Health","+25 Strength"]},{"level":20,"options":["15% Cooldown Reduction","+25 Movement Speed"]},{"level":15,"options":["+5 Armor","+200 Mana"]},{"level":10,"options":["+20% XP Gain","+25 Damage"]}]}
+{
+  "id": 102,
+  "name": "npc_dota_hero_abaddon",
+  "localized_name": "Abaddon",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Carry",
+    "Durable"
+  ],
+  "img": "/apps/dota2/images/heroes/abaddon_full.png?",
+  "icon": "/apps/dota2/images/heroes/abaddon_icon.png",
+  "url": "Abaddon",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 32,
+  "base_attack_max": 42,
+  "base_str": 23,
+  "base_agi": 17,
+  "base_int": 21,
+  "str_gain": 2.6,
+  "agi_gain": 1.5,
+  "int_gain": 2.0,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 310,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Mist Coil",
+      "image": "https://dotabuff.com//assets/skills/abaddon-mist-coil-5585-b157c12ffd5aacbfa68946762110f62c39e69b88d3ad3cb44ade48fca6368b26.jpg",
+      "link": null,
+      "description": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Creeps, Heroes"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SELF DAMAGE",
+          "values": [
+            "75",
+            "100",
+            "125",
+            "150"
+          ]
+        },
+        {
+          "label": "DAMAGE/HEAL",
+          "values": [
+            "100",
+            "150",
+            "200",
+            "250"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.25s"
+          ]
+        }
+      ],
+      "cooldown": [
+        4.5
+      ],
+      "manaCost": [
+        50,
+        60,
+        70,
+        80
+      ]
+    },
+    {
+      "name": "Aphotic Shield",
+      "image": "https://dotabuff.com//assets/skills/abaddon-aphotic-shield-5586-1a44e07ae66b1ecd1ea452eeb41672b0bd5b45ea3cbc34b3d3ed856635257007.jpg",
+      "link": null,
+      "description": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "15.0"
+          ]
+        },
+        {
+          "label": "MAX DAMAGE ABSORBED",
+          "values": [
+            "110",
+            "140",
+            "170",
+            "200"
+          ]
+        },
+        {
+          "label": "BURST RADIUS",
+          "values": [
+            "675"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0,
+        10.0,
+        8.0,
+        6.0
+      ],
+      "manaCost": [
+        115
+      ]
+    },
+    {
+      "name": "Curse of Avernus",
+      "image": "https://dotabuff.com//assets/skills/abaddon-curse-of-avernus-5587-c280ac317a86e0f6e170b5dedbab5b58fbdb4e327528b5ece8857ee8cedf9c3e.jpg",
+      "link": null,
+      "description": "Abaddon strikes an enemy with chilling curse on each attack, causing all units who attack the slowed enemy to gain increased movement speed, along with faster attack speed, for a limited time.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DEBUFF DURATION",
+          "values": [
+            "2.5"
+          ]
+        },
+        {
+          "label": "BUFF DURATION",
+          "values": [
+            "4.5"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "8%",
+            "12%",
+            "16%",
+            "20%"
+          ]
+        },
+        {
+          "label": "ATTACK SLOW",
+          "values": [
+            "8",
+            "12",
+            "16",
+            "20"
+          ]
+        },
+        {
+          "label": "MOVE SPEED BONUS",
+          "values": [
+            "15%"
+          ]
+        },
+        {
+          "label": "ATTACK SPEED BONUS",
+          "values": [
+            "10",
+            "20",
+            "30",
+            "40"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Borrowed Time",
+      "image": "https://dotabuff.com//assets/skills/abaddon-borrowed-time-5588-7dbf5fd8e8574eedffd4dbc44680d8ad541cb3ce4b4f7c97c4dbaa378dafcffa.jpg",
+      "link": null,
+      "description": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "HEALTH THRESHOLD",
+          "values": [
+            "400"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "SCEPTER DURATION",
+          "values": [
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE REDIRECT",
+          "values": [
+            "50%"
+          ]
+        },
+        {
+          "label": "SCEPTER REDIRECT RANGE",
+          "values": [
+            "900.0"
+          ]
+        }
+      ],
+      "cooldown": [
+        60.0,
+        50.0,
+        40.0
+      ],
+      "manaCost": [
+        0
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+300 Aphotic Shield Health",
+        "+25 Strength"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "15% Cooldown Reduction",
+        "+25 Movement Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+5 Armor",
+        "+200 Mana"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20% XP Gain",
+        "+25 Damage"
+      ]
+    }
+  ]
+}

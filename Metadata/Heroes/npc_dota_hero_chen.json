@@ -1,1 +1,283 @@
-{"id":66,"name":"npc_dota_hero_chen","localized_name":"Chen","primary_attr":"int","attack_type":"Ranged","roles":["Support","Jungler","Pusher"],"img":"/apps/dota2/images/heroes/chen_full.png?","icon":"/apps/dota2/images/heroes/chen_icon.png","url":"Chen","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":22,"base_attack_max":32,"base_str":23,"base_agi":15,"base_int":21,"str_gain":1.8,"agi_gain":2.1,"int_gain":2.8,"attack_range":600,"projectile_speed":1100,"attack_rate":1.7,"move_speed":300,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Penitence","image":"https://dotabuff.com//assets/skills/chen-penitence-5328-19c4cd95b72fe8581c5abff034b18034e23aa8d72e90b6f17f3310e647f424af.jpg","link":null,"description":"Forces an enemy unit to move slower and take more damage from attacks and spells.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["8.0"]},{"label":"MOVEMENT SLOW","values":["-18%","-24%","-30%","-36%"]},{"label":"BONUS DAMAGE","values":["18%","24%","30%","36%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[14.0,13.0,12.0,11.0],"manaCost":[70]},{"name":"Test of Faith","image":"https://dotabuff.com//assets/skills/chen-test-of-faith-5329-3c9ee4c617046a615ee627fa9834933e80bc2a6b1c776fc69e412ca96241531c.jpg","link":null,"description":"Deals random damage to test an enemy unit's faith.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE MIN","values":["50","100","150","200"]},{"label":"DAMAGE MAX","values":["100","200","300","400"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[16.0],"manaCost":[90,100,110,120]},{"name":"Holy Persuasion","image":"https://dotabuff.com//assets/skills/chen-holy-persuasion-5330-78c7cbb77bacb38ee748b089440d7962bce0852526cc0ab24aed0e1ddd93d1c5.jpg","link":null,"description":"Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.","effects":[{"key":"behavior","value":"Unit Target"}],"stats":[{"label":"MAX UNITS","values":["1","2","3","4"]},{"label":"HEALTH MINIMUM","values":["700","800","900","1000"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[10.0],"manaCost":[100]},{"name":"Hand of God","image":"https://dotabuff.com//assets/skills/chen-hand-of-god-5331-8e4bddf2c759c0fff3c696e293f47fdccf06292aa34b1fc99547dd1167034eaa.jpg","link":null,"description":"Heals all allied heroes on the map as well as all units under Chen's control.","effects":[{"key":"behavior","value":"No Target"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"HEAL","values":["225","350","475"]},{"label":"SCEPTER HOLY PERSUASION ANCIENTS","values":["1","2","3"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[160.0,140.0,120.0],"manaCost":[200,300,400]}],"aliases":null,"talents":[{"level":25,"options":["+200 Hand of God Heal","+2 Holy Persuasion Max Count"]},{"level":20,"options":["+1000 Creep Min Health","+120 Gold/Min"]},{"level":15,"options":["-10s Test of Faith Cooldown","+250 Health"]},{"level":10,"options":["+125 Cast Range","+30 Movement Speed"]}]}
+{
+  "id": 66,
+  "name": "npc_dota_hero_chen",
+  "localized_name": "Chen",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Jungler",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/chen_full.png?",
+  "icon": "/apps/dota2/images/heroes/chen_icon.png",
+  "url": "Chen",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 22,
+  "base_attack_max": 32,
+  "base_str": 23,
+  "base_agi": 15,
+  "base_int": 21,
+  "str_gain": 1.8,
+  "agi_gain": 2.1,
+  "int_gain": 2.8,
+  "attack_range": 600,
+  "projectile_speed": 1100,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Penitence",
+      "image": "https://dotabuff.com//assets/skills/chen-penitence-5328-19c4cd95b72fe8581c5abff034b18034e23aa8d72e90b6f17f3310e647f424af.jpg",
+      "link": null,
+      "description": "Forces an enemy unit to move slower and take more damage from attacks and spells.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "8.0"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-18%",
+            "-24%",
+            "-30%",
+            "-36%"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE",
+          "values": [
+            "18%",
+            "24%",
+            "30%",
+            "36%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "manaCost": [
+        70
+      ]
+    },
+    {
+      "name": "Test of Faith",
+      "image": "https://dotabuff.com//assets/skills/chen-test-of-faith-5329-3c9ee4c617046a615ee627fa9834933e80bc2a6b1c776fc69e412ca96241531c.jpg",
+      "link": null,
+      "description": "Deals random damage to test an enemy unit's faith.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE MIN",
+          "values": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ]
+        },
+        {
+          "label": "DAMAGE MAX",
+          "values": [
+            "100",
+            "200",
+            "300",
+            "400"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0
+      ],
+      "manaCost": [
+        90,
+        100,
+        110,
+        120
+      ]
+    },
+    {
+      "name": "Holy Persuasion",
+      "image": "https://dotabuff.com//assets/skills/chen-holy-persuasion-5330-78c7cbb77bacb38ee748b089440d7962bce0852526cc0ab24aed0e1ddd93d1c5.jpg",
+      "link": null,
+      "description": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX UNITS",
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "label": "HEALTH MINIMUM",
+          "values": [
+            "700",
+            "800",
+            "900",
+            "1000"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Hand of God",
+      "image": "https://dotabuff.com//assets/skills/chen-hand-of-god-5331-8e4bddf2c759c0fff3c696e293f47fdccf06292aa34b1fc99547dd1167034eaa.jpg",
+      "link": null,
+      "description": "Heals all allied heroes on the map as well as all units under Chen's control.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "HEAL",
+          "values": [
+            "225",
+            "350",
+            "475"
+          ]
+        },
+        {
+          "label": "SCEPTER HOLY PERSUASION ANCIENTS",
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        160.0,
+        140.0,
+        120.0
+      ],
+      "manaCost": [
+        200,
+        300,
+        400
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+200 Hand of God Heal",
+        "+2 Holy Persuasion Max Count"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+1000 Creep Min Health",
+        "+120 Gold/Min"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "-10s Test of Faith Cooldown",
+        "+250 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+125 Cast Range",
+        "+30 Movement Speed"
+      ]
+    }
+  ]
+}

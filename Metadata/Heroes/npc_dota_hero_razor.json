@@ -1,1 +1,317 @@
-{"id":15,"name":"npc_dota_hero_razor","localized_name":"Razor","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Durable","Nuker","Pusher"],"img":"/apps/dota2/images/heroes/razor_full.png?","icon":"/apps/dota2/images/heroes/razor_icon.png","url":"Razor","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":23,"base_attack_max":25,"base_str":21,"base_agi":22,"base_int":21,"str_gain":2.6,"agi_gain":2.0,"int_gain":1.8,"attack_range":475,"projectile_speed":2000,"attack_rate":1.7,"move_speed":295,"turn_rate":0.4,"cm_enabled":true,"legs":0,"skills":[{"name":"Plasma Field","image":"https://dotabuff.com//assets/skills/razor-plasma-field-5082-d275a8a7e2f4ccf85d049272f1fba1eb76bee02b75741e3fa17b13ff67d1fbf8.jpg","link":null,"description":"Releases a wave of energetic plasma that grows in power as it expands, but also zaps on contraction, dealing damage to enemy units caught in its path. Damage increases with distance from Razor.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE MIN","values":["30","50","70","90"]},{"label":"DAMAGE MAX","values":["160","230","300","370"]},{"label":"RADIUS","values":["700"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[14.0],"manaCost":[125]},{"name":"Static Link","image":"https://dotabuff.com//assets/skills/razor-static-link-5083-04adb4e9f412299497f0872e34975fd71c675b31bcb5fcac93a44d2350fc0063.jpg","link":null,"description":"Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Heroes"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"LINK DURATION","values":["8.0"]},{"label":"BUFF DURATION","values":["18"]},{"label":"DAMAGE DRAIN RATE","values":["7","14","21","28"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[32.0,30.0,28.0,26.0],"manaCost":[50]},{"name":"Unstable Current","image":"https://dotabuff.com//assets/skills/razor-unstable-current-5084-e4323dfd55ae1dbef8f4f9627dba0ca2dfad4c6770ffc7a095d2e2c1701a1d1c.jpg","link":null,"description":"Razor moves with increased speed, and any abilities targeted at him are instantly countered with a jolt of electricity which damages, slows, and purges buffs from enemies.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["40","70","100","130"]},{"label":"BONUS SPEED","values":["4%","8%","12%","16%"]},{"label":"SLOW DURATION","values":["0.5","1.0","1.5","2.0"]}],"cooldown":[],"manaCost":[]},{"name":"Eye of the Storm","image":"https://dotabuff.com//assets/skills/razor-eye-of-the-storm-5085-395df22fa026e7986d2b30b4c3f60fb9f8add43a0b9d56936ca437acb31ed6ff.jpg","link":null,"description":"A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RADIUS","values":["500"]},{"label":"DURATION","values":["30.0"]},{"label":"STRIKE INTERVAL","values":["0.7","0.6","0.5"]},{"label":"ARMOR REDUCTION","values":["1"]},{"label":"DAMAGE","values":["40","55","70"]},{"label":"SCEPTER STRIKE INTERVAL","values":["0.6","0.5","0.4"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[80.0,70.0,60.0],"manaCost":[100,150,200]}],"aliases":null,"talents":[{"level":25,"options":["+14 Static Link Damage Steal","+175 Attack Range"]},{"level":20,"options":["+40 Attack Speed","+400 Health"]},{"level":15,"options":["+175 Cast Range","+130 Unstable Current Damage"]},{"level":10,"options":["+15 Agility","+25 Movement Speed"]}]}
+{
+  "id": 15,
+  "name": "npc_dota_hero_razor",
+  "localized_name": "Razor",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Nuker",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/razor_full.png?",
+  "icon": "/apps/dota2/images/heroes/razor_icon.png",
+  "url": "Razor",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 23,
+  "base_attack_max": 25,
+  "base_str": 21,
+  "base_agi": 22,
+  "base_int": 21,
+  "str_gain": 2.6,
+  "agi_gain": 2.0,
+  "int_gain": 1.8,
+  "attack_range": 475,
+  "projectile_speed": 2000,
+  "attack_rate": 1.7,
+  "move_speed": 295,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 0,
+  "skills": [
+    {
+      "name": "Plasma Field",
+      "image": "https://dotabuff.com//assets/skills/razor-plasma-field-5082-d275a8a7e2f4ccf85d049272f1fba1eb76bee02b75741e3fa17b13ff67d1fbf8.jpg",
+      "link": null,
+      "description": "Releases a wave of energetic plasma that grows in power as it expands, but also zaps on contraction, dealing damage to enemy units caught in its path. Damage increases with distance from Razor.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE MIN",
+          "values": [
+            "30",
+            "50",
+            "70",
+            "90"
+          ]
+        },
+        {
+          "label": "DAMAGE MAX",
+          "values": [
+            "160",
+            "230",
+            "300",
+            "370"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "700"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        14.0
+      ],
+      "manaCost": [
+        125
+      ]
+    },
+    {
+      "name": "Static Link",
+      "image": "https://dotabuff.com//assets/skills/razor-static-link-5083-04adb4e9f412299497f0872e34975fd71c675b31bcb5fcac93a44d2350fc0063.jpg",
+      "link": null,
+      "description": "Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Heroes"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "LINK DURATION",
+          "values": [
+            "8.0"
+          ]
+        },
+        {
+          "label": "BUFF DURATION",
+          "values": [
+            "18"
+          ]
+        },
+        {
+          "label": "DAMAGE DRAIN RATE",
+          "values": [
+            "7",
+            "14",
+            "21",
+            "28"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        32.0,
+        30.0,
+        28.0,
+        26.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Unstable Current",
+      "image": "https://dotabuff.com//assets/skills/razor-unstable-current-5084-e4323dfd55ae1dbef8f4f9627dba0ca2dfad4c6770ffc7a095d2e2c1701a1d1c.jpg",
+      "link": null,
+      "description": "Razor moves with increased speed, and any abilities targeted at him are instantly countered with a jolt of electricity which damages, slows, and purges buffs from enemies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "40",
+            "70",
+            "100",
+            "130"
+          ]
+        },
+        {
+          "label": "BONUS SPEED",
+          "values": [
+            "4%",
+            "8%",
+            "12%",
+            "16%"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "0.5",
+            "1.0",
+            "1.5",
+            "2.0"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Eye of the Storm",
+      "image": "https://dotabuff.com//assets/skills/razor-eye-of-the-storm-5085-395df22fa026e7986d2b30b4c3f60fb9f8add43a0b9d56936ca437acb31ed6ff.jpg",
+      "link": null,
+      "description": "A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "500"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "30.0"
+          ]
+        },
+        {
+          "label": "STRIKE INTERVAL",
+          "values": [
+            "0.7",
+            "0.6",
+            "0.5"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION",
+          "values": [
+            "1"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "40",
+            "55",
+            "70"
+          ]
+        },
+        {
+          "label": "SCEPTER STRIKE INTERVAL",
+          "values": [
+            "0.6",
+            "0.5",
+            "0.4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        80.0,
+        70.0,
+        60.0
+      ],
+      "manaCost": [
+        100,
+        150,
+        200
+      ]
+    }
+  ],
+  "aliases": ["lightning revenant", "lightning", "revenant"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+14 Static Link Damage Steal",
+        "+175 Attack Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+40 Attack Speed",
+        "+400 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+175 Cast Range",
+        "+130 Unstable Current Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+15 Agility",
+        "+25 Movement Speed"
+      ]
+    }
+  ]
+}

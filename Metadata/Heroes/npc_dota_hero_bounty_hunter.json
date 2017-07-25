@@ -1,1 +1,315 @@
-{"id":62,"name":"npc_dota_hero_bounty_hunter","localized_name":"Bounty Hunter","primary_attr":"agi","attack_type":"Melee","roles":["Escape","Nuker"],"img":"/apps/dota2/images/heroes/bounty_hunter_full.png?","icon":"/apps/dota2/images/heroes/bounty_hunter_icon.png","url":"Bounty_Hunter","base_health":200,"base_health_regen":0.5,"base_mana":75,"base_mana_regen":0.01,"base_armor":3.0,"base_mr":25.0,"base_attack_min":24,"base_attack_max":38,"base_str":17,"base_agi":21,"base_int":19,"str_gain":2.1,"agi_gain":3.0,"int_gain":2.0,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":315,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Shuriken Toss","image":"https://dotabuff.com//assets/skills/bounty-hunter-shuriken-toss-5285-6ce2728c1d88d0999c6214ddc9ceac66f79113a7188646d0d25a71efba84ec6f.jpg","link":null,"description":"Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.  The shuriken will bounce between any Tracked units who are within a <span class=\"number\">1200</span> radius of each other.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["150","225","300","375"]},{"label":"TRACK BOUNCE RANGE","values":["1200"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[10.0],"manaCost":[120,130,140,150]},{"name":"Jinada","image":"https://dotabuff.com//assets/skills/bounty-hunter-jinada-5286-0570cd01d427067cff0a8582043f37a96173a827b17e4077b420c62341e7078f.jpg","link":null,"description":"Bounty Hunter plans his next hit, passively adding a critical strike and maim to his next attack.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"CRITICAL DAMAGE","values":["150%","175%","200%","225%"]},{"label":"MOVE SLOW","values":["-15%","-20%","-25%","-30%"]},{"label":"ATTACK SLOW","values":["-15","-20","-25","-30"]},{"label":"DURATION","values":["3"]}],"cooldown":[12.0,10.0,8.0,6.0],"manaCost":[]},{"name":"Shadow Walk","image":"https://dotabuff.com//assets/skills/bounty-hunter-shadow-walk-5287-d16ee69c0d3557c58dd7f666ba06223a183b3b89f50dae80873bc9aec1efed5c.jpg","link":null,"description":"Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will deal bonus damage.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["20","25","30","35"]},{"label":"FADE TIME","values":["1.0","0.75","0.5","0.25"]},{"label":"BONUS DAMAGE","values":["30","60","90","120"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[15.0],"manaCost":[65]},{"name":"Track","image":"https://dotabuff.com//assets/skills/bounty-hunter-track-5288-dee746cbffe9076e456c1323d3aa59df7dd4232e1b74b11427571f17552dbf68.jpg","link":null,"description":"Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. Allies near the hunted are granted bonus movement speed. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Heroes"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"SPEED RADIUS","values":["900"]},{"label":"BONUS SPEED","values":["16%","18%","20%"]},{"label":"BONUS GOLD FOR SELF","values":["150","250","350"]},{"label":"BONUS GOLD FOR ALLIES","values":["40","80","120"]},{"label":"DURATION","values":["30"]},{"label":"CAST RANGE","values":["1200"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[4.0],"manaCost":[65]}],"aliases":null,"talents":[{"level":25,"options":["-5s Jinada Cooldown","25% Evasion"]},{"level":20,"options":["+120 Damage","+75 Shuriken Toss Damage"]},{"level":15,"options":["+15 Movement Speed","+40 Attack Speed"]},{"level":10,"options":["+20% XP Gain","+175 Health"]}]}
+{
+  "id": 62,
+  "name": "npc_dota_hero_bounty_hunter",
+  "localized_name": "Bounty Hunter",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Escape",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/bounty_hunter_full.png?",
+  "icon": "/apps/dota2/images/heroes/bounty_hunter_icon.png",
+  "url": "Bounty_Hunter",
+  "base_health": 200,
+  "base_health_regen": 0.5,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 3.0,
+  "base_mr": 25.0,
+  "base_attack_min": 24,
+  "base_attack_max": 38,
+  "base_str": 17,
+  "base_agi": 21,
+  "base_int": 19,
+  "str_gain": 2.1,
+  "agi_gain": 3.0,
+  "int_gain": 2.0,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 315,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Shuriken Toss",
+      "image": "https://dotabuff.com//assets/skills/bounty-hunter-shuriken-toss-5285-6ce2728c1d88d0999c6214ddc9ceac66f79113a7188646d0d25a71efba84ec6f.jpg",
+      "link": null,
+      "description": "Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.  The shuriken will bounce between any Tracked units who are within a 1200 radius of each other.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "150",
+            "225",
+            "300",
+            "375"
+          ]
+        },
+        {
+          "label": "TRACK BOUNCE RANGE",
+          "values": [
+            "1200"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        120,
+        130,
+        140,
+        150
+      ]
+    },
+    {
+      "name": "Jinada",
+      "image": "https://dotabuff.com//assets/skills/bounty-hunter-jinada-5286-0570cd01d427067cff0a8582043f37a96173a827b17e4077b420c62341e7078f.jpg",
+      "link": null,
+      "description": "Bounty Hunter plans his next hit, passively adding a critical strike and maim to his next attack.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "CRITICAL DAMAGE",
+          "values": [
+            "150%",
+            "175%",
+            "200%",
+            "225%"
+          ]
+        },
+        {
+          "label": "MOVE SLOW",
+          "values": [
+            "-15%",
+            "-20%",
+            "-25%",
+            "-30%"
+          ]
+        },
+        {
+          "label": "ATTACK SLOW",
+          "values": [
+            "-15",
+            "-20",
+            "-25",
+            "-30"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "3"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0,
+        10.0,
+        8.0,
+        6.0
+      ],
+      "manaCost": []
+    },
+    {
+      "name": "Shadow Walk",
+      "image": "https://dotabuff.com//assets/skills/bounty-hunter-shadow-walk-5287-d16ee69c0d3557c58dd7f666ba06223a183b3b89f50dae80873bc9aec1efed5c.jpg",
+      "link": null,
+      "description": "Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will deal bonus damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "20",
+            "25",
+            "30",
+            "35"
+          ]
+        },
+        {
+          "label": "FADE TIME",
+          "values": [
+            "1.0",
+            "0.75",
+            "0.5",
+            "0.25"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE",
+          "values": [
+            "30",
+            "60",
+            "90",
+            "120"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0
+      ],
+      "manaCost": [
+        65
+      ]
+    },
+    {
+      "name": "Track",
+      "image": "https://dotabuff.com//assets/skills/bounty-hunter-track-5288-dee746cbffe9076e456c1323d3aa59df7dd4232e1b74b11427571f17552dbf68.jpg",
+      "link": null,
+      "description": "Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. Allies near the hunted are granted bonus movement speed. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Heroes"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SPEED RADIUS",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "BONUS SPEED",
+          "values": [
+            "16%",
+            "18%",
+            "20%"
+          ]
+        },
+        {
+          "label": "BONUS GOLD FOR SELF",
+          "values": [
+            "150",
+            "250",
+            "350"
+          ]
+        },
+        {
+          "label": "BONUS GOLD FOR ALLIES",
+          "values": [
+            "40",
+            "80",
+            "120"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "1200"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        4.0
+      ],
+      "manaCost": [
+        65
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-5s Jinada Cooldown",
+        "25% Evasion"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+120 Damage",
+        "+75 Shuriken Toss Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+15 Movement Speed",
+        "+40 Attack Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20% XP Gain",
+        "+175 Health"
+      ]
+    }
+  ]
+}

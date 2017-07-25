@@ -1,1 +1,302 @@
-{"id":99,"name":"npc_dota_hero_bristleback","localized_name":"Bristleback","primary_attr":"str","attack_type":"Melee","roles":["Carry","Durable","Initiator","Nuker"],"img":"/apps/dota2/images/heroes/bristleback_full.png?","icon":"/apps/dota2/images/heroes/bristleback_icon.png","url":"Bristleback","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":26,"base_attack_max":36,"base_str":22,"base_agi":17,"base_int":14,"str_gain":2.5,"agi_gain":1.8,"int_gain":2.8,"attack_range":150,"projectile_speed":900,"attack_rate":1.8,"move_speed":290,"turn_rate":1.0,"cm_enabled":true,"legs":2,"skills":[{"name":"Viscous Nasal Goo","image":"https://dotabuff.com//assets/skills/bristleback-viscous-nasal-goo-5548-b1287d16e305d70472623fc33fec07d9363fe4c6d8a84178ff710db31e52082e.jpg","link":null,"description":"Covers a target in snot, causing it to have reduced armor and movement speed.  Multiple casts stack and refresh the duration.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["5.0"]},{"label":"ARMOR LOSS","values":["1.0","1.4","1.8","2.2"]},{"label":"BASE MOVEMENT SLOW","values":["20%"]},{"label":"MOVE SLOW PER STACK","values":["3%","6%","9%","12%"]},{"label":"STACK LIMIT","values":["4"]},{"label":"SCEPTER RADIUS","values":["750"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[1.5],"manaCost":[25]},{"name":"Quill Spray","image":"https://dotabuff.com//assets/skills/bristleback-quill-spray-5549-3807397391968bf15a4f954781bb7c71f1143a6568b80bc414e4c5e4cedf8172.jpg","link":null,"description":"Sprays enemy units with quills dealing damage in an area of effect around Bristleback.  Deals bonus damage for every time a unit was hit by Quill Spray in the last <span class=\"number\">14</span> seconds.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RADIUS","values":["700"]},{"label":"QUILL BASE DAMAGE","values":["20","40","60","80"]},{"label":"QUILL STACK DAMAGE","values":["30","32","34","36"]},{"label":"STACK DURATION","values":["14.0"]},{"label":"MAX DAMAGE","values":["550.0"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[3.0],"manaCost":[35]},{"name":"Bristleback","image":"https://dotabuff.com//assets/skills/bristleback-bristleback-5550-80bbc28781938440a50e86673661a17807ff5846dc41f07ad56d2f7db8edfa42.jpg","link":null,"description":"Bristleback takes less damage if hit on the sides or rear.  If Bristleback takes <span class=\"number\">210</span> damage from the rear, he releases a Quill Spray of the current level.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"SIDE DAMAGE REDUCTION","values":["8%","12%","16%","20%"]},{"label":"BACK DAMAGE REDUCTION","values":["16%","24%","32%","40%"]},{"label":"DAMAGE THRESHOLD","values":["210"]}],"cooldown":[],"manaCost":[]},{"name":"Warpath","image":"https://dotabuff.com//assets/skills/bristleback-warpath-5551-86388f86bc1da8a36568ae67db4799673de9bab10f55e330c99c4ce2cab4132b.jpg","link":null,"description":"Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"DAMAGE PER STACK","values":["18","24","30"]},{"label":"MOVEMENT PER STACK","values":["3%","4%","5%"]},{"label":"STACK DURATION","values":["14.0"]},{"label":"MAX STACKS","values":["5","7","9"]}],"cooldown":[],"manaCost":[]}],"aliases":null,"talents":[{"level":25,"options":["+25 Quill Stack Damage","+30 Health Regen"]},{"level":20,"options":["10% Spell Lifesteal","+50 Attack Speed"]},{"level":15,"options":["+4 Max Goo Stacks","+225 Health"]},{"level":10,"options":["+2 Mana Regen","+8 Strength"]}]}
+{
+  "id": 99,
+  "name": "npc_dota_hero_bristleback",
+  "localized_name": "Bristleback",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/bristleback_full.png?",
+  "icon": "/apps/dota2/images/heroes/bristleback_icon.png",
+  "url": "Bristleback",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 26,
+  "base_attack_max": 36,
+  "base_str": 22,
+  "base_agi": 17,
+  "base_int": 14,
+  "str_gain": 2.5,
+  "agi_gain": 1.8,
+  "int_gain": 2.8,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.8,
+  "move_speed": 290,
+  "turn_rate": 1.0,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Viscous Nasal Goo",
+      "image": "https://dotabuff.com//assets/skills/bristleback-viscous-nasal-goo-5548-b1287d16e305d70472623fc33fec07d9363fe4c6d8a84178ff710db31e52082e.jpg",
+      "link": null,
+      "description": "Covers a target in snot, causing it to have reduced armor and movement speed.  Multiple casts stack and refresh the duration.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "5.0"
+          ]
+        },
+        {
+          "label": "ARMOR LOSS",
+          "values": [
+            "1.0",
+            "1.4",
+            "1.8",
+            "2.2"
+          ]
+        },
+        {
+          "label": "BASE MOVEMENT SLOW",
+          "values": [
+            "20%"
+          ]
+        },
+        {
+          "label": "MOVE SLOW PER STACK",
+          "values": [
+            "3%",
+            "6%",
+            "9%",
+            "12%"
+          ]
+        },
+        {
+          "label": "STACK LIMIT",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "SCEPTER RADIUS",
+          "values": [
+            "750"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        1.5
+      ],
+      "manaCost": [
+        25
+      ]
+    },
+    {
+      "name": "Quill Spray",
+      "image": "https://dotabuff.com//assets/skills/bristleback-quill-spray-5549-3807397391968bf15a4f954781bb7c71f1143a6568b80bc414e4c5e4cedf8172.jpg",
+      "link": null,
+      "description": "Sprays enemy units with quills dealing damage in an area of effect around Bristleback.  Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "700"
+          ]
+        },
+        {
+          "label": "QUILL BASE DAMAGE",
+          "values": [
+            "20",
+            "40",
+            "60",
+            "80"
+          ]
+        },
+        {
+          "label": "QUILL STACK DAMAGE",
+          "values": [
+            "30",
+            "32",
+            "34",
+            "36"
+          ]
+        },
+        {
+          "label": "STACK DURATION",
+          "values": [
+            "14.0"
+          ]
+        },
+        {
+          "label": "MAX DAMAGE",
+          "values": [
+            "550.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        3.0
+      ],
+      "manaCost": [
+        35
+      ]
+    },
+    {
+      "name": "Bristleback",
+      "image": "https://dotabuff.com//assets/skills/bristleback-bristleback-5550-80bbc28781938440a50e86673661a17807ff5846dc41f07ad56d2f7db8edfa42.jpg",
+      "link": null,
+      "description": "Bristleback takes less damage if hit on the sides or rear.  If Bristleback takes 210 damage from the rear, he releases a Quill Spray of the current level.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SIDE DAMAGE REDUCTION",
+          "values": [
+            "8%",
+            "12%",
+            "16%",
+            "20%"
+          ]
+        },
+        {
+          "label": "BACK DAMAGE REDUCTION",
+          "values": [
+            "16%",
+            "24%",
+            "32%",
+            "40%"
+          ]
+        },
+        {
+          "label": "DAMAGE THRESHOLD",
+          "values": [
+            "210"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Warpath",
+      "image": "https://dotabuff.com//assets/skills/bristleback-warpath-5551-86388f86bc1da8a36568ae67db4799673de9bab10f55e330c99c4ce2cab4132b.jpg",
+      "link": null,
+      "description": "Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER STACK",
+          "values": [
+            "18",
+            "24",
+            "30"
+          ]
+        },
+        {
+          "label": "MOVEMENT PER STACK",
+          "values": [
+            "3%",
+            "4%",
+            "5%"
+          ]
+        },
+        {
+          "label": "STACK DURATION",
+          "values": [
+            "14.0"
+          ]
+        },
+        {
+          "label": "MAX STACKS",
+          "values": [
+            "5",
+            "7",
+            "9"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+25 Quill Stack Damage",
+        "+30 Health Regen"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "10% Spell Lifesteal",
+        "+50 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+4 Max Goo Stacks",
+        "+225 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+2 Mana Regen",
+        "+8 Strength"
+      ]
+    }
+  ]
+}

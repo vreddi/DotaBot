@@ -1,1 +1,321 @@
-{"id":29,"name":"npc_dota_hero_tidehunter","localized_name":"Tidehunter","primary_attr":"str","attack_type":"Melee","roles":["Initiator","Durable","Disabler","Nuker"],"img":"/apps/dota2/images/heroes/tidehunter_full.png?","icon":"/apps/dota2/images/heroes/tidehunter_icon.png","url":"Tidehunter","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":25,"base_attack_max":31,"base_str":22,"base_agi":15,"base_int":16,"str_gain":3.3,"agi_gain":1.5,"int_gain":1.7,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":305,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Gush","image":"https://dotabuff.com//assets/skills/tidehunter-gush-5118-90f1fd2083d7983cee7da7204daf3fa06b1704246e625edbb455b27a645e201d.jpg","link":null,"description":"Summons a gush of water to damage an enemy unit, reducing their movement speed and armor.  Lasts <span class=\"number\">4</span> seconds.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["110","160","210","260"]},{"label":"SLOW","values":["-40%"]},{"label":"ARMOR REDUCTION","values":["3","4","5","6"]},{"label":"SCEPTER RADIUS","values":["240"]},{"label":"SCEPTER COOLDOWN","values":["7"]},{"label":"SCEPTER RANGE","values":["1800"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[12.0],"manaCost":[90,100,110,120]},{"name":"Kraken Shell","image":"https://dotabuff.com//assets/skills/tidehunter-kraken-shell-5119-ba9a8a57852c15923b0b4d745b1a1c6c20c871579b5d939d4bbdba5b9efe1268.jpg","link":null,"description":"Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"DAMAGE BLOCK","values":["12","24","36","48"]},{"label":"DAMAGE THRESHOLD","values":["600","550","500","450"]},{"label":"THRESHOLD TIMER","values":["6"]}],"cooldown":[],"manaCost":[]},{"name":"Anchor Smash","image":"https://dotabuff.com//assets/skills/tidehunter-anchor-smash-5120-5489123a467664393b6ecf605f1acfc19ef2dde4a38f7d0fd03e046b82e1f0f3.jpg","link":null,"description":"Tidehunter swings his mighty anchor to damage nearby enemies and reduce their attack damage.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["75","125","175","225"]},{"label":"DAMAGE REDUCTION","values":["-45%","-50%","-55%","-60%"]},{"label":"DURATION","values":["6"]},{"label":"RADIUS","values":["375"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[7.0,6.0,5.0,4.0],"manaCost":[30,40,50,60]},{"name":"Ravage","image":"https://dotabuff.com//assets/skills/tidehunter-ravage-5121-0394d66dfdb7ab2ec9b6d9523fdf4165c6981ee12d2a7a20fc6eaf01238c0179.jpg","link":null,"description":"Slams the ground, causing tentacles to erupt in all directions, damaging and stunning all nearby enemy units.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["200","290","380"]},{"label":"RADIUS","values":["1025"]},{"label":"DURATION","values":["2.0","2.4","2.8"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[150.0],"manaCost":[150,225,325]}],"aliases":null,"talents":[{"level":25,"options":["-6 Gush Armor","20% Cooldown Reduction"]},{"level":20,"options":["+15 Strength","+6 Mana Regen"]},{"level":15,"options":["+35% XP Gain","+7 Armor"]},{"level":10,"options":["+150 Health","+50 Damage"]}]}
+{
+  "id": 29,
+  "name": "npc_dota_hero_tidehunter",
+  "localized_name": "Tidehunter",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/tidehunter_full.png?",
+  "icon": "/apps/dota2/images/heroes/tidehunter_icon.png",
+  "url": "Tidehunter",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 25,
+  "base_attack_max": 31,
+  "base_str": 22,
+  "base_agi": 15,
+  "base_int": 16,
+  "str_gain": 3.3,
+  "agi_gain": 1.5,
+  "int_gain": 1.7,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 305,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Gush",
+      "image": "https://dotabuff.com//assets/skills/tidehunter-gush-5118-90f1fd2083d7983cee7da7204daf3fa06b1704246e625edbb455b27a645e201d.jpg",
+      "link": null,
+      "description": "Summons a gush of water to damage an enemy unit, reducing their movement speed and armor.  Lasts 4 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "110",
+            "160",
+            "210",
+            "260"
+          ]
+        },
+        {
+          "label": "SLOW",
+          "values": [
+            "-40%"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "SCEPTER RADIUS",
+          "values": [
+            "240"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "7"
+          ]
+        },
+        {
+          "label": "SCEPTER RANGE",
+          "values": [
+            "1800"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0
+      ],
+      "manaCost": [
+        90,
+        100,
+        110,
+        120
+      ]
+    },
+    {
+      "name": "Kraken Shell",
+      "image": "https://dotabuff.com//assets/skills/tidehunter-kraken-shell-5119-ba9a8a57852c15923b0b4d745b1a1c6c20c871579b5d939d4bbdba5b9efe1268.jpg",
+      "link": null,
+      "description": "Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE BLOCK",
+          "values": [
+            "12",
+            "24",
+            "36",
+            "48"
+          ]
+        },
+        {
+          "label": "DAMAGE THRESHOLD",
+          "values": [
+            "600",
+            "550",
+            "500",
+            "450"
+          ]
+        },
+        {
+          "label": "THRESHOLD TIMER",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Anchor Smash",
+      "image": "https://dotabuff.com//assets/skills/tidehunter-anchor-smash-5120-5489123a467664393b6ecf605f1acfc19ef2dde4a38f7d0fd03e046b82e1f0f3.jpg",
+      "link": null,
+      "description": "Tidehunter swings his mighty anchor to damage nearby enemies and reduce their attack damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "125",
+            "175",
+            "225"
+          ]
+        },
+        {
+          "label": "DAMAGE REDUCTION",
+          "values": [
+            "-45%",
+            "-50%",
+            "-55%",
+            "-60%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        7.0,
+        6.0,
+        5.0,
+        4.0
+      ],
+      "manaCost": [
+        30,
+        40,
+        50,
+        60
+      ]
+    },
+    {
+      "name": "Ravage",
+      "image": "https://dotabuff.com//assets/skills/tidehunter-ravage-5121-0394d66dfdb7ab2ec9b6d9523fdf4165c6981ee12d2a7a20fc6eaf01238c0179.jpg",
+      "link": null,
+      "description": "Slams the ground, causing tentacles to erupt in all directions, damaging and stunning all nearby enemy units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "200",
+            "290",
+            "380"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "1025"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "2.0",
+            "2.4",
+            "2.8"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        150.0
+      ],
+      "manaCost": [
+        150,
+        225,
+        325
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-6 Gush Armor",
+        "20% Cooldown Reduction"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+15 Strength",
+        "+6 Mana Regen"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+35% XP Gain",
+        "+7 Armor"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+150 Health",
+        "+50 Damage"
+      ]
+    }
+  ]
+}

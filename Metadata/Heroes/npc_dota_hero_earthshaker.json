@@ -1,1 +1,303 @@
-{"id":7,"name":"npc_dota_hero_earthshaker","localized_name":"Earthshaker","primary_attr":"str","attack_type":"Melee","roles":["Support","Initiator","Disabler","Nuker"],"img":"/apps/dota2/images/heroes/earthshaker_full.png?","icon":"/apps/dota2/images/heroes/earthshaker_icon.png","url":"Earthshaker","base_health":200,"base_health_regen":0.5,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":24,"base_attack_max":34,"base_str":22,"base_agi":12,"base_int":16,"str_gain":3.2,"agi_gain":1.4,"int_gain":1.8,"attack_range":150,"projectile_speed":0,"attack_rate":1.7,"move_speed":310,"turn_rate":0.9,"cm_enabled":true,"legs":2,"skills":[{"name":"Fissure","image":"https://dotabuff.com//assets/skills/earthshaker-fissure-5023-3e4e13e831f3affaf57cf594784e22d365354b106f0247948706da15bd01fc7c.jpg","link":null,"description":"Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.","effects":[{"key":"behavior","value":"Point Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["110","160","210","260"]},{"label":"FISSURE RANGE","values":["1400"]},{"label":"FISSURE DURATION","values":["8.0"]},{"label":"STUN DURATION","values":["1.0","1.25","1.5","1.75"]},{"label":"CAST POINT","values":["0.69s"]}],"cooldown":[15.0],"manaCost":[125,140,155,170]},{"name":"Enchant Totem","image":"https://dotabuff.com//assets/skills/earthshaker-enchant-totem-5024-fa4a62f9b71d69a443adcb8a2100dd5ad6b839bc59dc2a00b02311f394557435.jpg","link":null,"description":"Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.","effects":[{"key":"behavior","value":"No Target"},{"key":"affects","value":"Enemy Units"}],"stats":[{"label":"BONUS","values":["100%","200%","300%","400%"]},{"label":"DURATION","values":["14"]},{"label":"SCEPTER JUMP DISTANCE","values":["900"]},{"label":"CAST POINT","values":["0.69s"]}],"cooldown":[5.0],"manaCost":[20,30,40,50]},{"name":"Aftershock","image":"https://dotabuff.com//assets/skills/earthshaker-aftershock-5025-97fb59bbaa7e0b900880b3a5d8897f331f834d4bf4b55501e2dca883abe90a0c.jpg","link":null,"description":"Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["75","100","125","150"]},{"label":"RADIUS","values":["300"]},{"label":"DURATION","values":["0.6","0.9","1.2","1.5"]}],"cooldown":[],"manaCost":[]},{"name":"Echo Slam","image":"https://dotabuff.com//assets/skills/earthshaker-echo-slam-5026-1a64647c0854d5d245765ed72773cb314262001b678087445c97500d9f287637.jpg","link":null,"description":"Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["160","210","270"]},{"label":"RADIUS","values":["600"]},{"label":"ECHO DAMAGE","values":["40","55","70"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[150.0,130.0,110.0],"manaCost":[145,205,265]}],"aliases":null,"talents":[{"level":25,"options":["-2s Enchant Totem Cooldown","+600 Health"]},{"level":20,"options":["+350 Fissure Range","+40 Echo Damage"]},{"level":15,"options":["+50 Damage","+20 Movement Speed"]},{"level":10,"options":["+250 Mana","+10 Strength"]}]}
+{
+  "id": 7,
+  "name": "npc_dota_hero_earthshaker",
+  "localized_name": "Earthshaker",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Initiator",
+    "Disabler",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/earthshaker_full.png?",
+  "icon": "/apps/dota2/images/heroes/earthshaker_icon.png",
+  "url": "Earthshaker",
+  "base_health": 200,
+  "base_health_regen": 0.5,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 24,
+  "base_attack_max": 34,
+  "base_str": 22,
+  "base_agi": 12,
+  "base_int": 16,
+  "str_gain": 3.2,
+  "agi_gain": 1.4,
+  "int_gain": 1.8,
+  "attack_range": 150,
+  "projectile_speed": 0,
+  "attack_rate": 1.7,
+  "move_speed": 310,
+  "turn_rate": 0.9,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Fissure",
+      "image": "https://dotabuff.com//assets/skills/earthshaker-fissure-5023-3e4e13e831f3affaf57cf594784e22d365354b106f0247948706da15bd01fc7c.jpg",
+      "link": null,
+      "description": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "110",
+            "160",
+            "210",
+            "260"
+          ]
+        },
+        {
+          "label": "FISSURE RANGE",
+          "values": [
+            "1400"
+          ]
+        },
+        {
+          "label": "FISSURE DURATION",
+          "values": [
+            "8.0"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "1.0",
+            "1.25",
+            "1.5",
+            "1.75"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.69s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0
+      ],
+      "manaCost": [
+        125,
+        140,
+        155,
+        170
+      ]
+    },
+    {
+      "name": "Enchant Totem",
+      "image": "https://dotabuff.com//assets/skills/earthshaker-enchant-totem-5024-fa4a62f9b71d69a443adcb8a2100dd5ad6b839bc59dc2a00b02311f394557435.jpg",
+      "link": null,
+      "description": "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS",
+          "values": [
+            "100%",
+            "200%",
+            "300%",
+            "400%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "14"
+          ]
+        },
+        {
+          "label": "SCEPTER JUMP DISTANCE",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.69s"
+          ]
+        }
+      ],
+      "cooldown": [
+        5.0
+      ],
+      "manaCost": [
+        20,
+        30,
+        40,
+        50
+      ]
+    },
+    {
+      "name": "Aftershock",
+      "image": "https://dotabuff.com//assets/skills/earthshaker-aftershock-5025-97fb59bbaa7e0b900880b3a5d8897f331f834d4bf4b55501e2dca883abe90a0c.jpg",
+      "link": null,
+      "description": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "100",
+            "125",
+            "150"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "300"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "0.6",
+            "0.9",
+            "1.2",
+            "1.5"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Echo Slam",
+      "image": "https://dotabuff.com//assets/skills/earthshaker-echo-slam-5026-1a64647c0854d5d245765ed72773cb314262001b678087445c97500d9f287637.jpg",
+      "link": null,
+      "description": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "160",
+            "210",
+            "270"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "600"
+          ]
+        },
+        {
+          "label": "ECHO DAMAGE",
+          "values": [
+            "40",
+            "55",
+            "70"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        150.0,
+        130.0,
+        110.0
+      ],
+      "manaCost": [
+        145,
+        205,
+        265
+      ]
+    }
+  ],
+  "aliases": ["earthshaker", "earth shaker", "shaker", "raigor stonehoof"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-2s Enchant Totem Cooldown",
+        "+600 Health"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+350 Fissure Range",
+        "+40 Echo Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+50 Damage",
+        "+20 Movement Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+250 Mana",
+        "+10 Strength"
+      ]
+    }
+  ]
+}

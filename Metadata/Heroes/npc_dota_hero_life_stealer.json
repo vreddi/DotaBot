@@ -1,1 +1,261 @@
-{"id":54,"name":"npc_dota_hero_life_stealer","localized_name":"Lifestealer","primary_attr":"str","attack_type":"Melee","roles":["Carry","Durable","Jungler","Escape","Disabler"],"img":"/apps/dota2/images/heroes/life_stealer_full.png?","icon":"/apps/dota2/images/heroes/life_stealer_icon.png","url":"Lifestealer","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":27,"base_attack_max":37,"base_str":25,"base_agi":18,"base_int":15,"str_gain":3.3,"agi_gain":1.9,"int_gain":1.75,"attack_range":150,"projectile_speed":900,"attack_rate":1.85,"move_speed":315,"turn_rate":1.0,"cm_enabled":true,"legs":2,"skills":[{"name":"Rage","image":"https://dotabuff.com//assets/skills/lifestealer-rage-5249-f3850ffe8fe7c7814022c6a9061241d4d44af20eac9c1f1d5551557553ed2d7a.jpg","link":null,"description":"Launch into a maddened rage, becoming Spell Immune, <span class=\"number\">100%</span> resistant to magic damage, and gaining increased attack speed.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"ATTACK SPEED BONUS","values":["40","50","60","70"]},{"label":"DURATION","values":["3","4","5","6"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[16.0],"manaCost":[75]},{"name":"Feast","image":"https://dotabuff.com//assets/skills/lifestealer-feast-5250-d13da254249d0b05fdb932b262f1234d139002dca5b802058e88119012e5b3cd.jpg","link":null,"description":"Lifestealer's attacks damage enemies and heal himself for a percentage of his target's current health.","effects":[{"key":"behavior","value":"Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"LIFE LEECH","values":["4.5%","5.5%","6.5%","7.5%"]}],"cooldown":[],"manaCost":[]},{"name":"Open Wounds","image":"https://dotabuff.com//assets/skills/lifestealer-open-wounds-5251-721daa25dd6d53e07117064204dd08741615ae89fc84f8c26b768d38a17e1755.jpg","link":null,"description":"Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"LIFE LEECH","values":["50%"]},{"label":"MAX SLOW","values":["70%"]},{"label":"DURATION","values":["8"]},{"label":"CAST RANGE","values":["200","300","400","500"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[24.0,20.0,16.0,12.0],"manaCost":[140,130,120,110]},{"name":"Infest","image":"https://dotabuff.com//assets/skills/lifestealer-infest-5252-99ec408f0ac6da3571236dda2aa001ad67c0b21f24357bb16f548a51a646c576.jpg","link":null,"description":"Lifestealer infests the body of a target unit, becoming undetectable inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and when consumed the creep will heal Lifestealer's health equal to the creep's current health.  Does not work on enemy heroes.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE RADIUS","values":["700"]},{"label":"DAMAGE","values":["150","275","400"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[100.0,75.0,50.0],"manaCost":[50]}],"aliases":null,"talents":[{"level":25,"options":["+1s Rage Duration","+15 Armor"]},{"level":20,"options":["+25 Movement Speed","15% Evasion"]},{"level":15,"options":["+25 Damage","+250 Health"]},{"level":10,"options":["+15 Attack Speed","+5 All Stats"]}]}
+{
+  "id": 54,
+  "name": "npc_dota_hero_life_stealer",
+  "localized_name": "Lifestealer",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Jungler",
+    "Escape",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/life_stealer_full.png?",
+  "icon": "/apps/dota2/images/heroes/life_stealer_icon.png",
+  "url": "Lifestealer",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 27,
+  "base_attack_max": 37,
+  "base_str": 25,
+  "base_agi": 18,
+  "base_int": 15,
+  "str_gain": 3.3,
+  "agi_gain": 1.9,
+  "int_gain": 1.75,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.85,
+  "move_speed": 315,
+  "turn_rate": 1.0,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Rage",
+      "image": "https://dotabuff.com//assets/skills/lifestealer-rage-5249-f3850ffe8fe7c7814022c6a9061241d4d44af20eac9c1f1d5551557553ed2d7a.jpg",
+      "link": null,
+      "description": "Launch into a maddened rage, becoming Spell Immune, 100% resistant to magic damage, and gaining increased attack speed.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "ATTACK SPEED BONUS",
+          "values": [
+            "40",
+            "50",
+            "60",
+            "70"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0
+      ],
+      "manaCost": [
+        75
+      ]
+    },
+    {
+      "name": "Feast",
+      "image": "https://dotabuff.com//assets/skills/lifestealer-feast-5250-d13da254249d0b05fdb932b262f1234d139002dca5b802058e88119012e5b3cd.jpg",
+      "link": null,
+      "description": "Lifestealer's attacks damage enemies and heal himself for a percentage of his target's current health.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "LIFE LEECH",
+          "values": [
+            "4.5%",
+            "5.5%",
+            "6.5%",
+            "7.5%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Open Wounds",
+      "image": "https://dotabuff.com//assets/skills/lifestealer-open-wounds-5251-721daa25dd6d53e07117064204dd08741615ae89fc84f8c26b768d38a17e1755.jpg",
+      "link": null,
+      "description": "Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "LIFE LEECH",
+          "values": [
+            "50%"
+          ]
+        },
+        {
+          "label": "MAX SLOW",
+          "values": [
+            "70%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "200",
+            "300",
+            "400",
+            "500"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        24.0,
+        20.0,
+        16.0,
+        12.0
+      ],
+      "manaCost": [
+        140,
+        130,
+        120,
+        110
+      ]
+    },
+    {
+      "name": "Infest",
+      "image": "https://dotabuff.com//assets/skills/lifestealer-infest-5252-99ec408f0ac6da3571236dda2aa001ad67c0b21f24357bb16f548a51a646c576.jpg",
+      "link": null,
+      "description": "Lifestealer infests the body of a target unit, becoming undetectable inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and when consumed the creep will heal Lifestealer's health equal to the creep's current health.  Does not work on enemy heroes.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE RADIUS",
+          "values": [
+            "700"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "150",
+            "275",
+            "400"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        100.0,
+        75.0,
+        50.0
+      ],
+      "manaCost": [
+        50
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+1s Rage Duration",
+        "+15 Armor"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+25 Movement Speed",
+        "15% Evasion"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+25 Damage",
+        "+250 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+15 Attack Speed",
+        "+5 All Stats"
+      ]
+    }
+  ]
+}

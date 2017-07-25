@@ -1,1 +1,266 @@
-{"id":35,"name":"npc_dota_hero_sniper","localized_name":"Sniper","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Nuker"],"img":"/apps/dota2/images/heroes/sniper_full.png?","icon":"/apps/dota2/images/heroes/sniper_icon.png","url":"Sniper","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":15,"base_attack_max":21,"base_str":16,"base_agi":21,"base_int":15,"str_gain":2.0,"agi_gain":2.5,"int_gain":2.6,"attack_range":550,"projectile_speed":3000,"attack_rate":1.7,"move_speed":290,"turn_rate":0.7,"cm_enabled":true,"legs":2,"skills":[{"name":"Shrapnel","image":"https://dotabuff.com//assets/skills/sniper-shrapnel-5154-7e81d318110edda4ea0124bc2964b35b0d1017838deede48e9d36167af7d77bf.jpg","link":null,"description":"Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every <span class=\"number\">55</span> seconds.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"MOVEMENT SLOW","values":["-15%","-20%","-25%","-30%"]},{"label":"RADIUS","values":["450"]},{"label":"DAMAGE","values":["15","35","55","75"]},{"label":"DURATION","values":["10.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[0.0],"manaCost":[50]},{"name":"Headshot","image":"https://dotabuff.com//assets/skills/sniper-headshot-5155-4ec4d6d8e0eaaed158b35ceedf251c83d963bf52b9fa4e47a5402a81aca1ba23.jpg","link":null,"description":"Sniper increases his accuracy, giving him a chance to deal extra damage and briefly stop the movements of his enemies.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["15","40","65","90"]},{"label":"CHANCE","values":["40%"]}],"cooldown":[],"manaCost":[]},{"name":"Take Aim","image":"https://dotabuff.com//assets/skills/sniper-take-aim-5156-0e6ce27ab94f8415fdc88f915742d6272981a0fcbf1b87a26659b3bc1e160da0.jpg","link":null,"description":"Extends the attack range of Sniper's rifle.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"BONUS RANGE","values":["100","200","300","400"]}],"cooldown":[],"manaCost":[]},{"name":"Assassinate","image":"https://dotabuff.com//assets/skills/sniper-assassinate-5157-344c25d3265160ac74c78ef64f70965998b1c7b119db52ba065adecb01c14407.jpg","link":null,"description":"Sniper locks onto a target enemy unit and, after <span class=\"number\">2</span> seconds, fires a devastating shot that deals damage at long range, and mini-stuns the target.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["320","485","650"]},{"label":"RANGE","values":["2000","2500","3000"]},{"label":"SCEPTER RADIUS","values":["400"]},{"label":"SCEPTER CRITICAL DAMAGE","values":["280%"]},{"label":"CAST POINT","values":["2s"]}],"cooldown":[20.0,15.0,10.0],"manaCost":[175,275,375]}],"aliases":null,"talents":[{"level":25,"options":["+4 Shrapnel Charges","+100 Attack Range"]},{"level":20,"options":["25% Cooldown Reduction","+8 Armor"]},{"level":15,"options":["+200 Health","+20 Shrapnel DPS"]},{"level":10,"options":["+15 Attack Speed","+5 Mana Regen"]}]}
+{
+  "id": 35,
+  "name": "npc_dota_hero_sniper",
+  "localized_name": "Sniper",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/sniper_full.png?",
+  "icon": "/apps/dota2/images/heroes/sniper_icon.png",
+  "url": "Sniper",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 15,
+  "base_attack_max": 21,
+  "base_str": 16,
+  "base_agi": 21,
+  "base_int": 15,
+  "str_gain": 2.0,
+  "agi_gain": 2.5,
+  "int_gain": 2.6,
+  "attack_range": 550,
+  "projectile_speed": 3000,
+  "attack_rate": 1.7,
+  "move_speed": 290,
+  "turn_rate": 0.7,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Shrapnel",
+      "image": "https://dotabuff.com//assets/skills/sniper-shrapnel-5154-7e81d318110edda4ea0124bc2964b35b0d1017838deede48e9d36167af7d77bf.jpg",
+      "link": null,
+      "description": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every 55 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-15%",
+            "-20%",
+            "-25%",
+            "-30%"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "450"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "15",
+            "35",
+            "55",
+            "75"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "10.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Headshot",
+      "image": "https://dotabuff.com//assets/skills/sniper-headshot-5155-4ec4d6d8e0eaaed158b35ceedf251c83d963bf52b9fa4e47a5402a81aca1ba23.jpg",
+      "link": null,
+      "description": "Sniper increases his accuracy, giving him a chance to deal extra damage and briefly stop the movements of his enemies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "15",
+            "40",
+            "65",
+            "90"
+          ]
+        },
+        {
+          "label": "CHANCE",
+          "values": [
+            "40%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Take Aim",
+      "image": "https://dotabuff.com//assets/skills/sniper-take-aim-5156-0e6ce27ab94f8415fdc88f915742d6272981a0fcbf1b87a26659b3bc1e160da0.jpg",
+      "link": null,
+      "description": "Extends the attack range of Sniper's rifle.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS RANGE",
+          "values": [
+            "100",
+            "200",
+            "300",
+            "400"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Assassinate",
+      "image": "https://dotabuff.com//assets/skills/sniper-assassinate-5157-344c25d3265160ac74c78ef64f70965998b1c7b119db52ba065adecb01c14407.jpg",
+      "link": null,
+      "description": "Sniper locks onto a target enemy unit and, after 2 seconds, fires a devastating shot that deals damage at long range, and mini-stuns the target.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "320",
+            "485",
+            "650"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "2000",
+            "2500",
+            "3000"
+          ]
+        },
+        {
+          "label": "SCEPTER RADIUS",
+          "values": [
+            "400"
+          ]
+        },
+        {
+          "label": "SCEPTER CRITICAL DAMAGE",
+          "values": [
+            "280%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        20.0,
+        15.0,
+        10.0
+      ],
+      "manaCost": [
+        175,
+        275,
+        375
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+4 Shrapnel Charges",
+        "+100 Attack Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "25% Cooldown Reduction",
+        "+8 Armor"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+200 Health",
+        "+20 Shrapnel DPS"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+15 Attack Speed",
+        "+5 Mana Regen"
+      ]
+    }
+  ]
+}

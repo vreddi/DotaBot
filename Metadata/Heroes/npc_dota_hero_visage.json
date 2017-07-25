@@ -1,1 +1,309 @@
-{"id":92,"name":"npc_dota_hero_visage","localized_name":"Visage","primary_attr":"int","attack_type":"Ranged","roles":["Support","Nuker","Durable","Disabler","Pusher"],"img":"/apps/dota2/images/heroes/visage_full.png?","icon":"/apps/dota2/images/heroes/visage_icon.png","url":"Visage","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-2.0,"base_mr":10.0,"base_attack_min":21,"base_attack_max":31,"base_str":22,"base_agi":11,"base_int":24,"str_gain":2.7,"agi_gain":1.3,"int_gain":2.5,"attack_range":600,"projectile_speed":900,"attack_rate":1.7,"move_speed":285,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Grave Chill","image":"https://dotabuff.com//assets/skills/visage-grave-chill-5480-5aa2a88da7a6a16949bc3ab32d50c51d8ac315bd91435b933298e210a33c4121.jpg","link":null,"description":"Visage drains the movement and attack speed of the targeted unit, gaining it for itself.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["3.25","4.5","5.75","7.0"]},{"label":"MOVE SPEED DRAIN","values":["32%"]},{"label":"ATTACK SPEED DRAIN","values":["64"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[16.0,14.0,12.0,10.0],"manaCost":[90]},{"name":"Soul Assumption","image":"https://dotabuff.com//assets/skills/visage-soul-assumption-5481-0c622dc78ef8e1648239f7136ed7abdf4a92970a7b42b89e526b090aac94cb99.jpg","link":null,"description":"Visage gathers charges of soul essence each time nearby heroes take more than <span class=\"number\">110</span> damage. When the essence is released, it deals base damage as well as damage for each gathered soul charge.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"BASE DAMAGE","values":["20"]},{"label":"DAMAGE PER CHARGE","values":["65"]},{"label":"MAX CHARGES","values":["3","4","5","6"]},{"label":"CHARGE DURATION","values":["6.0"]},{"label":"GATHER DAMAGE THRESHOLD","values":["110"]},{"label":"GATHER DAMAGE RADIUS","values":["1375"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[4.0],"manaCost":[170,160,150,140]},{"name":"Gravekeeper&#39;s Cloak","image":"https://dotabuff.com//assets/skills/visage-gravekeepers-cloak-5482-efa31230959a4d16219664b99cd8743d96e1d328bbbd28bfa9cea064ddb59300.jpg","link":null,"description":"Visage generates a layered barrier that protects him from damage.  If he receives damage from a player, one layer is removed, and takes time to recover.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"MAX LAYERS","values":["4"]},{"label":"DAMAGE REDUCTION PER LAYER","values":["8%","12%","16%","20%"]},{"label":"LAYER RECOVERY TIME","values":["6","5","4","3"]},{"label":"MINIMUM DAMAGE","values":["50"]}],"cooldown":[],"manaCost":[]},{"name":"Summon Familiars","image":"https://dotabuff.com//assets/skills/visage-summon-familiars-5483-ba03960e51a45b7831fc14750d41b901839c7e3edc90296893dd6fc20b63f366.jpg","link":null,"description":"Conjures two blind Familiars to fight for Visage.  Familiars have high attack power, but each attack drains a charge of damage that recharges slowly over time.  Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing.  While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health.  Familiars grant high bounty when killed.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"HP","values":["400","550","700"]},{"label":"FAMILIAR SPEED","values":["430"]},{"label":"FAMILIAR DAMAGE","values":["56","112","168"]},{"label":"DAMAGE RECHARGE TIME","values":["2.0"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[130.0],"manaCost":[150]}],"aliases":null,"talents":[{"level":25,"options":["+120 Familiars Movement Speed","+20% Spell Amplification"]},{"level":20,"options":["Soul Assumption Double Strike","+300 Health"]},{"level":15,"options":["+100 Cast Range","+50 Damage"]},{"level":10,"options":["+30% XP Gain","+90 Gold/Min"]}]}
+{
+  "id": 92,
+  "name": "npc_dota_hero_visage",
+  "localized_name": "Visage",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Durable",
+    "Disabler",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/visage_full.png?",
+  "icon": "/apps/dota2/images/heroes/visage_icon.png",
+  "url": "Visage",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -2.0,
+  "base_mr": 10.0,
+  "base_attack_min": 21,
+  "base_attack_max": 31,
+  "base_str": 22,
+  "base_agi": 11,
+  "base_int": 24,
+  "str_gain": 2.7,
+  "agi_gain": 1.3,
+  "int_gain": 2.5,
+  "attack_range": 600,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 285,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Grave Chill",
+      "image": "https://dotabuff.com//assets/skills/visage-grave-chill-5480-5aa2a88da7a6a16949bc3ab32d50c51d8ac315bd91435b933298e210a33c4121.jpg",
+      "link": null,
+      "description": "Visage drains the movement and attack speed of the targeted unit, gaining it for itself.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "3.25",
+            "4.5",
+            "5.75",
+            "7.0"
+          ]
+        },
+        {
+          "label": "MOVE SPEED DRAIN",
+          "values": [
+            "32%"
+          ]
+        },
+        {
+          "label": "ATTACK SPEED DRAIN",
+          "values": [
+            "64"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0,
+        14.0,
+        12.0,
+        10.0
+      ],
+      "manaCost": [
+        90
+      ]
+    },
+    {
+      "name": "Soul Assumption",
+      "image": "https://dotabuff.com//assets/skills/visage-soul-assumption-5481-0c622dc78ef8e1648239f7136ed7abdf4a92970a7b42b89e526b090aac94cb99.jpg",
+      "link": null,
+      "description": "Visage gathers charges of soul essence each time nearby heroes take more than 110 damage. When the essence is released, it deals base damage as well as damage for each gathered soul charge.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BASE DAMAGE",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "label": "DAMAGE PER CHARGE",
+          "values": [
+            "65"
+          ]
+        },
+        {
+          "label": "MAX CHARGES",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "CHARGE DURATION",
+          "values": [
+            "6.0"
+          ]
+        },
+        {
+          "label": "GATHER DAMAGE THRESHOLD",
+          "values": [
+            "110"
+          ]
+        },
+        {
+          "label": "GATHER DAMAGE RADIUS",
+          "values": [
+            "1375"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        4.0
+      ],
+      "manaCost": [
+        170,
+        160,
+        150,
+        140
+      ]
+    },
+    {
+      "name": "Gravekeeper&#39;s Cloak",
+      "image": "https://dotabuff.com//assets/skills/visage-gravekeepers-cloak-5482-efa31230959a4d16219664b99cd8743d96e1d328bbbd28bfa9cea064ddb59300.jpg",
+      "link": null,
+      "description": "Visage generates a layered barrier that protects him from damage.  If he receives damage from a player, one layer is removed, and takes time to recover.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX LAYERS",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "DAMAGE REDUCTION PER LAYER",
+          "values": [
+            "8%",
+            "12%",
+            "16%",
+            "20%"
+          ]
+        },
+        {
+          "label": "LAYER RECOVERY TIME",
+          "values": [
+            "6",
+            "5",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "label": "MINIMUM DAMAGE",
+          "values": [
+            "50"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Summon Familiars",
+      "image": "https://dotabuff.com//assets/skills/visage-summon-familiars-5483-ba03960e51a45b7831fc14750d41b901839c7e3edc90296893dd6fc20b63f366.jpg",
+      "link": null,
+      "description": "Conjures two blind Familiars to fight for Visage.  Familiars have high attack power, but each attack drains a charge of damage that recharges slowly over time.  Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing.  While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health.  Familiars grant high bounty when killed.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "HP",
+          "values": [
+            "400",
+            "550",
+            "700"
+          ]
+        },
+        {
+          "label": "FAMILIAR SPEED",
+          "values": [
+            "430"
+          ]
+        },
+        {
+          "label": "FAMILIAR DAMAGE",
+          "values": [
+            "56",
+            "112",
+            "168"
+          ]
+        },
+        {
+          "label": "DAMAGE RECHARGE TIME",
+          "values": [
+            "2.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        130.0
+      ],
+      "manaCost": [
+        150
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+120 Familiars Movement Speed",
+        "+20% Spell Amplification"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "Soul Assumption Double Strike",
+        "+300 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+100 Cast Range",
+        "+50 Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+30% XP Gain",
+        "+90 Gold/Min"
+      ]
+    }
+  ]
+}

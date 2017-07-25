@@ -1,1 +1,375 @@
-{"id":107,"name":"npc_dota_hero_earth_spirit","localized_name":"Earth Spirit","primary_attr":"str","attack_type":"Melee","roles":["Nuker","Escape","Disabler","Initiator","Durable"],"img":"/apps/dota2/images/heroes/earth_spirit_full.png?","icon":"/apps/dota2/images/heroes/earth_spirit_icon.png","url":"Earth_Spirit","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":25,"base_attack_max":35,"base_str":21,"base_agi":17,"base_int":18,"str_gain":3.2,"agi_gain":1.5,"int_gain":2.1,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":290,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Boulder Smash","image":"https://dotabuff.com//assets/skills/earth-spirit-boulder-smash-5608-45c07e510a5e14a9d27aa2d53eeeb7db5e0653211b35b75000464a42fa6d9a3a.jpg","link":null,"description":"Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest Stone Remnant in a <span class=\"number\">200</span> radius. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also stunned. Stone Remnants travel further than other units.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Creeps, Heroes"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"REMNANT SMASH RADIUS","values":["200"]},{"label":"DAMAGE","values":["50","100","150","200"]},{"label":"STUN DURATION","values":["0.75","1.25","1.75","2.25"]},{"label":"TRAVEL SPEED","values":["900"]},{"label":"DISTANCE","values":["500","600","700","800"]},{"label":"DISTANCE (REMNANT)","values":["2000.0"]},{"label":"CAST POINT","values":["0.01s"]}],"cooldown":[22.0,18.0,14.0,10.0],"manaCost":[100]},{"name":"Rolling Boulder","image":"https://dotabuff.com//assets/skills/earth-spirit-rolling-boulder-5609-1c7731cdfd653eadc94f068bfb401aea6f6f7d6f7b3a3dbb54b3b6e56b897ceb.jpg","link":null,"description":"Earth Spirit gathers himself into a boulder and, after a <span class=\"number\">0.6</span>s delay, rolls toward the target location, damaging enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and enemies hit by the boulder will have their movement speed slowed.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"SPEED","values":["800"]},{"label":"SPEED (REMNANT)","values":["1600"]},{"label":"DISTANCE","values":["800.0"]},{"label":"DISTANCE (REMNANT)","values":["1600.0"]},{"label":"DAMAGE","values":["100"]},{"label":"MOVEMENT SLOW","values":["80%"]},{"label":"SLOW DURATION","values":["0.8","1.2","1.6","2.0"]},{"label":"CAST POINT","values":["0.01s"]}],"cooldown":[16.0,12.0,8.0,4.0],"manaCost":[50]},{"name":"Geomagnetic Grip","image":"https://dotabuff.com//assets/skills/earth-spirit-geomagnetic-grip-5610-e8910c5899c761a4b4dbe493e8f75120b9ac125cabe61adc735b629b771aa898.jpg","link":null,"description":"Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced, and take damage if the gripped target is a Stone Remnant.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Allied Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"SILENCE DURATION","values":["2.5","3.0","3.5","4.0"]},{"label":"HERO PULL SPEED","values":["600.0"]},{"label":"REMNANT DAMAGE","values":["50","100","150","200"]},{"label":"REMNANT PULL SPEED","values":["1000.0"]},{"label":"CAST POINT","values":["0.01s"]}],"cooldown":[13.0],"manaCost":[100]},{"name":"Magnetize","image":"https://dotabuff.com//assets/skills/earth-spirit-magnetize-5612-9d5ecb0561f108256a4d370c0236488644b3a095444e584a27aeae855753bd52.jpg","link":null,"description":"Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Rolling Boulder, all magnetized heroes share the effects.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["300"]},{"label":"DAMAGE PER SECOND","values":["50","75","100"]},{"label":"MAGNETIZE DURATION","values":["6.0"]},{"label":"REMNANT REFRESH RADIUS","values":["400"]},{"label":"REMNANT EXPLOSION RADIUS","values":["600"]},{"label":"CAST POINT","values":["0.01s"]}],"cooldown":[100.0,90.0,80.0],"manaCost":[100]}],"aliases":null,"talents":[{"level":25,"options":["+300 Rolling Boulder Damage","Geomagnetic Grip Targets Allies"]},{"level":20,"options":["+300 Health","+15% Spell Amplification"]},{"level":15,"options":["+90 Gold/Min","+15% Magic Resistance"]},{"level":10,"options":["+4 Armor","+10 Intelligence"]}]}
+{
+  "id": 107,
+  "name": "npc_dota_hero_earth_spirit",
+  "localized_name": "Earth Spirit",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Nuker",
+    "Escape",
+    "Disabler",
+    "Initiator",
+    "Durable"
+  ],
+  "img": "/apps/dota2/images/heroes/earth_spirit_full.png?",
+  "icon": "/apps/dota2/images/heroes/earth_spirit_icon.png",
+  "url": "Earth_Spirit",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 25,
+  "base_attack_max": 35,
+  "base_str": 21,
+  "base_agi": 17,
+  "base_int": 18,
+  "str_gain": 3.2,
+  "agi_gain": 1.5,
+  "int_gain": 2.1,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 290,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Boulder Smash",
+      "image": "https://dotabuff.com//assets/skills/earth-spirit-boulder-smash-5608-45c07e510a5e14a9d27aa2d53eeeb7db5e0653211b35b75000464a42fa6d9a3a.jpg",
+      "link": null,
+      "description": "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest Stone Remnant in a 200 radius. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also stunned. Stone Remnants travel further than other units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Creeps, Heroes"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "REMNANT SMASH RADIUS",
+          "values": [
+            "200"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "0.75",
+            "1.25",
+            "1.75",
+            "2.25"
+          ]
+        },
+        {
+          "label": "TRAVEL SPEED",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "DISTANCE",
+          "values": [
+            "500",
+            "600",
+            "700",
+            "800"
+          ]
+        },
+        {
+          "label": "DISTANCE (REMNANT)",
+          "values": [
+            "2000.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.01s"
+          ]
+        }
+      ],
+      "cooldown": [
+        22.0,
+        18.0,
+        14.0,
+        10.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Rolling Boulder",
+      "image": "https://dotabuff.com//assets/skills/earth-spirit-rolling-boulder-5609-1c7731cdfd653eadc94f068bfb401aea6f6f7d6f7b3a3dbb54b3b6e56b897ceb.jpg",
+      "link": null,
+      "description": "Earth Spirit gathers himself into a boulder and, after a 0.6s delay, rolls toward the target location, damaging enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and enemies hit by the boulder will have their movement speed slowed.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SPEED",
+          "values": [
+            "800"
+          ]
+        },
+        {
+          "label": "SPEED (REMNANT)",
+          "values": [
+            "1600"
+          ]
+        },
+        {
+          "label": "DISTANCE",
+          "values": [
+            "800.0"
+          ]
+        },
+        {
+          "label": "DISTANCE (REMNANT)",
+          "values": [
+            "1600.0"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "100"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "80%"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "0.8",
+            "1.2",
+            "1.6",
+            "2.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.01s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0,
+        12.0,
+        8.0,
+        4.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Geomagnetic Grip",
+      "image": "https://dotabuff.com//assets/skills/earth-spirit-geomagnetic-grip-5610-e8910c5899c761a4b4dbe493e8f75120b9ac125cabe61adc735b629b771aa898.jpg",
+      "link": null,
+      "description": "Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced, and take damage if the gripped target is a Stone Remnant.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SILENCE DURATION",
+          "values": [
+            "2.5",
+            "3.0",
+            "3.5",
+            "4.0"
+          ]
+        },
+        {
+          "label": "HERO PULL SPEED",
+          "values": [
+            "600.0"
+          ]
+        },
+        {
+          "label": "REMNANT DAMAGE",
+          "values": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ]
+        },
+        {
+          "label": "REMNANT PULL SPEED",
+          "values": [
+            "1000.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.01s"
+          ]
+        }
+      ],
+      "cooldown": [
+        13.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Magnetize",
+      "image": "https://dotabuff.com//assets/skills/earth-spirit-magnetize-5612-9d5ecb0561f108256a4d370c0236488644b3a095444e584a27aeae855753bd52.jpg",
+      "link": null,
+      "description": "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Rolling Boulder, all magnetized heroes share the effects.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "300"
+          ]
+        },
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "50",
+            "75",
+            "100"
+          ]
+        },
+        {
+          "label": "MAGNETIZE DURATION",
+          "values": [
+            "6.0"
+          ]
+        },
+        {
+          "label": "REMNANT REFRESH RADIUS",
+          "values": [
+            "400"
+          ]
+        },
+        {
+          "label": "REMNANT EXPLOSION RADIUS",
+          "values": [
+            "600"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.01s"
+          ]
+        }
+      ],
+      "cooldown": [
+        100.0,
+        90.0,
+        80.0
+      ],
+      "manaCost": [
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+300 Rolling Boulder Damage",
+        "Geomagnetic Grip Targets Allies"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+300 Health",
+        "+15% Spell Amplification"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+90 Gold/Min",
+        "+15% Magic Resistance"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+4 Armor",
+        "+10 Intelligence"
+      ]
+    }
+  ]
+}

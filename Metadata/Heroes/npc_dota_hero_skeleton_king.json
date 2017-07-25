@@ -1,1 +1,280 @@
-{"id":42,"name":"npc_dota_hero_skeleton_king","localized_name":"Wraith King","primary_attr":"str","attack_type":"Melee","roles":["Carry","Support","Durable","Disabler","Initiator"],"img":"/apps/dota2/images/heroes/skeleton_king_full.png?","icon":"/apps/dota2/images/heroes/skeleton_king_icon.png","url":"Wraith_King","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":39,"base_attack_max":41,"base_str":22,"base_agi":18,"base_int":18,"str_gain":3.2,"agi_gain":1.7,"int_gain":1.6,"attack_range":150,"projectile_speed":0,"attack_rate":1.7,"move_speed":300,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Wraithfire Blast","image":"https://dotabuff.com//assets/skills/wraith-king-wraithfire-blast-5086-84902118d49e05dc21c18301c2d781f87714bae67851e4e270fff8e08032c2c7.jpg","link":null,"description":"Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["50","100","150","200"]},{"label":"STUN DURATION","values":["2.0"]},{"label":"SLOW DURATION","values":["2.0"]},{"label":"MOVEMENT SLOW","values":["-20%"]},{"label":"DAMAGE PER SECOND","values":["20","35","50","65"]},{"label":"CAST POINT","values":["0.35s"]}],"cooldown":[8.0],"manaCost":[140]},{"name":"Vampiric Aura","image":"https://dotabuff.com//assets/skills/wraith-king-vampiric-aura-5087-324d668c7cac247ca4f3ecc9604df6c8788392ad07e4045cbed88fefebab34c0.jpg","link":null,"description":"Nearby friendly units restore health based on the damage they deal when attacking enemy units.","effects":[{"key":"behavior","value":"Aura, No Target, Toggle"}],"stats":[{"label":"LIFESTEAL","values":["15%","20%","25%","30%"]}],"cooldown":[],"manaCost":[]},{"name":"Mortal Strike","image":"https://dotabuff.com//assets/skills/wraith-king-mortal-strike-5088-a7c7fd78806fe0fc3e5ac229408e243500e469cd3c560cdf340672a2f8c7aa9b.jpg","link":null,"description":"Wraith King passively gains a chance to deal bonus damage on an attack.","effects":[{"key":"behavior","value":"Passive"},{"key":"affects","value":"Enemy Heroes"}],"stats":[{"label":"HERO CRITICAL DAMAGE","values":["150%","200%","250%","300%"]},{"label":"NON-HERO CRITICAL DAMAGE","values":["200%","300%","400%","500%"]},{"label":"CRITICAL CHANCE","values":["15%"]}],"cooldown":[],"manaCost":[]},{"name":"Reincarnation","image":"https://dotabuff.com//assets/skills/wraith-king-reincarnation-5089-c698630129fc8d0fe3cffbea0d7a4a3dc464adeb4bd64e6595b546d23ba01a4b.jpg","link":null,"description":"Wraith King's form regroups after death, allowing him to resurrect when killed in battle.  Upon death, enemy units in a <span class=\"number\">900</span> radius will be slowed.","effects":[{"key":"behavior","value":"Passive"},{"key":"affects","value":"Allied Heroes"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"REINCARNATION TIME","values":["3"]},{"label":"MOVEMENT SLOW","values":["-75%"]},{"label":"ATTACK SPEED SLOW","values":["-75"]},{"label":"SLOW DURATION","values":["5.0"]},{"label":"SCEPTER ALLY DEATH DELAY","values":["7.0"]},{"label":"SCEPTER DEATH DELAY RADIUS","values":["1200"]}],"cooldown":[240.0,140.0,40.0],"manaCost":[160]}],"aliases":null,"talents":[{"level":25,"options":["Reincarnation Casts Wraithfire Blast","No Reincarnation Manacost"]},{"level":20,"options":["+10% Vampiric Aura Lifesteal","+40 Attack Speed"]},{"level":15,"options":["+50 Wraithfire Blast DPS","+15 Movement Speed"]},{"level":10,"options":["+10 Intelligence","+15 Damage"]}]}
+{
+  "id": 42,
+  "name": "npc_dota_hero_skeleton_king",
+  "localized_name": "Wraith King",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Support",
+    "Durable",
+    "Disabler",
+    "Initiator"
+  ],
+  "img": "/apps/dota2/images/heroes/skeleton_king_full.png?",
+  "icon": "/apps/dota2/images/heroes/skeleton_king_icon.png",
+  "url": "Wraith_King",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 39,
+  "base_attack_max": 41,
+  "base_str": 22,
+  "base_agi": 18,
+  "base_int": 18,
+  "str_gain": 3.2,
+  "agi_gain": 1.7,
+  "int_gain": 1.6,
+  "attack_range": 150,
+  "projectile_speed": 0,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Wraithfire Blast",
+      "image": "https://dotabuff.com//assets/skills/wraith-king-wraithfire-blast-5086-84902118d49e05dc21c18301c2d781f87714bae67851e4e270fff8e08032c2c7.jpg",
+      "link": null,
+      "description": "Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "2.0"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "2.0"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-20%"
+          ]
+        },
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "20",
+            "35",
+            "50",
+            "65"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.35s"
+          ]
+        }
+      ],
+      "cooldown": [
+        8.0
+      ],
+      "manaCost": [
+        140
+      ]
+    },
+    {
+      "name": "Vampiric Aura",
+      "image": "https://dotabuff.com//assets/skills/wraith-king-vampiric-aura-5087-324d668c7cac247ca4f3ecc9604df6c8788392ad07e4045cbed88fefebab34c0.jpg",
+      "link": null,
+      "description": "Nearby friendly units restore health based on the damage they deal when attacking enemy units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Aura, No Target, Toggle"
+        }
+      ],
+      "stats": [
+        {
+          "label": "LIFESTEAL",
+          "values": [
+            "15%",
+            "20%",
+            "25%",
+            "30%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Mortal Strike",
+      "image": "https://dotabuff.com//assets/skills/wraith-king-mortal-strike-5088-a7c7fd78806fe0fc3e5ac229408e243500e469cd3c560cdf340672a2f8c7aa9b.jpg",
+      "link": null,
+      "description": "Wraith King passively gains a chance to deal bonus damage on an attack.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Heroes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "HERO CRITICAL DAMAGE",
+          "values": [
+            "150%",
+            "200%",
+            "250%",
+            "300%"
+          ]
+        },
+        {
+          "label": "NON-HERO CRITICAL DAMAGE",
+          "values": [
+            "200%",
+            "300%",
+            "400%",
+            "500%"
+          ]
+        },
+        {
+          "label": "CRITICAL CHANCE",
+          "values": [
+            "15%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Reincarnation",
+      "image": "https://dotabuff.com//assets/skills/wraith-king-reincarnation-5089-c698630129fc8d0fe3cffbea0d7a4a3dc464adeb4bd64e6595b546d23ba01a4b.jpg",
+      "link": null,
+      "description": "Wraith King's form regroups after death, allowing him to resurrect when killed in battle.  Upon death, enemy units in a 900 radius will be slowed.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Heroes"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "REINCARNATION TIME",
+          "values": [
+            "3"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-75%"
+          ]
+        },
+        {
+          "label": "ATTACK SPEED SLOW",
+          "values": [
+            "-75"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "5.0"
+          ]
+        },
+        {
+          "label": "SCEPTER ALLY DEATH DELAY",
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "label": "SCEPTER DEATH DELAY RADIUS",
+          "values": [
+            "1200"
+          ]
+        }
+      ],
+      "cooldown": [
+        240.0,
+        140.0,
+        40.0
+      ],
+      "manaCost": [
+        160
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "Reincarnation Casts Wraithfire Blast",
+        "No Reincarnation Manacost"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10% Vampiric Aura Lifesteal",
+        "+40 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+50 Wraithfire Blast DPS",
+        "+15 Movement Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+10 Intelligence",
+        "+15 Damage"
+      ]
+    }
+  ]
+}

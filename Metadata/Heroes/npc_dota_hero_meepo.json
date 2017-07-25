@@ -216,7 +216,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["geomancer", "maapo"],
   "talents": [
     {
       "level": 25,

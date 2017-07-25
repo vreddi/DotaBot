@@ -282,7 +282,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["pl", "azwraith", "lancer"],
   "talents": [
     {
       "level": 25,

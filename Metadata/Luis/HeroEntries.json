@@ -73,7 +73,12 @@
   {
     "canonicalForm": "npc_dota_hero_bloodseeker",
     "list": [
-      "Bloodseeker"
+      "Bloodseeker",
+      "hound",
+      "strygwyr",
+      "blood hound",
+      "blood",
+      "bs"
     ]
   },
   {
@@ -127,7 +132,11 @@
   {
     "canonicalForm": "npc_dota_hero_crystal_maiden",
     "list": [
-      "Crystal Maiden"
+      "Crystal Maiden",
+      "cm",
+      "crystal",
+      "maiden",
+      "rylai"
     ]
   },
   {
@@ -180,7 +189,11 @@
   {
     "canonicalForm": "npc_dota_hero_earthshaker",
     "list": [
-      "Earthshaker"
+      "Earthshaker",
+      "earthshaker",
+      "earth shaker",
+      "shaker",
+      "raigor stonehoof"
     ]
   },
   {
@@ -252,7 +265,11 @@
   {
     "canonicalForm": "npc_dota_hero_juggernaut",
     "list": [
-      "Juggernaut"
+      "Juggernaut",
+      "jugger",
+      "jug",
+      "jugg",
+      "yurnero"
     ]
   },
   {
@@ -339,13 +356,17 @@
   {
     "canonicalForm": "npc_dota_hero_meepo",
     "list": [
-      "Meepo"
+      "Meepo",
+      "geomancer",
+      "maapo"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_mirana",
     "list": [
-      "Mirana"
+      "Mirana",
+      "potm",
+      "priestess of the moon"
     ]
   },
   {
@@ -381,7 +402,10 @@
   {
     "canonicalForm": "npc_dota_hero_nevermore",
     "list": [
-      "Shadow Fiend"
+      "Shadow Fiend",
+      "nevermore",
+      "sf",
+      "shadow fiend"
     ]
   },
   {
@@ -431,7 +455,10 @@
   {
     "canonicalForm": "npc_dota_hero_phantom_lancer",
     "list": [
-      "Phantom Lancer"
+      "Phantom Lancer",
+      "pl",
+      "azwraith",
+      "lancer"
     ]
   },
   {
@@ -443,13 +470,18 @@
   {
     "canonicalForm": "npc_dota_hero_puck",
     "list": [
-      "Puck"
+      "Puck",
+      "faerie",
+      "faerie dragon"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_pudge",
     "list": [
-      "Pudge"
+      "Pudge",
+      "fatty",
+      "fat",
+      "butcher"
     ]
   },
   {
@@ -473,7 +505,10 @@
   {
     "canonicalForm": "npc_dota_hero_razor",
     "list": [
-      "Razor"
+      "Razor",
+      "lightning revenant",
+      "lightning",
+      "revenant"
     ]
   },
   {
@@ -491,7 +526,12 @@
   {
     "canonicalForm": "npc_dota_hero_sand_king",
     "list": [
-      "Sand King"
+      "Sand King",
+      "sk",
+      "sand",
+      "sandy claws",
+      "crixalis",
+      "scorpion"
     ]
   },
   {
@@ -565,13 +605,17 @@
   {
     "canonicalForm": "npc_dota_hero_storm_spirit",
     "list": [
-      "Storm Spirit"
+      "Storm Spirit",
+      "ss",
+      "raijin",
+      "raijin thunderkeg"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_sven",
     "list": [
-      "Sven"
+      "Sven",
+      "rogue knight"
     ]
   },
   {
@@ -607,7 +651,11 @@
   {
     "canonicalForm": "npc_dota_hero_tiny",
     "list": [
-      "Tiny"
+      "Tiny",
+      "rock",
+      "mountain",
+      "stone",
+      "stone giant"
     ]
   },
   {
@@ -643,7 +691,11 @@
   {
     "canonicalForm": "npc_dota_hero_vengefulspirit",
     "list": [
-      "Vengeful Spirit"
+      "Vengeful Spirit",
+      "vs",
+      "venge",
+      "vengeful",
+      "shendelzare"
     ]
   },
   {
@@ -679,7 +731,12 @@
   {
     "canonicalForm": "npc_dota_hero_windrunner",
     "list": [
-      "Windranger"
+      "Windranger",
+      "wr",
+      "windy",
+      "wind ranger",
+      "windranger",
+      "lyralei"
     ]
   },
   {

@@ -275,7 +275,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["rock", "mountain", "stone", "stone giant"],
   "talents": [
     {
       "level": 25,

@@ -1,7 +1,6 @@
 const dotenv = require('dotenv');
 const restify = require('restify');
 const builder = require('botbuilder');
-const HeroFactory = require('./Models/HeroFactory');
 const MatchResultCard = require('./Cards/MatchResultCard/MatchResultCard');
 const TI7Teams = require('./Metadata/TI7Teams');
 const Utils = require('./Shared/Utils');

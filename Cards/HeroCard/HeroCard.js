@@ -45,7 +45,7 @@ class HeroCard {
                             "type": "TextBlock",
                             "horizontalAlignment": "center",
                             "wrap": true,
-                            "text": skill.name
+                            "text": skill.localizedName
                         }
                     ],
                     "selectAction": {

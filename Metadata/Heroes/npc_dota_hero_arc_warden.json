@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Flux",
+      "name": "arc-warden-flux",
+      "localizedName": "Flux",
+      "id": 5677,
       "image": "https://dotabuff.com//assets/skills/arc-warden-flux-5677-9c34759d265e731fda16d9c095376459af2a59436304f4c9c52aad7a72f9f70d.jpg",
       "link": "https://dotabuff.com//heroes/arc-warden/abilities",
       "description": "Infuses a lone enemy unit with swirling, volatile energy, slowing its movement speed and dealing damage over time. The effect is muted if another enemy unit is near the target.",
@@ -112,7 +114,9 @@
       ]
     },
     {
-      "name": "Magnetic Field",
+      "name": "arc-warden-magnetic-field",
+      "localizedName": "Magnetic Field",
+      "id": 5678,
       "image": "https://dotabuff.com//assets/skills/arc-warden-magnetic-field-5678-ee693f131f5dda580cd2e0686eca6bf71b66435dc64c96eadf0ac94b8fbb8163.jpg",
       "link": "https://dotabuff.com//heroes/arc-warden/abilities",
       "description": "Generates a circular distortion field of magnetic energy that protects allied heroes and buildings within it by evading attacks coming from outside the field.",
@@ -178,7 +182,9 @@
       ]
     },
     {
-      "name": "Spark Wraith",
+      "name": "arc-warden-spark-wraith",
+      "localizedName": "Spark Wraith",
+      "id": 5679,
       "image": "https://dotabuff.com//assets/skills/arc-warden-spark-wraith-5679-de331a1b32721d5a9b8f0eb09a2f2baa0b4125a68388f93753fa91e9ecc14d00.jpg",
       "link": "https://dotabuff.com//heroes/arc-warden/abilities",
       "description": "Summons a Spark Wraith that slowly materializes and patrols a targeted area until an enemy comes within its range. Once a target has been found the wraith fuses with them, dealing magical damage and slowing the unit.",
@@ -254,7 +260,9 @@
       ]
     },
     {
-      "name": "Tempest Double",
+      "name": "arc-warden-tempest-double",
+      "localizedName": "Tempest Double",
+      "id": 5683,
       "image": "https://dotabuff.com//assets/skills/arc-warden-tempest-double-5683-25d2271da2361619206f67eb6ff1a9c3f33de8e9ccebd9ff60dc44c4447c779a.jpg",
       "link": "https://dotabuff.com//heroes/arc-warden/abilities",
       "description": "Briefly refocusing its fractured elements into a single form, the Arc Warden is able to create a perfect electrical duplication of itself. The duplicate can use all of Arc Warden's current items and spells, except consumables and items that drop on death. The duplicate has seperate item and ability cooldowns.",

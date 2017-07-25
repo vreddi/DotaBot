@@ -38,7 +38,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Avalanche",
+      "name": "tiny-avalanche",
+      "localizedName": "Avalanche",
+      "id": 5106,
       "image": "https://dotabuff.com//assets/skills/tiny-avalanche-5106-1b8f775e22f4e30662722364dca6b6306c7b427e271e348e8d70278152ec9b38.jpg",
       "link": "https://dotabuff.com//heroes/tiny/abilities",
       "description": "Bombards an area with rocks, stunning and damaging enemy land units.",
@@ -93,7 +95,9 @@
       ]
     },
     {
-      "name": "Toss",
+      "name": "tiny-toss",
+      "localizedName": "Toss",
+      "id": 5107,
       "image": "https://dotabuff.com//assets/skills/tiny-toss-5107-94eed0b597416bfa436070b9ad1a711bf11bead7a45ce85b786001f1a92cf6b5.jpg",
       "link": "https://dotabuff.com//heroes/tiny/abilities",
       "description": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 20% damage. Toss does more damage with each level in Grow.",
@@ -148,7 +152,9 @@
       ]
     },
     {
-      "name": "Craggy Exterior",
+      "name": "tiny-craggy-exterior",
+      "localizedName": "Craggy Exterior",
+      "id": 5108,
       "image": "https://dotabuff.com//assets/skills/tiny-craggy-exterior-5108-da2b5a49912b10e85237cf8f94b92f0ce0493121fc84dcae6d6caa90b108f447.jpg",
       "link": "https://dotabuff.com//heroes/tiny/abilities",
       "description": "Causes damage to bounce back on Tiny's attackers. Melee enemies that attack Tiny have a chance of being stunned. The proc chance improves with each level in Grow.",
@@ -201,7 +207,9 @@
       "manaCost": []
     },
     {
-      "name": "Grow",
+      "name": "tiny-grow",
+      "localizedName": "Grow",
+      "id": 5109,
       "image": "https://dotabuff.com//assets/skills/tiny-grow-5109-393073f78a1b7c73dc7dc506e6763b7c0d789b0678695c8f0cbbd840fdeb2e9c.jpg",
       "link": "https://dotabuff.com//heroes/tiny/abilities",
       "description": "Tiny gains craggy mass that increases his power at the cost of his attack speed. Increases Tossed unit damage and improves movement speed, and improves Craggy Exterior proc chance.",

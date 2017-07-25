@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Boulder Smash",
+      "name": "earth-spirit-boulder-smash",
+      "localizedName": "Boulder Smash",
+      "id": 5608,
       "image": "https://dotabuff.com//assets/skills/earth-spirit-boulder-smash-5608-45c07e510a5e14a9d27aa2d53eeeb7db5e0653211b35b75000464a42fa6d9a3a.jpg",
       "link": "https://dotabuff.com//heroes/earth-spirit/abilities",
       "description": "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest Stone Remnant in a 200 radius. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also stunned. Stone Remnants travel further than other units.",
@@ -123,7 +125,9 @@
       ]
     },
     {
-      "name": "Rolling Boulder",
+      "name": "earth-spirit-rolling-boulder",
+      "localizedName": "Rolling Boulder",
+      "id": 5609,
       "image": "https://dotabuff.com//assets/skills/earth-spirit-rolling-boulder-5609-1c7731cdfd653eadc94f068bfb401aea6f6f7d6f7b3a3dbb54b3b6e56b897ceb.jpg",
       "link": "https://dotabuff.com//heroes/earth-spirit/abilities",
       "description": "Earth Spirit gathers himself into a boulder and, after a 0.6s delay, rolls toward the target location, damaging enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and enemies hit by the boulder will have their movement speed slowed.",
@@ -205,7 +209,9 @@
       ]
     },
     {
-      "name": "Geomagnetic Grip",
+      "name": "earth-spirit-geomagnetic-grip",
+      "localizedName": "Geomagnetic Grip",
+      "id": 5610,
       "image": "https://dotabuff.com//assets/skills/earth-spirit-geomagnetic-grip-5610-e8910c5899c761a4b4dbe493e8f75120b9ac125cabe61adc735b629b771aa898.jpg",
       "link": "https://dotabuff.com//heroes/earth-spirit/abilities",
       "description": "Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced, and take damage if the gripped target is a Stone Remnant.",
@@ -273,7 +279,9 @@
       ]
     },
     {
-      "name": "Magnetize",
+      "name": "earth-spirit-magnetize",
+      "localizedName": "Magnetize",
+      "id": 5612,
       "image": "https://dotabuff.com//assets/skills/earth-spirit-magnetize-5612-9d5ecb0561f108256a4d370c0236488644b3a095444e584a27aeae855753bd52.jpg",
       "link": "https://dotabuff.com//heroes/earth-spirit/abilities",
       "description": "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Rolling Boulder, all magnetized heroes share the effects.",

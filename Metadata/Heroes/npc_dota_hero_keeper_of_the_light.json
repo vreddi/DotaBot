@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Illuminate",
+      "name": "keeper-of-the-light-illuminate",
+      "localizedName": "Illuminate",
+      "id": 5471,
       "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-illuminate-5471-be2f4af32375a2d662f310438609887a3194604799e488918fc4cdce0615ce04.jpg",
       "link": "https://dotabuff.com//heroes/keeper-of-the-light/abilities",
       "description": "Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt.",
@@ -109,7 +111,9 @@
       ]
     },
     {
-      "name": "Mana Leak",
+      "name": "keeper-of-the-light-mana-leak",
+      "localizedName": "Mana Leak",
+      "id": 5472,
       "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-mana-leak-5472-7ad1ecc63459bdef40d0f4e222371de400bd18a95f425a554cc70f433d9b1dcd.jpg",
       "link": "https://dotabuff.com//heroes/keeper-of-the-light/abilities",
       "description": "Weakens an enemy's magical essence, causing them to lose mana as they move.  If the enemy loses all of its mana, it will be stunned.",
@@ -179,7 +183,9 @@
       ]
     },
     {
-      "name": "Chakra Magic",
+      "name": "keeper-of-the-light-chakra-magic",
+      "localizedName": "Chakra Magic",
+      "id": 5473,
       "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-chakra-magic-5473-5fb9458839a4c24ed2bf657d1dd498d09a19e6e8c12bfb7298b879530531cb00.jpg",
       "link": "https://dotabuff.com//heroes/keeper-of-the-light/abilities",
       "description": "Restores mana to the target unit, increases its mana capacity, and reduces the cooldown of the next spell they cast.",
@@ -243,7 +249,9 @@
       ]
     },
     {
-      "name": "Spirit Form",
+      "name": "keeper-of-the-light-spirit-form",
+      "localizedName": "Spirit Form",
+      "id": 5474,
       "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-spirit-form-5474-f171b4ac79ab1204d3327b43eb79667be46afb045b231039a68c04a4d54b7344.jpg",
       "link": "https://dotabuff.com//heroes/keeper-of-the-light/abilities",
       "description": "Ezalor temporarily turns his body luminescent, gaining various abilities.  Illuminate is now channeled by a separate spirit, and gains the Blinding Light and Recall abilities.",

@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Purification",
+      "name": "omniknight-purification",
+      "localizedName": "Purification",
+      "id": 5263,
       "image": "https://dotabuff.com//assets/skills/omniknight-purification-5263-11c3f032afcfc7d32d0c7c609922418b538027cb902502f3332a6a86ca45542a.jpg",
       "link": "https://dotabuff.com//heroes/omniknight/abilities",
       "description": "Instantly heals a friendly unit and damages all nearby enemy units.",
@@ -94,7 +96,9 @@
       ]
     },
     {
-      "name": "Repel",
+      "name": "omniknight-repel",
+      "localizedName": "Repel",
+      "id": 5264,
       "image": "https://dotabuff.com//assets/skills/omniknight-repel-5264-bcc9584a41114832d531505d0af67693b79be8123847fb5cb2aee96dab8f0a2b.jpg",
       "link": "https://dotabuff.com//heroes/omniknight/abilities",
       "description": "Creates a divine barrier around an ally which grants them Spell Immunity and 100% resistance to Magic Damage.",
@@ -140,7 +144,9 @@
       ]
     },
     {
-      "name": "Degen Aura",
+      "name": "omniknight-degen-aura",
+      "localizedName": "Degen Aura",
+      "id": 5265,
       "image": "https://dotabuff.com//assets/skills/omniknight-degen-aura-5265-ce311b3e47b223a222c74d226eedb4f081925ce3d3579fe4b1aa9d0d05e3496b.jpg",
       "link": "https://dotabuff.com//heroes/omniknight/abilities",
       "description": "Greatly degenerates the movement and attack capabilities of enemy units that stray too near.",
@@ -184,7 +190,9 @@
       "manaCost": []
     },
     {
-      "name": "Guardian Angel",
+      "name": "omniknight-guardian-angel",
+      "localizedName": "Guardian Angel",
+      "id": 5266,
       "image": "https://dotabuff.com//assets/skills/omniknight-guardian-angel-5266-7c731b8d4abddea67b0d8c8bf8cd87c20cf640aae361704bc67cf3ecd3c98deb.jpg",
       "link": "https://dotabuff.com//heroes/omniknight/abilities",
       "description": "Omniknight summons a Guardian Angel that grants immunity from physical damage.",

@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Shackleshot",
+      "name": "windranger-shackleshot",
+      "localizedName": "Shackleshot",
+      "id": 5130,
       "image": "https://dotabuff.com//assets/skills/windranger-shackleshot-5130-2b06b1c624a5d54a699dcf7d02e976888a78df025c3a18c719660a6096515149.jpg",
       "link": "https://dotabuff.com//heroes/windranger/abilities",
       "description": "Shackles the target to an enemy unit or tree in a line directly behind it.  If no unit or tree is present, the stun duration is reduced to 0.75.",
@@ -83,7 +85,9 @@
       ]
     },
     {
-      "name": "Powershot",
+      "name": "windranger-powershot",
+      "localizedName": "Powershot",
+      "id": 5131,
       "image": "https://dotabuff.com//assets/skills/windranger-powershot-5131-188a968270a649dc0640ec3dbae97a5940403e05784bd04a2753dca5cf5a79a0.jpg",
       "link": "https://dotabuff.com//heroes/windranger/abilities",
       "description": "Windranger charges her bow for up to 1 second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages enemies and destroys trees along its path. For each enemy that Powershot hits, its damage is reduced by 20%.",
@@ -138,7 +142,9 @@
       ]
     },
     {
-      "name": "Windrun",
+      "name": "windranger-windrun",
+      "localizedName": "Windrun",
+      "id": 5132,
       "image": "https://dotabuff.com//assets/skills/windranger-windrun-5132-85e230c83566478b5a0408e05845e9e4a1bdd6d1782f683785813e3d671d9d69.jpg",
       "link": "https://dotabuff.com//heroes/windranger/abilities",
       "description": "Increases movement speed and adds evasion from all physical attacks, while slowing movement of nearby enemies.",
@@ -204,7 +210,9 @@
       ]
     },
     {
-      "name": "Focus Fire",
+      "name": "windranger-focus-fire",
+      "localizedName": "Focus Fire",
+      "id": 5133,
       "image": "https://dotabuff.com//assets/skills/windranger-focus-fire-5133-00ae3eecdf1b8465e1e7fbe32dfa7bedf2e7b8aa90b3c06bd4d2af120130d6ed.jpg",
       "link": "https://dotabuff.com//heroes/windranger/abilities",
       "description": "Windranger channels the wind to gain 500 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage.  Extra damage from secondary item effects is not reduced.  Lasts 20 seconds.",

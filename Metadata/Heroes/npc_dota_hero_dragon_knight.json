@@ -38,7 +38,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Breathe Fire",
+      "name": "dragon-knight-breathe-fire",
+      "localizedName": "Breathe Fire",
+      "id": 5226,
       "image": "https://dotabuff.com//assets/skills/dragon-knight-breathe-fire-5226-1933623004713b490fdd38a30c2c4ba75241c8536567b39844bdf439b189698b.jpg",
       "link": "https://dotabuff.com//heroes/dragon-knight/abilities",
       "description": "Unleashes a breath of fire in front of Dragon Knight that burns enemies and reduces the damage their attacks deal.",
@@ -103,7 +105,9 @@
       ]
     },
     {
-      "name": "Dragon Tail",
+      "name": "dragon-knight-dragon-tail",
+      "localizedName": "Dragon Tail",
+      "id": 5227,
       "image": "https://dotabuff.com//assets/skills/dragon-knight-dragon-tail-5227-f56def3c0e5a46880f0c3f21cdb83f5bbabc968feaecd46b3471a1f2b794f84e.jpg",
       "link": "https://dotabuff.com//heroes/dragon-knight/abilities",
       "description": "Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage.  When in Elder Dragon Form, the cast range increases to 400.",
@@ -162,7 +166,9 @@
       ]
     },
     {
-      "name": "Dragon Blood",
+      "name": "dragon-knight-dragon-blood",
+      "localizedName": "Dragon Blood",
+      "id": 5228,
       "image": "https://dotabuff.com//assets/skills/dragon-knight-dragon-blood-5228-a62bfe6c5ee6a45b839f5c3d2568e02823cc58cc34d266e3c81a4601494bc523.jpg",
       "link": "https://dotabuff.com//heroes/dragon-knight/abilities",
       "description": "The life blood of the Dragon improves health regeneration and strengthens armor.",
@@ -196,7 +202,9 @@
       "manaCost": []
     },
     {
-      "name": "Elder Dragon Form",
+      "name": "dragon-knight-elder-dragon-form",
+      "localizedName": "Elder Dragon Form",
+      "id": 5229,
       "image": "https://dotabuff.com//assets/skills/dragon-knight-elder-dragon-form-5229-12997c087cbd172cd02340fde845e6b43629dcc465bccb576c3ca0f15edca158.jpg",
       "link": "https://dotabuff.com//heroes/dragon-knight/abilities",
       "description": "Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.",

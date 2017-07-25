@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Summon Wolves",
+      "name": "lycan-summon-wolves",
+      "localizedName": "Summon Wolves",
+      "id": 5395,
       "image": "https://dotabuff.com//assets/skills/lycan-summon-wolves-5395-8fffdcf584094c8ffd0017e4e9002a897065327b8f699eadfe89eb7c76ee59d0.jpg",
       "link": "https://dotabuff.com//heroes/lycan/abilities",
       "description": "Summons two wolves to fight for Lycan.  Level 3-4 wolves have Cripple, and level 4 wolves have permanent invisibility.",
@@ -96,7 +98,9 @@
       ]
     },
     {
-      "name": "Howl",
+      "name": "lycan-howl",
+      "localizedName": "Howl",
+      "id": 5396,
       "image": "https://dotabuff.com//assets/skills/lycan-howl-5396-0ce948b70abbad0685f4fd5be2d00748f790fc94c01b717a12c73fa02f581294.jpg",
       "link": "https://dotabuff.com//heroes/lycan/abilities",
       "description": "Grants bonus damage and bonus health to Lycan, all allied heroes and all units under their control. Howl has double effect during night.",
@@ -167,7 +171,9 @@
       ]
     },
     {
-      "name": "Feral Impulse",
+      "name": "lycan-feral-impulse",
+      "localizedName": "Feral Impulse",
+      "id": 5397,
       "image": "https://dotabuff.com//assets/skills/lycan-feral-impulse-5397-51f05098dda223ecc28b1597b997fc8e27e7a9c978a65cb2ebf8386aa63e7221.jpg",
       "link": "https://dotabuff.com//heroes/lycan/abilities",
       "description": "Increases the HP regeneration and damage of Lycan and all units under his control.",
@@ -207,7 +213,9 @@
       "manaCost": []
     },
     {
-      "name": "Shapeshift",
+      "name": "lycan-shapeshift",
+      "localizedName": "Shapeshift",
+      "id": 5398,
       "image": "https://dotabuff.com//assets/skills/lycan-shapeshift-5398-f2fab060de62407a248a1d362a27f9c1f89e642bcb92e1f2bb2129c61d434b6f.jpg",
       "link": "https://dotabuff.com//heroes/lycan/abilities",
       "description": "Lycan assumes his lupine form, granting him and his units critical strikes and added vision at night. During Shapeshift, Lycan and all units under his control move at increased speed, cannot be slowed and have a 40% chance to deal a critical strike doing [160, 180, 200]% damage.",

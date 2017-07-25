@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Fissure",
+      "name": "earthshaker-fissure",
+      "localizedName": "Fissure",
+      "id": 5023,
       "image": "https://dotabuff.com//assets/skills/earthshaker-fissure-5023-3e4e13e831f3affaf57cf594784e22d365354b106f0247948706da15bd01fc7c.jpg",
       "link": "https://dotabuff.com//heroes/earthshaker/abilities",
       "description": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.",
@@ -107,7 +109,9 @@
       ]
     },
     {
-      "name": "Enchant Totem",
+      "name": "earthshaker-enchant-totem",
+      "localizedName": "Enchant Totem",
+      "id": 5024,
       "image": "https://dotabuff.com//assets/skills/earthshaker-enchant-totem-5024-fa4a62f9b71d69a443adcb8a2100dd5ad6b839bc59dc2a00b02311f394557435.jpg",
       "link": "https://dotabuff.com//heroes/earthshaker/abilities",
       "description": "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.",
@@ -161,7 +165,9 @@
       ]
     },
     {
-      "name": "Aftershock",
+      "name": "earthshaker-aftershock",
+      "localizedName": "Aftershock",
+      "id": 5025,
       "image": "https://dotabuff.com//assets/skills/earthshaker-aftershock-5025-97fb59bbaa7e0b900880b3a5d8897f331f834d4bf4b55501e2dca883abe90a0c.jpg",
       "link": "https://dotabuff.com//heroes/earthshaker/abilities",
       "description": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.",
@@ -209,7 +215,9 @@
       "manaCost": []
     },
     {
-      "name": "Echo Slam",
+      "name": "earthshaker-echo-slam",
+      "localizedName": "Echo Slam",
+      "id": 5026,
       "image": "https://dotabuff.com//assets/skills/earthshaker-echo-slam-5026-1a64647c0854d5d245765ed72773cb314262001b678087445c97500d9f287637.jpg",
       "link": "https://dotabuff.com//heroes/earthshaker/abilities",
       "description": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units.",

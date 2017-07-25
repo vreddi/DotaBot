@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Storm Hammer",
+      "name": "sven-storm-hammer",
+      "localizedName": "Storm Hammer",
+      "id": 5094,
       "image": "https://dotabuff.com//assets/skills/sven-storm-hammer-5094-e024ade99b99c4c0905b2e67bb681c6d4178833577dc0c0a8b811a61d93eaa9d.jpg",
       "link": "https://dotabuff.com//heroes/sven/abilities",
       "description": "Sven unleashes his magical gauntlet that deals damage and stuns enemy units.",
@@ -96,7 +98,9 @@
       ]
     },
     {
-      "name": "Great Cleave",
+      "name": "sven-great-cleave",
+      "localizedName": "Great Cleave",
+      "id": 5095,
       "image": "https://dotabuff.com//assets/skills/sven-great-cleave-5095-e67fee0f76f0a1788a8a067efaf5320b9b1383a527641e81decac7c3bacdd924.jpg",
       "link": "https://dotabuff.com//heroes/sven/abilities",
       "description": "Sven strikes with great force, cleaving all nearby enemy units with his attack.",
@@ -125,7 +129,9 @@
       "manaCost": []
     },
     {
-      "name": "Warcry",
+      "name": "sven-warcry",
+      "localizedName": "Warcry",
+      "id": 5096,
       "image": "https://dotabuff.com//assets/skills/sven-warcry-5096-8daf9feac5decdeb6724369efd7ade6c293ab89116e103c8603e6043aa506e41.jpg",
       "link": "https://dotabuff.com//heroes/sven/abilities",
       "description": "Sven's Warcry heartens his allies for battle, increasing their movement speed and armor.  Lasts 8 seconds.",
@@ -181,7 +187,9 @@
       ]
     },
     {
-      "name": "God&#39;s Strength",
+      "name": "sven-gods-strength",
+      "localizedName": "God&#39;s Strength",
+      "id": 5097,
       "image": "https://dotabuff.com//assets/skills/sven-gods-strength-5097-b7752ed9f5dcaffcad5b02e3acaa4ea0fa9e92e123c8bc26571a9fed5aa0dd5d.jpg",
       "link": "https://dotabuff.com//heroes/sven/abilities",
       "description": "Sven channels his rogue strength, granting bonus damage for 25 seconds.",

@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Wild Axes",
+      "name": "beastmaster-wild-axes",
+      "localizedName": "Wild Axes",
+      "id": 5168,
       "image": "https://dotabuff.com//assets/skills/beastmaster-wild-axes-5168-5a9cc8387edc6a15ab415273b4e69d997d2da23e16b5e847927fe04d18e64faa.jpg",
       "link": "https://dotabuff.com//heroes/beastmaster/abilities",
       "description": "Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path.  Each axe can hit an enemy once.",
@@ -92,7 +94,9 @@
       ]
     },
     {
-      "name": "Call of the Wild: Hawk",
+      "name": "beastmaster-call-of-the-wild-hawk",
+      "localizedName": "Call of the Wild: Hawk",
+      "id": 5169,
       "image": "https://dotabuff.com//assets/skills/beastmaster-call-of-the-wild-hawk-5169-cf99e1112291d7f4cf9eb369fa7aa640c577db397795c37119bfedc90cf7df1e.jpg",
       "link": "https://dotabuff.com//heroes/beastmaster/abilities",
       "description": "Beastmaster calls forth a watchful Hawk to scout the battlefield. At level 3 and beyond, the hawk can become invisible after being still for 4 seconds.",
@@ -163,7 +167,9 @@
       ]
     },
     {
-      "name": "Call of the Wild: Boar",
+      "name": "beastmaster-call-of-the-wild-boar",
+      "localizedName": "Call of the Wild: Boar",
+      "id": 5580,
       "image": "https://dotabuff.com//assets/skills/beastmaster-call-of-the-wild-boar-5580-0fb1979e76447e451fdccfc3978da0c68ac6474c32b7f9893c82c9d1984dd805.jpg",
       "link": "https://dotabuff.com//heroes/beastmaster/abilities",
       "description": "Beastmaster calls a powerful Boar to stalk the battlefield, capable of spitting poison at enemies to slow their movement and attack speed.",
@@ -240,7 +246,9 @@
       ]
     },
     {
-      "name": "Inner Beast",
+      "name": "beastmaster-inner-beast",
+      "localizedName": "Inner Beast",
+      "id": 5172,
       "image": "https://dotabuff.com//assets/skills/beastmaster-inner-beast-5172-9f6c3e78b9e338e247befbd95c6c2a98547354d55ad70be497212366647cbaa7.jpg",
       "link": "https://dotabuff.com//heroes/beastmaster/abilities",
       "description": "Untaps the inner fury of allies, passively increasing their attack speed.",
@@ -271,7 +279,9 @@
       "manaCost": []
     },
     {
-      "name": "Primal Roar",
+      "name": "beastmaster-primal-roar",
+      "localizedName": "Primal Roar",
+      "id": 5177,
       "image": "https://dotabuff.com//assets/skills/beastmaster-primal-roar-5177-596c00002c7d19a6618aa13b8a3b3496550970cb21b6c77837b2b2d9036eba95.jpg",
       "link": "https://dotabuff.com//heroes/beastmaster/abilities",
       "description": "Beastmaster lets loose a deafening roar that stuns, and shoves open, a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed.",

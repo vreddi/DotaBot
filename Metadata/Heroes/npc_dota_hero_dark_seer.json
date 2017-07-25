@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Vacuum",
+      "name": "dark-seer-vacuum",
+      "localizedName": "Vacuum",
+      "id": 5255,
       "image": "https://dotabuff.com//assets/skills/dark-seer-vacuum-5255-ba18068ddf768fff80b5c3886a9deff4f2e5e5c1d4145a384e0e98265db98605.jpg",
       "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.",
@@ -91,7 +93,9 @@
       ]
     },
     {
-      "name": "Ion Shell",
+      "name": "dark-seer-ion-shell",
+      "localizedName": "Ion Shell",
+      "id": 5256,
       "image": "https://dotabuff.com//assets/skills/dark-seer-ion-shell-5256-435ff5edf9bab42e7d41f6463719ffdb048f298ac973894d559b1f24f674bc7f.jpg",
       "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.",
@@ -153,7 +157,9 @@
       ]
     },
     {
-      "name": "Surge",
+      "name": "dark-seer-surge",
+      "localizedName": "Surge",
+      "id": 5257,
       "image": "https://dotabuff.com//assets/skills/dark-seer-surge-5257-1ee88f4d3cc7d9124815a2d9800d048e2347380386995a872fb4167c07fe173a.jpg",
       "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Charges a target friendly unit with power, giving it a brief burst of maximum movement speed.",
@@ -199,7 +205,9 @@
       ]
     },
     {
-      "name": "Wall of Replica",
+      "name": "dark-seer-wall-of-replica",
+      "localizedName": "Wall of Replica",
+      "id": 5258,
       "image": "https://dotabuff.com//assets/skills/dark-seer-wall-of-replica-5258-fd401e54e209c8a858c885f3c99eb0cd781077a00b43b334ef2eb1506db5cef5.jpg",
       "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.",

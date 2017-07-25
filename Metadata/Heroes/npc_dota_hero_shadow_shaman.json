@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Ether Shock",
+      "name": "shadow-shaman-ether-shock",
+      "localizedName": "Ether Shock",
+      "id": 5078,
       "image": "https://dotabuff.com//assets/skills/shadow-shaman-ether-shock-5078-f379fedab6c02603335ad41c3d5fbedd65d21c6e5a5122022562fa1db2e6314d.jpg",
       "link": "https://dotabuff.com//heroes/shadow-shaman/abilities",
       "description": "Creates a cone of ethereal energy that strikes multiple enemy units.",
@@ -96,7 +98,9 @@
       ]
     },
     {
-      "name": "Hex",
+      "name": "shadow-shaman-hex",
+      "localizedName": "Hex",
+      "id": 5079,
       "image": "https://dotabuff.com//assets/skills/shadow-shaman-hex-5079-c10df09dac918dedc4a20feec7bf66e4a56e02bb2a01bb399a90b7cbfb7f0143.jpg",
       "link": "https://dotabuff.com//heroes/shadow-shaman/abilities",
       "description": "Transforms an enemy unit into a harmless creature, disabling their attacks and abilities.",
@@ -142,7 +146,9 @@
       ]
     },
     {
-      "name": "Shackles",
+      "name": "shadow-shaman-shackles",
+      "localizedName": "Shackles",
+      "id": 5080,
       "image": "https://dotabuff.com//assets/skills/shadow-shaman-shackles-5080-b1f004623636de8530cabd1bcd0e7ce7f5f5883caaaa4c8e0bc332e56dcb4e19.jpg",
       "link": "https://dotabuff.com//heroes/shadow-shaman/abilities",
       "description": "CHANNELED - Magically binds an enemy unit so that it cannot move or attack, while dealing damage over time.",
@@ -201,7 +207,9 @@
       ]
     },
     {
-      "name": "Mass Serpent Ward",
+      "name": "shadow-shaman-mass-serpent-ward",
+      "localizedName": "Mass Serpent Ward",
+      "id": 5081,
       "image": "https://dotabuff.com//assets/skills/shadow-shaman-mass-serpent-ward-5081-129dc13c95b4395efb10b503ceb1f3c2fcea687abec4bab8fa851eaaa77d3cf1.jpg",
       "link": "https://dotabuff.com//heroes/shadow-shaman/abilities",
       "description": "Summons 10 Serpent Wards to attack enemy units and structures. The Wards are immune to magic. It takes two hits to destroy a single Ward.",

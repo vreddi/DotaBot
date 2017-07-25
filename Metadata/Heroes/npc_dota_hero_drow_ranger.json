@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Frost Arrows",
+      "name": "drow-ranger-frost-arrows",
+      "localizedName": "Frost Arrows",
+      "id": 5019,
       "image": "https://dotabuff.com//assets/skills/drow-ranger-frost-arrows-5019-f89ab7d0f33aeaac32e3a4f028249a63d0ac1c5dbedfa42b59273a5382dd01cc.jpg",
       "link": "https://dotabuff.com//heroes/drow-ranger/abilities",
       "description": "Adds a freezing effect to Drow's attacks, slowing enemy movement.  Lasts 1.5 seconds on Heroes, and 7.0 seconds on creeps.",
@@ -90,7 +92,9 @@
       ]
     },
     {
-      "name": "Gust",
+      "name": "drow-ranger-gust",
+      "localizedName": "Gust",
+      "id": 5632,
       "image": "https://dotabuff.com//assets/skills/drow-ranger-gust-5632-64f359b52c8219151f68ee6735ed22423ed78f3075a6fbf5df13e6e030a190a5.jpg",
       "link": "https://dotabuff.com//heroes/drow-ranger/abilities",
       "description": "Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to you.",
@@ -153,7 +157,9 @@
       ]
     },
     {
-      "name": "Precision Aura",
+      "name": "drow-ranger-precision-aura",
+      "localizedName": "Precision Aura",
+      "id": 5021,
       "image": "https://dotabuff.com//assets/skills/drow-ranger-precision-aura-5021-9321cb0fbcbac7fb7cd5ce4d099b08e668c3b35e373da8cd697332a2fa7fe5a9.jpg",
       "link": "https://dotabuff.com//heroes/drow-ranger/abilities",
       "description": "Adds bonus damage to the physical attack of allied, ranged Hero units based on a percentage of Drow's agility.  Affects creeps for 30 seconds when cast.",
@@ -186,7 +192,9 @@
       "manaCost": []
     },
     {
-      "name": "Marksmanship",
+      "name": "drow-ranger-marksmanship",
+      "localizedName": "Marksmanship",
+      "id": 5022,
       "image": "https://dotabuff.com//assets/skills/drow-ranger-marksmanship-5022-8006a1ac66e7afd9095cf523cab3eef0470608ef7522e201231b785b93393b77.jpg",
       "link": "https://dotabuff.com//heroes/drow-ranger/abilities",
       "description": "Drow's experiences in battle improve her accuracy and effectiveness in combat, providing a passive bonus to Agility. Grants no bonus if there are enemy heroes within 400 range.",

@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Nature&#39;s Guise",
+      "name": "treant-protector-natures-guise",
+      "localizedName": "Nature&#39;s Guise",
+      "id": 5434,
       "image": "https://dotabuff.com//assets/skills/treant-protector-natures-guise-5434-f876f9c512aa9e12812c15430963bf972c45c4bcbd5070d576340aa2abd4088a.jpg",
       "link": "https://dotabuff.com//heroes/treant-protector/abilities",
       "description": "Turns Treant invisible when he is within 265 radius of a tree for [7.0, 6.0, 5.0, 3.0] seconds. Increases movement speed by [10, 18, 26, 34] while invisible, and causes a [0.4, 1.0, 1.6, 2.2] seconds disarming root when attacking out of invisibility.",
@@ -86,7 +88,9 @@
       "manaCost": []
     },
     {
-      "name": "Leech Seed",
+      "name": "treant-protector-leech-seed",
+      "localizedName": "Leech Seed",
+      "id": 5435,
       "image": "https://dotabuff.com//assets/skills/treant-protector-leech-seed-5435-229ae7e9ec64697f3d2de720e1cede81eacc499b3b8946049e61aed42216669c.jpg",
       "link": "https://dotabuff.com//heroes/treant-protector/abilities",
       "description": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 6 times.",
@@ -160,7 +164,9 @@
       ]
     },
     {
-      "name": "Living Armor",
+      "name": "treant-protector-living-armor",
+      "localizedName": "Living Armor",
+      "id": 5436,
       "image": "https://dotabuff.com//assets/skills/treant-protector-living-armor-5436-55064c1074dd9d28835a843132615f5ed307feed63ad06d379e52264a30d9275.jpg",
       "link": "https://dotabuff.com//heroes/treant-protector/abilities",
       "description": "Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also blocks some damage from all sources. Dispels when a number of damage instances are taken.",
@@ -230,7 +236,9 @@
       ]
     },
     {
-      "name": "Overgrowth",
+      "name": "treant-protector-overgrowth",
+      "localizedName": "Overgrowth",
+      "id": 5437,
       "image": "https://dotabuff.com//assets/skills/treant-protector-overgrowth-5437-be25bfd306d51bb1192be0ac00a09115aa6c4d9796a6b98feed22299535a3eba.jpg",
       "link": "https://dotabuff.com//heroes/treant-protector/abilities",
       "description": "Summons an overgrowth of vines and branches around Treant that prevent afflicted enemies from moving, blinking, going invisible, or attacking.",

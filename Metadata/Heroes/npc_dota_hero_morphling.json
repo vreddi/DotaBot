@@ -37,7 +37,9 @@
   "legs": 0,
   "skills": [
     {
-      "name": "Waveform",
+      "name": "morphling-waveform",
+      "localizedName": "Waveform",
+      "id": 5052,
       "image": "https://dotabuff.com//assets/skills/morphling-waveform-5052-fa6b23b658a3b6e068e8c2c9d16d797b191547c52b87742a601916a14cf82641.jpg",
       "link": "https://dotabuff.com//heroes/morphling/abilities",
       "description": "Morphling dissolves into liquid and surges forward, damaging enemy units in his path.  Morphling is invulnerable during Waveform.",
@@ -83,7 +85,9 @@
       ]
     },
     {
-      "name": "Adaptive Strike",
+      "name": "morphling-adaptive-strike",
+      "localizedName": "Adaptive Strike",
+      "id": 5053,
       "image": "https://dotabuff.com//assets/skills/morphling-adaptive-strike-5053-cbe9d24b155eaccf7b63e0184329c7afe66043aba5dfef8844223a552ddff049.jpg",
       "link": "https://dotabuff.com//heroes/morphling/abilities",
       "description": "Launches a surge of water toward an enemy unit, stunning the target while dealing base damage plus additional damage based on Morphling's agility times a multiplier.  If Morphling's agility is 50% higher than strength, the maximum damage and the minimum stun is dealt. If his strength is 50% higher than his agility, the maximum stun and minimum damage are dealt.",
@@ -166,7 +170,9 @@
       ]
     },
     {
-      "name": "Morph (Agility Gain)",
+      "name": "morphling-morph-agility-gain",
+      "localizedName": "Morph (Agility Gain)",
+      "id": 5055,
       "image": "https://dotabuff.com//assets/skills/morphling-morph-agility-gain-5055-6af3f932607ff5b9d765d3499440f1da3082f4780926405e738bbdd1829a2246.jpg",
       "link": "https://dotabuff.com//heroes/morphling/abilities",
       "description": "Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible.  Additional points in Morph increase the rate of stat change.  Passively grants bonus Agility.",
@@ -214,7 +220,9 @@
       "manaCost": []
     },
     {
-      "name": "Replicate",
+      "name": "morphling-replicate",
+      "localizedName": "Replicate",
+      "id": 5057,
       "image": "https://dotabuff.com//assets/skills/morphling-replicate-5057-5cdb3433bcae8985bc2d5b130fa22a02127caedcb259dcba4383f0c6b6aa9fd6.jpg",
       "link": "https://dotabuff.com//heroes/morphling/abilities",
       "description": "Morphling replicates any hero, friend or foe, dealing 80.0% of the original Hero's outgoing damage while taking 100% of any incoming damage.  At any time, Morphling can instantly take the position of the Replicate for 150 mana. If Morphling dies, the Replicate will expire.",

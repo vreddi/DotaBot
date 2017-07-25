@@ -37,7 +37,9 @@
   "legs": 4,
   "skills": [
     {
-      "name": "Untouchable",
+      "name": "enchantress-untouchable",
+      "localizedName": "Untouchable",
+      "id": 5267,
       "image": "https://dotabuff.com//assets/skills/enchantress-untouchable-5267-57b0d1930ece0378ff78bb726b18484b56fbc917945b57d1a251bf315446773a.jpg",
       "link": "https://dotabuff.com//heroes/enchantress/abilities",
       "description": "Enchantress beguiles her enemies, slowing their attacks when she is attacked.",
@@ -66,7 +68,9 @@
       "manaCost": []
     },
     {
-      "name": "Enchant",
+      "name": "enchantress-enchant",
+      "localizedName": "Enchant",
+      "id": 5268,
       "image": "https://dotabuff.com//assets/skills/enchantress-enchant-5268-18833aaaf1dbe3005f27f73983d21b5ecfe31446d448dedb99627104dc1d8bbe.jpg",
       "link": "https://dotabuff.com//heroes/enchantress/abilities",
       "description": "Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control. If cast on a creep already under her control, she refreshes its enchant duration.",
@@ -120,7 +124,9 @@
       ]
     },
     {
-      "name": "Nature&#39;s Attendants",
+      "name": "enchantress-natures-attendants",
+      "localizedName": "Nature&#39;s Attendants",
+      "id": 5269,
       "image": "https://dotabuff.com//assets/skills/enchantress-natures-attendants-5269-1fe8b67ed8e63adea190efb0a37fb2e52e238991cca2d2cb73f3456a31677af2.jpg",
       "link": "https://dotabuff.com//heroes/enchantress/abilities",
       "description": "A cloud of wisps heals Enchantress and any friendly units nearby. Lasts 11 seconds.",
@@ -167,7 +173,9 @@
       ]
     },
     {
-      "name": "Impetus",
+      "name": "enchantress-impetus",
+      "localizedName": "Impetus",
+      "id": 5270,
       "image": "https://dotabuff.com//assets/skills/enchantress-impetus-5270-592e1902f99e7b8ebbb591d01760203594b3f966564430e028d340fb0f4fd4f3.jpg",
       "link": "https://dotabuff.com//heroes/enchantress/abilities",
       "description": "Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is.  The farther the target, the greater the damage dealt.",

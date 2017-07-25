@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Mana Break",
+      "name": "anti-mage-mana-break",
+      "localizedName": "Mana Break",
+      "id": 5003,
       "image": "https://dotabuff.com//assets/skills/anti-mage-mana-break-5003-a6a469cb89e075790ec16420e1874dafc6b459f8ed60e49559b10f6b81cb2719.jpg",
       "link": "https://dotabuff.com//heroes/anti-mage/abilities",
       "description": "Burns an opponent's mana on each attack.  Mana Break deals 60% of the mana burned as damage to the target.",
@@ -68,7 +70,9 @@
       "manaCost": []
     },
     {
-      "name": "Blink",
+      "name": "anti-mage-blink",
+      "localizedName": "Blink",
+      "id": 5004,
       "image": "https://dotabuff.com//assets/skills/anti-mage-blink-5004-fe84e312ce0bb56da08495794d6dae0c5a0b38cd94e7ef4e5a77f7623abe34ff.jpg",
       "link": "https://dotabuff.com//heroes/anti-mage/abilities",
       "description": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
@@ -106,7 +110,9 @@
       ]
     },
     {
-      "name": "Spell Shield",
+      "name": "anti-mage-spell-shield",
+      "localizedName": "Spell Shield",
+      "id": 5005,
       "image": "https://dotabuff.com//assets/skills/anti-mage-spell-shield-5005-45e604ddd0c9a30e41cff593b1ceb34ead4cfcaee175916a7b83afa68dc5765e.jpg",
       "link": "https://dotabuff.com//heroes/anti-mage/abilities",
       "description": "Increases Anti-Mage's resistance to magic damage.",
@@ -131,7 +137,9 @@
       "manaCost": []
     },
     {
-      "name": "Mana Void",
+      "name": "anti-mage-mana-void",
+      "localizedName": "Mana Void",
+      "id": 5006,
       "image": "https://dotabuff.com//assets/skills/anti-mage-mana-void-5006-803fc47e49d7bb11fa8ce5df24b17f3b46500cc3e45b764a451682a196d8b991.jpg",
       "link": "https://dotabuff.com//heroes/anti-mage/abilities",
       "description": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned.",

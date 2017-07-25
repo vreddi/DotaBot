@@ -34,7 +34,9 @@
   "legs": 0,
   "skills": [
     {
-      "name": "Shadowraze",
+      "name": "shadow-fiend-shadowraze",
+      "localizedName": "Shadowraze",
+      "id": 5059,
       "image": "https://dotabuff.com//assets/skills/shadow-fiend-shadowraze-5059-17d0ae8901cb366cbc7d3b64fb47b0c5512582a7bb0392a64140c6a9f6c92743.jpg",
       "link": "https://dotabuff.com//heroes/shadow-fiend/abilities",
       "description": "Shadow Fiend razes the area in front of him, dealing damage to enemy units in an area.",
@@ -83,7 +85,9 @@
       ]
     },
     {
-      "name": "Necromastery",
+      "name": "shadow-fiend-necromastery",
+      "localizedName": "Necromastery",
+      "id": 5062,
       "image": "https://dotabuff.com//assets/skills/shadow-fiend-necromastery-5062-5becd6881a894ce71df5d8d83baf5e45348fc8302ef394ed60ea1fa29e3e2226.jpg",
       "link": "https://dotabuff.com//heroes/shadow-fiend/abilities",
       "description": "Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains 12 souls.  On death, he releases half of them from bondage.",
@@ -123,7 +127,9 @@
       "manaCost": []
     },
     {
-      "name": "Presence of the Dark Lord",
+      "name": "shadow-fiend-presence-of-the-dark-lord",
+      "localizedName": "Presence of the Dark Lord",
+      "id": 5063,
       "image": "https://dotabuff.com//assets/skills/shadow-fiend-presence-of-the-dark-lord-5063-5bed75e8928ea75e78eeec138cdc380ad180db362f2d847f0ff0362d3999bf62.jpg",
       "link": "https://dotabuff.com//heroes/shadow-fiend/abilities",
       "description": "Shadow Fiend's presence reduces the armor of nearby enemies.",
@@ -158,7 +164,9 @@
       "manaCost": []
     },
     {
-      "name": "Requiem of Souls",
+      "name": "shadow-fiend-requiem-of-souls",
+      "localizedName": "Requiem of Souls",
+      "id": 5064,
       "image": "https://dotabuff.com//assets/skills/shadow-fiend-requiem-of-souls-5064-4fa572f53f388ad2697068afb17c25b5bdfac9d476a2ac01819ff5329a034da7.jpg",
       "link": "https://dotabuff.com//heroes/shadow-fiend/abilities",
       "description": "Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will have its movement speed and attack damage reduced. Lines of energy are created for every 2 souls captured through Necromastery. Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.",

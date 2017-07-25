@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Rocket Barrage",
+      "name": "gyrocopter-rocket-barrage",
+      "localizedName": "Rocket Barrage",
+      "id": 5361,
       "image": "https://dotabuff.com//assets/skills/gyrocopter-rocket-barrage-5361-decd8ac4a9e104fa285caec34b53813b1d4f37e2c1fd865c04f83429c86de157.jpg",
       "link": "https://dotabuff.com//heroes/gyrocopter/abilities",
       "description": "Launches a salvo of rockets at nearby enemy units in a radius around the Gyrocopter.  Lasts 3 seconds.",
@@ -93,7 +95,9 @@
       ]
     },
     {
-      "name": "Homing Missile",
+      "name": "gyrocopter-homing-missile",
+      "localizedName": "Homing Missile",
+      "id": 5362,
       "image": "https://dotabuff.com//assets/skills/gyrocopter-homing-missile-5362-85edf228b568d94a839e11f5e79a458a124b7954db8749a56419fd073f2f2305.jpg",
       "link": "https://dotabuff.com//heroes/gyrocopter/abilities",
       "description": "Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target.  Homing Missile deals greater damage the further it has traveled.  Enemy units can destroy the missile before it reaches its target.",
@@ -179,7 +183,9 @@
       ]
     },
     {
-      "name": "Flak Cannon",
+      "name": "gyrocopter-flak-cannon",
+      "localizedName": "Flak Cannon",
+      "id": 5363,
       "image": "https://dotabuff.com//assets/skills/gyrocopter-flak-cannon-5363-af7c85b028043ce127b623043ac3d5d0bc238010fbea4c77713bb7492ca46740.jpg",
       "link": "https://dotabuff.com//heroes/gyrocopter/abilities",
       "description": "Gyrocopter's attacks hit all enemy units in an area around it for a limited number of attacks.  Only the main target of attacks will receive attack bonuses such as Critical Strike.  Lasts 15 seconds or until the attacks are used.",
@@ -228,7 +234,9 @@
       ]
     },
     {
-      "name": "Call Down",
+      "name": "gyrocopter-call-down",
+      "localizedName": "Call Down",
+      "id": 5364,
       "image": "https://dotabuff.com//assets/skills/gyrocopter-call-down-5364-5ea4d1da2604b1427e10e979ae79360f3c26aeee2a4416a8d8108c43733951a1.jpg",
       "link": "https://dotabuff.com//heroes/gyrocopter/abilities",
       "description": "Call down an aerial missile strike on enemy units in a target area.  Two missiles arrive in succession, the first dealing major damage and minor slow for 2 seconds; the second dealing minor damage and major slow for 4 seconds.",

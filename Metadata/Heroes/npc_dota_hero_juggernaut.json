@@ -1,1 +1,260 @@
-{"id":8,"name":"npc_dota_hero_juggernaut","localized_name":"Juggernaut","primary_attr":"agi","attack_type":"Melee","roles":["Carry","Pusher","Escape"],"img":"/apps/dota2/images/heroes/juggernaut_full.png?","icon":"/apps/dota2/images/heroes/juggernaut_icon.png","url":"Juggernaut","base_health":200,"base_health_regen":0.5,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":22,"base_attack_max":26,"base_str":20,"base_agi":26,"base_int":14,"str_gain":2.2,"agi_gain":2.4,"int_gain":1.4,"attack_range":150,"projectile_speed":0,"attack_rate":1.4,"move_speed":300,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Blade Fury","image":"https://dotabuff.com//assets/skills/juggernaut-blade-fury-5028-e68967ede4fc2bc676fceac9d719db1c3c2ecf6ce57f70f5dccb0988897bd2f1.jpg","link":null,"description":"Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.  Lasts <span class=\"number\">5</span> seconds.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["250"]},{"label":"DAMAGE","values":["80","105","130","155"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[42.0,34.0,26.0,18.0],"manaCost":[120,110,100,90]},{"name":"Healing Ward","image":"https://dotabuff.com//assets/skills/juggernaut-healing-ward-5029-097e7c1eb2e706159cb4007d04b81b1207cbc7293e74007f6c75e801d5dba998.jpg","link":null,"description":"Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at <span class=\"number\">420</span> movement speed after being summoned.  Lasts <span class=\"number\">25</span> seconds.","effects":[{"key":"behavior","value":"Point Target"}],"stats":[{"label":"MAX HEALTH PER SECOND","values":["2%","3%","4%","5%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[60.0],"manaCost":[140]},{"name":"Blade Dance","image":"https://dotabuff.com//assets/skills/juggernaut-blade-dance-5027-e691aac30ef73af608158c0a04dc06f801618f1557d53737ec9370cbb1d0077c.jpg","link":null,"description":"Gives Juggernaut a chance to deal double damage on each attack.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"CRITICAL DAMAGE","values":["200%"]},{"label":"CRITICAL CHANCE","values":["20%","25%","30%","35%"]}],"cooldown":[],"manaCost":[]},{"name":"Omnislash","image":"https://dotabuff.com//assets/skills/juggernaut-omnislash-5030-7025fde82aa7ab8685087990538967a440271b255430cfbaacac97b5397de263.jpg","link":null,"description":"Juggernaut leaps towards the target enemy unit with a damaging attack, and then slashes other nearby enemy units, dealing between <span class=\"number\">200</span>-225 damage per slash.  Juggernaut is invulnerable for the duration.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"SLASHES","values":["3","6","9"]},{"label":"SLASH JUMP RADIUS","values":["425"]},{"label":"SCEPTER SLASHES","values":["6","9","12"]},{"label":"SCEPTER COOLDOWN","values":["70.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[130.0,120.0,110.0],"manaCost":[200,275,350]}],"aliases":null,"talents":[{"level":25,"options":["+175 Blade Fury DPS","+20 Agility"]},{"level":20,"options":["+8 All Stats","+20 Movement Speed"]},{"level":15,"options":["+7 Armor","+20 Attack Speed"]},{"level":10,"options":["+20 Damage","+175 Health"]}]}
+{
+  "id": 8,
+  "name": "npc_dota_hero_juggernaut",
+  "localized_name": "Juggernaut",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/juggernaut_full.png?",
+  "icon": "/apps/dota2/images/heroes/juggernaut_icon.png",
+  "url": "Juggernaut",
+  "base_health": 200,
+  "base_health_regen": 0.5,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 22,
+  "base_attack_max": 26,
+  "base_str": 20,
+  "base_agi": 26,
+  "base_int": 14,
+  "str_gain": 2.2,
+  "agi_gain": 2.4,
+  "int_gain": 1.4,
+  "attack_range": 150,
+  "projectile_speed": 0,
+  "attack_rate": 1.4,
+  "move_speed": 300,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Blade Fury",
+      "image": "https://dotabuff.com//assets/skills/juggernaut-blade-fury-5028-e68967ede4fc2bc676fceac9d719db1c3c2ecf6ce57f70f5dccb0988897bd2f1.jpg",
+      "link": null,
+      "description": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.  Lasts 5 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "250"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "80",
+            "105",
+            "130",
+            "155"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        42.0,
+        34.0,
+        26.0,
+        18.0
+      ],
+      "manaCost": [
+        120,
+        110,
+        100,
+        90
+      ]
+    },
+    {
+      "name": "Healing Ward",
+      "image": "https://dotabuff.com//assets/skills/juggernaut-healing-ward-5029-097e7c1eb2e706159cb4007d04b81b1207cbc7293e74007f6c75e801d5dba998.jpg",
+      "link": null,
+      "description": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 420 movement speed after being summoned.  Lasts 25 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX HEALTH PER SECOND",
+          "values": [
+            "2%",
+            "3%",
+            "4%",
+            "5%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        60.0
+      ],
+      "manaCost": [
+        140
+      ]
+    },
+    {
+      "name": "Blade Dance",
+      "image": "https://dotabuff.com//assets/skills/juggernaut-blade-dance-5027-e691aac30ef73af608158c0a04dc06f801618f1557d53737ec9370cbb1d0077c.jpg",
+      "link": null,
+      "description": "Gives Juggernaut a chance to deal double damage on each attack.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "CRITICAL DAMAGE",
+          "values": [
+            "200%"
+          ]
+        },
+        {
+          "label": "CRITICAL CHANCE",
+          "values": [
+            "20%",
+            "25%",
+            "30%",
+            "35%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Omnislash",
+      "image": "https://dotabuff.com//assets/skills/juggernaut-omnislash-5030-7025fde82aa7ab8685087990538967a440271b255430cfbaacac97b5397de263.jpg",
+      "link": null,
+      "description": "Juggernaut leaps towards the target enemy unit with a damaging attack, and then slashes other nearby enemy units, dealing between 200-225 damage per slash.  Juggernaut is invulnerable for the duration.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SLASHES",
+          "values": [
+            "3",
+            "6",
+            "9"
+          ]
+        },
+        {
+          "label": "SLASH JUMP RADIUS",
+          "values": [
+            "425"
+          ]
+        },
+        {
+          "label": "SCEPTER SLASHES",
+          "values": [
+            "6",
+            "9",
+            "12"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "70.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        130.0,
+        120.0,
+        110.0
+      ],
+      "manaCost": [
+        200,
+        275,
+        350
+      ]
+    }
+  ],
+  "aliases": ["jugger", "jug", "jugg", "yurnero"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+175 Blade Fury DPS",
+        "+20 Agility"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+8 All Stats",
+        "+20 Movement Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+7 Armor",
+        "+20 Attack Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20 Damage",
+        "+175 Health"
+      ]
+    }
+  ]
+}

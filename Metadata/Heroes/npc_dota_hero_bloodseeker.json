@@ -1,1 +1,318 @@
-{"id":4,"name":"npc_dota_hero_bloodseeker","localized_name":"Bloodseeker","primary_attr":"agi","attack_type":"Melee","roles":["Carry","Disabler","Jungler","Nuker","Initiator"],"img":"/apps/dota2/images/heroes/bloodseeker_full.png?","icon":"/apps/dota2/images/heroes/bloodseeker_icon.png","url":"Bloodseeker","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":33,"base_attack_max":39,"base_str":23,"base_agi":24,"base_int":18,"str_gain":2.7,"agi_gain":3.0,"int_gain":1.7,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":290,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Bloodrage","image":"https://dotabuff.com//assets/skills/bloodseeker-bloodrage-5015-1b7c6e4ead5fdf11adeef79ae1ed0665e723d17443eaa3c0045e668258b1c6d3.jpg","link":null,"description":"Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Creeps, Heroes"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["9","10","11","12"]},{"label":"DAMAGE INCREASE","values":["25%","30%","35%","40%"]},{"label":"KILL HEAL PERCENTAGE","values":["19%","21%","23%","25%"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[12.0,10.0,8.0,6.0],"manaCost":[0]},{"name":"Blood Rite","image":"https://dotabuff.com//assets/skills/bloodseeker-blood-rite-5016-48c13c8bdbf861070609c6da38cd7a8673ccbfad60a60da68706c97f0e9d52aa.jpg","link":null,"description":"Bloodseeker baptizes an area in sacred blood. After <span class=\"number\">3.0</span> seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RITUAL AREA","values":["600"]},{"label":"SILENCE DURATION","values":["3","4","5","6"]},{"label":"DAMAGE","values":["120","160","200","240"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[18.0,16.0,14.0,12.0],"manaCost":[100]},{"name":"Thirst","image":"https://dotabuff.com//assets/skills/bloodseeker-thirst-5017-54c433fb9063f97c428c4aff33408d47588c145c8393348038b496f78fd552b6.jpg","link":null,"description":"Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack damage whenever an enemy hero's health falls below <span class=\"number\">75%</span>, with the bonuses increasing as their health falls further. If an enemy hero's health falls below <span class=\"number\">25%</span>, he will also gain vision and True Sight of that hero. Bonuses stack per hero.","effects":[{"key":"behavior","value":"Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"THIRST HEALTH THRESHHOLD","values":["75%"]},{"label":"MAX THIRST MOVE SPEED","values":["16%","24%","32%","40%"]},{"label":"MAX THIRST DAMAGE","values":["16","24","32","40"]},{"label":"VISIBILITY HEALTH THRESHHOLD","values":["25%"]}],"cooldown":[],"manaCost":[]},{"name":"Rupture","image":"https://dotabuff.com//assets/skills/bloodseeker-rupture-5018-7cf49cba12aa529d2757c830b70f894ca860e8633c4a2e7f933e0afd918f661b.jpg","link":null,"description":"Causes an enemy unit's skin to rupture. If the unit moves, it takes a percentage of the distance traveled as damage.  The damage is dealt through spell immunity.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["12.0"]},{"label":"MOVE DAMAGE","values":["30%","45%","60%"]},{"label":"CAST RANGE","values":["1000"]},{"label":"SCEPTER CHARGES","values":["2"]},{"label":"SCEPTER REPLENISH TIME","values":["40"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[60.0],"manaCost":[150,200,250]}],"aliases":null,"talents":[{"level":25,"options":["30% Lifesteal","-7s Blood Rite Cooldown"]},{"level":20,"options":["+10 All Stats","+14% Rupture Damage"]},{"level":15,"options":["+75 Blood Rite Damage","+30 Attack Speed"]},{"level":10,"options":["+225 Health","+25 Damage"]}]}
+{
+  "id": 4,
+  "name": "npc_dota_hero_bloodseeker",
+  "localized_name": "Bloodseeker",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Jungler",
+    "Nuker",
+    "Initiator"
+  ],
+  "img": "/apps/dota2/images/heroes/bloodseeker_full.png?",
+  "icon": "/apps/dota2/images/heroes/bloodseeker_icon.png",
+  "url": "Bloodseeker",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 33,
+  "base_attack_max": 39,
+  "base_str": 23,
+  "base_agi": 24,
+  "base_int": 18,
+  "str_gain": 2.7,
+  "agi_gain": 3.0,
+  "int_gain": 1.7,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 290,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Bloodrage",
+      "image": "https://dotabuff.com//assets/skills/bloodseeker-bloodrage-5015-1b7c6e4ead5fdf11adeef79ae1ed0665e723d17443eaa3c0045e668258b1c6d3.jpg",
+      "link": null,
+      "description": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Creeps, Heroes"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        },
+        {
+          "label": "DAMAGE INCREASE",
+          "values": [
+            "25%",
+            "30%",
+            "35%",
+            "40%"
+          ]
+        },
+        {
+          "label": "KILL HEAL PERCENTAGE",
+          "values": [
+            "19%",
+            "21%",
+            "23%",
+            "25%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0,
+        10.0,
+        8.0,
+        6.0
+      ],
+      "manaCost": [
+        0
+      ]
+    },
+    {
+      "name": "Blood Rite",
+      "image": "https://dotabuff.com//assets/skills/bloodseeker-blood-rite-5016-48c13c8bdbf861070609c6da38cd7a8673ccbfad60a60da68706c97f0e9d52aa.jpg",
+      "link": null,
+      "description": "Bloodseeker baptizes an area in sacred blood. After 3.0 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RITUAL AREA",
+          "values": [
+            "600"
+          ]
+        },
+        {
+          "label": "SILENCE DURATION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "120",
+            "160",
+            "200",
+            "240"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        18.0,
+        16.0,
+        14.0,
+        12.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Thirst",
+      "image": "https://dotabuff.com//assets/skills/bloodseeker-thirst-5017-54c433fb9063f97c428c4aff33408d47588c145c8393348038b496f78fd552b6.jpg",
+      "link": null,
+      "description": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack damage whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "THIRST HEALTH THRESHHOLD",
+          "values": [
+            "75%"
+          ]
+        },
+        {
+          "label": "MAX THIRST MOVE SPEED",
+          "values": [
+            "16%",
+            "24%",
+            "32%",
+            "40%"
+          ]
+        },
+        {
+          "label": "MAX THIRST DAMAGE",
+          "values": [
+            "16",
+            "24",
+            "32",
+            "40"
+          ]
+        },
+        {
+          "label": "VISIBILITY HEALTH THRESHHOLD",
+          "values": [
+            "25%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Rupture",
+      "image": "https://dotabuff.com//assets/skills/bloodseeker-rupture-5018-7cf49cba12aa529d2757c830b70f894ca860e8633c4a2e7f933e0afd918f661b.jpg",
+      "link": null,
+      "description": "Causes an enemy unit's skin to rupture. If the unit moves, it takes a percentage of the distance traveled as damage.  The damage is dealt through spell immunity.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "12.0"
+          ]
+        },
+        {
+          "label": "MOVE DAMAGE",
+          "values": [
+            "30%",
+            "45%",
+            "60%"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "1000"
+          ]
+        },
+        {
+          "label": "SCEPTER CHARGES",
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": "SCEPTER REPLENISH TIME",
+          "values": [
+            "40"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        60.0
+      ],
+      "manaCost": [
+        150,
+        200,
+        250
+      ]
+    }
+  ],
+  "aliases": ["hound", "strygwyr", "blood hound", "blood", "bs"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "30% Lifesteal",
+        "-7s Blood Rite Cooldown"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10 All Stats",
+        "+14% Rupture Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+75 Blood Rite Damage",
+        "+30 Attack Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+225 Health",
+        "+25 Damage"
+      ]
+    }
+  ]
+}

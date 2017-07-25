@@ -1,1 +1,250 @@
-{"id":82,"name":"npc_dota_hero_meepo","localized_name":"Meepo","primary_attr":"agi","attack_type":"Melee","roles":["Carry","Escape","Nuker","Disabler","Initiator","Pusher"],"img":"/apps/dota2/images/heroes/meepo_full.png?","icon":"/apps/dota2/images/heroes/meepo_icon.png","url":"Meepo","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":35.0,"base_attack_min":20,"base_attack_max":26,"base_str":23,"base_agi":23,"base_int":20,"str_gain":1.6,"agi_gain":2.2,"int_gain":1.6,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":315,"turn_rate":0.65,"cm_enabled":true,"legs":2,"skills":[{"name":"Earthbind","image":"https://dotabuff.com//assets/skills/meepo-earthbind-5430-ce46f20ff130ec9ecfa2b21055e233fec3c9183285bb259807e966bd62317e6a.jpg","link":null,"description":"Tosses a net at the target point, pinning down all enemy units.  Earthbind prevents invisibility and blink.","effects":[{"key":"behavior","value":"Point Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["2.0"]},{"label":"RADIUS","values":["220"]},{"label":"RANGE","values":["500","750","1000","1250"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[20.0,16.0,12.0,8.0],"manaCost":[100]},{"name":"Poof","image":"https://dotabuff.com//assets/skills/meepo-poof-5431-418f786d1269b745a4d456a446a6be9d87edfaa7a81d4955a0cff67d14349505.jpg","link":null,"description":"Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for <span class=\"number\">1.5</span> seconds, dealing damage in both the departure and arrival locations.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Allied Heroes"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["80","100","120","140"]},{"label":"RADIUS","values":["375"]},{"label":"CAST POINT","values":["1.5s"]}],"cooldown":[12.0,10.0,8.0,6.0],"manaCost":[80]},{"name":"Geostrike","image":"https://dotabuff.com//assets/skills/meepo-geostrike-5432-4c4e3c990a3540a677c2c7da56a7ebcd1673a83f8db2fd8f8a8c87e5e2e9c976.jpg","link":null,"description":"Meepo enchants his weapon to deal damage per second, as well as slow the movement speed of the attacked unit.  Geostrikes from multiple Meepos stack.","effects":[{"key":"behavior","value":"Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["10","20","30","40"]},{"label":"MOVE SLOW","values":["-5%","-10%","-15%","-20%"]},{"label":"DURATION","values":["2.0"]}],"cooldown":[],"manaCost":[]},{"name":"Divided We Stand","image":"https://dotabuff.com//assets/skills/meepo-divided-we-stand-5433-3345157d0fb9453d74193d9b4106462b3d44eec18553af47f69bf3be81c6df21.jpg","link":null,"description":"Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience, attributes and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears.  If any of the clones die, they all die.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"NUMBER OF MEEPOES","values":["1","2","3"]}],"cooldown":[],"manaCost":[]}],"aliases":null,"talents":[{"level":25,"options":["-3s Poof Cooldown","+400 Health"]},{"level":20,"options":["+25 Attack Speed","10% Evasion"]},{"level":15,"options":["+25 Movement Speed","15% Lifesteal"]},{"level":10,"options":["+15 Damage","+4 Armor"]}]}
+{
+  "id": 82,
+  "name": "npc_dota_hero_meepo",
+  "localized_name": "Meepo",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Disabler",
+    "Initiator",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/meepo_full.png?",
+  "icon": "/apps/dota2/images/heroes/meepo_icon.png",
+  "url": "Meepo",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 35.0,
+  "base_attack_min": 20,
+  "base_attack_max": 26,
+  "base_str": 23,
+  "base_agi": 23,
+  "base_int": 20,
+  "str_gain": 1.6,
+  "agi_gain": 2.2,
+  "int_gain": 1.6,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 315,
+  "turn_rate": 0.65,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Earthbind",
+      "image": "https://dotabuff.com//assets/skills/meepo-earthbind-5430-ce46f20ff130ec9ecfa2b21055e233fec3c9183285bb259807e966bd62317e6a.jpg",
+      "link": null,
+      "description": "Tosses a net at the target point, pinning down all enemy units.  Earthbind prevents invisibility and blink.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "2.0"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "220"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "500",
+            "750",
+            "1000",
+            "1250"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        20.0,
+        16.0,
+        12.0,
+        8.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Poof",
+      "image": "https://dotabuff.com//assets/skills/meepo-poof-5431-418f786d1269b745a4d456a446a6be9d87edfaa7a81d4955a0cff67d14349505.jpg",
+      "link": null,
+      "description": "Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Heroes"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "80",
+            "100",
+            "120",
+            "140"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "1.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0,
+        10.0,
+        8.0,
+        6.0
+      ],
+      "manaCost": [
+        80
+      ]
+    },
+    {
+      "name": "Geostrike",
+      "image": "https://dotabuff.com//assets/skills/meepo-geostrike-5432-4c4e3c990a3540a677c2c7da56a7ebcd1673a83f8db2fd8f8a8c87e5e2e9c976.jpg",
+      "link": null,
+      "description": "Meepo enchants his weapon to deal damage per second, as well as slow the movement speed of the attacked unit.  Geostrikes from multiple Meepos stack.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "10",
+            "20",
+            "30",
+            "40"
+          ]
+        },
+        {
+          "label": "MOVE SLOW",
+          "values": [
+            "-5%",
+            "-10%",
+            "-15%",
+            "-20%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "2.0"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Divided We Stand",
+      "image": "https://dotabuff.com//assets/skills/meepo-divided-we-stand-5433-3345157d0fb9453d74193d9b4106462b3d44eec18553af47f69bf3be81c6df21.jpg",
+      "link": null,
+      "description": "Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience, attributes and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears.  If any of the clones die, they all die.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "NUMBER OF MEEPOES",
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    }
+  ],
+  "aliases": ["geomancer", "maapo"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-3s Poof Cooldown",
+        "+400 Health"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+25 Attack Speed",
+        "10% Evasion"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+25 Movement Speed",
+        "15% Lifesteal"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+15 Damage",
+        "+4 Armor"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,270 @@
-{"id":95,"name":"npc_dota_hero_troll_warlord","localized_name":"Troll Warlord","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Pusher","Disabler","Durable"],"img":"/apps/dota2/images/heroes/troll_warlord_full.png?","icon":"/apps/dota2/images/heroes/troll_warlord_icon.png","url":"Troll_Warlord","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":17,"base_attack_max":35,"base_str":20,"base_agi":21,"base_int":13,"str_gain":2.5,"agi_gain":2.5,"int_gain":1.0,"attack_range":500,"projectile_speed":1200,"attack_rate":1.7,"move_speed":300,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Berserker&#39;s Rage","image":"https://dotabuff.com//assets/skills/troll-warlord-berserkers-rage-5508-1e711087b40939c59555fdae8090e8c3f47149aaa1bd6bd4738bc6f869ce0c79.jpg","link":null,"description":"While active, Troll Warlord swaps from using ranged to melee attacks. Melee attacks have a chance to bash, dealing bonus damage and stunning the target. Berserker's Rage also grants additional movement speed, armor, and increased attack speed.","effects":[{"key":"behavior","value":"No Target, Toggle"}],"stats":[{"label":"BONUS MOVE SPEED","values":["10","20","30","40"]},{"label":"BONUS ARMOR","values":["6"]},{"label":"MELEE BASE ATTACK TIME","values":["1.5"]},{"label":"BASH CHANCE","values":["10%"]},{"label":"BASH STUN DURATION","values":["0.8","1.2","1.6","2.0"]},{"label":"BASH BONUS DAMAGE","values":["20","30","40","50"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[],"manaCost":[]},{"name":"Whirling Axes (Ranged)","image":"https://dotabuff.com//assets/skills/troll-warlord-whirling-axes-ranged-5509-058970aceb01890a779f3d518c2020b23a7c4c9c211b36932f86eb2c27b4555d.jpg","link":null,"description":"Troll hurls a fistful of five axes in a cone shape over <span class=\"number\">900</span> range, slowing and damaging enemy units.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"AXE DAMAGE","values":["75"]},{"label":"SLOW DURATION","values":["3.0","3.75","4.5","5.25"]},{"label":"MOVEMENT SLOW","values":["30%"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[19.0,16.0,13.0,10.0],"manaCost":[50]},{"name":"Fervor","image":"https://dotabuff.com//assets/skills/troll-warlord-fervor-5511-11d6b36a869cdc5ccaac375237cd7d14d03e43d180cfe264f80ca7b82bb3e301.jpg","link":null,"description":"With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"MAX STACKS","values":["7"]},{"label":"ATTACK SPEED PER STACK","values":["15","20","25","30"]}],"cooldown":[],"manaCost":[]},{"name":"Battle Trance","image":"https://dotabuff.com//assets/skills/troll-warlord-battle-trance-5512-7a2e697c0bbc81a359bed6ae19f16e83cad53742558d52696eb9b7556423eb41.jpg","link":null,"description":"Troll's presence on the battlefield increases the attack speed of himself and all allied heroes.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"TRANCE DURATION","values":["5.0"]},{"label":"ATTACK SPEED","values":["60","120","180"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[35.0],"manaCost":[75]}],"aliases":null,"talents":[{"level":25,"options":["-7s Whirling Axes Cooldown","+20% Magic Resistance"]},{"level":20,"options":["+40 Damage","+350 Health"]},{"level":15,"options":["+6 Armor","+15 Movement Speed"]},{"level":10,"options":["+10 Agility","+7 Strength"]}]}
+{
+  "id": 95,
+  "name": "npc_dota_hero_troll_warlord",
+  "localized_name": "Troll Warlord",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Disabler",
+    "Durable"
+  ],
+  "img": "/apps/dota2/images/heroes/troll_warlord_full.png?",
+  "icon": "/apps/dota2/images/heroes/troll_warlord_icon.png",
+  "url": "Troll_Warlord",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 17,
+  "base_attack_max": 35,
+  "base_str": 20,
+  "base_agi": 21,
+  "base_int": 13,
+  "str_gain": 2.5,
+  "agi_gain": 2.5,
+  "int_gain": 1.0,
+  "attack_range": 500,
+  "projectile_speed": 1200,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Berserker&#39;s Rage",
+      "image": "https://dotabuff.com//assets/skills/troll-warlord-berserkers-rage-5508-1e711087b40939c59555fdae8090e8c3f47149aaa1bd6bd4738bc6f869ce0c79.jpg",
+      "link": null,
+      "description": "While active, Troll Warlord swaps from using ranged to melee attacks. Melee attacks have a chance to bash, dealing bonus damage and stunning the target. Berserker's Rage also grants additional movement speed, armor, and increased attack speed.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target, Toggle"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS MOVE SPEED",
+          "values": [
+            "10",
+            "20",
+            "30",
+            "40"
+          ]
+        },
+        {
+          "label": "BONUS ARMOR",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "label": "MELEE BASE ATTACK TIME",
+          "values": [
+            "1.5"
+          ]
+        },
+        {
+          "label": "BASH CHANCE",
+          "values": [
+            "10%"
+          ]
+        },
+        {
+          "label": "BASH STUN DURATION",
+          "values": [
+            "0.8",
+            "1.2",
+            "1.6",
+            "2.0"
+          ]
+        },
+        {
+          "label": "BASH BONUS DAMAGE",
+          "values": [
+            "20",
+            "30",
+            "40",
+            "50"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Whirling Axes (Ranged)",
+      "image": "https://dotabuff.com//assets/skills/troll-warlord-whirling-axes-ranged-5509-058970aceb01890a779f3d518c2020b23a7c4c9c211b36932f86eb2c27b4555d.jpg",
+      "link": null,
+      "description": "Troll hurls a fistful of five axes in a cone shape over 900 range, slowing and damaging enemy units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "AXE DAMAGE",
+          "values": [
+            "75"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "3.0",
+            "3.75",
+            "4.5",
+            "5.25"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "30%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        19.0,
+        16.0,
+        13.0,
+        10.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Fervor",
+      "image": "https://dotabuff.com//assets/skills/troll-warlord-fervor-5511-11d6b36a869cdc5ccaac375237cd7d14d03e43d180cfe264f80ca7b82bb3e301.jpg",
+      "link": null,
+      "description": "With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX STACKS",
+          "values": [
+            "7"
+          ]
+        },
+        {
+          "label": "ATTACK SPEED PER STACK",
+          "values": [
+            "15",
+            "20",
+            "25",
+            "30"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Battle Trance",
+      "image": "https://dotabuff.com//assets/skills/troll-warlord-battle-trance-5512-7a2e697c0bbc81a359bed6ae19f16e83cad53742558d52696eb9b7556423eb41.jpg",
+      "link": null,
+      "description": "Troll's presence on the battlefield increases the attack speed of himself and all allied heroes.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TRANCE DURATION",
+          "values": [
+            "5.0"
+          ]
+        },
+        {
+          "label": "ATTACK SPEED",
+          "values": [
+            "60",
+            "120",
+            "180"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        35.0
+      ],
+      "manaCost": [
+        75
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-7s Whirling Axes Cooldown",
+        "+20% Magic Resistance"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+40 Damage",
+        "+350 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+6 Armor",
+        "+15 Movement Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+10 Agility",
+        "+7 Strength"
+      ]
+    }
+  ]
+}

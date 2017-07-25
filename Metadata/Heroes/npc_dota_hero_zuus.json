@@ -1,1 +1,283 @@
-{"id":22,"name":"npc_dota_hero_zuus","localized_name":"Zeus","primary_attr":"int","attack_type":"Ranged","roles":["Nuker"],"img":"/apps/dota2/images/heroes/zuus_full.png?","icon":"/apps/dota2/images/heroes/zuus_icon.png","url":"Zeus","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":21,"base_attack_max":29,"base_str":19,"base_agi":11,"base_int":22,"str_gain":2.6,"agi_gain":1.2,"int_gain":2.7,"attack_range":350,"projectile_speed":1100,"attack_rate":1.7,"move_speed":300,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Arc Lightning","image":"https://dotabuff.com//assets/skills/zeus-arc-lightning-5110-c35261edf890a578c5bbdb45877707f4b54db7eca529867ee02a6b939ecba5e1.jpg","link":null,"description":"Hurls a bolt of lightning that leaps through nearby enemy units.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["85","100","115","145"]},{"label":"JUMPS","values":["5","7","9","15"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[1.6],"manaCost":[65,70,75,80]},{"name":"Lightning Bolt","image":"https://dotabuff.com//assets/skills/zeus-lightning-bolt-5111-207135f488616b2b1a30afc8def146326be467b7334977e650b337821c969dbd.jpg","link":null,"description":"Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a <span class=\"number\">750</span> radius. Can be cast on the ground, affecting the closest enemy hero in <span class=\"number\">325</span> range.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["100","175","275","350"]},{"label":"SIGHT RADIUS","values":["750"]},{"label":"SIGHT DURATION","values":["4.5"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[6.0],"manaCost":[75,95,115,135]},{"name":"Static Field","image":"https://dotabuff.com//assets/skills/zeus-static-field-5112-d38a55f084423e848a57f5d0fe738a8c8e272eea5cfbcb16d7da912f4a0dbdf3.jpg","link":null,"description":"Zeus shocks all nearby enemy units whenever he casts a spell, causing damage proportional to their current health.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RANGE","values":["1200"]},{"label":"HEALTH REDUCTION","values":["4%","6%","8%","10%"]}],"cooldown":[],"manaCost":[]},{"name":"Thundergod&#39;s Wrath","image":"https://dotabuff.com//assets/skills/zeus-thundergods-wrath-5113-1fd9dd70dd5a203b18fe167482bda0b45f8dc0af2689503a0e40fd5cf683a362.jpg","link":null,"description":"Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"TRUE SIGHT RADIUS","values":["500"]},{"label":"DURATION","values":["3"]},{"label":"DAMAGE","values":["225","325","425"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[90.0],"manaCost":[225,325,450]}],"aliases":null,"talents":[{"level":25,"options":["+2% Static Field Damage","+200 Cast Range"]},{"level":20,"options":["+0.5s Lightning Bolt Ministun","+75 Arc Lightning Damage"]},{"level":15,"options":["+15% Magic Resistance","+7 Armor"]},{"level":10,"options":["+25 Movement Speed","+2 Mana Regen"]}]}
+{
+  "id": 22,
+  "name": "npc_dota_hero_zuus",
+  "localized_name": "Zeus",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/zuus_full.png?",
+  "icon": "/apps/dota2/images/heroes/zuus_icon.png",
+  "url": "Zeus",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 21,
+  "base_attack_max": 29,
+  "base_str": 19,
+  "base_agi": 11,
+  "base_int": 22,
+  "str_gain": 2.6,
+  "agi_gain": 1.2,
+  "int_gain": 2.7,
+  "attack_range": 350,
+  "projectile_speed": 1100,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Arc Lightning",
+      "image": "https://dotabuff.com//assets/skills/zeus-arc-lightning-5110-c35261edf890a578c5bbdb45877707f4b54db7eca529867ee02a6b939ecba5e1.jpg",
+      "link": null,
+      "description": "Hurls a bolt of lightning that leaps through nearby enemy units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "85",
+            "100",
+            "115",
+            "145"
+          ]
+        },
+        {
+          "label": "JUMPS",
+          "values": [
+            "5",
+            "7",
+            "9",
+            "15"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        1.6
+      ],
+      "manaCost": [
+        65,
+        70,
+        75,
+        80
+      ]
+    },
+    {
+      "name": "Lightning Bolt",
+      "image": "https://dotabuff.com//assets/skills/zeus-lightning-bolt-5111-207135f488616b2b1a30afc8def146326be467b7334977e650b337821c969dbd.jpg",
+      "link": null,
+      "description": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "100",
+            "175",
+            "275",
+            "350"
+          ]
+        },
+        {
+          "label": "SIGHT RADIUS",
+          "values": [
+            "750"
+          ]
+        },
+        {
+          "label": "SIGHT DURATION",
+          "values": [
+            "4.5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        6.0
+      ],
+      "manaCost": [
+        75,
+        95,
+        115,
+        135
+      ]
+    },
+    {
+      "name": "Static Field",
+      "image": "https://dotabuff.com//assets/skills/zeus-static-field-5112-d38a55f084423e848a57f5d0fe738a8c8e272eea5cfbcb16d7da912f4a0dbdf3.jpg",
+      "link": null,
+      "description": "Zeus shocks all nearby enemy units whenever he casts a spell, causing damage proportional to their current health.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RANGE",
+          "values": [
+            "1200"
+          ]
+        },
+        {
+          "label": "HEALTH REDUCTION",
+          "values": [
+            "4%",
+            "6%",
+            "8%",
+            "10%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Thundergod&#39;s Wrath",
+      "image": "https://dotabuff.com//assets/skills/zeus-thundergods-wrath-5113-1fd9dd70dd5a203b18fe167482bda0b45f8dc0af2689503a0e40fd5cf683a362.jpg",
+      "link": null,
+      "description": "Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TRUE SIGHT RADIUS",
+          "values": [
+            "500"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "3"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "225",
+            "325",
+            "425"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        90.0
+      ],
+      "manaCost": [
+        225,
+        325,
+        450
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+2% Static Field Damage",
+        "+200 Cast Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+0.5s Lightning Bolt Ministun",
+        "+75 Arc Lightning Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+15% Magic Resistance",
+        "+7 Armor"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+25 Movement Speed",
+        "+2 Mana Regen"
+      ]
+    }
+  ]
+}

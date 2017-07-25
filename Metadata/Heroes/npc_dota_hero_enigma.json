@@ -1,1 +1,307 @@
-{"id":33,"name":"npc_dota_hero_enigma","localized_name":"Enigma","primary_attr":"int","attack_type":"Ranged","roles":["Disabler","Jungler","Initiator","Pusher"],"img":"/apps/dota2/images/heroes/enigma_full.png?","icon":"/apps/dota2/images/heroes/enigma_icon.png","url":"Enigma","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":2.0,"base_mr":25.0,"base_attack_min":22,"base_attack_max":28,"base_str":17,"base_agi":14,"base_int":20,"str_gain":2.4,"agi_gain":1.0,"int_gain":3.4,"attack_range":500,"projectile_speed":900,"attack_rate":1.7,"move_speed":300,"turn_rate":0.5,"cm_enabled":true,"legs":0,"skills":[{"name":"Malefice","image":"https://dotabuff.com//assets/skills/enigma-malefice-5146-544e7770719b10bfb4f077500071974b2928b1ea7ce96724c2de2ecab8f6330a.jpg","link":null,"description":"Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every <span class=\"number\">2</span> seconds.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"STUN DURATION","values":["0.25","0.5","0.75","1.0"]},{"label":"DAMAGE PER HIT","values":["30","50","70","90"]},{"label":"INSTANCES","values":["3"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[15.0],"manaCost":[110,130,150,160]},{"name":"Demonic Conversion","image":"https://dotabuff.com//assets/skills/enigma-demonic-conversion-5147-89632763ef42316c856d7e524a3ea37907440f05b6351c8544f566e9026ab539.jpg","link":null,"description":"Transforms a creep into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.","effects":[{"key":"behavior","value":"Unit Target"}],"stats":[{"label":"ATTACKS TO MULTIPLY","values":["6"]},{"label":"EIDOLON HP","values":["180","200","220","240"]},{"label":"EIDOLON DAMAGE","values":["20","28","38","47"]},{"label":"DURATION","values":["35.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[35.0],"manaCost":[170]},{"name":"Midnight Pulse","image":"https://dotabuff.com//assets/skills/enigma-midnight-pulse-5148-82de9f33dab1df06032217088ae5b7fb23a0a82808ac3005907a0647a7d24c70.jpg","link":null,"description":"Steeps an area in dark resonance, damaging enemy units based on their max HP.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RADIUS","values":["550"]},{"label":"DAMAGE PER SECOND","values":["3.0%","3.75%","4.5%","5.25%"]},{"label":"DURATION","values":["11.0"]},{"label":"CAST POINT","values":["0.1s"]}],"cooldown":[35.0],"manaCost":[95,110,125,140]},{"name":"Black Hole","image":"https://dotabuff.com//assets/skills/enigma-black-hole-5149-556b68fc2aed71fd4f68f0d70d20d049771f267037ced7c600dac9f1f56d321e.jpg","link":null,"description":"CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.","effects":[{"key":"behavior","value":"Channelled, Point Target"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE PER SECOND","values":["50","100","150"]},{"label":"RADIUS","values":["420"]},{"label":"DURATION","values":["4"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[200.0,180.0,160.0],"manaCost":[275,325,375]}],"aliases":null,"talents":[{"level":25,"options":["+8 Demonic Conversion Eidolons","+12 Armor"]},{"level":20,"options":["+1 Malefice Instance","+300 Health"]},{"level":15,"options":["+120 Gold/Min","15% Cooldown Reduction"]},{"level":10,"options":["+12% Magic Resistance","+20 Movement Speed"]}]}
+{
+  "id": 33,
+  "name": "npc_dota_hero_enigma",
+  "localized_name": "Enigma",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Disabler",
+    "Jungler",
+    "Initiator",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/enigma_full.png?",
+  "icon": "/apps/dota2/images/heroes/enigma_icon.png",
+  "url": "Enigma",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 22,
+  "base_attack_max": 28,
+  "base_str": 17,
+  "base_agi": 14,
+  "base_int": 20,
+  "str_gain": 2.4,
+  "agi_gain": 1.0,
+  "int_gain": 3.4,
+  "attack_range": 500,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 0,
+  "skills": [
+    {
+      "name": "Malefice",
+      "image": "https://dotabuff.com//assets/skills/enigma-malefice-5146-544e7770719b10bfb4f077500071974b2928b1ea7ce96724c2de2ecab8f6330a.jpg",
+      "link": null,
+      "description": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every 2 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "0.25",
+            "0.5",
+            "0.75",
+            "1.0"
+          ]
+        },
+        {
+          "label": "DAMAGE PER HIT",
+          "values": [
+            "30",
+            "50",
+            "70",
+            "90"
+          ]
+        },
+        {
+          "label": "INSTANCES",
+          "values": [
+            "3"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0
+      ],
+      "manaCost": [
+        110,
+        130,
+        150,
+        160
+      ]
+    },
+    {
+      "name": "Demonic Conversion",
+      "image": "https://dotabuff.com//assets/skills/enigma-demonic-conversion-5147-89632763ef42316c856d7e524a3ea37907440f05b6351c8544f566e9026ab539.jpg",
+      "link": null,
+      "description": "Transforms a creep into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "ATTACKS TO MULTIPLY",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "label": "EIDOLON HP",
+          "values": [
+            "180",
+            "200",
+            "220",
+            "240"
+          ]
+        },
+        {
+          "label": "EIDOLON DAMAGE",
+          "values": [
+            "20",
+            "28",
+            "38",
+            "47"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "35.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        35.0
+      ],
+      "manaCost": [
+        170
+      ]
+    },
+    {
+      "name": "Midnight Pulse",
+      "image": "https://dotabuff.com//assets/skills/enigma-midnight-pulse-5148-82de9f33dab1df06032217088ae5b7fb23a0a82808ac3005907a0647a7d24c70.jpg",
+      "link": null,
+      "description": "Steeps an area in dark resonance, damaging enemy units based on their max HP.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "550"
+          ]
+        },
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "3.0%",
+            "3.75%",
+            "4.5%",
+            "5.25%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "11.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.1s"
+          ]
+        }
+      ],
+      "cooldown": [
+        35.0
+      ],
+      "manaCost": [
+        95,
+        110,
+        125,
+        140
+      ]
+    },
+    {
+      "name": "Black Hole",
+      "image": "https://dotabuff.com//assets/skills/enigma-black-hole-5149-556b68fc2aed71fd4f68f0d70d20d049771f267037ced7c600dac9f1f56d321e.jpg",
+      "link": null,
+      "description": "CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "50",
+            "100",
+            "150"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "420"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        200.0,
+        180.0,
+        160.0
+      ],
+      "manaCost": [
+        275,
+        325,
+        375
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+8 Demonic Conversion Eidolons",
+        "+12 Armor"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+1 Malefice Instance",
+        "+300 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+120 Gold/Min",
+        "15% Cooldown Reduction"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+12% Magic Resistance",
+        "+20 Movement Speed"
+      ]
+    }
+  ]
+}

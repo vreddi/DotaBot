@@ -1,1 +1,291 @@
-{"id":27,"name":"npc_dota_hero_shadow_shaman","localized_name":"Shadow Shaman","primary_attr":"int","attack_type":"Ranged","roles":["Support","Pusher","Disabler","Nuker","Initiator"],"img":"/apps/dota2/images/heroes/shadow_shaman_full.png?","icon":"/apps/dota2/images/heroes/shadow_shaman_icon.png","url":"Shadow_Shaman","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":50,"base_attack_max":57,"base_str":21,"base_agi":16,"base_int":21,"str_gain":2.1,"agi_gain":1.6,"int_gain":3.0,"attack_range":400,"projectile_speed":900,"attack_rate":1.7,"move_speed":285,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Ether Shock","image":"https://dotabuff.com//assets/skills/shadow-shaman-ether-shock-5078-f379fedab6c02603335ad41c3d5fbedd65d21c6e5a5122022562fa1db2e6314d.jpg","link":null,"description":"Creates a cone of ethereal energy that strikes multiple enemy units.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"TARGETS","values":["1","3","5","7"]},{"label":"DAMAGE","values":["140","200","260","320"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[8.0],"manaCost":[95,105,135,160]},{"name":"Hex","image":"https://dotabuff.com//assets/skills/shadow-shaman-hex-5079-c10df09dac918dedc4a20feec7bf66e4a56e02bb2a01bb399a90b7cbfb7f0143.jpg","link":null,"description":"Transforms an enemy unit into a harmless creature, disabling their attacks and abilities.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["1.25","2.0","2.75","3.5"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[13.0],"manaCost":[110,140,170,200]},{"name":"Shackles","image":"https://dotabuff.com//assets/skills/shadow-shaman-shackles-5080-b1f004623636de8530cabd1bcd0e7ce7f5f5883caaaa4c8e0bc332e56dcb4e19.jpg","link":null,"description":"CHANNELED - Magically binds an enemy unit so that it cannot move or attack, while dealing damage over time.","effects":[{"key":"behavior","value":"Channelled, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"TOTAL DAMAGE","values":["120","200","280","360"]},{"label":"MAX DURATION","values":["2.75","3.5","4.25","5.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[10.0],"manaCost":[140,150,160,170]},{"name":"Mass Serpent Ward","image":"https://dotabuff.com//assets/skills/shadow-shaman-mass-serpent-ward-5081-129dc13c95b4395efb10b503ceb1f3c2fcea687abec4bab8fa851eaaa77d3cf1.jpg","link":null,"description":"Summons <span class=\"number\">10</span> Serpent Wards to attack enemy units and structures. The Wards are immune to magic. It takes two hits to destroy a single Ward.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"ATTACK DAMAGE","values":["40","70","100"]},{"label":"DURATION","values":["45"]},{"label":"SCEPTER BONUS ATTACK RANGE","values":["225"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[120.0],"manaCost":[200,350,600]}],"aliases":null,"talents":[{"level":25,"options":["+350 Ether Shock Damage","+1 Serpent Wards Attacks HP"]},{"level":20,"options":["+3s Shackles Duration","+4 Wards Summoned"]},{"level":15,"options":["+35% XP Gain","+100 Cast Range"]},{"level":10,"options":["+25 Movement Speed","+200 Health"]}]}
+{
+  "id": 27,
+  "name": "npc_dota_hero_shadow_shaman",
+  "localized_name": "Shadow Shaman",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Pusher",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+  ],
+  "img": "/apps/dota2/images/heroes/shadow_shaman_full.png?",
+  "icon": "/apps/dota2/images/heroes/shadow_shaman_icon.png",
+  "url": "Shadow_Shaman",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 50,
+  "base_attack_max": 57,
+  "base_str": 21,
+  "base_agi": 16,
+  "base_int": 21,
+  "str_gain": 2.1,
+  "agi_gain": 1.6,
+  "int_gain": 3.0,
+  "attack_range": 400,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 285,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Ether Shock",
+      "image": "https://dotabuff.com//assets/skills/shadow-shaman-ether-shock-5078-f379fedab6c02603335ad41c3d5fbedd65d21c6e5a5122022562fa1db2e6314d.jpg",
+      "link": null,
+      "description": "Creates a cone of ethereal energy that strikes multiple enemy units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TARGETS",
+          "values": [
+            "1",
+            "3",
+            "5",
+            "7"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "140",
+            "200",
+            "260",
+            "320"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        8.0
+      ],
+      "manaCost": [
+        95,
+        105,
+        135,
+        160
+      ]
+    },
+    {
+      "name": "Hex",
+      "image": "https://dotabuff.com//assets/skills/shadow-shaman-hex-5079-c10df09dac918dedc4a20feec7bf66e4a56e02bb2a01bb399a90b7cbfb7f0143.jpg",
+      "link": null,
+      "description": "Transforms an enemy unit into a harmless creature, disabling their attacks and abilities.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "1.25",
+            "2.0",
+            "2.75",
+            "3.5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        13.0
+      ],
+      "manaCost": [
+        110,
+        140,
+        170,
+        200
+      ]
+    },
+    {
+      "name": "Shackles",
+      "image": "https://dotabuff.com//assets/skills/shadow-shaman-shackles-5080-b1f004623636de8530cabd1bcd0e7ce7f5f5883caaaa4c8e0bc332e56dcb4e19.jpg",
+      "link": null,
+      "description": "CHANNELED - Magically binds an enemy unit so that it cannot move or attack, while dealing damage over time.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TOTAL DAMAGE",
+          "values": [
+            "120",
+            "200",
+            "280",
+            "360"
+          ]
+        },
+        {
+          "label": "MAX DURATION",
+          "values": [
+            "2.75",
+            "3.5",
+            "4.25",
+            "5.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        140,
+        150,
+        160,
+        170
+      ]
+    },
+    {
+      "name": "Mass Serpent Ward",
+      "image": "https://dotabuff.com//assets/skills/shadow-shaman-mass-serpent-ward-5081-129dc13c95b4395efb10b503ceb1f3c2fcea687abec4bab8fa851eaaa77d3cf1.jpg",
+      "link": null,
+      "description": "Summons 10 Serpent Wards to attack enemy units and structures. The Wards are immune to magic. It takes two hits to destroy a single Ward.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "ATTACK DAMAGE",
+          "values": [
+            "40",
+            "70",
+            "100"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "45"
+          ]
+        },
+        {
+          "label": "SCEPTER BONUS ATTACK RANGE",
+          "values": [
+            "225"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        120.0
+      ],
+      "manaCost": [
+        200,
+        350,
+        600
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+350 Ether Shock Damage",
+        "+1 Serpent Wards Attacks HP"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+3s Shackles Duration",
+        "+4 Wards Summoned"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+35% XP Gain",
+        "+100 Cast Range"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+25 Movement Speed",
+        "+200 Health"
+      ]
+    }
+  ]
+}

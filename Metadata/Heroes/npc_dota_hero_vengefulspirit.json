@@ -1,1 +1,289 @@
-{"id":20,"name":"npc_dota_hero_vengefulspirit","localized_name":"Vengeful Spirit","primary_attr":"agi","attack_type":"Ranged","roles":["Support","Initiator","Disabler","Nuker","Escape"],"img":"/apps/dota2/images/heroes/vengefulspirit_full.png?","icon":"/apps/dota2/images/heroes/vengefulspirit_icon.png","url":"Vengeful_Spirit","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":12,"base_attack_max":26,"base_str":18,"base_agi":27,"base_int":13,"str_gain":2.9,"agi_gain":3.3,"int_gain":1.5,"attack_range":400,"projectile_speed":1500,"attack_rate":1.7,"move_speed":300,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Magic Missile","image":"https://dotabuff.com//assets/skills/vengeful-spirit-magic-missile-5122-a56042b5e0b87675882b85eaf32ce9ed19162feacdf96d6b01f42ef41c2f144c.jpg","link":null,"description":"Fires a magic missile at an enemy unit, stunning and dealing damage.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"STUN DURATION","values":["1.2","1.4","1.6","1.8"]},{"label":"DAMAGE","values":["100","175","250","325"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[13.0,12.0,11.0,10.0],"manaCost":[110,120,130,140]},{"name":"Wave of Terror","image":"https://dotabuff.com//assets/skills/vengeful-spirit-wave-of-terror-5124-57a54caf9cec047abe2eace0529e82e5c12ff45a5db6722b3851a7032597b69e.jpg","link":null,"description":"Vengeful Spirit lets loose a wicked cry, weakening the armor of enemies and giving vision of the path ahead.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["45","70","95","120"]},{"label":"ARMOR REDUCTION","values":["-3","-4","-5","-6"]},{"label":"DEBUFF DURATION","values":["15.0"]},{"label":"VISION DURATION","values":["3"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[22.0,20.0,18.0,16.0],"manaCost":[40]},{"name":"Vengeance Aura","image":"https://dotabuff.com//assets/skills/vengeful-spirit-vengeance-aura-5123-686b28c1f100b54da12c335814339dff7a3be8417839c4b3f2e503d8e27c4237.jpg","link":null,"description":"Vengeful Spirit's presence increases the physical damage of nearby friendly units. If Vengeful Spirit is slain, her killer will be possessed with a negative Vengeance Aura, reducing the damage of her killer and its nearby allies until Vengeful Spirit revives.","effects":[{"key":"behavior","value":"Aura, Passive"}],"stats":[{"label":"DAMAGE BONUS","values":["10%","18%","26%","34%"]},{"label":"RADIUS","values":["900"]}],"cooldown":[],"manaCost":[]},{"name":"Nether Swap","image":"https://dotabuff.com//assets/skills/vengeful-spirit-nether-swap-5125-8dafd6c5131ce927a50b5ef7015b2db19dd9cbc087c93334de763fc2e127a173.jpg","link":null,"description":"Instantaneously swaps positions with a target Hero, friend or enemy.  Nether Swap interrupts channeling abilities on the target.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RANGE","values":["700","950","1200"]},{"label":"SCEPTER COOLDOWN","values":["10.0"]},{"label":"SCEPTER ILLUSION DAMAGE DEALT","values":["50.0%"]},{"label":"SCEPTER ILLUSION DAMAGE TAKEN","values":["150%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[45.0],"manaCost":[100,150,200]}],"aliases":null,"talents":[{"level":25,"options":["Magic Missile Pierces Spell Immunity","+20% Vengeance Aura Damage"]},{"level":20,"options":["+35 Movement Speed","+65 Damage"]},{"level":15,"options":["+100 Magic Missile Damage","+8 All Stats"]},{"level":10,"options":["+25 Attack Speed","+8% Magic Resistance"]}]}
+{
+  "id": 20,
+  "name": "npc_dota_hero_vengefulspirit",
+  "localized_name": "Vengeful Spirit",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/vengefulspirit_full.png?",
+  "icon": "/apps/dota2/images/heroes/vengefulspirit_icon.png",
+  "url": "Vengeful_Spirit",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 12,
+  "base_attack_max": 26,
+  "base_str": 18,
+  "base_agi": 27,
+  "base_int": 13,
+  "str_gain": 2.9,
+  "agi_gain": 3.3,
+  "int_gain": 1.5,
+  "attack_range": 400,
+  "projectile_speed": 1500,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Magic Missile",
+      "image": "https://dotabuff.com//assets/skills/vengeful-spirit-magic-missile-5122-a56042b5e0b87675882b85eaf32ce9ed19162feacdf96d6b01f42ef41c2f144c.jpg",
+      "link": null,
+      "description": "Fires a magic missile at an enemy unit, stunning and dealing damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "1.2",
+            "1.4",
+            "1.6",
+            "1.8"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "100",
+            "175",
+            "250",
+            "325"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        13.0,
+        12.0,
+        11.0,
+        10.0
+      ],
+      "manaCost": [
+        110,
+        120,
+        130,
+        140
+      ]
+    },
+    {
+      "name": "Wave of Terror",
+      "image": "https://dotabuff.com//assets/skills/vengeful-spirit-wave-of-terror-5124-57a54caf9cec047abe2eace0529e82e5c12ff45a5db6722b3851a7032597b69e.jpg",
+      "link": null,
+      "description": "Vengeful Spirit lets loose a wicked cry, weakening the armor of enemies and giving vision of the path ahead.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "45",
+            "70",
+            "95",
+            "120"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION",
+          "values": [
+            "-3",
+            "-4",
+            "-5",
+            "-6"
+          ]
+        },
+        {
+          "label": "DEBUFF DURATION",
+          "values": [
+            "15.0"
+          ]
+        },
+        {
+          "label": "VISION DURATION",
+          "values": [
+            "3"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        22.0,
+        20.0,
+        18.0,
+        16.0
+      ],
+      "manaCost": [
+        40
+      ]
+    },
+    {
+      "name": "Vengeance Aura",
+      "image": "https://dotabuff.com//assets/skills/vengeful-spirit-vengeance-aura-5123-686b28c1f100b54da12c335814339dff7a3be8417839c4b3f2e503d8e27c4237.jpg",
+      "link": null,
+      "description": "Vengeful Spirit's presence increases the physical damage of nearby friendly units. If Vengeful Spirit is slain, her killer will be possessed with a negative Vengeance Aura, reducing the damage of her killer and its nearby allies until Vengeful Spirit revives.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Aura, Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE BONUS",
+          "values": [
+            "10%",
+            "18%",
+            "26%",
+            "34%"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "900"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Nether Swap",
+      "image": "https://dotabuff.com//assets/skills/vengeful-spirit-nether-swap-5125-8dafd6c5131ce927a50b5ef7015b2db19dd9cbc087c93334de763fc2e127a173.jpg",
+      "link": null,
+      "description": "Instantaneously swaps positions with a target Hero, friend or enemy.  Nether Swap interrupts channeling abilities on the target.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RANGE",
+          "values": [
+            "700",
+            "950",
+            "1200"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "10.0"
+          ]
+        },
+        {
+          "label": "SCEPTER ILLUSION DAMAGE DEALT",
+          "values": [
+            "50.0%"
+          ]
+        },
+        {
+          "label": "SCEPTER ILLUSION DAMAGE TAKEN",
+          "values": [
+            "150%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        45.0
+      ],
+      "manaCost": [
+        100,
+        150,
+        200
+      ]
+    }
+  ],
+  "aliases": ["vs", "venge", "vengeful", "shendelzare"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "Magic Missile Pierces Spell Immunity",
+        "+20% Vengeance Aura Damage"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+35 Movement Speed",
+        "+65 Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+100 Magic Missile Damage",
+        "+8 All Stats"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+25 Attack Speed",
+        "+8% Magic Resistance"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,274 @@
-{"id":11,"name":"npc_dota_hero_nevermore","localized_name":"Shadow Fiend","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Nuker"],"img":"/apps/dota2/images/heroes/nevermore_full.png?","icon":"/apps/dota2/images/heroes/nevermore_icon.png","url":"Shadow_Fiend","base_health":200,"base_health_regen":0.25,"base_mana":75,"base_mana_regen":0.01,"base_armor":-2.0,"base_mr":25.0,"base_attack_min":15,"base_attack_max":21,"base_str":15,"base_agi":20,"base_int":18,"str_gain":2.3,"agi_gain":2.9,"int_gain":2.0,"attack_range":500,"projectile_speed":1200,"attack_rate":1.7,"move_speed":315,"turn_rate":1.0,"cm_enabled":true,"legs":0,"skills":[{"name":"Shadowraze","image":"https://dotabuff.com//assets/skills/shadow-fiend-shadowraze-5059-17d0ae8901cb366cbc7d3b64fb47b0c5512582a7bb0392a64140c6a9f6c92743.jpg","link":null,"description":"Shadow Fiend razes the area in front of him, dealing damage to enemy units in an area.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["100","175","250","325"]},{"label":"RANGE","values":["200"]},{"label":"CAST POINT","values":["0.55s"]}],"cooldown":[10.0],"manaCost":[90]},{"name":"Necromastery","image":"https://dotabuff.com//assets/skills/shadow-fiend-necromastery-5062-5becd6881a894ce71df5d8d83baf5e45348fc8302ef394ed60ea1fa29e3e2226.jpg","link":null,"description":"Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains <span class=\"number\">12</span> souls.  On death, he releases half of them from bondage.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"DAMAGE PER SOUL","values":["2"]},{"label":"MAX SOULS","values":["18","24","30","36"]},{"label":"SCEPTER MAX SOULS","values":["22","30","38","46"]}],"cooldown":[],"manaCost":[]},{"name":"Presence of the Dark Lord","image":"https://dotabuff.com//assets/skills/shadow-fiend-presence-of-the-dark-lord-5063-5bed75e8928ea75e78eeec138cdc380ad180db362f2d847f0ff0362d3999bf62.jpg","link":null,"description":"Shadow Fiend's presence reduces the armor of nearby enemies.","effects":[{"key":"behavior","value":"Aura, Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"REDUCTION","values":["-3","-4","-5","-6"]},{"label":"RADIUS","values":["900"]}],"cooldown":[],"manaCost":[]},{"name":"Requiem of Souls","image":"https://dotabuff.com//assets/skills/shadow-fiend-requiem-of-souls-5064-4fa572f53f388ad2697068afb17c25b5bdfac9d476a2ac01819ff5329a034da7.jpg","link":null,"description":"Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will have its movement speed and attack damage reduced. Lines of energy are created for every <span class=\"number\">2</span> souls captured through Necromastery. Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["80","120","160"]},{"label":"CAST DELAY","values":["1.67"]},{"label":"MOVEMENT REDUCTION","values":["-25%"]},{"label":"DAMAGE REDUCTION","values":["-50%"]},{"label":"REDUCTION DURATION","values":["5"]},{"label":"SCEPTER HEAL ON RETURN","values":["100.0%"]},{"label":"SCEPTER DAMAGE ON RETURN","values":["40.0%"]},{"label":"CAST POINT","values":["1.67s"]}],"cooldown":[120.0,110.0,100.0],"manaCost":[150,175,200]}],"aliases":null,"talents":[{"level":25,"options":["+150 Shadow Raze Damage","+150 Attack Range"]},{"level":20,"options":["+2 Damage Per Soul","15% Lifesteal"]},{"level":15,"options":["+175 Health","+6% Spell Amplification"]},{"level":10,"options":["+20 Attack Speed","+15 Movement Speed"]}]}
+{
+  "id": 11,
+  "name": "npc_dota_hero_nevermore",
+  "localized_name": "Shadow Fiend",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/nevermore_full.png?",
+  "icon": "/apps/dota2/images/heroes/nevermore_icon.png",
+  "url": "Shadow_Fiend",
+  "base_health": 200,
+  "base_health_regen": 0.25,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 15,
+  "base_attack_max": 21,
+  "base_str": 15,
+  "base_agi": 20,
+  "base_int": 18,
+  "str_gain": 2.3,
+  "agi_gain": 2.9,
+  "int_gain": 2.0,
+  "attack_range": 500,
+  "projectile_speed": 1200,
+  "attack_rate": 1.7,
+  "move_speed": 315,
+  "turn_rate": 1.0,
+  "cm_enabled": true,
+  "legs": 0,
+  "skills": [
+    {
+      "name": "Shadowraze",
+      "image": "https://dotabuff.com//assets/skills/shadow-fiend-shadowraze-5059-17d0ae8901cb366cbc7d3b64fb47b0c5512582a7bb0392a64140c6a9f6c92743.jpg",
+      "link": null,
+      "description": "Shadow Fiend razes the area in front of him, dealing damage to enemy units in an area.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "100",
+            "175",
+            "250",
+            "325"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "200"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.55s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        90
+      ]
+    },
+    {
+      "name": "Necromastery",
+      "image": "https://dotabuff.com//assets/skills/shadow-fiend-necromastery-5062-5becd6881a894ce71df5d8d83baf5e45348fc8302ef394ed60ea1fa29e3e2226.jpg",
+      "link": null,
+      "description": "Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains 12 souls.  On death, he releases half of them from bondage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER SOUL",
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": "MAX SOULS",
+          "values": [
+            "18",
+            "24",
+            "30",
+            "36"
+          ]
+        },
+        {
+          "label": "SCEPTER MAX SOULS",
+          "values": [
+            "22",
+            "30",
+            "38",
+            "46"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Presence of the Dark Lord",
+      "image": "https://dotabuff.com//assets/skills/shadow-fiend-presence-of-the-dark-lord-5063-5bed75e8928ea75e78eeec138cdc380ad180db362f2d847f0ff0362d3999bf62.jpg",
+      "link": null,
+      "description": "Shadow Fiend's presence reduces the armor of nearby enemies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Aura, Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "REDUCTION",
+          "values": [
+            "-3",
+            "-4",
+            "-5",
+            "-6"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "900"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Requiem of Souls",
+      "image": "https://dotabuff.com//assets/skills/shadow-fiend-requiem-of-souls-5064-4fa572f53f388ad2697068afb17c25b5bdfac9d476a2ac01819ff5329a034da7.jpg",
+      "link": null,
+      "description": "Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will have its movement speed and attack damage reduced. Lines of energy are created for every 2 souls captured through Necromastery. Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "80",
+            "120",
+            "160"
+          ]
+        },
+        {
+          "label": "CAST DELAY",
+          "values": [
+            "1.67"
+          ]
+        },
+        {
+          "label": "MOVEMENT REDUCTION",
+          "values": [
+            "-25%"
+          ]
+        },
+        {
+          "label": "DAMAGE REDUCTION",
+          "values": [
+            "-50%"
+          ]
+        },
+        {
+          "label": "REDUCTION DURATION",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "label": "SCEPTER HEAL ON RETURN",
+          "values": [
+            "100.0%"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE ON RETURN",
+          "values": [
+            "40.0%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "1.67s"
+          ]
+        }
+      ],
+      "cooldown": [
+        120.0,
+        110.0,
+        100.0
+      ],
+      "manaCost": [
+        150,
+        175,
+        200
+      ]
+    }
+  ],
+  "aliases": ["nevermore", "sf", "shadow fiend"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+150 Shadow Raze Damage",
+        "+150 Attack Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+2 Damage Per Soul",
+        "15% Lifesteal"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+175 Health",
+        "+6% Spell Amplification"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20 Attack Speed",
+        "+15 Movement Speed"
+      ]
+    }
+  ]
+}

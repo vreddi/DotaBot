@@ -1,1 +1,327 @@
-{"id":97,"name":"npc_dota_hero_magnataur","localized_name":"Magnus","primary_attr":"str","attack_type":"Melee","roles":["Initiator","Disabler","Nuker","Escape"],"img":"/apps/dota2/images/heroes/magnataur_full.png?","icon":"/apps/dota2/images/heroes/magnataur_icon.png","url":"Magnus","base_health":200,"base_health_regen":0.5,"base_mana":75,"base_mana_regen":0.01,"base_armor":2.0,"base_mr":25.0,"base_attack_min":32,"base_attack_max":44,"base_str":21,"base_agi":15,"base_int":19,"str_gain":3.2,"agi_gain":2.5,"int_gain":1.65,"attack_range":150,"projectile_speed":900,"attack_rate":1.8,"move_speed":310,"turn_rate":0.8,"cm_enabled":true,"legs":4,"skills":[{"name":"Shockwave","image":"https://dotabuff.com//assets/skills/magnus-shockwave-5518-3664285feb9da949f28286aecfaa9511d2b4f35878f82ad6584603152f585974.jpg","link":null,"description":"Magnus sends out a wave of force, damaging enemy units in a line.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["75","150","225","300"]},{"label":"SCEPTER MOVEMENT SLOW","values":["60%"]},{"label":"SCEPTER SLOW DURATION","values":["2.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[10.0,9.0,8.0,7.0],"manaCost":[90]},{"name":"Empower","image":"https://dotabuff.com//assets/skills/magnus-empower-5519-90d000d905d59d2d73e877ed339101f03dc318fa27a4c3af26401161f25a4873.jpg","link":null,"description":"Gives an allied unit bonus damage and cleave on attack.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Allied Units"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["40"]},{"label":"BONUS DAMAGE","values":["20%","30%","40%","50%"]},{"label":"CLEAVE DAMAGE","values":["20%","30%","40%","50%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[8.0],"manaCost":[30,50,70,90]},{"name":"Skewer","image":"https://dotabuff.com//assets/skills/magnus-skewer-5520-2e68e433cc2b73018e78411227c396025d2065b6a1deffd0232e87c7019260a2.jpg","link":null,"description":"Magnus rushes forward, goring enemy units on his massive tusk.  Heroes hit on the way will be dragged to the destination, then damaged and slowed.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"SPEED","values":["950"]},{"label":"DISTANCE","values":["900","1000","1100","1200"]},{"label":"SLOW","values":["25%","30%","35%","40%"]},{"label":"SLOW DURATION","values":["2.5","2.75","3.0","3.25"]},{"label":"DAMAGE","values":["70","140","210","280"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[25.0],"manaCost":[80]},{"name":"Reverse Polarity","image":"https://dotabuff.com//assets/skills/magnus-reverse-polarity-5521-2a533d4339bd7bf3c50a743278c9d096a7cb1258f9afe5d6e458db7cb89db301.jpg","link":null,"description":"Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"PULL RADIUS","values":["410"]},{"label":"DAMAGE","values":["50","125","200"]},{"label":"STUN DURATION","values":["2.25","3.0","3.75"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[120.0],"manaCost":[200,250,300]}],"aliases":null,"talents":[{"level":25,"options":["+15 Armor","+500 Skewer Range"]},{"level":20,"options":["+40 Movement Speed","+10% Empower Damage/Cleave"]},{"level":15,"options":["+12 Strength","+90 Gold/Min"]},{"level":10,"options":["+15% Spell Amplification","+25 Attack Speed"]}]}
+{
+  "id": 97,
+  "name": "npc_dota_hero_magnataur",
+  "localized_name": "Magnus",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/magnataur_full.png?",
+  "icon": "/apps/dota2/images/heroes/magnataur_icon.png",
+  "url": "Magnus",
+  "base_health": 200,
+  "base_health_regen": 0.5,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 32,
+  "base_attack_max": 44,
+  "base_str": 21,
+  "base_agi": 15,
+  "base_int": 19,
+  "str_gain": 3.2,
+  "agi_gain": 2.5,
+  "int_gain": 1.65,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.8,
+  "move_speed": 310,
+  "turn_rate": 0.8,
+  "cm_enabled": true,
+  "legs": 4,
+  "skills": [
+    {
+      "name": "Shockwave",
+      "image": "https://dotabuff.com//assets/skills/magnus-shockwave-5518-3664285feb9da949f28286aecfaa9511d2b4f35878f82ad6584603152f585974.jpg",
+      "link": null,
+      "description": "Magnus sends out a wave of force, damaging enemy units in a line.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "150",
+            "225",
+            "300"
+          ]
+        },
+        {
+          "label": "SCEPTER MOVEMENT SLOW",
+          "values": [
+            "60%"
+          ]
+        },
+        {
+          "label": "SCEPTER SLOW DURATION",
+          "values": [
+            "2.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0,
+        9.0,
+        8.0,
+        7.0
+      ],
+      "manaCost": [
+        90
+      ]
+    },
+    {
+      "name": "Empower",
+      "image": "https://dotabuff.com//assets/skills/magnus-empower-5519-90d000d905d59d2d73e877ed339101f03dc318fa27a4c3af26401161f25a4873.jpg",
+      "link": null,
+      "description": "Gives an allied unit bonus damage and cleave on attack.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "40"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE",
+          "values": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ]
+        },
+        {
+          "label": "CLEAVE DAMAGE",
+          "values": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        8.0
+      ],
+      "manaCost": [
+        30,
+        50,
+        70,
+        90
+      ]
+    },
+    {
+      "name": "Skewer",
+      "image": "https://dotabuff.com//assets/skills/magnus-skewer-5520-2e68e433cc2b73018e78411227c396025d2065b6a1deffd0232e87c7019260a2.jpg",
+      "link": null,
+      "description": "Magnus rushes forward, goring enemy units on his massive tusk.  Heroes hit on the way will be dragged to the destination, then damaged and slowed.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SPEED",
+          "values": [
+            "950"
+          ]
+        },
+        {
+          "label": "DISTANCE",
+          "values": [
+            "900",
+            "1000",
+            "1100",
+            "1200"
+          ]
+        },
+        {
+          "label": "SLOW",
+          "values": [
+            "25%",
+            "30%",
+            "35%",
+            "40%"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "2.5",
+            "2.75",
+            "3.0",
+            "3.25"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "70",
+            "140",
+            "210",
+            "280"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        25.0
+      ],
+      "manaCost": [
+        80
+      ]
+    },
+    {
+      "name": "Reverse Polarity",
+      "image": "https://dotabuff.com//assets/skills/magnus-reverse-polarity-5521-2a533d4339bd7bf3c50a743278c9d096a7cb1258f9afe5d6e458db7cb89db301.jpg",
+      "link": null,
+      "description": "Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "PULL RADIUS",
+          "values": [
+            "410"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "50",
+            "125",
+            "200"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "2.25",
+            "3.0",
+            "3.75"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        120.0
+      ],
+      "manaCost": [
+        200,
+        250,
+        300
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+15 Armor",
+        "+500 Skewer Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+40 Movement Speed",
+        "+10% Empower Damage/Cleave"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+12 Strength",
+        "+90 Gold/Min"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+15% Spell Amplification",
+        "+25 Attack Speed"
+      ]
+    }
+  ]
+}

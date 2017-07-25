@@ -42,8 +42,6 @@ class HeroDialog {
                 const hero = that.heroRepository.getByCanonicalName(resolution),
                       heroCard = that.getHeroCard(hero);
 
-                console.log(JSON.stringify(heroCard.cardAttachment));
-
                 const msg = new builder.Message(session)
                     .addAttachment(heroCard.cardAttachment);
 

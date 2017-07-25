@@ -1,1 +1,306 @@
-{"id":10,"name":"npc_dota_hero_morphling","localized_name":"Morphling","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Escape","Durable","Nuker","Disabler"],"img":"/apps/dota2/images/heroes/morphling_full.png?","icon":"/apps/dota2/images/heroes/morphling_icon.png","url":"Morphling","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-2.0,"base_mr":25.0,"base_attack_min":9,"base_attack_max":18,"base_str":19,"base_agi":24,"base_int":17,"str_gain":2.3,"agi_gain":3.7,"int_gain":1.1,"attack_range":350,"projectile_speed":1300,"attack_rate":1.6,"move_speed":285,"turn_rate":0.6,"cm_enabled":true,"legs":0,"skills":[{"name":"Waveform","image":"https://dotabuff.com//assets/skills/morphling-waveform-5052-fa6b23b658a3b6e068e8c2c9d16d797b191547c52b87742a601916a14cf82641.jpg","link":null,"description":"Morphling dissolves into liquid and surges forward, damaging enemy units in his path.  Morphling is invulnerable during Waveform.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["100","175","250","325"]},{"label":"CAST POINT","values":["0.25s"]}],"cooldown":[11.0],"manaCost":[140,155,160,165]},{"name":"Adaptive Strike","image":"https://dotabuff.com//assets/skills/morphling-adaptive-strike-5053-cbe9d24b155eaccf7b63e0184329c7afe66043aba5dfef8844223a552ddff049.jpg","link":null,"description":"Launches a surge of water toward an enemy unit, stunning the target while dealing base damage plus additional damage based on Morphling's agility times a multiplier.  If Morphling's agility is <span class=\"number\">50%</span> higher than strength, the maximum damage and the minimum stun is dealt. If his strength is <span class=\"number\">50%</span> higher than his agility, the maximum stun and minimum damage are dealt.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"BASE DAMAGE","values":["100.0"]},{"label":"DAMAGE MIN AGI MULTIPLIER","values":["0.25"]},{"label":"DAMAGE MAX AGI MULTIPLIER","values":["0.5","1.0","1.5","2.0"]},{"label":"STUN MIN","values":["0.25"]},{"label":"STUN MAX","values":["1.25","2.25","3.25","4.25"]},{"label":"CAST RANGE","values":["600","700","800","900"]},{"label":"CAST POINT","values":["0.25s"]}],"cooldown":[10.0],"manaCost":[80]},{"name":"Morph (Agility Gain)","image":"https://dotabuff.com//assets/skills/morphling-morph-agility-gain-5055-6af3f932607ff5b9d765d3499440f1da3082f4780926405e738bbdd1829a2246.jpg","link":null,"description":"Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible.  Additional points in Morph increase the rate of stat change.  Passively grants bonus Agility.","effects":[{"key":"behavior","value":"No Target, Toggle"}],"stats":[{"label":"MANA PER SECOND","values":["30"]},{"label":"POINTS PER SHIFT","values":["1"]},{"label":"SHIFT RATE","values":["0.5","0.25","0.125","0.0625"]},{"label":"BONUS AGILITY","values":["3","4","5","6"]}],"cooldown":[0.0],"manaCost":[]},{"name":"Replicate","image":"https://dotabuff.com//assets/skills/morphling-replicate-5057-5cdb3433bcae8985bc2d5b130fa22a02127caedcb259dcba4383f0c6b6aa9fd6.jpg","link":null,"description":"Morphling replicates any hero, friend or foe, dealing <span class=\"number\">80.0%</span> of the original Hero's outgoing damage while taking <span class=\"number\">100%</span> of any incoming damage.  At any time, Morphling can instantly take the position of the Replicate for <span class=\"number\">150</span> mana. If Morphling dies, the Replicate will expire.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["30","45","60"]},{"label":"REPLICATE DAMAGE","values":["80.0%"]},{"label":"REPLICATE DAMAGE TAKEN","values":["100%"]},{"label":"CAST RANGE","values":["700","1100","1500"]},{"label":"CAST POINT","values":["0.25s"]}],"cooldown":[80.0],"manaCost":[25]}],"aliases":null,"talents":[{"level":25,"options":["+50% Replicate Damage","+400 Waveform Range"]},{"level":20,"options":["+40 Damage","+25 Movement Speed"]},{"level":15,"options":["12% Cooldown Reduction","+25 Attack Speed"]},{"level":10,"options":["+200 Mana","+8 Agility"]}]}
+{
+  "id": 10,
+  "name": "npc_dota_hero_morphling",
+  "localized_name": "Morphling",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Durable",
+    "Nuker",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/morphling_full.png?",
+  "icon": "/apps/dota2/images/heroes/morphling_icon.png",
+  "url": "Morphling",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 9,
+  "base_attack_max": 18,
+  "base_str": 19,
+  "base_agi": 24,
+  "base_int": 17,
+  "str_gain": 2.3,
+  "agi_gain": 3.7,
+  "int_gain": 1.1,
+  "attack_range": 350,
+  "projectile_speed": 1300,
+  "attack_rate": 1.6,
+  "move_speed": 285,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 0,
+  "skills": [
+    {
+      "name": "Waveform",
+      "image": "https://dotabuff.com//assets/skills/morphling-waveform-5052-fa6b23b658a3b6e068e8c2c9d16d797b191547c52b87742a601916a14cf82641.jpg",
+      "link": null,
+      "description": "Morphling dissolves into liquid and surges forward, damaging enemy units in his path.  Morphling is invulnerable during Waveform.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "100",
+            "175",
+            "250",
+            "325"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.25s"
+          ]
+        }
+      ],
+      "cooldown": [
+        11.0
+      ],
+      "manaCost": [
+        140,
+        155,
+        160,
+        165
+      ]
+    },
+    {
+      "name": "Adaptive Strike",
+      "image": "https://dotabuff.com//assets/skills/morphling-adaptive-strike-5053-cbe9d24b155eaccf7b63e0184329c7afe66043aba5dfef8844223a552ddff049.jpg",
+      "link": null,
+      "description": "Launches a surge of water toward an enemy unit, stunning the target while dealing base damage plus additional damage based on Morphling's agility times a multiplier.  If Morphling's agility is 50% higher than strength, the maximum damage and the minimum stun is dealt. If his strength is 50% higher than his agility, the maximum stun and minimum damage are dealt.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BASE DAMAGE",
+          "values": [
+            "100.0"
+          ]
+        },
+        {
+          "label": "DAMAGE MIN AGI MULTIPLIER",
+          "values": [
+            "0.25"
+          ]
+        },
+        {
+          "label": "DAMAGE MAX AGI MULTIPLIER",
+          "values": [
+            "0.5",
+            "1.0",
+            "1.5",
+            "2.0"
+          ]
+        },
+        {
+          "label": "STUN MIN",
+          "values": [
+            "0.25"
+          ]
+        },
+        {
+          "label": "STUN MAX",
+          "values": [
+            "1.25",
+            "2.25",
+            "3.25",
+            "4.25"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "600",
+            "700",
+            "800",
+            "900"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.25s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        80
+      ]
+    },
+    {
+      "name": "Morph (Agility Gain)",
+      "image": "https://dotabuff.com//assets/skills/morphling-morph-agility-gain-5055-6af3f932607ff5b9d765d3499440f1da3082f4780926405e738bbdd1829a2246.jpg",
+      "link": null,
+      "description": "Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible.  Additional points in Morph increase the rate of stat change.  Passively grants bonus Agility.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target, Toggle"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MANA PER SECOND",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "label": "POINTS PER SHIFT",
+          "values": [
+            "1"
+          ]
+        },
+        {
+          "label": "SHIFT RATE",
+          "values": [
+            "0.5",
+            "0.25",
+            "0.125",
+            "0.0625"
+          ]
+        },
+        {
+          "label": "BONUS AGILITY",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": []
+    },
+    {
+      "name": "Replicate",
+      "image": "https://dotabuff.com//assets/skills/morphling-replicate-5057-5cdb3433bcae8985bc2d5b130fa22a02127caedcb259dcba4383f0c6b6aa9fd6.jpg",
+      "link": null,
+      "description": "Morphling replicates any hero, friend or foe, dealing 80.0% of the original Hero's outgoing damage while taking 100% of any incoming damage.  At any time, Morphling can instantly take the position of the Replicate for 150 mana. If Morphling dies, the Replicate will expire.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "30",
+            "45",
+            "60"
+          ]
+        },
+        {
+          "label": "REPLICATE DAMAGE",
+          "values": [
+            "80.0%"
+          ]
+        },
+        {
+          "label": "REPLICATE DAMAGE TAKEN",
+          "values": [
+            "100%"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "700",
+            "1100",
+            "1500"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.25s"
+          ]
+        }
+      ],
+      "cooldown": [
+        80.0
+      ],
+      "manaCost": [
+        25
+      ]
+    }
+  ],
+  "aliases": ["morph"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+50% Replicate Damage",
+        "+400 Waveform Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+40 Damage",
+        "+25 Movement Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "12% Cooldown Reduction",
+        "+25 Attack Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+200 Mana",
+        "+8 Agility"
+      ]
+    }
+  ]
+}

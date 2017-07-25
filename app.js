@@ -2,8 +2,8 @@ const dotenv = require('dotenv');
 const restify = require('restify');
 const builder = require('botbuilder');
 const HeroRepository = require('./Models/HeroRepository');
-const HeroIntents = require('./Intents/HeroIntents');
-const MatchIntents = require('./Intents/MatchIntents');
+const HeroDialog = require('./Dialogs/HeroDialog');
+const ScheduleDialog = require('./Dialogs/ScheduleDialog');
 
 // Configure environment variables
 dotenv.config();
@@ -31,9 +31,9 @@ const bot = new builder.UniversalBot(connector, (session) => {
 
 const luis_endpoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0',
       luis_app_id = process.env.LUIS_APP_ID,
-      luis_app_key = process.env.LUIS_SUBSCRIPTION_KEY ;
+      luis_app_key = process.env.LUIS_SUBSCRIPTION_KEY;
 
 bot.recognizer(new builder.LuisRecognizer(`${luis_endpoint}/apps/${luis_app_id}?subscription-key=${luis_app_key}`));
 
 new HeroDialog(heroRepository).addTo(bot);
-new MatchDialog().addTo(bot);
+new ScheduleDialog().addTo(bot);

@@ -1,1 +1,259 @@
-{"id":56,"name":"npc_dota_hero_clinkz","localized_name":"Clinkz","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Escape","Pusher"],"img":"/apps/dota2/images/heroes/clinkz_full.png?","icon":"/apps/dota2/images/heroes/clinkz_icon.png","url":"Clinkz","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":15,"base_attack_max":21,"base_str":15,"base_agi":22,"base_int":16,"str_gain":1.9,"agi_gain":3.3,"int_gain":1.55,"attack_range":640,"projectile_speed":900,"attack_rate":1.7,"move_speed":300,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Strafe","image":"https://dotabuff.com//assets/skills/clinkz-strafe-5259-87880a3e8e6cf98c4c7c09c0150b953099a8f154641c3dd8d9e0927791763580.jpg","link":null,"description":"Clinkz attacks with a barrage of arrows.  Dramatically increases attack speed for a short time.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"DURATION","values":["4","6","8","10"]},{"label":"BONUS ATTACK SPEED","values":["130"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[40.0,35.0,30.0,25.0],"manaCost":[90]},{"name":"Searing Arrows","image":"https://dotabuff.com//assets/skills/clinkz-searing-arrows-5260-553770eded3a26c9351b996159f61426124774694568a7cc285bcd7ebbee005d.jpg","link":null,"description":"Imbues Clinkz's arrows with fire for extra damage.","effects":[{"key":"behavior","value":"Auto-Cast, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"BONUS DAMAGE","values":["30","40","50","60"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[0.0],"manaCost":[10]},{"name":"Skeleton Walk","image":"https://dotabuff.com//assets/skills/clinkz-skeleton-walk-5261-0f25bdbd28f949b66ecc5105aed066c144aa995206c715a8cb51a9856c905c31.jpg","link":null,"description":"Clinkz moves invisibly through units until the moment he attacks or uses an ability.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"DURATION","values":["20","25","30","35"]},{"label":"BONUS MOVEMENT SPEED","values":["15%","25%","35%","45%"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[20.0,19.0,18.0,17.0],"manaCost":[75]},{"name":"Death Pact","image":"https://dotabuff.com//assets/skills/clinkz-death-pact-5262-4185b9c0636cc72f3f692462b089e1cea0f8f405589e10fc5639cc60d4410005.jpg","link":null,"description":"Clinkz consumes the target friendly or enemy creep, gaining a percent of its hitpoints as max health and damage.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Creeps"}],"stats":[{"label":"DURATION","values":["65.0"]},{"label":"HEALTH GAIN","values":["50%","70%","90%"]},{"label":"DAMAGE GAIN","values":["5%","7%","9%"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[85.0],"manaCost":[100]}],"aliases":null,"talents":[{"level":25,"options":["+70 Strafe Attack Speed","+125 Attack Range"]},{"level":20,"options":["+10 All Stats","20% Evasion"]},{"level":15,"options":["+30 Searing Arrows Damage","+15 Strength"]},{"level":10,"options":["+10% Magic Resistance","+10 Intelligence"]}]}
+{
+  "id": 56,
+  "name": "npc_dota_hero_clinkz",
+  "localized_name": "Clinkz",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/clinkz_full.png?",
+  "icon": "/apps/dota2/images/heroes/clinkz_icon.png",
+  "url": "Clinkz",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 15,
+  "base_attack_max": 21,
+  "base_str": 15,
+  "base_agi": 22,
+  "base_int": 16,
+  "str_gain": 1.9,
+  "agi_gain": 3.3,
+  "int_gain": 1.55,
+  "attack_range": 640,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Strafe",
+      "image": "https://dotabuff.com//assets/skills/clinkz-strafe-5259-87880a3e8e6cf98c4c7c09c0150b953099a8f154641c3dd8d9e0927791763580.jpg",
+      "link": null,
+      "description": "Clinkz attacks with a barrage of arrows.  Dramatically increases attack speed for a short time.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "4",
+            "6",
+            "8",
+            "10"
+          ]
+        },
+        {
+          "label": "BONUS ATTACK SPEED",
+          "values": [
+            "130"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        40.0,
+        35.0,
+        30.0,
+        25.0
+      ],
+      "manaCost": [
+        90
+      ]
+    },
+    {
+      "name": "Searing Arrows",
+      "image": "https://dotabuff.com//assets/skills/clinkz-searing-arrows-5260-553770eded3a26c9351b996159f61426124774694568a7cc285bcd7ebbee005d.jpg",
+      "link": null,
+      "description": "Imbues Clinkz's arrows with fire for extra damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Auto-Cast, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS DAMAGE",
+          "values": [
+            "30",
+            "40",
+            "50",
+            "60"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        10
+      ]
+    },
+    {
+      "name": "Skeleton Walk",
+      "image": "https://dotabuff.com//assets/skills/clinkz-skeleton-walk-5261-0f25bdbd28f949b66ecc5105aed066c144aa995206c715a8cb51a9856c905c31.jpg",
+      "link": null,
+      "description": "Clinkz moves invisibly through units until the moment he attacks or uses an ability.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "20",
+            "25",
+            "30",
+            "35"
+          ]
+        },
+        {
+          "label": "BONUS MOVEMENT SPEED",
+          "values": [
+            "15%",
+            "25%",
+            "35%",
+            "45%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        20.0,
+        19.0,
+        18.0,
+        17.0
+      ],
+      "manaCost": [
+        75
+      ]
+    },
+    {
+      "name": "Death Pact",
+      "image": "https://dotabuff.com//assets/skills/clinkz-death-pact-5262-4185b9c0636cc72f3f692462b089e1cea0f8f405589e10fc5639cc60d4410005.jpg",
+      "link": null,
+      "description": "Clinkz consumes the target friendly or enemy creep, gaining a percent of its hitpoints as max health and damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Creeps"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "65.0"
+          ]
+        },
+        {
+          "label": "HEALTH GAIN",
+          "values": [
+            "50%",
+            "70%",
+            "90%"
+          ]
+        },
+        {
+          "label": "DAMAGE GAIN",
+          "values": [
+            "5%",
+            "7%",
+            "9%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        85.0
+      ],
+      "manaCost": [
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+70 Strafe Attack Speed",
+        "+125 Attack Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10 All Stats",
+        "20% Evasion"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+30 Searing Arrows Damage",
+        "+15 Strength"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+10% Magic Resistance",
+        "+10 Intelligence"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,317 @@
-{"id":65,"name":"npc_dota_hero_batrider","localized_name":"Batrider","primary_attr":"int","attack_type":"Ranged","roles":["Initiator","Jungler","Disabler","Escape"],"img":"/apps/dota2/images/heroes/batrider_full.png?","icon":"/apps/dota2/images/heroes/batrider_icon.png","url":"Batrider","base_health":200,"base_health_regen":1.75,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":14,"base_attack_max":18,"base_str":23,"base_agi":15,"base_int":24,"str_gain":2.7,"agi_gain":1.5,"int_gain":2.5,"attack_range":375,"projectile_speed":900,"attack_rate":1.7,"move_speed":290,"turn_rate":1.0,"cm_enabled":true,"legs":2,"skills":[{"name":"Sticky Napalm","image":"https://dotabuff.com//assets/skills/batrider-sticky-napalm-5320-2df62c7ce27daae5bd2d2d1f15ad8349f459bb8286c44e2ec86aa1a0e570d879.jpg","link":null,"description":"Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to <span class=\"number\">10</span> stacks.  The extra damage is halved against creeps.","effects":[{"key":"behavior","value":"Point Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"EXTRA DAMAGE","values":["10","15","20","25"]},{"label":"RADIUS","values":["375"]},{"label":"DURATION","values":["8"]},{"label":"MOVEMENT SLOW","values":["-3%","-5%","-7%","-9%"]},{"label":"TURN RATE SLOW","values":["-70%"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[3.0],"manaCost":[20]},{"name":"Flamebreak","image":"https://dotabuff.com//assets/skills/batrider-flamebreak-5321-66d41a3ca12d8357f1e52c4e229b39fb4b55f4c08a009240a0865748ad5399a9.jpg","link":null,"description":"Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE PER SECOND","values":["25","30","35","40"]},{"label":"BURN DURATION","values":["4","5","6","7"]},{"label":"TOTAL DAMAGE","values":["100","150","210","280"]},{"label":"RADIUS","values":["375"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[17.0],"manaCost":[110,120,130,140]},{"name":"Firefly","image":"https://dotabuff.com//assets/skills/batrider-firefly-5322-7402635f91ef0d50f02ca66c0cd70f068ade91b4c3703c54b96f91b47eee74fa.jpg","link":null,"description":"Batrider takes to the skies, laying down a trail of flames from the air.  The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE PER SECOND","values":["10","30","50","70"]},{"label":"RADIUS","values":["200"]},{"label":"DURATION","values":["18"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[40.0],"manaCost":[100]},{"name":"Flaming Lasso","image":"https://dotabuff.com//assets/skills/batrider-flaming-lasso-5323-c203aa772f215464dfb2fd8b8540156290d32e22b066a2f9167f4c6d3a21ee6a.jpg","link":null,"description":"Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["3.0","3.5","4.0"]},{"label":"SCEPTER TETHER RANGE","values":["400"]},{"label":"SCEPTER DAMAGE PER SECOND","values":["100.0"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[100.0,80.0,60.0],"manaCost":[225]}],"aliases":null,"talents":[{"level":25,"options":["+300 Flamebreak AoE/Knockback","+8s Firefly Duration"]},{"level":20,"options":["+35 Movement Speed","15% Cooldown Reduction"]},{"level":15,"options":["+200 Health","+5% Spell Amplification"]},{"level":10,"options":["+4 Armor","+10 Intelligence"]}]}
+{
+  "id": 65,
+  "name": "npc_dota_hero_batrider",
+  "localized_name": "Batrider",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Initiator",
+    "Jungler",
+    "Disabler",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/batrider_full.png?",
+  "icon": "/apps/dota2/images/heroes/batrider_icon.png",
+  "url": "Batrider",
+  "base_health": 200,
+  "base_health_regen": 1.75,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 14,
+  "base_attack_max": 18,
+  "base_str": 23,
+  "base_agi": 15,
+  "base_int": 24,
+  "str_gain": 2.7,
+  "agi_gain": 1.5,
+  "int_gain": 2.5,
+  "attack_range": 375,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 290,
+  "turn_rate": 1.0,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Sticky Napalm",
+      "image": "https://dotabuff.com//assets/skills/batrider-sticky-napalm-5320-2df62c7ce27daae5bd2d2d1f15ad8349f459bb8286c44e2ec86aa1a0e570d879.jpg",
+      "link": null,
+      "description": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks.  The extra damage is halved against creeps.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "EXTRA DAMAGE",
+          "values": [
+            "10",
+            "15",
+            "20",
+            "25"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-3%",
+            "-5%",
+            "-7%",
+            "-9%"
+          ]
+        },
+        {
+          "label": "TURN RATE SLOW",
+          "values": [
+            "-70%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        3.0
+      ],
+      "manaCost": [
+        20
+      ]
+    },
+    {
+      "name": "Flamebreak",
+      "image": "https://dotabuff.com//assets/skills/batrider-flamebreak-5321-66d41a3ca12d8357f1e52c4e229b39fb4b55f4c08a009240a0865748ad5399a9.jpg",
+      "link": null,
+      "description": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "25",
+            "30",
+            "35",
+            "40"
+          ]
+        },
+        {
+          "label": "BURN DURATION",
+          "values": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "label": "TOTAL DAMAGE",
+          "values": [
+            "100",
+            "150",
+            "210",
+            "280"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        17.0
+      ],
+      "manaCost": [
+        110,
+        120,
+        130,
+        140
+      ]
+    },
+    {
+      "name": "Firefly",
+      "image": "https://dotabuff.com//assets/skills/batrider-firefly-5322-7402635f91ef0d50f02ca66c0cd70f068ade91b4c3703c54b96f91b47eee74fa.jpg",
+      "link": null,
+      "description": "Batrider takes to the skies, laying down a trail of flames from the air.  The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "10",
+            "30",
+            "50",
+            "70"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "200"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "18"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        40.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Flaming Lasso",
+      "image": "https://dotabuff.com//assets/skills/batrider-flaming-lasso-5323-c203aa772f215464dfb2fd8b8540156290d32e22b066a2f9167f4c6d3a21ee6a.jpg",
+      "link": null,
+      "description": "Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "3.0",
+            "3.5",
+            "4.0"
+          ]
+        },
+        {
+          "label": "SCEPTER TETHER RANGE",
+          "values": [
+            "400"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE PER SECOND",
+          "values": [
+            "100.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        100.0,
+        80.0,
+        60.0
+      ],
+      "manaCost": [
+        225
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+300 Flamebreak AoE/Knockback",
+        "+8s Firefly Duration"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+35 Movement Speed",
+        "15% Cooldown Reduction"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+200 Health",
+        "+5% Spell Amplification"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+4 Armor",
+        "+10 Intelligence"
+      ]
+    }
+  ]
+}

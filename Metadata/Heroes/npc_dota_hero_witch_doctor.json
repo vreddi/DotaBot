@@ -1,1 +1,311 @@
-{"id":30,"name":"npc_dota_hero_witch_doctor","localized_name":"Witch Doctor","primary_attr":"int","attack_type":"Ranged","roles":["Support","Nuker","Disabler"],"img":"/apps/dota2/images/heroes/witch_doctor_full.png?","icon":"/apps/dota2/images/heroes/witch_doctor_icon.png","url":"Witch_Doctor","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":27,"base_attack_max":37,"base_str":16,"base_agi":13,"base_int":24,"str_gain":2.1,"agi_gain":1.4,"int_gain":2.9,"attack_range":600,"projectile_speed":1200,"attack_rate":1.7,"move_speed":305,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Paralyzing Cask","image":"https://dotabuff.com//assets/skills/witch-doctor-paralyzing-cask-5138-0be68d4d6319c8acfbc3475b8f7390966f324f47aacd2c6d04b30c3580f8ac1b.jpg","link":null,"description":"Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["75","100","125","150"]},{"label":"HERO STUN DURATION","values":["1"]},{"label":"CREEP STUN DURATION","values":["5"]},{"label":"HERO DAMAGE","values":["50"]},{"label":"BOUNCES","values":["2","4","6","8"]},{"label":"CAST POINT","values":["0.35s"]}],"cooldown":[20.0,18.0,16.0,14.0],"manaCost":[110,120,130,140]},{"name":"Voodoo Restoration","image":"https://dotabuff.com//assets/skills/witch-doctor-voodoo-restoration-5139-bdba139a9702ba99443df597b555618956e13b12cbe348050a5ae1f113eb905e.jpg","link":null,"description":"Witch Doctor focuses his magic to heal nearby allied units.","effects":[{"key":"behavior","value":"No Target, Toggle"}],"stats":[{"label":"MANA PER SEC","values":["8","12","16","20"]},{"label":"RADIUS","values":["500"]},{"label":"HEAL","values":["16","24","32","40"]}],"cooldown":[0.0],"manaCost":[20,30,40,50]},{"name":"Maledict","image":"https://dotabuff.com//assets/skills/witch-doctor-maledict-5140-7726193887156ba9745f93eea892363b76f39cb01076c8a4817b6e0edab1a72f.jpg","link":null,"description":"Curses all enemy Heroes in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every <span class=\"number\">4</span> seconds based on how much health they have lost since the curse began.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["7","14","21","28"]},{"label":"RADIUS","values":["180"]},{"label":"DURATION","values":["12"]},{"label":"LOST HEALTH BURST DAMAGE","values":["16%","24%","32%","40%"]},{"label":"CAST POINT","values":["0.35s"]}],"cooldown":[20.0],"manaCost":[105,110,115,120]},{"name":"Death Ward","image":"https://dotabuff.com//assets/skills/witch-doctor-death-ward-5141-4df0dc23117697c0734f5f42ef95c1e33599406b3c5ea72bb98c45334e02bc6d.jpg","link":null,"description":"CHANNELED - Summons a deadly ward with true strike to attack enemy heroes within <span class=\"number\">700</span> range. Lasts a maximum of <span class=\"number\">8</span> seconds.","effects":[{"key":"behavior","value":"Channelled, Point Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["60","105","150"]},{"label":"SCEPTER BOUNCES","values":["4"]},{"label":"CAST POINT","values":["0.35s"]}],"cooldown":[80.0],"manaCost":[200]}],"aliases":null,"talents":[{"level":25,"options":["+20 Voodoo Restoration Heal","+175 Death Ward Attack Range"]},{"level":20,"options":["+15% Magic Resistance","+8 Armor"]},{"level":15,"options":["+2 Cask Bounces","+90 Damage"]},{"level":10,"options":["+25% XP Gain","+200 Health"]}]}
+{
+  "id": 30,
+  "name": "npc_dota_hero_witch_doctor",
+  "localized_name": "Witch Doctor",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/witch_doctor_full.png?",
+  "icon": "/apps/dota2/images/heroes/witch_doctor_icon.png",
+  "url": "Witch_Doctor",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 27,
+  "base_attack_max": 37,
+  "base_str": 16,
+  "base_agi": 13,
+  "base_int": 24,
+  "str_gain": 2.1,
+  "agi_gain": 1.4,
+  "int_gain": 2.9,
+  "attack_range": 600,
+  "projectile_speed": 1200,
+  "attack_rate": 1.7,
+  "move_speed": 305,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Paralyzing Cask",
+      "image": "https://dotabuff.com//assets/skills/witch-doctor-paralyzing-cask-5138-0be68d4d6319c8acfbc3475b8f7390966f324f47aacd2c6d04b30c3580f8ac1b.jpg",
+      "link": null,
+      "description": "Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "100",
+            "125",
+            "150"
+          ]
+        },
+        {
+          "label": "HERO STUN DURATION",
+          "values": [
+            "1"
+          ]
+        },
+        {
+          "label": "CREEP STUN DURATION",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "label": "HERO DAMAGE",
+          "values": [
+            "50"
+          ]
+        },
+        {
+          "label": "BOUNCES",
+          "values": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.35s"
+          ]
+        }
+      ],
+      "cooldown": [
+        20.0,
+        18.0,
+        16.0,
+        14.0
+      ],
+      "manaCost": [
+        110,
+        120,
+        130,
+        140
+      ]
+    },
+    {
+      "name": "Voodoo Restoration",
+      "image": "https://dotabuff.com//assets/skills/witch-doctor-voodoo-restoration-5139-bdba139a9702ba99443df597b555618956e13b12cbe348050a5ae1f113eb905e.jpg",
+      "link": null,
+      "description": "Witch Doctor focuses his magic to heal nearby allied units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target, Toggle"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MANA PER SEC",
+          "values": [
+            "8",
+            "12",
+            "16",
+            "20"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "500"
+          ]
+        },
+        {
+          "label": "HEAL",
+          "values": [
+            "16",
+            "24",
+            "32",
+            "40"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        20,
+        30,
+        40,
+        50
+      ]
+    },
+    {
+      "name": "Maledict",
+      "image": "https://dotabuff.com//assets/skills/witch-doctor-maledict-5140-7726193887156ba9745f93eea892363b76f39cb01076c8a4817b6e0edab1a72f.jpg",
+      "link": null,
+      "description": "Curses all enemy Heroes in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every 4 seconds based on how much health they have lost since the curse began.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "7",
+            "14",
+            "21",
+            "28"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "180"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "label": "LOST HEALTH BURST DAMAGE",
+          "values": [
+            "16%",
+            "24%",
+            "32%",
+            "40%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.35s"
+          ]
+        }
+      ],
+      "cooldown": [
+        20.0
+      ],
+      "manaCost": [
+        105,
+        110,
+        115,
+        120
+      ]
+    },
+    {
+      "name": "Death Ward",
+      "image": "https://dotabuff.com//assets/skills/witch-doctor-death-ward-5141-4df0dc23117697c0734f5f42ef95c1e33599406b3c5ea72bb98c45334e02bc6d.jpg",
+      "link": null,
+      "description": "CHANNELED - Summons a deadly ward with true strike to attack enemy heroes within 700 range. Lasts a maximum of 8 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "60",
+            "105",
+            "150"
+          ]
+        },
+        {
+          "label": "SCEPTER BOUNCES",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.35s"
+          ]
+        }
+      ],
+      "cooldown": [
+        80.0
+      ],
+      "manaCost": [
+        200
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+20 Voodoo Restoration Heal",
+        "+175 Death Ward Attack Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+15% Magic Resistance",
+        "+8 Armor"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+2 Cask Bounces",
+        "+90 Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+25% XP Gain",
+        "+200 Health"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,304 @@
-{"id":34,"name":"npc_dota_hero_tinker","localized_name":"Tinker","primary_attr":"int","attack_type":"Ranged","roles":["Carry","Nuker","Pusher"],"img":"/apps/dota2/images/heroes/tinker_full.png?","icon":"/apps/dota2/images/heroes/tinker_icon.png","url":"Tinker","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":2.0,"base_mr":25.0,"base_attack_min":22,"base_attack_max":28,"base_str":17,"base_agi":13,"base_int":30,"str_gain":2.3,"agi_gain":1.2,"int_gain":2.2,"attack_range":500,"projectile_speed":900,"attack_rate":1.7,"move_speed":305,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Laser","image":"https://dotabuff.com//assets/skills/tinker-laser-5150-14cffb75d4e2c3736c99fabb405eef8e4b85a4948f0d7b9eb2dc1e6bc3effa36.jpg","link":null,"description":"Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks. ","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"BLIND MISS RATE","values":["100%"]},{"label":"HERO BLIND DURATION","values":["3.0","3.5","4.0","4.5"]},{"label":"CREEP BLIND DURATION","values":["6"]},{"label":"LASER DAMAGE","values":["80","160","240","320"]},{"label":"CAST RANGE","values":["650"]},{"label":"SCEPTER REFRACT RADIUS","values":["650"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[14.0],"manaCost":[95,120,145,170]},{"name":"Heat-Seeking Missile","image":"https://dotabuff.com//assets/skills/tinker-heat-seeking-missile-5151-6a2b789237af796a1313e3cbc940815c1d4ddf6ce588c89a865551fa83e0fddc.jpg","link":null,"description":"Launches a pair of rockets at the nearest visible enemy heroes within <span class=\"number\">2500</span> range. ","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["125","200","275","350"]},{"label":"TARGETS","values":["2"]},{"label":"SCEPTER TARGETS","values":["4"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[25.0],"manaCost":[120,140,160,180]},{"name":"March of the Machines","image":"https://dotabuff.com//assets/skills/tinker-march-of-the-machines-5152-5baed02865c8044a2dc464210c660c06083a64b031166ae5198637ece8b192f3.jpg","link":null,"description":"Enlists an army of robotic minions to destroy enemy units in an area around Tinker.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["16","24","32","40"]},{"label":"RADIUS","values":["900"]},{"label":"DURATION","values":["6.0"]},{"label":"CAST POINT","values":["0.53s"]}],"cooldown":[35.0],"manaCost":[145,150,165,190]},{"name":"Rearm","image":"https://dotabuff.com//assets/skills/tinker-rearm-5153-5fd55feb8e298001f48cc6692e0e5b2c8f537b7b868fc0201af8210bdfbf4d66.jpg","link":null,"description":"CHANNELED - Resets the cooldown on most of Tinker's items and abilities.","effects":[{"key":"behavior","value":"Channelled, No Target"}],"stats":[{"label":"TIME TO REARM","values":["3.0","1.5","0.75"]},{"label":"CAST POINT","values":["0.53s"]}],"cooldown":[0.0],"manaCost":[100,200,300]}],"aliases":null,"talents":[{"level":25,"options":["+100 Laser Damage","20% Spell Lifesteal"]},{"level":20,"options":["+15% Magic Resistance","+75 Cast Range"]},{"level":15,"options":["+4% Spell Amplification","+225 Health"]},{"level":10,"options":["+6 Armor","+8 Intelligence"]}]}
+{
+  "id": 34,
+  "name": "npc_dota_hero_tinker",
+  "localized_name": "Tinker",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/tinker_full.png?",
+  "icon": "/apps/dota2/images/heroes/tinker_icon.png",
+  "url": "Tinker",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 22,
+  "base_attack_max": 28,
+  "base_str": 17,
+  "base_agi": 13,
+  "base_int": 30,
+  "str_gain": 2.3,
+  "agi_gain": 1.2,
+  "int_gain": 2.2,
+  "attack_range": 500,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 305,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Laser",
+      "image": "https://dotabuff.com//assets/skills/tinker-laser-5150-14cffb75d4e2c3736c99fabb405eef8e4b85a4948f0d7b9eb2dc1e6bc3effa36.jpg",
+      "link": null,
+      "description": "Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks. ",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BLIND MISS RATE",
+          "values": [
+            "100%"
+          ]
+        },
+        {
+          "label": "HERO BLIND DURATION",
+          "values": [
+            "3.0",
+            "3.5",
+            "4.0",
+            "4.5"
+          ]
+        },
+        {
+          "label": "CREEP BLIND DURATION",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "label": "LASER DAMAGE",
+          "values": [
+            "80",
+            "160",
+            "240",
+            "320"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "650"
+          ]
+        },
+        {
+          "label": "SCEPTER REFRACT RADIUS",
+          "values": [
+            "650"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        14.0
+      ],
+      "manaCost": [
+        95,
+        120,
+        145,
+        170
+      ]
+    },
+    {
+      "name": "Heat-Seeking Missile",
+      "image": "https://dotabuff.com//assets/skills/tinker-heat-seeking-missile-5151-6a2b789237af796a1313e3cbc940815c1d4ddf6ce588c89a865551fa83e0fddc.jpg",
+      "link": null,
+      "description": "Launches a pair of rockets at the nearest visible enemy heroes within 2500 range. ",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "125",
+            "200",
+            "275",
+            "350"
+          ]
+        },
+        {
+          "label": "TARGETS",
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": "SCEPTER TARGETS",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        25.0
+      ],
+      "manaCost": [
+        120,
+        140,
+        160,
+        180
+      ]
+    },
+    {
+      "name": "March of the Machines",
+      "image": "https://dotabuff.com//assets/skills/tinker-march-of-the-machines-5152-5baed02865c8044a2dc464210c660c06083a64b031166ae5198637ece8b192f3.jpg",
+      "link": null,
+      "description": "Enlists an army of robotic minions to destroy enemy units in an area around Tinker.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "16",
+            "24",
+            "32",
+            "40"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "6.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.53s"
+          ]
+        }
+      ],
+      "cooldown": [
+        35.0
+      ],
+      "manaCost": [
+        145,
+        150,
+        165,
+        190
+      ]
+    },
+    {
+      "name": "Rearm",
+      "image": "https://dotabuff.com//assets/skills/tinker-rearm-5153-5fd55feb8e298001f48cc6692e0e5b2c8f537b7b868fc0201af8210bdfbf4d66.jpg",
+      "link": null,
+      "description": "CHANNELED - Resets the cooldown on most of Tinker's items and abilities.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TIME TO REARM",
+          "values": [
+            "3.0",
+            "1.5",
+            "0.75"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.53s"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        100,
+        200,
+        300
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+100 Laser Damage",
+        "20% Spell Lifesteal"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+15% Magic Resistance",
+        "+75 Cast Range"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+4% Spell Amplification",
+        "+225 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+6 Armor",
+        "+8 Intelligence"
+      ]
+    }
+  ]
+}

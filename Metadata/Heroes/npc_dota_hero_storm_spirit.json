@@ -1,1 +1,305 @@
-{"id":17,"name":"npc_dota_hero_storm_spirit","localized_name":"Storm Spirit","primary_attr":"int","attack_type":"Ranged","roles":["Carry","Escape","Nuker","Initiator","Disabler"],"img":"/apps/dota2/images/heroes/storm_spirit_full.png?","icon":"/apps/dota2/images/heroes/storm_spirit_icon.png","url":"Storm_Spirit","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":2.0,"base_mr":25.0,"base_attack_min":22,"base_attack_max":32,"base_str":19,"base_agi":22,"base_int":24,"str_gain":1.8,"agi_gain":1.8,"int_gain":3.0,"attack_range":480,"projectile_speed":1100,"attack_rate":1.7,"move_speed":285,"turn_rate":0.8,"cm_enabled":true,"legs":2,"skills":[{"name":"Static Remnant","image":"https://dotabuff.com//assets/skills/storm-spirit-static-remnant-5098-0a6952b3f4970c1aaa275a3e58b005b465f43687a878564aa8d0e289b0ebaefb.jpg","link":null,"description":"Creates an explosively charged image of Storm Spirit that lasts <span class=\"number\">12</span> seconds and will detonate and deal damage if an enemy unit comes near it.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["260"]},{"label":"DAMAGE","values":["140","180","220","260"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[3.5],"manaCost":[100]},{"name":"Electric Vortex","image":"https://dotabuff.com//assets/skills/storm-spirit-electric-vortex-5099-3ca9bb6b87dde77e75cc26104a06e79dfee568699b3ba95e2e3e3902df443986.jpg","link":null,"description":"A vortex that pulls an enemy unit to Storm Spirit's location, it also slows the Storm Spirit by <span class=\"number\">50%</span> for <span class=\"number\">3</span> seconds.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"SELF SLOW","values":["-50%"]},{"label":"SELF SLOW DURATION","values":["3"]},{"label":"DURATION","values":["1.0","1.5","2.0","2.5"]},{"label":"SCEPTER RADIUS","values":["475"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[21.0,20.0,19.0,18.0],"manaCost":[85]},{"name":"Overload","image":"https://dotabuff.com//assets/skills/storm-spirit-overload-5100-6f98daad999adb6a1423cf6128c07ed519e028c36cf0ec30590fa2277404baba.jpg","link":null,"description":"Casting a spell creates an electrical charge, which is released in a burst on his next attack, dealing damage and slowing nearby enemies.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["40","60","80","100"]},{"label":"RADIUS","values":["300"]},{"label":"MOVEMENT SLOW","values":["-80%"]},{"label":"ATTACK SLOW","values":["-50"]},{"label":"DURATION","values":["0.6"]}],"cooldown":[],"manaCost":[]},{"name":"Ball Lightning","image":"https://dotabuff.com//assets/skills/storm-spirit-ball-lightning-5101-a35ade43242aadf7d22d86d4a320b438e09ec44563e98f89853a33df99e83a39.jpg","link":null,"description":"Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is <span class=\"number\">30</span>+8% of his total mana pool, and the cost per <span class=\"number\">100</span> units traveled is <span class=\"number\">12</span>+0.7% of his total mana pool.  Damage is expressed in damage per <span class=\"number\">100</span> units traveled.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["8","12","16"]},{"label":"SPEED","values":["1250","1875","2500"]},{"label":"RADIUS","values":["125","200","275"]},{"label":"MANA DRAIN PER UNIT","values":["0.7%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[30.0],"manaCost":[30]}],"aliases":null,"talents":[{"level":25,"options":["+0.75s Electric Vortex","+10% Spell Amplification"]},{"level":20,"options":["+8 Armor","+40 Attack Speed"]},{"level":15,"options":["+10 Intelligence","+200 Health"]},{"level":10,"options":["+3 Mana Regen","+20 Damage"]}]}
+{
+  "id": 17,
+  "name": "npc_dota_hero_storm_spirit",
+  "localized_name": "Storm Spirit",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Initiator",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/storm_spirit_full.png?",
+  "icon": "/apps/dota2/images/heroes/storm_spirit_icon.png",
+  "url": "Storm_Spirit",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 22,
+  "base_attack_max": 32,
+  "base_str": 19,
+  "base_agi": 22,
+  "base_int": 24,
+  "str_gain": 1.8,
+  "agi_gain": 1.8,
+  "int_gain": 3.0,
+  "attack_range": 480,
+  "projectile_speed": 1100,
+  "attack_rate": 1.7,
+  "move_speed": 285,
+  "turn_rate": 0.8,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Static Remnant",
+      "image": "https://dotabuff.com//assets/skills/storm-spirit-static-remnant-5098-0a6952b3f4970c1aaa275a3e58b005b465f43687a878564aa8d0e289b0ebaefb.jpg",
+      "link": null,
+      "description": "Creates an explosively charged image of Storm Spirit that lasts 12 seconds and will detonate and deal damage if an enemy unit comes near it.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "260"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "140",
+            "180",
+            "220",
+            "260"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        3.5
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Electric Vortex",
+      "image": "https://dotabuff.com//assets/skills/storm-spirit-electric-vortex-5099-3ca9bb6b87dde77e75cc26104a06e79dfee568699b3ba95e2e3e3902df443986.jpg",
+      "link": null,
+      "description": "A vortex that pulls an enemy unit to Storm Spirit's location, it also slows the Storm Spirit by 50% for 3 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "SELF SLOW",
+          "values": [
+            "-50%"
+          ]
+        },
+        {
+          "label": "SELF SLOW DURATION",
+          "values": [
+            "3"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "1.0",
+            "1.5",
+            "2.0",
+            "2.5"
+          ]
+        },
+        {
+          "label": "SCEPTER RADIUS",
+          "values": [
+            "475"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        21.0,
+        20.0,
+        19.0,
+        18.0
+      ],
+      "manaCost": [
+        85
+      ]
+    },
+    {
+      "name": "Overload",
+      "image": "https://dotabuff.com//assets/skills/storm-spirit-overload-5100-6f98daad999adb6a1423cf6128c07ed519e028c36cf0ec30590fa2277404baba.jpg",
+      "link": null,
+      "description": "Casting a spell creates an electrical charge, which is released in a burst on his next attack, dealing damage and slowing nearby enemies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "40",
+            "60",
+            "80",
+            "100"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "300"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-80%"
+          ]
+        },
+        {
+          "label": "ATTACK SLOW",
+          "values": [
+            "-50"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "0.6"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Ball Lightning",
+      "image": "https://dotabuff.com//assets/skills/storm-spirit-ball-lightning-5101-a35ade43242aadf7d22d86d4a320b438e09ec44563e98f89853a33df99e83a39.jpg",
+      "link": null,
+      "description": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 30+8% of his total mana pool, and the cost per 100 units traveled is 12+0.7% of his total mana pool.  Damage is expressed in damage per 100 units traveled.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "8",
+            "12",
+            "16"
+          ]
+        },
+        {
+          "label": "SPEED",
+          "values": [
+            "1250",
+            "1875",
+            "2500"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "125",
+            "200",
+            "275"
+          ]
+        },
+        {
+          "label": "MANA DRAIN PER UNIT",
+          "values": [
+            "0.7%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        30.0
+      ],
+      "manaCost": [
+        30
+      ]
+    }
+  ],
+  "aliases": ["ss", "raijin", "raijin thunderkeg"],
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+0.75s Electric Vortex",
+        "+10% Spell Amplification"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+8 Armor",
+        "+40 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+10 Intelligence",
+        "+200 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+3 Mana Regen",
+        "+20 Damage"
+      ]
+    }
+  ]
+}

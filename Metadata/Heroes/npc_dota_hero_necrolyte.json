@@ -1,1 +1,336 @@
-{"id":36,"name":"npc_dota_hero_necrolyte","localized_name":"Necrophos","primary_attr":"int","attack_type":"Ranged","roles":["Carry","Nuker","Durable","Disabler"],"img":"/apps/dota2/images/heroes/necrolyte_full.png?","icon":"/apps/dota2/images/heroes/necrolyte_icon.png","url":"Necrophos","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":22,"base_attack_max":26,"base_str":16,"base_agi":15,"base_int":22,"str_gain":2.3,"agi_gain":1.2,"int_gain":2.5,"attack_range":550,"projectile_speed":900,"attack_rate":1.7,"move_speed":285,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Death Pulse","image":"https://dotabuff.com//assets/skills/necrophos-death-pulse-5158-4b809d056278d60438da4d219da885c48a72f7b7dfd39112a8b1a62470f3758f.jpg","link":null,"description":"Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units. Passively provides regen for <span class=\"number\">7.0</span> seconds for each unit Necrophos kills.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["80","120","160","200"]},{"label":"RADIUS","values":["475"]},{"label":"HEAL","values":["60","80","100","120"]},{"label":"HEALTH REGEN PER KILL","values":["1","3","5","7"]},{"label":"MANA REGEN PER KILL","values":["1","3","5","7"]},{"label":"REGEN DURATION","values":["7.0"]},{"label":"HERO KILL REGEN MULTIPLIER","values":["10"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[8.0,7.0,6.0,5.0],"manaCost":[125,145,165,185]},{"name":"Ghost Shroud","image":"https://dotabuff.com//assets/skills/necrophos-ghost-shroud-5160-852d46d3e5ec743a3bb445ad10517ae987debc982c3025b6546227f178c8686e.jpg","link":null,"description":"Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"DURATION","values":["3.0","3.5","4.0","4.5"]},{"label":"RESTORATION AMPLIFICATION","values":["75%"]},{"label":"MOVEMENT SLOW","values":["12%","20%","28%","36%"]},{"label":"SLOW RADIUS","values":["750"]},{"label":"INCREASED MAGIC DAMAGE","values":["-20%"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[28.0,24.0,20.0,16.0],"manaCost":[50]},{"name":"Heartstopper Aura","image":"https://dotabuff.com//assets/skills/necrophos-heartstopper-aura-5159-5d33243761db69230a7fdbce93016c6c078e14ddce27862838f1a05419f00ac9.jpg","link":null,"description":"Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time.","effects":[{"key":"behavior","value":"Aura, Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RADIUS","values":["900"]},{"label":"HEALTH DECAY","values":["0.6%","1.0%","1.4%","1.8%"]}],"cooldown":[],"manaCost":[]},{"name":"Reaper&#39;s Scythe","image":"https://dotabuff.com//assets/skills/necrophos-reapers-scythe-5161-98403dbb31cf11e1e4f7152733d070a1a6bad45e4078ed32834b4a2e58b3894c.jpg","link":null,"description":"Stuns the target enemy hero, then deals damage based on how much life it is missing. Heroes killed by Reaper's Scythe will have [<span class=\"number\">10</span>, <span class=\"number\">20</span>, <span class=\"number\">30</span>] seconds added to their respawn timer. Any kill under this effect is credited to Necrophos.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Heroes"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE PER MISSING HP","values":["0.6","0.75","0.9"]},{"label":"STUN DURATION","values":["1.5"]},{"label":"SCEPTER COOLDOWN","values":["55","40","25"]},{"label":"ADDED RESPAWN TIME","values":["10","20","30"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[90.0,80.0,70.0],"manaCost":[175,340,500]}],"aliases":null,"talents":[{"level":25,"options":["-1s Death Pulse Cooldown","+400 Health"]},{"level":20,"options":["+10% Magic Resistance","+5% Spell Amplification"]},{"level":15,"options":["+20 Movement Speed","+6 All Stats"]},{"level":10,"options":["+8 Strength","+40 Damage"]}]}
+{
+  "id": 36,
+  "name": "npc_dota_hero_necrolyte",
+  "localized_name": "Necrophos",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Durable",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/necrolyte_full.png?",
+  "icon": "/apps/dota2/images/heroes/necrolyte_icon.png",
+  "url": "Necrophos",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 22,
+  "base_attack_max": 26,
+  "base_str": 16,
+  "base_agi": 15,
+  "base_int": 22,
+  "str_gain": 2.3,
+  "agi_gain": 1.2,
+  "int_gain": 2.5,
+  "attack_range": 550,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 285,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Death Pulse",
+      "image": "https://dotabuff.com//assets/skills/necrophos-death-pulse-5158-4b809d056278d60438da4d219da885c48a72f7b7dfd39112a8b1a62470f3758f.jpg",
+      "link": null,
+      "description": "Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units. Passively provides regen for 7.0 seconds for each unit Necrophos kills.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "80",
+            "120",
+            "160",
+            "200"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "475"
+          ]
+        },
+        {
+          "label": "HEAL",
+          "values": [
+            "60",
+            "80",
+            "100",
+            "120"
+          ]
+        },
+        {
+          "label": "HEALTH REGEN PER KILL",
+          "values": [
+            "1",
+            "3",
+            "5",
+            "7"
+          ]
+        },
+        {
+          "label": "MANA REGEN PER KILL",
+          "values": [
+            "1",
+            "3",
+            "5",
+            "7"
+          ]
+        },
+        {
+          "label": "REGEN DURATION",
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "label": "HERO KILL REGEN MULTIPLIER",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        8.0,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "manaCost": [
+        125,
+        145,
+        165,
+        185
+      ]
+    },
+    {
+      "name": "Ghost Shroud",
+      "image": "https://dotabuff.com//assets/skills/necrophos-ghost-shroud-5160-852d46d3e5ec743a3bb445ad10517ae987debc982c3025b6546227f178c8686e.jpg",
+      "link": null,
+      "description": "Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "3.0",
+            "3.5",
+            "4.0",
+            "4.5"
+          ]
+        },
+        {
+          "label": "RESTORATION AMPLIFICATION",
+          "values": [
+            "75%"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "12%",
+            "20%",
+            "28%",
+            "36%"
+          ]
+        },
+        {
+          "label": "SLOW RADIUS",
+          "values": [
+            "750"
+          ]
+        },
+        {
+          "label": "INCREASED MAGIC DAMAGE",
+          "values": [
+            "-20%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        28.0,
+        24.0,
+        20.0,
+        16.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Heartstopper Aura",
+      "image": "https://dotabuff.com//assets/skills/necrophos-heartstopper-aura-5159-5d33243761db69230a7fdbce93016c6c078e14ddce27862838f1a05419f00ac9.jpg",
+      "link": null,
+      "description": "Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Aura, Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "HEALTH DECAY",
+          "values": [
+            "0.6%",
+            "1.0%",
+            "1.4%",
+            "1.8%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Reaper&#39;s Scythe",
+      "image": "https://dotabuff.com//assets/skills/necrophos-reapers-scythe-5161-98403dbb31cf11e1e4f7152733d070a1a6bad45e4078ed32834b4a2e58b3894c.jpg",
+      "link": null,
+      "description": "Stuns the target enemy hero, then deals damage based on how much life it is missing. Heroes killed by Reaper's Scythe will have [10, 20, 30] seconds added to their respawn timer. Any kill under this effect is credited to Necrophos.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Heroes"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER MISSING HP",
+          "values": [
+            "0.6",
+            "0.75",
+            "0.9"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "1.5"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "55",
+            "40",
+            "25"
+          ]
+        },
+        {
+          "label": "ADDED RESPAWN TIME",
+          "values": [
+            "10",
+            "20",
+            "30"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        90.0,
+        80.0,
+        70.0
+      ],
+      "manaCost": [
+        175,
+        340,
+        500
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-1s Death Pulse Cooldown",
+        "+400 Health"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10% Magic Resistance",
+        "+5% Spell Amplification"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+20 Movement Speed",
+        "+6 All Stats"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+8 Strength",
+        "+40 Damage"
+      ]
+    }
+  ]
+}

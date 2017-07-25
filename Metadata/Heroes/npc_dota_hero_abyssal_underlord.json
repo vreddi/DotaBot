@@ -1,1 +1,316 @@
-{"id":108,"name":"npc_dota_hero_abyssal_underlord","localized_name":"Underlord","primary_attr":"str","attack_type":"Melee","roles":["Support","Nuker","Disabler","Durable","Escape"],"img":"/apps/dota2/images/heroes/abyssal_underlord_full.png?","icon":"/apps/dota2/images/heroes/abyssal_underlord_icon.png","url":"Underlord","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":2.0,"base_mr":25.0,"base_attack_min":37,"base_attack_max":43,"base_str":25,"base_agi":12,"base_int":17,"str_gain":2.9,"agi_gain":1.3,"int_gain":2.6,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":290,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Firestorm","image":"https://dotabuff.com//assets/skills/underlord-firestorm-5613-73e5069024aa7b8f95ba3ba80aacb240eb4f1e9e5ed6145f3e3a19b7c48414ab.jpg","link":null,"description":"Calls down waves of fire that damage enemy units in the target area, burning for additional damage over time.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["400"]},{"label":"WAVE COUNT","values":["6"]},{"label":"WAVE DAMAGE","values":["25","40","55","70"]},{"label":"WAVE INTERVAL","values":["1.0"]},{"label":"MAX HP BURN DAMAGE","values":["1%","2%","3%","4%"]},{"label":"BURN DURATION","values":["2.0"]},{"label":"CAST POINT","values":["0.6s"]}],"cooldown":[12.0],"manaCost":[100,110,120,130]},{"name":"Pit of Malice","image":"https://dotabuff.com//assets/skills/underlord-pit-of-malice-5614-6e7d715b1086ea2984af012faa081b4ba248a1d53fe9747697bbdf7ce425a55d.jpg","link":null,"description":"A deadly pit is conjured at the target location; any unit that enters will be rooted. Each enemy unit within the pit are affected every <span class=\"number\">3.6</span> seconds.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["375"]},{"label":"PIT DURATION","values":["12.0"]},{"label":"DISABLE INTERVAL","values":["3.6"]},{"label":"DISABLE DURATION","values":["0.9","1.2","1.5","1.8"]},{"label":"CAST POINT","values":["0.45s"]}],"cooldown":[32.0,28.0,24.0,20.0],"manaCost":[100,115,130,145]},{"name":"Atrophy Aura","image":"https://dotabuff.com//assets/skills/underlord-atrophy-aura-5615-6cdb362d4de1c7f9f289b5a746dcf96256b9fc16d2480e60bf4ce84aeb7a2d4c.jpg","link":null,"description":"Nearby enemy units are weakened, losing a portion of their base damage. If a unit dies while under this effect, Underlord gains bonus damage.","effects":[{"key":"behavior","value":"Aura, Passive"}],"stats":[{"label":"RADIUS","values":["900"]},{"label":"DAMAGE REDUCTION","values":["7%","18%","29%","40%"]},{"label":"BONUS DAMAGE(CREEP)","values":["5"]},{"label":"BONUS DAMAGE(HERO)","values":["30","35","40","45"]},{"label":"DURATION","values":["30","40","50","60"]}],"cooldown":[],"manaCost":[]},{"name":"Dark Rift","image":"https://dotabuff.com//assets/skills/underlord-dark-rift-5616-4a3f0363ad359f51f33461df0498c2d775413d236997b82aeb407ee61902de74.jpg","link":null,"description":"Opens a dark rift at the targeted friendly unit's position.  After a short delay, Underlord and all nearby friendly heroes are teleported to that unit's location.  Dark Rift can be cancelled at anytime during the cast.  If it is cancelled in this way or the target unit dies before the spell becomes active, Dark Rift goes into cooldown.","effects":[{"key":"behavior","value":"Point Target, Unit Target"}],"stats":[{"label":"TELEPORT RADIUS","values":["600"]},{"label":"TELEPORT DELAY","values":["6","5","4"]},{"label":"CAST POINT","values":["0.6s"]}],"cooldown":[130.0,120.0,110.0],"manaCost":[75,150,225]}],"aliases":null,"talents":[{"level":25,"options":["+0.4s Pit of Malice Root","+50 Health Regen"]},{"level":20,"options":["+125 Cast Range","+60 Attack Speed"]},{"level":15,"options":["+12% Spell Amplification","+40 Movement Speed"]},{"level":10,"options":["+2 Mana Regen","+5 Armor"]}]}
+{
+  "id": 108,
+  "name": "npc_dota_hero_abyssal_underlord",
+  "localized_name": "Underlord",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Durable",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/abyssal_underlord_full.png?",
+  "icon": "/apps/dota2/images/heroes/abyssal_underlord_icon.png",
+  "url": "Underlord",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 2.0,
+  "base_mr": 25.0,
+  "base_attack_min": 37,
+  "base_attack_max": 43,
+  "base_str": 25,
+  "base_agi": 12,
+  "base_int": 17,
+  "str_gain": 2.9,
+  "agi_gain": 1.3,
+  "int_gain": 2.6,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 290,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Firestorm",
+      "image": "https://dotabuff.com//assets/skills/underlord-firestorm-5613-73e5069024aa7b8f95ba3ba80aacb240eb4f1e9e5ed6145f3e3a19b7c48414ab.jpg",
+      "link": null,
+      "description": "Calls down waves of fire that damage enemy units in the target area, burning for additional damage over time.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "400"
+          ]
+        },
+        {
+          "label": "WAVE COUNT",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "label": "WAVE DAMAGE",
+          "values": [
+            "25",
+            "40",
+            "55",
+            "70"
+          ]
+        },
+        {
+          "label": "WAVE INTERVAL",
+          "values": [
+            "1.0"
+          ]
+        },
+        {
+          "label": "MAX HP BURN DAMAGE",
+          "values": [
+            "1%",
+            "2%",
+            "3%",
+            "4%"
+          ]
+        },
+        {
+          "label": "BURN DURATION",
+          "values": [
+            "2.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.6s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0
+      ],
+      "manaCost": [
+        100,
+        110,
+        120,
+        130
+      ]
+    },
+    {
+      "name": "Pit of Malice",
+      "image": "https://dotabuff.com//assets/skills/underlord-pit-of-malice-5614-6e7d715b1086ea2984af012faa081b4ba248a1d53fe9747697bbdf7ce425a55d.jpg",
+      "link": null,
+      "description": "A deadly pit is conjured at the target location; any unit that enters will be rooted. Each enemy unit within the pit are affected every 3.6 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "PIT DURATION",
+          "values": [
+            "12.0"
+          ]
+        },
+        {
+          "label": "DISABLE INTERVAL",
+          "values": [
+            "3.6"
+          ]
+        },
+        {
+          "label": "DISABLE DURATION",
+          "values": [
+            "0.9",
+            "1.2",
+            "1.5",
+            "1.8"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.45s"
+          ]
+        }
+      ],
+      "cooldown": [
+        32.0,
+        28.0,
+        24.0,
+        20.0
+      ],
+      "manaCost": [
+        100,
+        115,
+        130,
+        145
+      ]
+    },
+    {
+      "name": "Atrophy Aura",
+      "image": "https://dotabuff.com//assets/skills/underlord-atrophy-aura-5615-6cdb362d4de1c7f9f289b5a746dcf96256b9fc16d2480e60bf4ce84aeb7a2d4c.jpg",
+      "link": null,
+      "description": "Nearby enemy units are weakened, losing a portion of their base damage. If a unit dies while under this effect, Underlord gains bonus damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Aura, Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "DAMAGE REDUCTION",
+          "values": [
+            "7%",
+            "18%",
+            "29%",
+            "40%"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE(CREEP)",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE(HERO)",
+          "values": [
+            "30",
+            "35",
+            "40",
+            "45"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "30",
+            "40",
+            "50",
+            "60"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Dark Rift",
+      "image": "https://dotabuff.com//assets/skills/underlord-dark-rift-5616-4a3f0363ad359f51f33461df0498c2d775413d236997b82aeb407ee61902de74.jpg",
+      "link": null,
+      "description": "Opens a dark rift at the targeted friendly unit's position.  After a short delay, Underlord and all nearby friendly heroes are teleported to that unit's location.  Dark Rift can be cancelled at anytime during the cast.  If it is cancelled in this way or the target unit dies before the spell becomes active, Dark Rift goes into cooldown.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TELEPORT RADIUS",
+          "values": [
+            "600"
+          ]
+        },
+        {
+          "label": "TELEPORT DELAY",
+          "values": [
+            "6",
+            "5",
+            "4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.6s"
+          ]
+        }
+      ],
+      "cooldown": [
+        130.0,
+        120.0,
+        110.0
+      ],
+      "manaCost": [
+        75,
+        150,
+        225
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+0.4s Pit of Malice Root",
+        "+50 Health Regen"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+125 Cast Range",
+        "+60 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+12% Spell Amplification",
+        "+40 Movement Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+2 Mana Regen",
+        "+5 Armor"
+      ]
+    }
+  ]
+}

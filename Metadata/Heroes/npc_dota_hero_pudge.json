@@ -1,1 +1,292 @@
-{"id":14,"name":"npc_dota_hero_pudge","localized_name":"Pudge","primary_attr":"str","attack_type":"Melee","roles":["Disabler","Initiator","Durable","Nuker"],"img":"/apps/dota2/images/heroes/pudge_full.png?","icon":"/apps/dota2/images/heroes/pudge_icon.png","url":"Pudge","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":27,"base_attack_max":33,"base_str":25,"base_agi":14,"base_int":14,"str_gain":3.5,"agi_gain":1.5,"int_gain":1.5,"attack_range":150,"projectile_speed":0,"attack_rate":1.7,"move_speed":280,"turn_rate":0.7,"cm_enabled":true,"legs":2,"skills":[{"name":"Meat Hook","image":"https://dotabuff.com//assets/skills/pudge-meat-hook-5075-686ff5af6666e9f9fe6973787de24e1803a398b2f9bb565a29068f1a2400214a.jpg","link":null,"description":"Launches a bloody hook toward a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge and dealing damage if it is an enemy.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["90","180","270","360"]},{"label":"RANGE","values":["1000","1100","1200","1300"]},{"label":"SCEPTER COOLDOWN","values":["4.0"]},{"label":"SCEPTER DAMAGE","values":["180","270","360","450"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[14.0,13.0,12.0,11.0],"manaCost":[110,120,130,140]},{"name":"Rot","image":"https://dotabuff.com//assets/skills/pudge-rot-5076-390739be515f1a2e96818303142b98e956984433df823fe19a5caf1302b460fa.jpg","link":null,"description":"A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself.","effects":[{"key":"behavior","value":"No Target, Toggle"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["250"]},{"label":"MOVE SLOW","values":["-30%"]},{"label":"DAMAGE","values":["30","60","90","120"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[],"manaCost":[]},{"name":"Flesh Heap","image":"https://dotabuff.com//assets/skills/pudge-flesh-heap-5074-865b62b07bdfdb0fc146301cc61d13d459af05d70ecc4d6fb2c3172fa736e4d0.jpg","link":null,"description":"Gives Pudge resistance to magic damage, as well as bonus strength that increases each time Pudge kills an enemy Hero or it dies in his vicinity.  Flesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"MAGIC RESISTANCE","values":["6%","8%","10%","12%"]},{"label":"STRENGTH BONUS","values":["1.0","1.5","2.0","2.5"]},{"label":"RANGE","values":["450"]}],"cooldown":[],"manaCost":[]},{"name":"Dismember","image":"https://dotabuff.com//assets/skills/pudge-dismember-5077-10b4d1902d074d1185c8a638715881e81dfaba7514b23202346c6e9440666716.jpg","link":null,"description":"CHANNELED - Pudge chows down on an enemy unit, disabling it and dealing damage over time. Pudge gets healed for the same amount he damages. Lasts <span class=\"number\">3</span> seconds on Heroes, <span class=\"number\">6</span> seconds on creeps.","effects":[{"key":"behavior","value":"Channelled, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE PER SECOND","values":["60","90","120"]},{"label":"STRENGTH MULTIPLIER","values":["0.3","0.45","0.6"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[30.0,25.0,20.0],"manaCost":[100,130,170]}],"aliases":null,"talents":[{"level":25,"options":["+120 Rot Damage","+1.75 Flesh Heap Stack Str"]},{"level":20,"options":["+1s Dismember Duration","+150 Gold/Min"]},{"level":15,"options":["+15 Movement Speed","+5 Armor"]},{"level":10,"options":["+2 Mana Regen","+8 Strength"]}]}
+{
+  "id": 14,
+  "name": "npc_dota_hero_pudge",
+  "localized_name": "Pudge",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/pudge_full.png?",
+  "icon": "/apps/dota2/images/heroes/pudge_icon.png",
+  "url": "Pudge",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 27,
+  "base_attack_max": 33,
+  "base_str": 25,
+  "base_agi": 14,
+  "base_int": 14,
+  "str_gain": 3.5,
+  "agi_gain": 1.5,
+  "int_gain": 1.5,
+  "attack_range": 150,
+  "projectile_speed": 0,
+  "attack_rate": 1.7,
+  "move_speed": 280,
+  "turn_rate": 0.7,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Meat Hook",
+      "image": "https://dotabuff.com//assets/skills/pudge-meat-hook-5075-686ff5af6666e9f9fe6973787de24e1803a398b2f9bb565a29068f1a2400214a.jpg",
+      "link": null,
+      "description": "Launches a bloody hook toward a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge and dealing damage if it is an enemy.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "90",
+            "180",
+            "270",
+            "360"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "1000",
+            "1100",
+            "1200",
+            "1300"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "4.0"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE",
+          "values": [
+            "180",
+            "270",
+            "360",
+            "450"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "manaCost": [
+        110,
+        120,
+        130,
+        140
+      ]
+    },
+    {
+      "name": "Rot",
+      "image": "https://dotabuff.com//assets/skills/pudge-rot-5076-390739be515f1a2e96818303142b98e956984433df823fe19a5caf1302b460fa.jpg",
+      "link": null,
+      "description": "A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target, Toggle"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "250"
+          ]
+        },
+        {
+          "label": "MOVE SLOW",
+          "values": [
+            "-30%"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "30",
+            "60",
+            "90",
+            "120"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Flesh Heap",
+      "image": "https://dotabuff.com//assets/skills/pudge-flesh-heap-5074-865b62b07bdfdb0fc146301cc61d13d459af05d70ecc4d6fb2c3172fa736e4d0.jpg",
+      "link": null,
+      "description": "Gives Pudge resistance to magic damage, as well as bonus strength that increases each time Pudge kills an enemy Hero or it dies in his vicinity.  Flesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAGIC RESISTANCE",
+          "values": [
+            "6%",
+            "8%",
+            "10%",
+            "12%"
+          ]
+        },
+        {
+          "label": "STRENGTH BONUS",
+          "values": [
+            "1.0",
+            "1.5",
+            "2.0",
+            "2.5"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "450"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Dismember",
+      "image": "https://dotabuff.com//assets/skills/pudge-dismember-5077-10b4d1902d074d1185c8a638715881e81dfaba7514b23202346c6e9440666716.jpg",
+      "link": null,
+      "description": "CHANNELED - Pudge chows down on an enemy unit, disabling it and dealing damage over time. Pudge gets healed for the same amount he damages. Lasts 3 seconds on Heroes, 6 seconds on creeps.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "60",
+            "90",
+            "120"
+          ]
+        },
+        {
+          "label": "STRENGTH MULTIPLIER",
+          "values": [
+            "0.3",
+            "0.45",
+            "0.6"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "manaCost": [
+        100,
+        130,
+        170
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+120 Rot Damage",
+        "+1.75 Flesh Heap Stack Str"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+1s Dismember Duration",
+        "+150 Gold/Min"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+15 Movement Speed",
+        "+5 Armor"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+2 Mana Regen",
+        "+8 Strength"
+      ]
+    }
+  ]
+}

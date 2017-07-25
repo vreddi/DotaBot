@@ -1,1 +1,255 @@
-{"id":44,"name":"npc_dota_hero_phantom_assassin","localized_name":"Phantom Assassin","primary_attr":"agi","attack_type":"Melee","roles":["Carry","Escape"],"img":"/apps/dota2/images/heroes/phantom_assassin_full.png?","icon":"/apps/dota2/images/heroes/phantom_assassin_icon.png","url":"Phantom_Assassin","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":23,"base_attack_max":25,"base_str":20,"base_agi":23,"base_int":15,"str_gain":2.15,"agi_gain":3.15,"int_gain":1.4,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":310,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Stifling Dagger","image":"https://dotabuff.com//assets/skills/phantom-assassin-stifling-dagger-5190-fc70aeba17709e9c1484904c1d13fc8e2d3f165870d3b2066bcf990dc7be3db9.jpg","link":null,"description":"Throws a dagger slowing the enemy unit's movement speed, dealing <span class=\"number\">65</span>+[<span class=\"number\">25</span>, <span class=\"number\">40</span>, <span class=\"number\">55</span>, <span class=\"number\">70</span>]% of Phantom Assassin's attack damage as physical damage and applying attack effects from items and abilities.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"MOVE SLOW","values":["-50%"]},{"label":"SLOW DURATION","values":["1","2","3","4"]},{"label":"BASE DAMAGE","values":["65"]},{"label":"ATTACK DAMAGE","values":["25%","40%","55%","70%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[6.0],"manaCost":[30,25,20,15]},{"name":"Phantom Strike","image":"https://dotabuff.com//assets/skills/phantom-assassin-phantom-strike-5191-8a418a73f8e5f09996984ec56951ab27b0f5c7156cbcb0edccc7229ab8cef29c.jpg","link":null,"description":"Teleports to a unit, friendly or enemy, and grants bonus attack speed while attacking if it's an enemy unit.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"BONUS ATTACK SPEED","values":["130"]},{"label":"MAX ATTACKS","values":["4"]},{"label":"RANGE","values":["1000"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[14.0,11.0,8.0,5.0],"manaCost":[50]},{"name":"Blur","image":"https://dotabuff.com//assets/skills/phantom-assassin-blur-5192-8dcf96b8646031932b853b7bfecd121ef316f952eb2b9d678a8fb5e03cd22ddd.jpg","link":null,"description":"Phantom Assassin focuses inward, increasing her ability to evade enemy attacks, and allowing her to blur her body to disappear from the enemy team's minimap when far from enemy heroes.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"EVASION","values":["20%","30%","40%","50%"]},{"label":"MAP VANISH RADIUS","values":["1600"]}],"cooldown":[],"manaCost":[]},{"name":"Coup de Grace","image":"https://dotabuff.com//assets/skills/phantom-assassin-coup-de-grace-5193-817879faa6fa4749187a3f0e3f7b9411ca12fea020a74914f95e7a6bc9b660ea.jpg","link":null,"description":"Phantom Assassin refines her combat abilities, gaining a chance of delivering a devastating critical strike to enemy units. Stifling Dagger shares the same critical strike chance.","effects":[{"key":"behavior","value":"Passive"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"CRITICAL DAMAGE","values":["230%","340%","450%"]},{"label":"CRITICAL CHANCE","values":["15%"]}],"cooldown":[],"manaCost":[]}],"aliases":null,"talents":[{"level":25,"options":["Double Strike Stifling Dagger","+25 Agility"]},{"level":20,"options":["+10 All Stats","+35 Attack Speed"]},{"level":15,"options":["+20 Movement Speed","10% Lifesteal"]},{"level":10,"options":["+15 Damage","+150 Health"]}]}
+{
+  "id": 44,
+  "name": "npc_dota_hero_phantom_assassin",
+  "localized_name": "Phantom Assassin",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/phantom_assassin_full.png?",
+  "icon": "/apps/dota2/images/heroes/phantom_assassin_icon.png",
+  "url": "Phantom_Assassin",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 23,
+  "base_attack_max": 25,
+  "base_str": 20,
+  "base_agi": 23,
+  "base_int": 15,
+  "str_gain": 2.15,
+  "agi_gain": 3.15,
+  "int_gain": 1.4,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 310,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Stifling Dagger",
+      "image": "https://dotabuff.com//assets/skills/phantom-assassin-stifling-dagger-5190-fc70aeba17709e9c1484904c1d13fc8e2d3f165870d3b2066bcf990dc7be3db9.jpg",
+      "link": null,
+      "description": "Throws a dagger slowing the enemy unit's movement speed, dealing 65+[25, 40, 55, 70]% of Phantom Assassin's attack damage as physical damage and applying attack effects from items and abilities.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MOVE SLOW",
+          "values": [
+            "-50%"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "label": "BASE DAMAGE",
+          "values": [
+            "65"
+          ]
+        },
+        {
+          "label": "ATTACK DAMAGE",
+          "values": [
+            "25%",
+            "40%",
+            "55%",
+            "70%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        6.0
+      ],
+      "manaCost": [
+        30,
+        25,
+        20,
+        15
+      ]
+    },
+    {
+      "name": "Phantom Strike",
+      "image": "https://dotabuff.com//assets/skills/phantom-assassin-phantom-strike-5191-8a418a73f8e5f09996984ec56951ab27b0f5c7156cbcb0edccc7229ab8cef29c.jpg",
+      "link": null,
+      "description": "Teleports to a unit, friendly or enemy, and grants bonus attack speed while attacking if it's an enemy unit.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS ATTACK SPEED",
+          "values": [
+            "130"
+          ]
+        },
+        {
+          "label": "MAX ATTACKS",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "1000"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        14.0,
+        11.0,
+        8.0,
+        5.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Blur",
+      "image": "https://dotabuff.com//assets/skills/phantom-assassin-blur-5192-8dcf96b8646031932b853b7bfecd121ef316f952eb2b9d678a8fb5e03cd22ddd.jpg",
+      "link": null,
+      "description": "Phantom Assassin focuses inward, increasing her ability to evade enemy attacks, and allowing her to blur her body to disappear from the enemy team's minimap when far from enemy heroes.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "EVASION",
+          "values": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ]
+        },
+        {
+          "label": "MAP VANISH RADIUS",
+          "values": [
+            "1600"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Coup de Grace",
+      "image": "https://dotabuff.com//assets/skills/phantom-assassin-coup-de-grace-5193-817879faa6fa4749187a3f0e3f7b9411ca12fea020a74914f95e7a6bc9b660ea.jpg",
+      "link": null,
+      "description": "Phantom Assassin refines her combat abilities, gaining a chance of delivering a devastating critical strike to enemy units. Stifling Dagger shares the same critical strike chance.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "CRITICAL DAMAGE",
+          "values": [
+            "230%",
+            "340%",
+            "450%"
+          ]
+        },
+        {
+          "label": "CRITICAL CHANCE",
+          "values": [
+            "15%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "Double Strike Stifling Dagger",
+        "+25 Agility"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10 All Stats",
+        "+35 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+20 Movement Speed",
+        "10% Lifesteal"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+15 Damage",
+        "+150 Health"
+      ]
+    }
+  ]
+}

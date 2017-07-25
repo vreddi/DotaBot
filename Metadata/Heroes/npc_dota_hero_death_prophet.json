@@ -1,1 +1,325 @@
-{"id":43,"name":"npc_dota_hero_death_prophet","localized_name":"Death Prophet","primary_attr":"int","attack_type":"Ranged","roles":["Carry","Pusher","Nuker","Disabler"],"img":"/apps/dota2/images/heroes/death_prophet_full.png?","icon":"/apps/dota2/images/heroes/death_prophet_icon.png","url":"Death_Prophet","base_health":200,"base_health_regen":0.5,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":24,"base_attack_max":36,"base_str":17,"base_agi":14,"base_int":23,"str_gain":2.6,"agi_gain":1.4,"int_gain":3.0,"attack_range":600,"projectile_speed":1000,"attack_rate":1.7,"move_speed":310,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Crypt Swarm","image":"https://dotabuff.com//assets/skills/death-prophet-crypt-swarm-5090-85194716e4ad2bfd1bb059922c7257cf0503a22c2dbdd8fffe14a72c49a65bb8.jpg","link":null,"description":"Sends a swarm of winged beasts to savage enemy units in front of Death Prophet.","effects":[{"key":"behavior","value":"Point Target, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["75","150","225","300"]},{"label":"RANGE","values":["810"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[8.0,7.0,6.0,5.0],"manaCost":[105,120,140,165]},{"name":"Silence","image":"https://dotabuff.com//assets/skills/death-prophet-silence-5091-f1194f33aef503db01ae588e56f3ffcb29ffc4be987508c3db15232ea7e4268b.jpg","link":null,"description":"Prevents enemy units in a target area from casting spells.","effects":[{"key":"behavior","value":"Point Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["425"]},{"label":"DURATION","values":["3","4","5","6"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[15.0,14.0,13.0,12.0],"manaCost":[80]},{"name":"Spirit Siphon","image":"https://dotabuff.com//assets/skills/death-prophet-spirit-siphon-5685-e92abe53b0777a6893e384bc8f9e31417e9103dae4a9c73e1e8ac50cfb260ea0.jpg","link":null,"description":"Creates a spirit link between Death Prophet and an enemy unit, draining <span class=\"number\">14.0</span> + [<span class=\"number\">1.0</span>, <span class=\"number\">2.5</span>, <span class=\"number\">4.0</span>, <span class=\"number\">5.5</span>]% Max HP per second and slowing the enemy's movement speed by [<span class=\"number\">5</span>, <span class=\"number\">10</span>, <span class=\"number\">15</span>, <span class=\"number\">20</span>]%.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"BASE DAMAGE","values":["14.0"]},{"label":"MAX HP AS DAMAGE","values":["1.0%","2.5%","4.0%","5.5%"]},{"label":"DURATION","values":["6.0"]},{"label":"ENEMY SLOW","values":["5%","10%","15%","20%"]},{"label":"MAX CHARGES","values":["1","2","3","4"]},{"label":"CHARGE RESTORE TIME","values":["45"]},{"label":"CAST POINT","values":["0.1s"]}],"cooldown":[0.0],"manaCost":[70,65,60,55]},{"name":"Exorcism","image":"https://dotabuff.com//assets/skills/death-prophet-exorcism-5093-f59ea614b9c2ecb972e6e3427fec0c4217557d81cc0797bd8e3c9164ef03f3ad.jpg","link":null,"description":"Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts <span class=\"number\">35</span> seconds.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RADIUS","values":["700"]},{"label":"SPIRITS","values":["8","16","24"]},{"label":"LIFE DRAIN","values":["25%"]},{"label":"SPIRIT DAMAGE","values":["58"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[145.0],"manaCost":[200,300,400]}],"aliases":null,"talents":[{"level":25,"options":["+8 Exorcism Spirits","+600 Health"]},{"level":20,"options":["+50 Movement Speed","10% Cooldown Reduction"]},{"level":15,"options":["+150 Cast Range","-1.5s Crypt Swarm Cooldown"]},{"level":10,"options":["+12% Magic Resistance","+5% Spell Amplification"]}]}
+{
+  "id": 43,
+  "name": "npc_dota_hero_death_prophet",
+  "localized_name": "Death Prophet",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Pusher",
+    "Nuker",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/death_prophet_full.png?",
+  "icon": "/apps/dota2/images/heroes/death_prophet_icon.png",
+  "url": "Death_Prophet",
+  "base_health": 200,
+  "base_health_regen": 0.5,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 24,
+  "base_attack_max": 36,
+  "base_str": 17,
+  "base_agi": 14,
+  "base_int": 23,
+  "str_gain": 2.6,
+  "agi_gain": 1.4,
+  "int_gain": 3.0,
+  "attack_range": 600,
+  "projectile_speed": 1000,
+  "attack_rate": 1.7,
+  "move_speed": 310,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Crypt Swarm",
+      "image": "https://dotabuff.com//assets/skills/death-prophet-crypt-swarm-5090-85194716e4ad2bfd1bb059922c7257cf0503a22c2dbdd8fffe14a72c49a65bb8.jpg",
+      "link": null,
+      "description": "Sends a swarm of winged beasts to savage enemy units in front of Death Prophet.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "150",
+            "225",
+            "300"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "810"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        8.0,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "manaCost": [
+        105,
+        120,
+        140,
+        165
+      ]
+    },
+    {
+      "name": "Silence",
+      "image": "https://dotabuff.com//assets/skills/death-prophet-silence-5091-f1194f33aef503db01ae588e56f3ffcb29ffc4be987508c3db15232ea7e4268b.jpg",
+      "link": null,
+      "description": "Prevents enemy units in a target area from casting spells.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "425"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0,
+        14.0,
+        13.0,
+        12.0
+      ],
+      "manaCost": [
+        80
+      ]
+    },
+    {
+      "name": "Spirit Siphon",
+      "image": "https://dotabuff.com//assets/skills/death-prophet-spirit-siphon-5685-e92abe53b0777a6893e384bc8f9e31417e9103dae4a9c73e1e8ac50cfb260ea0.jpg",
+      "link": null,
+      "description": "Creates a spirit link between Death Prophet and an enemy unit, draining 14.0 + [1.0, 2.5, 4.0, 5.5]% Max HP per second and slowing the enemy's movement speed by [5, 10, 15, 20]%.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BASE DAMAGE",
+          "values": [
+            "14.0"
+          ]
+        },
+        {
+          "label": "MAX HP AS DAMAGE",
+          "values": [
+            "1.0%",
+            "2.5%",
+            "4.0%",
+            "5.5%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "6.0"
+          ]
+        },
+        {
+          "label": "ENEMY SLOW",
+          "values": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+          ]
+        },
+        {
+          "label": "MAX CHARGES",
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "label": "CHARGE RESTORE TIME",
+          "values": [
+            "45"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.1s"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        70,
+        65,
+        60,
+        55
+      ]
+    },
+    {
+      "name": "Exorcism",
+      "image": "https://dotabuff.com//assets/skills/death-prophet-exorcism-5093-f59ea614b9c2ecb972e6e3427fec0c4217557d81cc0797bd8e3c9164ef03f3ad.jpg",
+      "link": null,
+      "description": "Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts 35 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "700"
+          ]
+        },
+        {
+          "label": "SPIRITS",
+          "values": [
+            "8",
+            "16",
+            "24"
+          ]
+        },
+        {
+          "label": "LIFE DRAIN",
+          "values": [
+            "25%"
+          ]
+        },
+        {
+          "label": "SPIRIT DAMAGE",
+          "values": [
+            "58"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        145.0
+      ],
+      "manaCost": [
+        200,
+        300,
+        400
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+8 Exorcism Spirits",
+        "+600 Health"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+50 Movement Speed",
+        "10% Cooldown Reduction"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+150 Cast Range",
+        "-1.5s Crypt Swarm Cooldown"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+12% Magic Resistance",
+        "+5% Spell Amplification"
+      ]
+    }
+  ]
+}

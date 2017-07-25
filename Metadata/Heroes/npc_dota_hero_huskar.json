@@ -1,1 +1,301 @@
-{"id":59,"name":"npc_dota_hero_huskar","localized_name":"Huskar","primary_attr":"str","attack_type":"Ranged","roles":["Carry","Durable","Initiator"],"img":"/apps/dota2/images/heroes/huskar_full.png?","icon":"/apps/dota2/images/heroes/huskar_icon.png","url":"Huskar","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":21,"base_attack_max":30,"base_str":21,"base_agi":15,"base_int":18,"str_gain":2.7,"agi_gain":1.4,"int_gain":1.5,"attack_range":400,"projectile_speed":1400,"attack_rate":1.6,"move_speed":300,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Inner Vitality","image":"https://dotabuff.com//assets/skills/huskar-inner-vitality-5271-6a1674c52c7001351035de146f1b822bffdb59d7d281c05b12b53a846e477230.jpg","link":null,"description":"Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below <span class=\"number\">35%</span>, it will heal faster.  Lasts <span class=\"number\">16</span> seconds.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Allied Heroes"}],"stats":[{"label":"HEALTH REGEN","values":["10"]},{"label":"BONUS FROM ATTRIBUTE","values":["5%","10%","15%","20%"]},{"label":"BONUS WHEN HURT","values":["20%","40%","60%","80%"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[22.0,18.0,14.0,10.0],"manaCost":[170]},{"name":"Burning Spear","image":"https://dotabuff.com//assets/skills/huskar-burning-spear-5272-72d3a66bb765a994e98eca6ec48b5243405f80ea8231c1c18ffb699e8997e8ba.jpg","link":null,"description":"Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts <span class=\"number\">8</span> seconds.","effects":[{"key":"behavior","value":"Auto-Cast, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["5","10","15","20"]},{"label":"HEALTH COST","values":["15"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[0.0],"manaCost":[0]},{"name":"Berserker&#39;s Blood","image":"https://dotabuff.com//assets/skills/huskar-berserkers-blood-5273-9d706314f9b36afb191649b7e0d32afa49b1ea489c1fdedcf326377cd850478c.jpg","link":null,"description":"Huskar's injuries feed his power, giving increased attack speed and magic damage resistance based on missing health.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"MAX ATTACK SPEED","values":["220","260","300","340"]},{"label":"MAX MAGIC RESISTANCE","values":["20%","30%","40%","50%"]},{"label":"HP FOR MAX BONUS","values":["10%"]}],"cooldown":[],"manaCost":[]},{"name":"Life Break","image":"https://dotabuff.com//assets/skills/huskar-life-break-5274-26d7e8a0d4e42fccc7894edebc14a73d298171c852c63b07bfae3868edf099de.jpg","link":null,"description":"Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE DEALT","values":["34%","38%","42%"]},{"label":"DAMAGE TAKEN","values":["34%","38%","42%"]},{"label":"MOVEMENT SLOW","values":["-40%","-50%","-60%"]},{"label":"SLOW DURATION","values":["4","5","6"]},{"label":"SCEPTER DAMAGE DEALT","values":["65%"]},{"label":"SCEPTER COOLDOWN","values":["4.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[12.0],"manaCost":[0]}],"aliases":null,"talents":[{"level":25,"options":["+500 Life Break Cast Range","+100 Attack Range"]},{"level":20,"options":["+40 Attack Speed","+15 Strength"]},{"level":15,"options":["15% Lifesteal","+30 Damage"]},{"level":10,"options":["+5 Burning Spears DPS","+175 Health"]}]}
+{
+  "id": 59,
+  "name": "npc_dota_hero_huskar",
+  "localized_name": "Huskar",
+  "primary_attr": "str",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Durable",
+    "Initiator"
+  ],
+  "img": "/apps/dota2/images/heroes/huskar_full.png?",
+  "icon": "/apps/dota2/images/heroes/huskar_icon.png",
+  "url": "Huskar",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 21,
+  "base_attack_max": 30,
+  "base_str": 21,
+  "base_agi": 15,
+  "base_int": 18,
+  "str_gain": 2.7,
+  "agi_gain": 1.4,
+  "int_gain": 1.5,
+  "attack_range": 400,
+  "projectile_speed": 1400,
+  "attack_rate": 1.6,
+  "move_speed": 300,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Inner Vitality",
+      "image": "https://dotabuff.com//assets/skills/huskar-inner-vitality-5271-6a1674c52c7001351035de146f1b822bffdb59d7d281c05b12b53a846e477230.jpg",
+      "link": null,
+      "description": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 35%, it will heal faster.  Lasts 16 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Heroes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "HEALTH REGEN",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "label": "BONUS FROM ATTRIBUTE",
+          "values": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+          ]
+        },
+        {
+          "label": "BONUS WHEN HURT",
+          "values": [
+            "20%",
+            "40%",
+            "60%",
+            "80%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        22.0,
+        18.0,
+        14.0,
+        10.0
+      ],
+      "manaCost": [
+        170
+      ]
+    },
+    {
+      "name": "Burning Spear",
+      "image": "https://dotabuff.com//assets/skills/huskar-burning-spear-5272-72d3a66bb765a994e98eca6ec48b5243405f80ea8231c1c18ffb699e8997e8ba.jpg",
+      "link": null,
+      "description": "Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts 8 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Auto-Cast, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ]
+        },
+        {
+          "label": "HEALTH COST",
+          "values": [
+            "15"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        0
+      ]
+    },
+    {
+      "name": "Berserker&#39;s Blood",
+      "image": "https://dotabuff.com//assets/skills/huskar-berserkers-blood-5273-9d706314f9b36afb191649b7e0d32afa49b1ea489c1fdedcf326377cd850478c.jpg",
+      "link": null,
+      "description": "Huskar's injuries feed his power, giving increased attack speed and magic damage resistance based on missing health.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX ATTACK SPEED",
+          "values": [
+            "220",
+            "260",
+            "300",
+            "340"
+          ]
+        },
+        {
+          "label": "MAX MAGIC RESISTANCE",
+          "values": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ]
+        },
+        {
+          "label": "HP FOR MAX BONUS",
+          "values": [
+            "10%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Life Break",
+      "image": "https://dotabuff.com//assets/skills/huskar-life-break-5274-26d7e8a0d4e42fccc7894edebc14a73d298171c852c63b07bfae3868edf099de.jpg",
+      "link": null,
+      "description": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE DEALT",
+          "values": [
+            "34%",
+            "38%",
+            "42%"
+          ]
+        },
+        {
+          "label": "DAMAGE TAKEN",
+          "values": [
+            "34%",
+            "38%",
+            "42%"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-40%",
+            "-50%",
+            "-60%"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE DEALT",
+          "values": [
+            "65%"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "4.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0
+      ],
+      "manaCost": [
+        0
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+500 Life Break Cast Range",
+        "+100 Attack Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+40 Attack Speed",
+        "+15 Strength"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "15% Lifesteal",
+        "+30 Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+5 Burning Spears DPS",
+        "+175 Health"
+      ]
+    }
+  ]
+}

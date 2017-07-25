@@ -1,1 +1,276 @@
-{"id":96,"name":"npc_dota_hero_centaur","localized_name":"Centaur Warrunner","primary_attr":"str","attack_type":"Melee","roles":["Durable","Initiator","Disabler","Nuker","Escape"],"img":"/apps/dota2/images/heroes/centaur_full.png?","icon":"/apps/dota2/images/heroes/centaur_icon.png","url":"Centaur_Warrunner","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":32,"base_attack_max":34,"base_str":23,"base_agi":15,"base_int":15,"str_gain":4.3,"agi_gain":1.6,"int_gain":1.6,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":300,"turn_rate":0.5,"cm_enabled":true,"legs":4,"skills":[{"name":"Hoof Stomp","image":"https://dotabuff.com//assets/skills/centaur-warrunner-hoof-stomp-5514-dba77b67e14ff3c5f9797ad599bfc4c3b961c361c79a1f8c52e7e29bf0a6f190.jpg","link":null,"description":"Slams the ground, stunning and damaging nearby enemy units.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["315"]},{"label":"STUN DURATION","values":["2.0","2.25","2.5","2.75"]},{"label":"STOMP DAMAGE","values":["100","150","200","250"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[13.0],"manaCost":[130]},{"name":"Double Edge","image":"https://dotabuff.com//assets/skills/centaur-warrunner-double-edge-5515-95e73ce956e71024762a89277a064849a784cccc950da612198f326d920a06ec.jpg","link":null,"description":"Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target.  Centaur cannot die from Double Edge.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["175","250","325","400"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[5.0],"manaCost":[0]},{"name":"Return","image":"https://dotabuff.com//assets/skills/centaur-warrunner-return-5516-c53385a02615ced401364cf2bfd8ce9726261ca6a9d6a20ca79b522a4fa21903.jpg","link":null,"description":"Centaur applies an aura to nearby allied units. Causes allies to counter every attack, damaging the attacker based on a percentage of Centaur's strength.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["16","18","20","22"]},{"label":"STRENGTH BONUS DAMAGE","values":["30%","45%","60%","75%"]}],"cooldown":[],"manaCost":[]},{"name":"Stampede","image":"https://dotabuff.com//assets/skills/centaur-warrunner-stampede-5517-8d42a92e4a2901d92138226574595a223f15842570d89cbf0df774e0749bb98a.jpg","link":null,"description":"Centaur leads all allies into a vicious charge causing them to move through units at max speed and stop any enemy units they trample. Trampled enemies take damage based on Centaur Warrunner's strength. Each enemy can be trampled once.","effects":[{"key":"behavior","value":"No Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"STAMPEDE DURATION","values":["4.0"]},{"label":"STRENGTH MULTIPLIER DAMAGE","values":["1","2","3"]},{"label":"STOP DURATION","values":["1.8"]},{"label":"TRAMPLE RADIUS","values":["105"]},{"label":"SCEPTER DAMAGE REDUCTION","values":["40%"]}],"cooldown":[90.0,75.0,60.0],"manaCost":[100]}],"aliases":null,"talents":[{"level":25,"options":["+1s Hoof Stomp Duration","Gains Return Aura"]},{"level":20,"options":["+15 Strength","+10% Spell Amplification"]},{"level":15,"options":["+10% Magic Resistance","10% Evasion"]},{"level":10,"options":["+2 Mana Regen","+35 Damage"]}]}
+{
+  "id": 96,
+  "name": "npc_dota_hero_centaur",
+  "localized_name": "Centaur Warrunner",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Durable",
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/centaur_full.png?",
+  "icon": "/apps/dota2/images/heroes/centaur_icon.png",
+  "url": "Centaur_Warrunner",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 32,
+  "base_attack_max": 34,
+  "base_str": 23,
+  "base_agi": 15,
+  "base_int": 15,
+  "str_gain": 4.3,
+  "agi_gain": 1.6,
+  "int_gain": 1.6,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 4,
+  "skills": [
+    {
+      "name": "Hoof Stomp",
+      "image": "https://dotabuff.com//assets/skills/centaur-warrunner-hoof-stomp-5514-dba77b67e14ff3c5f9797ad599bfc4c3b961c361c79a1f8c52e7e29bf0a6f190.jpg",
+      "link": null,
+      "description": "Slams the ground, stunning and damaging nearby enemy units.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "315"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "2.0",
+            "2.25",
+            "2.5",
+            "2.75"
+          ]
+        },
+        {
+          "label": "STOMP DAMAGE",
+          "values": [
+            "100",
+            "150",
+            "200",
+            "250"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        13.0
+      ],
+      "manaCost": [
+        130
+      ]
+    },
+    {
+      "name": "Double Edge",
+      "image": "https://dotabuff.com//assets/skills/centaur-warrunner-double-edge-5515-95e73ce956e71024762a89277a064849a784cccc950da612198f326d920a06ec.jpg",
+      "link": null,
+      "description": "Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target.  Centaur cannot die from Double Edge.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "175",
+            "250",
+            "325",
+            "400"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        5.0
+      ],
+      "manaCost": [
+        0
+      ]
+    },
+    {
+      "name": "Return",
+      "image": "https://dotabuff.com//assets/skills/centaur-warrunner-return-5516-c53385a02615ced401364cf2bfd8ce9726261ca6a9d6a20ca79b522a4fa21903.jpg",
+      "link": null,
+      "description": "Centaur applies an aura to nearby allied units. Causes allies to counter every attack, damaging the attacker based on a percentage of Centaur's strength.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "16",
+            "18",
+            "20",
+            "22"
+          ]
+        },
+        {
+          "label": "STRENGTH BONUS DAMAGE",
+          "values": [
+            "30%",
+            "45%",
+            "60%",
+            "75%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Stampede",
+      "image": "https://dotabuff.com//assets/skills/centaur-warrunner-stampede-5517-8d42a92e4a2901d92138226574595a223f15842570d89cbf0df774e0749bb98a.jpg",
+      "link": null,
+      "description": "Centaur leads all allies into a vicious charge causing them to move through units at max speed and stop any enemy units they trample. Trampled enemies take damage based on Centaur Warrunner's strength. Each enemy can be trampled once.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "STAMPEDE DURATION",
+          "values": [
+            "4.0"
+          ]
+        },
+        {
+          "label": "STRENGTH MULTIPLIER DAMAGE",
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "label": "STOP DURATION",
+          "values": [
+            "1.8"
+          ]
+        },
+        {
+          "label": "TRAMPLE RADIUS",
+          "values": [
+            "105"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE REDUCTION",
+          "values": [
+            "40%"
+          ]
+        }
+      ],
+      "cooldown": [
+        90.0,
+        75.0,
+        60.0
+      ],
+      "manaCost": [
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+1s Hoof Stomp Duration",
+        "Gains Return Aura"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+15 Strength",
+        "+10% Spell Amplification"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+10% Magic Resistance",
+        "10% Evasion"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+2 Mana Regen",
+        "+35 Damage"
+      ]
+    }
+  ]
+}

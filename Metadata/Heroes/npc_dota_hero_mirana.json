@@ -1,1 +1,297 @@
-{"id":9,"name":"npc_dota_hero_mirana","localized_name":"Mirana","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Support","Escape","Nuker","Disabler"],"img":"/apps/dota2/images/heroes/mirana_full.png?","icon":"/apps/dota2/images/heroes/mirana_icon.png","url":"Mirana","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":21,"base_attack_max":32,"base_str":17,"base_agi":20,"base_int":17,"str_gain":2.15,"agi_gain":3.3,"int_gain":1.65,"attack_range":630,"projectile_speed":900,"attack_rate":1.7,"move_speed":300,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Starstorm","image":"https://dotabuff.com//assets/skills/mirana-starstorm-5051-0e80add55e25a5ce007becc500984154810f2317bd424bf8ef605cedaf1516cc.jpg","link":null,"description":"Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a <span class=\"number\">425</span> radius will be struck a second time for <span class=\"number\">75%</span> of the damage.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["75","150","225","300"]},{"label":"RADIUS","values":["650"]},{"label":"SCEPTER INTERVAL","values":["10.0"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[12.0],"manaCost":[100,120,140,160]},{"name":"Sacred Arrow","image":"https://dotabuff.com//assets/skills/mirana-sacred-arrow-5048-8731ce241ebfb376783fd5568b3889c2494dcc18f88b4939fd1b561c4732ed36.jpg","link":null,"description":"Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from <span class=\"number\">0.01</span> to <span class=\"number\">5.0</span> seconds, with bonus damage up to <span class=\"number\">140</span> added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["50","140","230","320"]},{"label":"RANGE","values":["3000"]},{"label":"MINIMUM STUN","values":["0.01"]},{"label":"MAXIMUM STUN","values":["5.0"]},{"label":"MAXIMUM BONUS DAMAGE","values":["140"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[17.0],"manaCost":[100]},{"name":"Leap","image":"https://dotabuff.com//assets/skills/mirana-leap-5050-e34db43663a03f572c8fa76d191c3093a4cc387adfda4f377253f221df61510e.jpg","link":null,"description":"Mirana leaps forward into battle, empowering allied units with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts <span class=\"number\">5</span> seconds.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"DISTANCE","values":["600","700","800","900"]},{"label":"MOVEMENT BONUS","values":["8%","12%","16%","20%"]},{"label":"ATTACK SPEED BONUS","values":["16","32","48","64"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[30.0,26.0,22.0,18.0],"manaCost":[40,35,30,20]},{"name":"Moonlight Shadow","image":"https://dotabuff.com//assets/skills/mirana-moonlight-shadow-5049-ea0b8cf6f3647a6a3ac25ccf846c076812d974c7ca009cabcef102b3db6ccfa5.jpg","link":null,"description":"Turns Mirana and all allied heroes invisible. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"FADE DELAY","values":["2.5","2.0","1.5"]},{"label":"DURATION","values":["15.0"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[140.0,120.0,100.0],"manaCost":[75]}],"aliases":null,"talents":[{"level":25,"options":["+2 Multishot Sacred Arrows","+100 Leap Attack Speed"]},{"level":20,"options":["-4s Sacred Arrow cooldown","+50 Damage"]},{"level":15,"options":["+30 Attack Speed","+5% Spell Amplification"]},{"level":10,"options":["+150 Health","+8 Agility"]}]}
+{
+  "id": 9,
+  "name": "npc_dota_hero_mirana",
+  "localized_name": "Mirana",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Support",
+    "Escape",
+    "Nuker",
+    "Disabler"
+  ],
+  "img": "/apps/dota2/images/heroes/mirana_full.png?",
+  "icon": "/apps/dota2/images/heroes/mirana_icon.png",
+  "url": "Mirana",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 21,
+  "base_attack_max": 32,
+  "base_str": 17,
+  "base_agi": 20,
+  "base_int": 17,
+  "str_gain": 2.15,
+  "agi_gain": 3.3,
+  "int_gain": 1.65,
+  "attack_range": 630,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Starstorm",
+      "image": "https://dotabuff.com//assets/skills/mirana-starstorm-5051-0e80add55e25a5ce007becc500984154810f2317bd424bf8ef605cedaf1516cc.jpg",
+      "link": null,
+      "description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a 425 radius will be struck a second time for 75% of the damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "150",
+            "225",
+            "300"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "650"
+          ]
+        },
+        {
+          "label": "SCEPTER INTERVAL",
+          "values": [
+            "10.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0
+      ],
+      "manaCost": [
+        100,
+        120,
+        140,
+        160
+      ]
+    },
+    {
+      "name": "Sacred Arrow",
+      "image": "https://dotabuff.com//assets/skills/mirana-sacred-arrow-5048-8731ce241ebfb376783fd5568b3889c2494dcc18f88b4939fd1b561c4732ed36.jpg",
+      "link": null,
+      "description": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 5.0 seconds, with bonus damage up to 140 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "50",
+            "140",
+            "230",
+            "320"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "3000"
+          ]
+        },
+        {
+          "label": "MINIMUM STUN",
+          "values": [
+            "0.01"
+          ]
+        },
+        {
+          "label": "MAXIMUM STUN",
+          "values": [
+            "5.0"
+          ]
+        },
+        {
+          "label": "MAXIMUM BONUS DAMAGE",
+          "values": [
+            "140"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        17.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Leap",
+      "image": "https://dotabuff.com//assets/skills/mirana-leap-5050-e34db43663a03f572c8fa76d191c3093a4cc387adfda4f377253f221df61510e.jpg",
+      "link": null,
+      "description": "Mirana leaps forward into battle, empowering allied units with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 5 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DISTANCE",
+          "values": [
+            "600",
+            "700",
+            "800",
+            "900"
+          ]
+        },
+        {
+          "label": "MOVEMENT BONUS",
+          "values": [
+            "8%",
+            "12%",
+            "16%",
+            "20%"
+          ]
+        },
+        {
+          "label": "ATTACK SPEED BONUS",
+          "values": [
+            "16",
+            "32",
+            "48",
+            "64"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        30.0,
+        26.0,
+        22.0,
+        18.0
+      ],
+      "manaCost": [
+        40,
+        35,
+        30,
+        20
+      ]
+    },
+    {
+      "name": "Moonlight Shadow",
+      "image": "https://dotabuff.com//assets/skills/mirana-moonlight-shadow-5049-ea0b8cf6f3647a6a3ac25ccf846c076812d974c7ca009cabcef102b3db6ccfa5.jpg",
+      "link": null,
+      "description": "Turns Mirana and all allied heroes invisible. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "FADE DELAY",
+          "values": [
+            "2.5",
+            "2.0",
+            "1.5"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "15.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        140.0,
+        120.0,
+        100.0
+      ],
+      "manaCost": [
+        75
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+2 Multishot Sacred Arrows",
+        "+100 Leap Attack Speed"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "-4s Sacred Arrow cooldown",
+        "+50 Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+30 Attack Speed",
+        "+5% Spell Amplification"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+150 Health",
+        "+8 Agility"
+      ]
+    }
+  ]
+}

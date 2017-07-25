@@ -1,1 +1,304 @@
-{"id":111,"name":"npc_dota_hero_oracle","localized_name":"Oracle","primary_attr":"int","attack_type":"Ranged","roles":["Support","Nuker","Disabler","Escape"],"img":"/apps/dota2/images/heroes/oracle_full.png?","icon":"/apps/dota2/images/heroes/oracle_icon.png","url":"Oracle","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":16,"base_attack_max":22,"base_str":18,"base_agi":15,"base_int":23,"str_gain":2.2,"agi_gain":1.7,"int_gain":2.9,"attack_range":620,"projectile_speed":900,"attack_rate":1.4,"move_speed":305,"turn_rate":0.4,"cm_enabled":true,"legs":2,"skills":[{"name":"Fortune&#39;s End","image":"https://dotabuff.com//assets/skills/oracle-fortunes-end-5637-13f0cadcbe16d7c359cc0c4da8fb161cccc7896ac47936c5f987eda5ed7675a8.jpg","link":null,"description":"CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge. Can be channeled for up to <span class=\"number\">2.5</span> seconds. The stop duration is equal to the time spent channeling.","effects":[{"key":"behavior","value":"Channelled, Unit Target"},{"key":"affects","value":"Heroes"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["90","120","150","180"]},{"label":"MIN STOP DURATION","values":["0.5"]},{"label":"MAX STOP DURATION","values":["2.5"]},{"label":"RADIUS","values":["300"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[15.0,12.0,9.0,6.0],"manaCost":[110]},{"name":"Fate&#39;s Edict","image":"https://dotabuff.com//assets/skills/oracle-fates-edict-5638-df7e8ed5bde3d2efe9114fbc3c9c651a6465ebeade13dd82e82e8bd952ccc52d.jpg","link":null,"description":"Oracle enraptures a target, disarming them and granting them <span class=\"number\">100%</span> magic damage resistance. Can be cast on allies and enemies.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["3.0","3.5","4.0","4.5"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[16.0,13.0,10.0,7.0],"manaCost":[50]},{"name":"Purifying Flames","image":"https://dotabuff.com//assets/skills/oracle-purifying-flames-5639-ec99e744b880dabf327bdcc29308b852d716db4b7d411560e21f5c16bb7acfc6.jpg","link":null,"description":"Burns away impurities, dealing heavy magic damage to the target before causing them to regenerate health over time. The amount of health regenerated over its duration exceeds the amount of initial damage. Can be cast on enemies and allies.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Allied Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["90","180","270","360"]},{"label":"HEAL PER SECOND","values":["11","22","33","44"]},{"label":"TOTAL HEAL","values":["99","198","297","396"]},{"label":"DURATION","values":["9.0"]},{"label":"SCEPTER COOLDOWN","values":["1.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[2.25],"manaCost":[80,85,90,95]},{"name":"False Promise","image":"https://dotabuff.com//assets/skills/oracle-false-promise-5640-55fd52d587a372828e5d879a91311d3bb0aa5a5c780eb15d51e63555db6fc54c.jpg","link":null,"description":"Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is doubled. Removes most negative status effects and disables on initial cast.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Allied Heroes"}],"stats":[{"label":"DURATION","values":["8","9","10"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[100.0,65.0,30.0],"manaCost":[100]}],"aliases":null,"talents":[{"level":25,"options":["+2 False Promise Duration","+250 Cast Range"]},{"level":20,"options":["+20 Intelligence","+25 Movement Speed"]},{"level":15,"options":["+60 Gold/Min","+200 Health"]},{"level":10,"options":["+20% XP Gain","+0.75s Fortune&#39;s End Max Duration"]}]}
+{
+  "id": 111,
+  "name": "npc_dota_hero_oracle",
+  "localized_name": "Oracle",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/oracle_full.png?",
+  "icon": "/apps/dota2/images/heroes/oracle_icon.png",
+  "url": "Oracle",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 16,
+  "base_attack_max": 22,
+  "base_str": 18,
+  "base_agi": 15,
+  "base_int": 23,
+  "str_gain": 2.2,
+  "agi_gain": 1.7,
+  "int_gain": 2.9,
+  "attack_range": 620,
+  "projectile_speed": 900,
+  "attack_rate": 1.4,
+  "move_speed": 305,
+  "turn_rate": 0.4,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Fortune&#39;s End",
+      "image": "https://dotabuff.com//assets/skills/oracle-fortunes-end-5637-13f0cadcbe16d7c359cc0c4da8fb161cccc7896ac47936c5f987eda5ed7675a8.jpg",
+      "link": null,
+      "description": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge. Can be channeled for up to 2.5 seconds. The stop duration is equal to the time spent channeling.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Heroes"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "90",
+            "120",
+            "150",
+            "180"
+          ]
+        },
+        {
+          "label": "MIN STOP DURATION",
+          "values": [
+            "0.5"
+          ]
+        },
+        {
+          "label": "MAX STOP DURATION",
+          "values": [
+            "2.5"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "300"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0,
+        12.0,
+        9.0,
+        6.0
+      ],
+      "manaCost": [
+        110
+      ]
+    },
+    {
+      "name": "Fate&#39;s Edict",
+      "image": "https://dotabuff.com//assets/skills/oracle-fates-edict-5638-df7e8ed5bde3d2efe9114fbc3c9c651a6465ebeade13dd82e82e8bd952ccc52d.jpg",
+      "link": null,
+      "description": "Oracle enraptures a target, disarming them and granting them 100% magic damage resistance. Can be cast on allies and enemies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "3.0",
+            "3.5",
+            "4.0",
+            "4.5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0,
+        13.0,
+        10.0,
+        7.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Purifying Flames",
+      "image": "https://dotabuff.com//assets/skills/oracle-purifying-flames-5639-ec99e744b880dabf327bdcc29308b852d716db4b7d411560e21f5c16bb7acfc6.jpg",
+      "link": null,
+      "description": "Burns away impurities, dealing heavy magic damage to the target before causing them to regenerate health over time. The amount of health regenerated over its duration exceeds the amount of initial damage. Can be cast on enemies and allies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "90",
+            "180",
+            "270",
+            "360"
+          ]
+        },
+        {
+          "label": "HEAL PER SECOND",
+          "values": [
+            "11",
+            "22",
+            "33",
+            "44"
+          ]
+        },
+        {
+          "label": "TOTAL HEAL",
+          "values": [
+            "99",
+            "198",
+            "297",
+            "396"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "9.0"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "1.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        2.25
+      ],
+      "manaCost": [
+        80,
+        85,
+        90,
+        95
+      ]
+    },
+    {
+      "name": "False Promise",
+      "image": "https://dotabuff.com//assets/skills/oracle-false-promise-5640-55fd52d587a372828e5d879a91311d3bb0aa5a5c780eb15d51e63555db6fc54c.jpg",
+      "link": null,
+      "description": "Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is doubled. Removes most negative status effects and disables on initial cast.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Heroes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        100.0,
+        65.0,
+        30.0
+      ],
+      "manaCost": [
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+2 False Promise Duration",
+        "+250 Cast Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+20 Intelligence",
+        "+25 Movement Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+60 Gold/Min",
+        "+200 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20% XP Gain",
+        "+0.75s Fortune&#39;s End Max Duration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "canonicalForm": "npc_dota_hero_abaddon",
+    "list": [
+      "Abaddon"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_abyssal_underlord",
+    "list": [
+      "Underlord"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_alchemist",
+    "list": [
+      "Alchemist"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_ancient_apparition",
+    "list": [
+      "Ancient Apparition"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_antimage",
+    "list": [
+      "Anti-Mage"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_arc_warden",
+    "list": [
+      "Arc Warden"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_axe",
+    "list": [
+      "Axe"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_bane",
+    "list": [
+      "Bane"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_batrider",
+    "list": [
+      "Batrider"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_beastmaster",
+    "list": [
+      "Beastmaster"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_bloodseeker",
+    "list": [
+      "Bloodseeker"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_bounty_hunter",
+    "list": [
+      "Bounty Hunter"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_brewmaster",
+    "list": [
+      "Brewmaster"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_bristleback",
+    "list": [
+      "Bristleback"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_broodmother",
+    "list": [
+      "Broodmother"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_centaur",
+    "list": [
+      "Centaur Warrunner"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_chaos_knight",
+    "list": [
+      "Chaos Knight"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_chen",
+    "list": [
+      "Chen"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_clinkz",
+    "list": [
+      "Clinkz"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_crystal_maiden",
+    "list": [
+      "Crystal Maiden"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_dark_seer",
+    "list": [
+      "Dark Seer"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_dazzle",
+    "list": [
+      "Dazzle"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_death_prophet",
+    "list": [
+      "Death Prophet"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_disruptor",
+    "list": [
+      "Disruptor"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_doom_bringer",
+    "list": [
+      "Doom"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_dragon_knight",
+    "list": [
+      "Dragon Knight"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_drow_ranger",
+    "list": [
+      "Drow Ranger"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_earthshaker",
+    "list": [
+      "Earthshaker"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_earth_spirit",
+    "list": [
+      "Earth Spirit"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_elder_titan",
+    "list": [
+      "Elder Titan"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_ember_spirit",
+    "list": [
+      "Ember Spirit"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_enchantress",
+    "list": [
+      "Enchantress"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_enigma",
+    "list": [
+      "Enigma"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_faceless_void",
+    "list": [
+      "Faceless Void"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_furion",
+    "list": [
+      "Nature's Prophet"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_gyrocopter",
+    "list": [
+      "Gyrocopter"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_huskar",
+    "list": [
+      "Huskar"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_invoker",
+    "list": [
+      "Invoker"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_jakiro",
+    "list": [
+      "Jakiro"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_juggernaut",
+    "list": [
+      "Juggernaut"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_keeper_of_the_light",
+    "list": [
+      "Keeper of the Light"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_kunkka",
+    "list": [
+      "Kunkka"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_legion_commander",
+    "list": [
+      "Legion Commander"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_leshrac",
+    "list": [
+      "Leshrac"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_lich",
+    "list": [
+      "Lich"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_life_stealer",
+    "list": [
+      "Lifestealer"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_lina",
+    "list": [
+      "Lina"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_lion",
+    "list": [
+      "Lion"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_lone_druid",
+    "list": [
+      "Lone Druid"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_luna",
+    "list": [
+      "Luna"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_lycan",
+    "list": [
+      "Lycan"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_magnataur",
+    "list": [
+      "Magnus"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_medusa",
+    "list": [
+      "Medusa"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_meepo",
+    "list": [
+      "Meepo"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_mirana",
+    "list": [
+      "Mirana"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_monkey_king",
+    "list": [
+      "Monkey King"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_morphling",
+    "list": [
+      "Morphling"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_naga_siren",
+    "list": [
+      "Naga Siren"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_necrolyte",
+    "list": [
+      "Necrophos"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_nevermore",
+    "list": [
+      "Shadow Fiend"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_night_stalker",
+    "list": [
+      "Night Stalker"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_nyx_assassin",
+    "list": [
+      "Nyx Assassin"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_obsidian_destroyer",
+    "list": [
+      "Outworld Devourer"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_ogre_magi",
+    "list": [
+      "Ogre Magi"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_omniknight",
+    "list": [
+      "Omniknight"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_oracle",
+    "list": [
+      "Oracle"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_phantom_assassin",
+    "list": [
+      "Phantom Assassin"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_phantom_lancer",
+    "list": [
+      "Phantom Lancer"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_phoenix",
+    "list": [
+      "Phoenix"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_puck",
+    "list": [
+      "Puck"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_pudge",
+    "list": [
+      "Pudge"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_pugna",
+    "list": [
+      "Pugna"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_queenofpain",
+    "list": [
+      "Queen of Pain"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_rattletrap",
+    "list": [
+      "Clockwerk"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_razor",
+    "list": [
+      "Razor"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_riki",
+    "list": [
+      "Riki"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_rubick",
+    "list": [
+      "Rubick"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_sand_king",
+    "list": [
+      "Sand King"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_shadow_demon",
+    "list": [
+      "Shadow Demon"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_shadow_shaman",
+    "list": [
+      "Shadow Shaman"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_shredder",
+    "list": [
+      "Timbersaw"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_silencer",
+    "list": [
+      "Silencer"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_skeleton_king",
+    "list": [
+      "Wraith King"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_skywrath_mage",
+    "list": [
+      "Skywrath Mage"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_slardar",
+    "list": [
+      "Slardar"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_slark",
+    "list": [
+      "Slark"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_sniper",
+    "list": [
+      "Sniper"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_spectre",
+    "list": [
+      "Spectre"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_spirit_breaker",
+    "list": [
+      "Spirit Breaker"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_storm_spirit",
+    "list": [
+      "Storm Spirit"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_sven",
+    "list": [
+      "Sven"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_techies",
+    "list": [
+      "Techies"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_templar_assassin",
+    "list": [
+      "Templar Assassin"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_terrorblade",
+    "list": [
+      "Terrorblade"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_tidehunter",
+    "list": [
+      "Tidehunter"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_tinker",
+    "list": [
+      "Tinker"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_tiny",
+    "list": [
+      "Tiny"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_treant",
+    "list": [
+      "Treant Protector"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_troll_warlord",
+    "list": [
+      "Troll Warlord"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_tusk",
+    "list": [
+      "Tusk"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_undying",
+    "list": [
+      "Undying"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_ursa",
+    "list": [
+      "Ursa"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_vengefulspirit",
+    "list": [
+      "Vengeful Spirit"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_venomancer",
+    "list": [
+      "Venomancer"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_viper",
+    "list": [
+      "Viper"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_visage",
+    "list": [
+      "Visage"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_warlock",
+    "list": [
+      "Warlock"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_weaver",
+    "list": [
+      "Weaver"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_windrunner",
+    "list": [
+      "Windranger"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_winter_wyvern",
+    "list": [
+      "Winter Wyvern"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_wisp",
+    "list": [
+      "Io"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_witch_doctor",
+    "list": [
+      "Witch Doctor"
+    ]
+  },
+  {
+    "canonicalForm": "npc_dota_hero_zuus",
+    "list": [
+      "Zeus"
+    ]
+  }
+]

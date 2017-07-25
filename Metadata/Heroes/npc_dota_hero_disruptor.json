@@ -1,1 +1,314 @@
-{"id":87,"name":"npc_dota_hero_disruptor","localized_name":"Disruptor","primary_attr":"int","attack_type":"Ranged","roles":["Support","Disabler","Nuker","Initiator"],"img":"/apps/dota2/images/heroes/disruptor_full.png?","icon":"/apps/dota2/images/heroes/disruptor_icon.png","url":"Disruptor","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":27,"base_attack_max":31,"base_str":19,"base_agi":15,"base_int":22,"str_gain":2.2,"agi_gain":1.4,"int_gain":2.5,"attack_range":600,"projectile_speed":1200,"attack_rate":1.7,"move_speed":300,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Thunder Strike","image":"https://dotabuff.com//assets/skills/disruptor-thunder-strike-5458-f57e4e06fb668cf381c7d053d3b4c62e0cc7919556af43095060e8a50767c2d8.jpg","link":null,"description":"Repeatedly strikes the targeted unit with lightning.  Each strike damages nearby enemy units in a small radius.  Provides vision of its target.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["40","60","80","100"]},{"label":"RADIUS","values":["240"]},{"label":"STRIKES","values":["4"]},{"label":"STRIKE INTERVAL","values":["2"]},{"label":"CAST POINT","values":["0.05s"]}],"cooldown":[12.0,11.0,10.0,9.0],"manaCost":[130]},{"name":"Glimpse","image":"https://dotabuff.com//assets/skills/disruptor-glimpse-5459-5e3aa513dac1e062bcf9b202a1df08823ec61399fc05fbbe88ab4ba3a6713dfd.jpg","link":null,"description":"Teleports the target hero back to where it was <span class=\"number\">4</span> seconds ago.  Instantly kills illusions.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Heroes"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"CAST RANGE","values":["600","1000","1400","1800"]},{"label":"CAST POINT","values":["0.05s"]}],"cooldown":[60.0,46.0,32.0,18.0],"manaCost":[100]},{"name":"Kinetic Field","image":"https://dotabuff.com//assets/skills/disruptor-kinetic-field-5460-f57b3942803d7a0e29aa037a8cd79a15b578469319ebc1ab87e44ff55133568b.jpg","link":null,"description":"After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass.","effects":[{"key":"behavior","value":"Point Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["340"]},{"label":"FORMATION DELAY","values":["1.2"]},{"label":"DURATION","values":["2.6","3.2","3.8","4.4"]},{"label":"CAST POINT","values":["0.05s"]}],"cooldown":[13.0,12.0,11.0,10.0],"manaCost":[70]},{"name":"Static Storm","image":"https://dotabuff.com//assets/skills/disruptor-static-storm-5461-81793eac9a2c80701cf73d764164bf8104e901ef4b139dd5b05e37cb4086f76d.jpg","link":null,"description":"Creates a damaging static storm that also silences all enemy units in the area for the duration.  The damage starts off weak, but increases in power over the duration.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["450"]},{"label":"PULSES","values":["20"]},{"label":"MAX DAMAGE PER SECOND","values":["200","250","300"]},{"label":"DURATION","values":["5.0"]},{"label":"SCEPTER DURATION","values":["7.0"]},{"label":"SCEPTER PULSES","values":["28"]},{"label":"CAST POINT","values":["0.05s"]}],"cooldown":[90.0,80.0,70.0],"manaCost":[125,175,225]}],"aliases":null,"talents":[{"level":25,"options":["+30% Magic Resistance","+4 Thunder Strike Hits"]},{"level":20,"options":["+10% Spell Amplification","+400 Health"]},{"level":15,"options":["+40 Thunder Strike Damage","-3s Kinetic Field Cooldown"]},{"level":10,"options":["+60 Gold/Min","+100 Cast Range"]}]}
+{
+  "id": 87,
+  "name": "npc_dota_hero_disruptor",
+  "localized_name": "Disruptor",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+  ],
+  "img": "/apps/dota2/images/heroes/disruptor_full.png?",
+  "icon": "/apps/dota2/images/heroes/disruptor_icon.png",
+  "url": "Disruptor",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 27,
+  "base_attack_max": 31,
+  "base_str": 19,
+  "base_agi": 15,
+  "base_int": 22,
+  "str_gain": 2.2,
+  "agi_gain": 1.4,
+  "int_gain": 2.5,
+  "attack_range": 600,
+  "projectile_speed": 1200,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Thunder Strike",
+      "image": "https://dotabuff.com//assets/skills/disruptor-thunder-strike-5458-f57e4e06fb668cf381c7d053d3b4c62e0cc7919556af43095060e8a50767c2d8.jpg",
+      "link": null,
+      "description": "Repeatedly strikes the targeted unit with lightning.  Each strike damages nearby enemy units in a small radius.  Provides vision of its target.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "40",
+            "60",
+            "80",
+            "100"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "240"
+          ]
+        },
+        {
+          "label": "STRIKES",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "STRIKE INTERVAL",
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.05s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "manaCost": [
+        130
+      ]
+    },
+    {
+      "name": "Glimpse",
+      "image": "https://dotabuff.com//assets/skills/disruptor-glimpse-5459-5e3aa513dac1e062bcf9b202a1df08823ec61399fc05fbbe88ab4ba3a6713dfd.jpg",
+      "link": null,
+      "description": "Teleports the target hero back to where it was 4 seconds ago.  Instantly kills illusions.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Heroes"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "600",
+            "1000",
+            "1400",
+            "1800"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.05s"
+          ]
+        }
+      ],
+      "cooldown": [
+        60.0,
+        46.0,
+        32.0,
+        18.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Kinetic Field",
+      "image": "https://dotabuff.com//assets/skills/disruptor-kinetic-field-5460-f57b3942803d7a0e29aa037a8cd79a15b578469319ebc1ab87e44ff55133568b.jpg",
+      "link": null,
+      "description": "After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "340"
+          ]
+        },
+        {
+          "label": "FORMATION DELAY",
+          "values": [
+            "1.2"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "2.6",
+            "3.2",
+            "3.8",
+            "4.4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.05s"
+          ]
+        }
+      ],
+      "cooldown": [
+        13.0,
+        12.0,
+        11.0,
+        10.0
+      ],
+      "manaCost": [
+        70
+      ]
+    },
+    {
+      "name": "Static Storm",
+      "image": "https://dotabuff.com//assets/skills/disruptor-static-storm-5461-81793eac9a2c80701cf73d764164bf8104e901ef4b139dd5b05e37cb4086f76d.jpg",
+      "link": null,
+      "description": "Creates a damaging static storm that also silences all enemy units in the area for the duration.  The damage starts off weak, but increases in power over the duration.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "450"
+          ]
+        },
+        {
+          "label": "PULSES",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "label": "MAX DAMAGE PER SECOND",
+          "values": [
+            "200",
+            "250",
+            "300"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "5.0"
+          ]
+        },
+        {
+          "label": "SCEPTER DURATION",
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "label": "SCEPTER PULSES",
+          "values": [
+            "28"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.05s"
+          ]
+        }
+      ],
+      "cooldown": [
+        90.0,
+        80.0,
+        70.0
+      ],
+      "manaCost": [
+        125,
+        175,
+        225
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+30% Magic Resistance",
+        "+4 Thunder Strike Hits"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10% Spell Amplification",
+        "+400 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+40 Thunder Strike Damage",
+        "-3s Kinetic Field Cooldown"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+60 Gold/Min",
+        "+100 Cast Range"
+      ]
+    }
+  ]
+}

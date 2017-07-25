@@ -108,7 +108,7 @@ namespace MetadataScraper
 
             if (description != null)
             {
-                skill.Description = description.FirstChild.InnerHtml;
+                skill.Description = description.FirstChild.InnerText;
             }
 
             var statEffects = skillDocument.DocumentNode.Descendants("div")

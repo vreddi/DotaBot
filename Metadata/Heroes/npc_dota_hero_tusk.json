@@ -1,1 +1,344 @@
-{"id":100,"name":"npc_dota_hero_tusk","localized_name":"Tusk","primary_attr":"str","attack_type":"Melee","roles":["Initiator","Disabler","Nuker"],"img":"/apps/dota2/images/heroes/tusk_full.png?","icon":"/apps/dota2/images/heroes/tusk_icon.png","url":"Tusk","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":27,"base_attack_max":31,"base_str":23,"base_agi":23,"base_int":18,"str_gain":2.6,"agi_gain":2.1,"int_gain":1.7,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":300,"turn_rate":0.7,"cm_enabled":true,"legs":2,"skills":[{"name":"Ice Shards","image":"https://dotabuff.com//assets/skills/tusk-ice-shards-5565-4d68988fdb3e0125b3366ef7da48f26857ea0d2c3ab771b35474162a20286139.jpg","link":null,"description":"Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for <span class=\"number\">7.0</span> seconds.","effects":[{"key":"behavior","value":"Point Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["200"]},{"label":"SHARD DAMAGE","values":["60","120","180","240"]},{"label":"SHARD DURATION","values":["7.0"]},{"label":"CAST RANGE","values":["1800"]},{"label":"CAST POINT","values":["0.1s"]}],"cooldown":[19.0,16.0,13.0,10.0],"manaCost":[100,105,110,115]},{"name":"Snowball","image":"https://dotabuff.com//assets/skills/tusk-snowball-5566-59d2d27dcb5f9039f1e83bbdb0d4fe4fd2730ad1eb95b1dd176ec3313c9023c8.jpg","link":null,"description":"Tusk begins rolling into a snowball. Allies within a <span class=\"number\">350</span> radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"BASE DAMAGE","values":["80","120","160","200"]},{"label":"BONUS DAMAGE PER ALLY","values":["20","30","40","50"]},{"label":"STUN DURATION","values":["0.5","0.75","1.0","1.25"]},{"label":"GATHER RADIUS","values":["100"]},{"label":"LAUNCH TIME","values":["3.0"]},{"label":"CAST POINT","values":["0.1s"]}],"cooldown":[21.0,20.0,19.0,18.0],"manaCost":[75]},{"name":"Frozen Sigil","image":"https://dotabuff.com//assets/skills/tusk-frozen-sigil-5567-ff4482e35243bf98a38421b36e7f852fe77a61603d8617210045b434f28eae1f.jpg","link":null,"description":"Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within <span class=\"number\">600</span> range.","effects":[{"key":"behavior","value":"No Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"AURA RADIUS","values":["600"]},{"label":"DURATION","values":["30.0"]},{"label":"MOVEMENT SLOW","values":["10%","15%","20%","25%"]},{"label":"ATTACK SLOW","values":["30","40","50","60"]},{"label":"CAST POINT","values":["0.1s"]}],"cooldown":[50.0],"manaCost":[75]},{"name":"Walrus PUNCH!","image":"https://dotabuff.com//assets/skills/tusk-walrus-punch-5568-7939fd76f138bf815a1811b4410522341458717515002330cf6979092a2a45fd.jpg","link":null,"description":"Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.","effects":[{"key":"behavior","value":"Auto-Cast, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"CRIT MULTIPLIER","values":["350%"]},{"label":"AIR TIME","values":["1.0"]},{"label":"SLOW DURATION","values":["2","3","4"]},{"label":"MOVEMENT SLOW","values":["40%"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[36.0,24.0,12.0],"manaCost":[50,75,100]}],"aliases":null,"talents":[{"level":25,"options":["+150% Walrus Punch Crit","+700 Health"]},{"level":20,"options":["+12% Magic Resistance","+6 Armor"]},{"level":15,"options":["+90 Gold/Min","+150 Snowball Damage"]},{"level":10,"options":["+35 Damage","+40% XP Gain"]}]}
+{
+  "id": 100,
+  "name": "npc_dota_hero_tusk",
+  "localized_name": "Tusk",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/tusk_full.png?",
+  "icon": "/apps/dota2/images/heroes/tusk_icon.png",
+  "url": "Tusk",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 27,
+  "base_attack_max": 31,
+  "base_str": 23,
+  "base_agi": 23,
+  "base_int": 18,
+  "str_gain": 2.6,
+  "agi_gain": 2.1,
+  "int_gain": 1.7,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 300,
+  "turn_rate": 0.7,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Ice Shards",
+      "image": "https://dotabuff.com//assets/skills/tusk-ice-shards-5565-4d68988fdb3e0125b3366ef7da48f26857ea0d2c3ab771b35474162a20286139.jpg",
+      "link": null,
+      "description": "Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 7.0 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "200"
+          ]
+        },
+        {
+          "label": "SHARD DAMAGE",
+          "values": [
+            "60",
+            "120",
+            "180",
+            "240"
+          ]
+        },
+        {
+          "label": "SHARD DURATION",
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "1800"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.1s"
+          ]
+        }
+      ],
+      "cooldown": [
+        19.0,
+        16.0,
+        13.0,
+        10.0
+      ],
+      "manaCost": [
+        100,
+        105,
+        110,
+        115
+      ]
+    },
+    {
+      "name": "Snowball",
+      "image": "https://dotabuff.com//assets/skills/tusk-snowball-5566-59d2d27dcb5f9039f1e83bbdb0d4fe4fd2730ad1eb95b1dd176ec3313c9023c8.jpg",
+      "link": null,
+      "description": "Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BASE DAMAGE",
+          "values": [
+            "80",
+            "120",
+            "160",
+            "200"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE PER ALLY",
+          "values": [
+            "20",
+            "30",
+            "40",
+            "50"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "0.5",
+            "0.75",
+            "1.0",
+            "1.25"
+          ]
+        },
+        {
+          "label": "GATHER RADIUS",
+          "values": [
+            "100"
+          ]
+        },
+        {
+          "label": "LAUNCH TIME",
+          "values": [
+            "3.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.1s"
+          ]
+        }
+      ],
+      "cooldown": [
+        21.0,
+        20.0,
+        19.0,
+        18.0
+      ],
+      "manaCost": [
+        75
+      ]
+    },
+    {
+      "name": "Frozen Sigil",
+      "image": "https://dotabuff.com//assets/skills/tusk-frozen-sigil-5567-ff4482e35243bf98a38421b36e7f852fe77a61603d8617210045b434f28eae1f.jpg",
+      "link": null,
+      "description": "Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within 600 range.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "AURA RADIUS",
+          "values": [
+            "600"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "30.0"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "10%",
+            "15%",
+            "20%",
+            "25%"
+          ]
+        },
+        {
+          "label": "ATTACK SLOW",
+          "values": [
+            "30",
+            "40",
+            "50",
+            "60"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.1s"
+          ]
+        }
+      ],
+      "cooldown": [
+        50.0
+      ],
+      "manaCost": [
+        75
+      ]
+    },
+    {
+      "name": "Walrus PUNCH!",
+      "image": "https://dotabuff.com//assets/skills/tusk-walrus-punch-5568-7939fd76f138bf815a1811b4410522341458717515002330cf6979092a2a45fd.jpg",
+      "link": null,
+      "description": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Auto-Cast, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "CRIT MULTIPLIER",
+          "values": [
+            "350%"
+          ]
+        },
+        {
+          "label": "AIR TIME",
+          "values": [
+            "1.0"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "40%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        36.0,
+        24.0,
+        12.0
+      ],
+      "manaCost": [
+        50,
+        75,
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+150% Walrus Punch Crit",
+        "+700 Health"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+12% Magic Resistance",
+        "+6 Armor"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+90 Gold/Min",
+        "+150 Snowball Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+35 Damage",
+        "+40% XP Gain"
+      ]
+    }
+  ]
+}

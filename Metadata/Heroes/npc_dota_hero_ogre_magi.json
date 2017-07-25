@@ -1,1 +1,336 @@
-{"id":84,"name":"npc_dota_hero_ogre_magi","localized_name":"Ogre Magi","primary_attr":"int","attack_type":"Melee","roles":["Support","Nuker","Disabler","Durable","Initiator"],"img":"/apps/dota2/images/heroes/ogre_magi_full.png?","icon":"/apps/dota2/images/heroes/ogre_magi_icon.png","url":"Ogre_Magi","base_health":200,"base_health_regen":3.25,"base_mana":75,"base_mana_regen":0.01,"base_armor":6.0,"base_mr":25.0,"base_attack_min":41,"base_attack_max":47,"base_str":23,"base_agi":14,"base_int":17,"str_gain":3.5,"agi_gain":1.55,"int_gain":2.0,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":285,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Fireblast","image":"https://dotabuff.com//assets/skills/ogre-magi-fireblast-5438-d3e7ed629d00e44e83b48d3656e8dc732a09c3a8ea5f84a3b3a375d4f5a97490.jpg","link":null,"description":"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["55","110","165","220"]},{"label":"STUN DURATION","values":["1.5"]},{"label":"CAST POINT","values":["0.45s"]}],"cooldown":[12.0],"manaCost":[75,85,95,105]},{"name":"Ignite","image":"https://dotabuff.com//assets/skills/ogre-magi-ignite-5439-94eff2f1c3064019ed6c9bb774cdec1e02962b337f441814542997055f7b255a.jpg","link":null,"description":"Drenches a target in volatile chemicals, causing it to burst into flames. The target is in immense pain, taking damage and moving more slowly.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DURATION","values":["5","6","7","8"]},{"label":"BURN DAMAGE","values":["26","34","42","50"]},{"label":"SLOW","values":["-20%","-22%","-24%","-26%"]},{"label":"CAST POINT","values":["0.45s"]}],"cooldown":[15.0],"manaCost":[90]},{"name":"Bloodlust","image":"https://dotabuff.com//assets/skills/ogre-magi-bloodlust-5440-6089150e1b3ff7236edf0cce43d01f786be068eb31be96ad6c5b864c1a1cf108.jpg","link":null,"description":"Incites a frenzy in a friendly unit, increasing its movement speed and attack speed. Can be cast on towers.","effects":[{"key":"behavior","value":"Auto-Cast, Unit Target"},{"key":"affects","value":"Allied Units"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"BONUS MOVE SPEED","values":["10%","12%","14%","16%"]},{"label":"BONUS ATTACK SPEED","values":["30","40","50","60"]},{"label":"DURATION","values":["30.0"]},{"label":"CAST POINT","values":["0.45s"]}],"cooldown":[20.0],"manaCost":[65]},{"name":"Multicast","image":"https://dotabuff.com//assets/skills/ogre-magi-multicast-5441-8d28b780133c9252629d1610112285db25606fb6b5037bb095bbb3beff158662.jpg","link":null,"description":"Enables Ogre Magi to cast his spells multiple times with each use, while also granting his spells greater potency:","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"FIREBLAST MANA INCREASE","values":["20","40","60"]},{"label":"FIREBLAST COOLDOWN REDUCTION","values":["2","4","6"]},{"label":"IGNITE RADIUS","values":["150","300","450"]},{"label":"IGNITE CAST RANGE INCREASE","values":["150","300","450"]},{"label":"BLOODLUST RADIUS","values":["575.0"]},{"label":"BLOODLUST COOLDOWN REDUCTION","values":["5","10","15"]},{"label":"2X CAST CHANCE","values":["40%","50%","60%"]},{"label":"3X CAST CHANCE","values":["0%","20%","25%"]},{"label":"4X CAST CHANCE","values":["0.0%","0.0%","12.5%"]}],"cooldown":[],"manaCost":[]}],"aliases":null,"talents":[{"level":25,"options":["+40 Bloodlust AS","+15% Spell Amplification"]},{"level":20,"options":["+30 Movement Speed","+350 Health"]},{"level":15,"options":["+12% Magic Resistance","+50 Damage"]},{"level":10,"options":["+100 Cast Range","+60 Gold/Min"]}]}
+{
+  "id": 84,
+  "name": "npc_dota_hero_ogre_magi",
+  "localized_name": "Ogre Magi",
+  "primary_attr": "int",
+  "attack_type": "Melee",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Durable",
+    "Initiator"
+  ],
+  "img": "/apps/dota2/images/heroes/ogre_magi_full.png?",
+  "icon": "/apps/dota2/images/heroes/ogre_magi_icon.png",
+  "url": "Ogre_Magi",
+  "base_health": 200,
+  "base_health_regen": 3.25,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 6.0,
+  "base_mr": 25.0,
+  "base_attack_min": 41,
+  "base_attack_max": 47,
+  "base_str": 23,
+  "base_agi": 14,
+  "base_int": 17,
+  "str_gain": 3.5,
+  "agi_gain": 1.55,
+  "int_gain": 2.0,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 285,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Fireblast",
+      "image": "https://dotabuff.com//assets/skills/ogre-magi-fireblast-5438-d3e7ed629d00e44e83b48d3656e8dc732a09c3a8ea5f84a3b3a375d4f5a97490.jpg",
+      "link": null,
+      "description": "Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "55",
+            "110",
+            "165",
+            "220"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "1.5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.45s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0
+      ],
+      "manaCost": [
+        75,
+        85,
+        95,
+        105
+      ]
+    },
+    {
+      "name": "Ignite",
+      "image": "https://dotabuff.com//assets/skills/ogre-magi-ignite-5439-94eff2f1c3064019ed6c9bb774cdec1e02962b337f441814542997055f7b255a.jpg",
+      "link": null,
+      "description": "Drenches a target in volatile chemicals, causing it to burst into flames. The target is in immense pain, taking damage and moving more slowly.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "label": "BURN DAMAGE",
+          "values": [
+            "26",
+            "34",
+            "42",
+            "50"
+          ]
+        },
+        {
+          "label": "SLOW",
+          "values": [
+            "-20%",
+            "-22%",
+            "-24%",
+            "-26%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.45s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0
+      ],
+      "manaCost": [
+        90
+      ]
+    },
+    {
+      "name": "Bloodlust",
+      "image": "https://dotabuff.com//assets/skills/ogre-magi-bloodlust-5440-6089150e1b3ff7236edf0cce43d01f786be068eb31be96ad6c5b864c1a1cf108.jpg",
+      "link": null,
+      "description": "Incites a frenzy in a friendly unit, increasing its movement speed and attack speed. Can be cast on towers.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Auto-Cast, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS MOVE SPEED",
+          "values": [
+            "10%",
+            "12%",
+            "14%",
+            "16%"
+          ]
+        },
+        {
+          "label": "BONUS ATTACK SPEED",
+          "values": [
+            "30",
+            "40",
+            "50",
+            "60"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "30.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.45s"
+          ]
+        }
+      ],
+      "cooldown": [
+        20.0
+      ],
+      "manaCost": [
+        65
+      ]
+    },
+    {
+      "name": "Multicast",
+      "image": "https://dotabuff.com//assets/skills/ogre-magi-multicast-5441-8d28b780133c9252629d1610112285db25606fb6b5037bb095bbb3beff158662.jpg",
+      "link": null,
+      "description": "Enables Ogre Magi to cast his spells multiple times with each use, while also granting his spells greater potency:",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "FIREBLAST MANA INCREASE",
+          "values": [
+            "20",
+            "40",
+            "60"
+          ]
+        },
+        {
+          "label": "FIREBLAST COOLDOWN REDUCTION",
+          "values": [
+            "2",
+            "4",
+            "6"
+          ]
+        },
+        {
+          "label": "IGNITE RADIUS",
+          "values": [
+            "150",
+            "300",
+            "450"
+          ]
+        },
+        {
+          "label": "IGNITE CAST RANGE INCREASE",
+          "values": [
+            "150",
+            "300",
+            "450"
+          ]
+        },
+        {
+          "label": "BLOODLUST RADIUS",
+          "values": [
+            "575.0"
+          ]
+        },
+        {
+          "label": "BLOODLUST COOLDOWN REDUCTION",
+          "values": [
+            "5",
+            "10",
+            "15"
+          ]
+        },
+        {
+          "label": "2X CAST CHANCE",
+          "values": [
+            "40%",
+            "50%",
+            "60%"
+          ]
+        },
+        {
+          "label": "3X CAST CHANCE",
+          "values": [
+            "0%",
+            "20%",
+            "25%"
+          ]
+        },
+        {
+          "label": "4X CAST CHANCE",
+          "values": [
+            "0.0%",
+            "0.0%",
+            "12.5%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+40 Bloodlust AS",
+        "+15% Spell Amplification"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+30 Movement Speed",
+        "+350 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+12% Magic Resistance",
+        "+50 Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+100 Cast Range",
+        "+60 Gold/Min"
+      ]
+    }
+  ]
+}

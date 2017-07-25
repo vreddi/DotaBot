@@ -1,1 +1,305 @@
-{"id":90,"name":"npc_dota_hero_keeper_of_the_light","localized_name":"Keeper of the Light","primary_attr":"int","attack_type":"Ranged","roles":["Support","Nuker","Disabler","Jungler"],"img":"/apps/dota2/images/heroes/keeper_of_the_light_full.png?","icon":"/apps/dota2/images/heroes/keeper_of_the_light_icon.png","url":"Keeper_of_the_Light","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":18,"base_attack_max":25,"base_str":14,"base_agi":15,"base_int":25,"str_gain":2.1,"agi_gain":1.6,"int_gain":2.8,"attack_range":600,"projectile_speed":900,"attack_rate":1.7,"move_speed":335,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Illuminate","image":"https://dotabuff.com//assets/skills/keeper-of-the-light-illuminate-5471-be2f4af32375a2d662f310438609887a3194604799e488918fc4cdce0615ce04.jpg","link":null,"description":"Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt.","effects":[{"key":"behavior","value":"Channelled, Point Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE PER SECOND CHANNELED","values":["100"]},{"label":"MAX CHANNEL TIME","values":["2","3","4","5"]},{"label":"WIDTH","values":["375"]},{"label":"RANGE","values":["1550"]},{"label":"TOTAL DAMAGE","values":["200","300","400","500"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[10.0],"manaCost":[150,160,170,180]},{"name":"Mana Leak","image":"https://dotabuff.com//assets/skills/keeper-of-the-light-mana-leak-5472-7ad1ecc63459bdef40d0f4e222371de400bd18a95f425a554cc70f433d9b1dcd.jpg","link":null,"description":"Weakens an enemy's magical essence, causing them to lose mana as they move.  If the enemy loses all of its mana, it will be stunned.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"LEAK DURATION","values":["4","5","6","7"]},{"label":"MANA LEAK PERCENT","values":["5.0%"]},{"label":"STUN DURATION","values":["1.5","2.0","2.5","3.0"]},{"label":"CAST RANGE","values":["550","700","850","1000"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[16.0,14.0,12.0,10.0],"manaCost":[160]},{"name":"Chakra Magic","image":"https://dotabuff.com//assets/skills/keeper-of-the-light-chakra-magic-5473-5fb9458839a4c24ed2bf657d1dd498d09a19e6e8c12bfb7298b879530531cb00.jpg","link":null,"description":"Restores mana to the target unit, increases its mana capacity, and reduces the cooldown of the next spell they cast.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Allied Units"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"MANA RESTORE","values":["75","150","225","300"]},{"label":"ALLY COOLDOWN REDUCTION","values":["3","4","5","6"]},{"label":"COOLDOWN REDUCTION DURATION","values":["15.0"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[17.0,16.0,15.0,14.0],"manaCost":[25,35,45,55]},{"name":"Spirit Form","image":"https://dotabuff.com//assets/skills/keeper-of-the-light-spirit-form-5474-f171b4ac79ab1204d3327b43eb79667be46afb045b231039a68c04a4d54b7344.jpg","link":null,"description":"Ezalor temporarily turns his body luminescent, gaining various abilities.  Illuminate is now channeled by a separate spirit, and gains the Blinding Light and Recall abilities.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"DURATION","values":["40"]}],"cooldown":[80.0,70.0,60.0],"manaCost":[100]}],"aliases":null,"talents":[{"level":25,"options":["+200 Illuminate Damage/Heal","+400 Cast Range"]},{"level":20,"options":["+7 Armor","+10% Magic Resistance"]},{"level":15,"options":["+300 Chakra Magic Mana","+20% XP Gain"]},{"level":10,"options":["+20 Movement Speed","+7 Strength"]}]}
+{
+  "id": 90,
+  "name": "npc_dota_hero_keeper_of_the_light",
+  "localized_name": "Keeper of the Light",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Jungler"
+  ],
+  "img": "/apps/dota2/images/heroes/keeper_of_the_light_full.png?",
+  "icon": "/apps/dota2/images/heroes/keeper_of_the_light_icon.png",
+  "url": "Keeper_of_the_Light",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 18,
+  "base_attack_max": 25,
+  "base_str": 14,
+  "base_agi": 15,
+  "base_int": 25,
+  "str_gain": 2.1,
+  "agi_gain": 1.6,
+  "int_gain": 2.8,
+  "attack_range": 600,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 335,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Illuminate",
+      "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-illuminate-5471-be2f4af32375a2d662f310438609887a3194604799e488918fc4cdce0615ce04.jpg",
+      "link": null,
+      "description": "Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE PER SECOND CHANNELED",
+          "values": [
+            "100"
+          ]
+        },
+        {
+          "label": "MAX CHANNEL TIME",
+          "values": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "label": "WIDTH",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "RANGE",
+          "values": [
+            "1550"
+          ]
+        },
+        {
+          "label": "TOTAL DAMAGE",
+          "values": [
+            "200",
+            "300",
+            "400",
+            "500"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        150,
+        160,
+        170,
+        180
+      ]
+    },
+    {
+      "name": "Mana Leak",
+      "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-mana-leak-5472-7ad1ecc63459bdef40d0f4e222371de400bd18a95f425a554cc70f433d9b1dcd.jpg",
+      "link": null,
+      "description": "Weakens an enemy's magical essence, causing them to lose mana as they move.  If the enemy loses all of its mana, it will be stunned.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "LEAK DURATION",
+          "values": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "label": "MANA LEAK PERCENT",
+          "values": [
+            "5.0%"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "1.5",
+            "2.0",
+            "2.5",
+            "3.0"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "550",
+            "700",
+            "850",
+            "1000"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0,
+        14.0,
+        12.0,
+        10.0
+      ],
+      "manaCost": [
+        160
+      ]
+    },
+    {
+      "name": "Chakra Magic",
+      "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-chakra-magic-5473-5fb9458839a4c24ed2bf657d1dd498d09a19e6e8c12bfb7298b879530531cb00.jpg",
+      "link": null,
+      "description": "Restores mana to the target unit, increases its mana capacity, and reduces the cooldown of the next spell they cast.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Allied Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MANA RESTORE",
+          "values": [
+            "75",
+            "150",
+            "225",
+            "300"
+          ]
+        },
+        {
+          "label": "ALLY COOLDOWN REDUCTION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "COOLDOWN REDUCTION DURATION",
+          "values": [
+            "15.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        17.0,
+        16.0,
+        15.0,
+        14.0
+      ],
+      "manaCost": [
+        25,
+        35,
+        45,
+        55
+      ]
+    },
+    {
+      "name": "Spirit Form",
+      "image": "https://dotabuff.com//assets/skills/keeper-of-the-light-spirit-form-5474-f171b4ac79ab1204d3327b43eb79667be46afb045b231039a68c04a4d54b7344.jpg",
+      "link": null,
+      "description": "Ezalor temporarily turns his body luminescent, gaining various abilities.  Illuminate is now channeled by a separate spirit, and gains the Blinding Light and Recall abilities.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "40"
+          ]
+        }
+      ],
+      "cooldown": [
+        80.0,
+        70.0,
+        60.0
+      ],
+      "manaCost": [
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+200 Illuminate Damage/Heal",
+        "+400 Cast Range"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+7 Armor",
+        "+10% Magic Resistance"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+300 Chakra Magic Mana",
+        "+20% XP Gain"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20 Movement Speed",
+        "+7 Strength"
+      ]
+    }
+  ]
+}

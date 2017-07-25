@@ -1,1 +1,225 @@
-{"id":1,"name":"npc_dota_hero_antimage","localized_name":"Anti-Mage","primary_attr":"agi","attack_type":"Melee","roles":["Carry","Escape","Nuker"],"img":"/apps/dota2/images/heroes/antimage_full.png?","icon":"/apps/dota2/images/heroes/antimage_icon.png","url":"Anti-Mage","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":27,"base_attack_max":31,"base_str":22,"base_agi":22,"base_int":15,"str_gain":1.5,"agi_gain":2.8,"int_gain":1.8,"attack_range":150,"projectile_speed":0,"attack_rate":1.45,"move_speed":315,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Mana Break","image":"https://dotabuff.com//assets/skills/anti-mage-mana-break-5003-a6a469cb89e075790ec16420e1874dafc6b459f8ed60e49559b10f6b81cb2719.jpg","link":null,"description":"Burns an opponent's mana on each attack.  Mana Break deals <span class=\"number\">60%</span> of the mana burned as damage to the target.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"MANA BURNED PER HIT","values":["28","40","52","64"]}],"cooldown":[],"manaCost":[]},{"name":"Blink","image":"https://dotabuff.com//assets/skills/anti-mage-blink-5004-fe84e312ce0bb56da08495794d6dae0c5a0b38cd94e7ef4e5a77f7623abe34ff.jpg","link":null,"description":"Short distance teleportation that allows Anti-Mage to move in and out of combat.","effects":[{"key":"behavior","value":"Point Target"}],"stats":[{"label":"RANGE","values":["925","1000","1075","1150"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[12.0,9.0,7.0,5.0],"manaCost":[60]},{"name":"Spell Shield","image":"https://dotabuff.com//assets/skills/anti-mage-spell-shield-5005-45e604ddd0c9a30e41cff593b1ceb34ead4cfcaee175916a7b83afa68dc5765e.jpg","link":null,"description":"Increases Anti-Mage's resistance to magic damage.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"RESISTANCE","values":["26%","34%","42%","50%"]}],"cooldown":[],"manaCost":[]},{"name":"Mana Void","image":"https://dotabuff.com//assets/skills/anti-mage-mana-void-5006-803fc47e49d7bb11fa8ce5df24b17f3b46500cc3e45b764a451682a196d8b991.jpg","link":null,"description":"For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DAMAGE","values":["0.6","0.85","1.1"]},{"label":"STUN DURATION","values":["0.3"]},{"label":"RADIUS","values":["500"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[70.0],"manaCost":[125,200,275]}],"aliases":null,"talents":[{"level":25,"options":["-50s Mana Void Cooldown","+25 Agility"]},{"level":20,"options":["+10 All Stats","15% Evasion"]},{"level":15,"options":["-1s Blink Cooldown","+20 Attack Speed"]},{"level":10,"options":["+20 Damage","+150 Health"]}]}
+{
+  "id": 1,
+  "name": "npc_dota_hero_antimage",
+  "localized_name": "Anti-Mage",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Escape",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/antimage_full.png?",
+  "icon": "/apps/dota2/images/heroes/antimage_icon.png",
+  "url": "Anti-Mage",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 27,
+  "base_attack_max": 31,
+  "base_str": 22,
+  "base_agi": 22,
+  "base_int": 15,
+  "str_gain": 1.5,
+  "agi_gain": 2.8,
+  "int_gain": 1.8,
+  "attack_range": 150,
+  "projectile_speed": 0,
+  "attack_rate": 1.45,
+  "move_speed": 315,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Mana Break",
+      "image": "https://dotabuff.com//assets/skills/anti-mage-mana-break-5003-a6a469cb89e075790ec16420e1874dafc6b459f8ed60e49559b10f6b81cb2719.jpg",
+      "link": null,
+      "description": "Burns an opponent's mana on each attack.  Mana Break deals 60% of the mana burned as damage to the target.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MANA BURNED PER HIT",
+          "values": [
+            "28",
+            "40",
+            "52",
+            "64"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Blink",
+      "image": "https://dotabuff.com//assets/skills/anti-mage-blink-5004-fe84e312ce0bb56da08495794d6dae0c5a0b38cd94e7ef4e5a77f7623abe34ff.jpg",
+      "link": null,
+      "description": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RANGE",
+          "values": [
+            "925",
+            "1000",
+            "1075",
+            "1150"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0,
+        9.0,
+        7.0,
+        5.0
+      ],
+      "manaCost": [
+        60
+      ]
+    },
+    {
+      "name": "Spell Shield",
+      "image": "https://dotabuff.com//assets/skills/anti-mage-spell-shield-5005-45e604ddd0c9a30e41cff593b1ceb34ead4cfcaee175916a7b83afa68dc5765e.jpg",
+      "link": null,
+      "description": "Increases Anti-Mage's resistance to magic damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RESISTANCE",
+          "values": [
+            "26%",
+            "34%",
+            "42%",
+            "50%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Mana Void",
+      "image": "https://dotabuff.com//assets/skills/anti-mage-mana-void-5006-803fc47e49d7bb11fa8ce5df24b17f3b46500cc3e45b764a451682a196d8b991.jpg",
+      "link": null,
+      "description": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "0.6",
+            "0.85",
+            "1.1"
+          ]
+        },
+        {
+          "label": "STUN DURATION",
+          "values": [
+            "0.3"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "500"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        70.0
+      ],
+      "manaCost": [
+        125,
+        200,
+        275
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-50s Mana Void Cooldown",
+        "+25 Agility"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10 All Stats",
+        "15% Evasion"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "-1s Blink Cooldown",
+        "+20 Attack Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20 Damage",
+        "+150 Health"
+      ]
+    }
+  ]
+}

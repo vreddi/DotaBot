@@ -1,1 +1,281 @@
-{"id":89,"name":"npc_dota_hero_naga_siren","localized_name":"Naga Siren","primary_attr":"agi","attack_type":"Melee","roles":["Carry","Support","Pusher","Disabler","Initiator","Escape"],"img":"/apps/dota2/images/heroes/naga_siren_full.png?","icon":"/apps/dota2/images/heroes/naga_siren_icon.png","url":"Naga_Siren","base_health":200,"base_health_regen":0.5,"base_mana":75,"base_mana_regen":0.01,"base_armor":3.0,"base_mr":25.0,"base_attack_min":23,"base_attack_max":25,"base_str":21,"base_agi":21,"base_int":21,"str_gain":2.8,"agi_gain":2.75,"int_gain":2.0,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":320,"turn_rate":0.5,"cm_enabled":true,"legs":0,"skills":[{"name":"Mirror Image","image":"https://dotabuff.com//assets/skills/naga-siren-mirror-image-5467-b4c7b9ba448cd320a702dc27512f3bbdd5613c943ae322654163f6dca7592819.jpg","link":null,"description":"Creates three images of Naga Siren under her control.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"IMAGE DURATION","values":["30"]},{"label":"IMAGE DAMAGE","values":["25%","30%","35%","40%"]},{"label":"IMAGE DAMAGE TAKEN","values":["550%","500%","450%","400%"]},{"label":"CAST POINT","values":["0.65s"]}],"cooldown":[40.0],"manaCost":[70,80,90,100]},{"name":"Ensnare","image":"https://dotabuff.com//assets/skills/naga-siren-ensnare-5468-8e793df60dfa97de01311c12588b71bb9ac111ab71a28e33bafb53ac3e9970d3.jpg","link":null,"description":"Interrupts the target and traps them in place, preventing movement or blinking.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"DURATION","values":["2","3","4","5"]},{"label":"CAST POINT","values":["0.6s"]}],"cooldown":[12.0],"manaCost":[100]},{"name":"Rip Tide","image":"https://dotabuff.com//assets/skills/naga-siren-rip-tide-5469-aeb79884aea8a0ca6abe7fede3ce14a5cef5692feeae00ef32c73079a1744e08.jpg","link":null,"description":"The Naga Siren and her images hit all nearby units with a damaging wave of water that lowers armor for <span class=\"number\">8</span> seconds.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["120","160","200","240"]},{"label":"ARMOR REDUCTION","values":["-2","-3","-4","-5"]},{"label":"DURATION","values":["8"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[10.0],"manaCost":[80,90,100,110]},{"name":"Song of the Siren","image":"https://dotabuff.com//assets/skills/naga-siren-song-of-the-siren-5470-7a530db4d64e5dc5fff731015461b19668df187061040f0251f11658800de6a2.jpg","link":null,"description":"All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.","effects":[{"key":"behavior","value":"No Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RADIUS","values":["1000","1200","1400"]},{"label":"DURATION","values":["7"]},{"label":"SCEPTER HEALTH REGEN","values":["10%"]},{"label":"CAST POINT","values":["1s"]}],"cooldown":[160.0,120.0,80.0],"manaCost":[100]}],"aliases":null,"talents":[{"level":25,"options":["+1 Mirror Image Illusion","+40 Movement Speed"]},{"level":20,"options":["+20 Strength","+15 Agility"]},{"level":15,"options":["-3s Ensnare Cooldown","+30 Attack Speed"]},{"level":10,"options":["+125 Health","+250 Mana"]}]}
+{
+  "id": 89,
+  "name": "npc_dota_hero_naga_siren",
+  "localized_name": "Naga Siren",
+  "primary_attr": "agi",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Support",
+    "Pusher",
+    "Disabler",
+    "Initiator",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/naga_siren_full.png?",
+  "icon": "/apps/dota2/images/heroes/naga_siren_icon.png",
+  "url": "Naga_Siren",
+  "base_health": 200,
+  "base_health_regen": 0.5,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 3.0,
+  "base_mr": 25.0,
+  "base_attack_min": 23,
+  "base_attack_max": 25,
+  "base_str": 21,
+  "base_agi": 21,
+  "base_int": 21,
+  "str_gain": 2.8,
+  "agi_gain": 2.75,
+  "int_gain": 2.0,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 320,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 0,
+  "skills": [
+    {
+      "name": "Mirror Image",
+      "image": "https://dotabuff.com//assets/skills/naga-siren-mirror-image-5467-b4c7b9ba448cd320a702dc27512f3bbdd5613c943ae322654163f6dca7592819.jpg",
+      "link": null,
+      "description": "Creates three images of Naga Siren under her control.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "IMAGE DURATION",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "label": "IMAGE DAMAGE",
+          "values": [
+            "25%",
+            "30%",
+            "35%",
+            "40%"
+          ]
+        },
+        {
+          "label": "IMAGE DAMAGE TAKEN",
+          "values": [
+            "550%",
+            "500%",
+            "450%",
+            "400%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.65s"
+          ]
+        }
+      ],
+      "cooldown": [
+        40.0
+      ],
+      "manaCost": [
+        70,
+        80,
+        90,
+        100
+      ]
+    },
+    {
+      "name": "Ensnare",
+      "image": "https://dotabuff.com//assets/skills/naga-siren-ensnare-5468-8e793df60dfa97de01311c12588b71bb9ac111ab71a28e33bafb53ac3e9970d3.jpg",
+      "link": null,
+      "description": "Interrupts the target and traps them in place, preventing movement or blinking.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.6s"
+          ]
+        }
+      ],
+      "cooldown": [
+        12.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Rip Tide",
+      "image": "https://dotabuff.com//assets/skills/naga-siren-rip-tide-5469-aeb79884aea8a0ca6abe7fede3ce14a5cef5692feeae00ef32c73079a1744e08.jpg",
+      "link": null,
+      "description": "The Naga Siren and her images hit all nearby units with a damaging wave of water that lowers armor for 8 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "120",
+            "160",
+            "200",
+            "240"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION",
+          "values": [
+            "-2",
+            "-3",
+            "-4",
+            "-5"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        10.0
+      ],
+      "manaCost": [
+        80,
+        90,
+        100,
+        110
+      ]
+    },
+    {
+      "name": "Song of the Siren",
+      "image": "https://dotabuff.com//assets/skills/naga-siren-song-of-the-siren-5470-7a530db4d64e5dc5fff731015461b19668df187061040f0251f11658800de6a2.jpg",
+      "link": null,
+      "description": "All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "1000",
+            "1200",
+            "1400"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "7"
+          ]
+        },
+        {
+          "label": "SCEPTER HEALTH REGEN",
+          "values": [
+            "10%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "1s"
+          ]
+        }
+      ],
+      "cooldown": [
+        160.0,
+        120.0,
+        80.0
+      ],
+      "manaCost": [
+        100
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+1 Mirror Image Illusion",
+        "+40 Movement Speed"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+20 Strength",
+        "+15 Agility"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "-3s Ensnare Cooldown",
+        "+30 Attack Speed"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+125 Health",
+        "+250 Mana"
+      ]
+    }
+  ]
+}

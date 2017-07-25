@@ -1,1 +1,318 @@
-{"id":73,"name":"npc_dota_hero_alchemist","localized_name":"Alchemist","primary_attr":"str","attack_type":"Melee","roles":["Carry","Support","Durable","Disabler","Initiator","Nuker"],"img":"/apps/dota2/images/heroes/alchemist_full.png?","icon":"/apps/dota2/images/heroes/alchemist_icon.png","url":"Alchemist","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":0.0,"base_mr":25.0,"base_attack_min":24,"base_attack_max":33,"base_str":25,"base_agi":11,"base_int":25,"str_gain":2.1,"agi_gain":1.2,"int_gain":1.8,"attack_range":150,"projectile_speed":900,"attack_rate":1.7,"move_speed":295,"turn_rate":0.6,"cm_enabled":true,"legs":2,"skills":[{"name":"Acid Spray","image":"https://dotabuff.com//assets/skills/alchemist-acid-spray-5365-25b1c293b97088c95b68dc5ab46afc36d5e3328213037ce01fb3865ccd3c3966.jpg","link":null,"description":"Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"RADIUS","values":["400","475","550","625"]},{"label":"DURATION","values":["16.0"]},{"label":"DAMAGE PER SECOND","values":["15","20","25","30"]},{"label":"ARMOR REDUCTION","values":["4","5","6","7"]},{"label":"CAST POINT","values":["0.2s"]}],"cooldown":[22.0],"manaCost":[130,140,150,160]},{"name":"Unstable Concoction","image":"https://dotabuff.com//assets/skills/alchemist-unstable-concoction-5366-216a3e6f7bd488a8e42feb00e5ea5ace7af3dea7509472181695d7bea8e139ed.jpg","link":null,"description":"Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After <span class=\"number\">5</span> seconds, the brew reaches its maximum damage and stun time. However, after <span class=\"number\">5.5</span> seconds, the concoction will explode on Alchemist himself if not thrown.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"MAX STUN","values":["1.75","2.5","3.25","4.0"]},{"label":"MAX DAMAGE","values":["150","220","290","360"]},{"label":"EXPLOSION RADIUS","values":["200"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[22.0,20.0,18.0,16.0],"manaCost":[120]},{"name":"Greevil&#39;s Greed","image":"https://dotabuff.com//assets/skills/alchemist-greevils-greed-5368-b0db2eb35f4323b39bf9a628f79eb333c8f74e5450d034b4f1f5a205401d51af.jpg","link":null,"description":"Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next <span class=\"number\">30</span> seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield <span class=\"number\">2.5</span> times their normal gold.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"RECENT KILL WINDOW","values":["30"]},{"label":"BASE BONUS GOLD","values":["4"]},{"label":"EXTRA BONUS GOLD","values":["4"]},{"label":"MAX BONUS GOLD PER KILL","values":["16","20","24","28"]},{"label":"BOUNTY RUNE MULTIPLIER","values":["2.5"]}],"cooldown":[],"manaCost":[]},{"name":"Chemical Rage","image":"https://dotabuff.com//assets/skills/alchemist-chemical-rage-5369-c4567ea9e55c0dd3ccbc08dc3403b35b0907f552ce37b6422b9cb735feaa77fa.jpg","link":null,"description":"Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"DURATION","values":["25.0"]},{"label":"BASE ATTACK TIME","values":["1.4","1.2","1.0"]},{"label":"BONUS HEALTH REGEN","values":["50","75","100"]},{"label":"BONUS MANA REGEN","values":["3.0","7.5","12.0"]},{"label":"BONUS MOVE SPEED","values":["40","50","60"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[55.0],"manaCost":[50,100,150]}],"aliases":null,"talents":[{"level":25,"options":["-5 Acid Spray Armor","30% Lifesteal"]},{"level":20,"options":["+300 Health","+30 Attack Speed"]},{"level":15,"options":["+6 All Stats","+100 Unstable Concoction Damage"]},{"level":10,"options":["+4 Armor","+20 Damage"]}]}
+{
+  "id": 73,
+  "name": "npc_dota_hero_alchemist",
+  "localized_name": "Alchemist",
+  "primary_attr": "str",
+  "attack_type": "Melee",
+  "roles": [
+    "Carry",
+    "Support",
+    "Durable",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+  ],
+  "img": "/apps/dota2/images/heroes/alchemist_full.png?",
+  "icon": "/apps/dota2/images/heroes/alchemist_icon.png",
+  "url": "Alchemist",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 0.0,
+  "base_mr": 25.0,
+  "base_attack_min": 24,
+  "base_attack_max": 33,
+  "base_str": 25,
+  "base_agi": 11,
+  "base_int": 25,
+  "str_gain": 2.1,
+  "agi_gain": 1.2,
+  "int_gain": 1.8,
+  "attack_range": 150,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 295,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Acid Spray",
+      "image": "https://dotabuff.com//assets/skills/alchemist-acid-spray-5365-25b1c293b97088c95b68dc5ab46afc36d5e3328213037ce01fb3865ccd3c3966.jpg",
+      "link": null,
+      "description": "Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RADIUS",
+          "values": [
+            "400",
+            "475",
+            "550",
+            "625"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "16.0"
+          ]
+        },
+        {
+          "label": "DAMAGE PER SECOND",
+          "values": [
+            "15",
+            "20",
+            "25",
+            "30"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION",
+          "values": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.2s"
+          ]
+        }
+      ],
+      "cooldown": [
+        22.0
+      ],
+      "manaCost": [
+        130,
+        140,
+        150,
+        160
+      ]
+    },
+    {
+      "name": "Unstable Concoction",
+      "image": "https://dotabuff.com//assets/skills/alchemist-unstable-concoction-5366-216a3e6f7bd488a8e42feb00e5ea5ace7af3dea7509472181695d7bea8e139ed.jpg",
+      "link": null,
+      "description": "Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX STUN",
+          "values": [
+            "1.75",
+            "2.5",
+            "3.25",
+            "4.0"
+          ]
+        },
+        {
+          "label": "MAX DAMAGE",
+          "values": [
+            "150",
+            "220",
+            "290",
+            "360"
+          ]
+        },
+        {
+          "label": "EXPLOSION RADIUS",
+          "values": [
+            "200"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        22.0,
+        20.0,
+        18.0,
+        16.0
+      ],
+      "manaCost": [
+        120
+      ]
+    },
+    {
+      "name": "Greevil&#39;s Greed",
+      "image": "https://dotabuff.com//assets/skills/alchemist-greevils-greed-5368-b0db2eb35f4323b39bf9a628f79eb333c8f74e5450d034b4f1f5a205401d51af.jpg",
+      "link": null,
+      "description": "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 30 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield 2.5 times their normal gold.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RECENT KILL WINDOW",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "label": "BASE BONUS GOLD",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "EXTRA BONUS GOLD",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "MAX BONUS GOLD PER KILL",
+          "values": [
+            "16",
+            "20",
+            "24",
+            "28"
+          ]
+        },
+        {
+          "label": "BOUNTY RUNE MULTIPLIER",
+          "values": [
+            "2.5"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Chemical Rage",
+      "image": "https://dotabuff.com//assets/skills/alchemist-chemical-rage-5369-c4567ea9e55c0dd3ccbc08dc3403b35b0907f552ce37b6422b9cb735feaa77fa.jpg",
+      "link": null,
+      "description": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "25.0"
+          ]
+        },
+        {
+          "label": "BASE ATTACK TIME",
+          "values": [
+            "1.4",
+            "1.2",
+            "1.0"
+          ]
+        },
+        {
+          "label": "BONUS HEALTH REGEN",
+          "values": [
+            "50",
+            "75",
+            "100"
+          ]
+        },
+        {
+          "label": "BONUS MANA REGEN",
+          "values": [
+            "3.0",
+            "7.5",
+            "12.0"
+          ]
+        },
+        {
+          "label": "BONUS MOVE SPEED",
+          "values": [
+            "40",
+            "50",
+            "60"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        55.0
+      ],
+      "manaCost": [
+        50,
+        100,
+        150
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "-5 Acid Spray Armor",
+        "30% Lifesteal"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+300 Health",
+        "+30 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+6 All Stats",
+        "+100 Unstable Concoction Damage"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+4 Armor",
+        "+20 Damage"
+      ]
+    }
+  ]
+}

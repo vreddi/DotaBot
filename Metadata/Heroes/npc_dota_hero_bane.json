@@ -1,1 +1,306 @@
-{"id":3,"name":"npc_dota_hero_bane","localized_name":"Bane","primary_attr":"int","attack_type":"Ranged","roles":["Support","Disabler","Nuker","Durable"],"img":"/apps/dota2/images/heroes/bane_full.png?","icon":"/apps/dota2/images/heroes/bane_icon.png","url":"Bane","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":37,"base_attack_max":43,"base_str":22,"base_agi":22,"base_int":22,"str_gain":2.4,"agi_gain":2.4,"int_gain":2.4,"attack_range":400,"projectile_speed":900,"attack_rate":1.7,"move_speed":310,"turn_rate":0.6,"cm_enabled":true,"legs":4,"skills":[{"name":"Enfeeble","image":"https://dotabuff.com//assets/skills/bane-enfeeble-5012-6da100300c2ed9bdad136b495334eb55734251f772855696ac6efe700cab5f55.jpg","link":null,"description":"Weakens an enemy unit, reducing its physical damage.  Lasts <span class=\"number\">20</span> seconds.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"REDUCTION","values":["30","60","90","120"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[8.0],"manaCost":[95]},{"name":"Brain Sap","image":"https://dotabuff.com//assets/skills/bane-brain-sap-5011-135a8e3cf6a8432344909847907b9c86b30616e5fcea1f9db880e07569b550eb.jpg","link":null,"description":"Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["90","160","230","300"]},{"label":"HEAL AMOUNT","values":["90","160","230","300"]},{"label":"SCEPTER COOLDOWN","values":["1.5"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[14.0,13.0,12.0,11.0],"manaCost":[70,100,130,160]},{"name":"Nightmare","image":"https://dotabuff.com//assets/skills/bane-nightmare-5014-6e694f66da3c336f18edada5cbcbf2f32ef05eb114c304f3862427bce89ebcba.jpg","link":null,"description":"Puts the target enemy or friendly Hero to sleep and deals damage per second.  Sleeping units are awakened when attacked, but the Nightmare passes to the attacking unit.  The nightmared unit instantly wakes up if it takes damage.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Creeps, Heroes"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["20"]},{"label":"DURATION","values":["4","5","6","7"]},{"label":"CAST RANGE","values":["500","550","600","650"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[22.0,19.0,16.0,13.0],"manaCost":[165]},{"name":"Fiend&#39;s Grip","image":"https://dotabuff.com//assets/skills/bane-fiends-grip-5013-6406b6e8e78bbc6c23b6c372ae56b461194744d61afbcfa2bde85f8ac4eb9324.jpg","link":null,"description":"CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every <span class=\"number\">0.5</span> seconds based on the unit's maximum mana.","effects":[{"key":"behavior","value":"Channelled, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"MANA DRAIN","values":["5%"]},{"label":"DURATION","values":["5"]},{"label":"DAMAGE","values":["100","155","215"]},{"label":"CAST POINT","values":["0.5s"]}],"cooldown":[100.0],"manaCost":[200,300,400]}],"aliases":null,"talents":[{"level":25,"options":["+200 Brain Sap Damage/Heal","+100 Movement Speed"]},{"level":20,"options":["+175 Cast Range","+90 Enfeeble Damage Reduction"]},{"level":15,"options":["+30% XP Gain","+250 Health"]},{"level":10,"options":["+200 Mana","+6 Armor"]}]}
+{
+  "id": 3,
+  "name": "npc_dota_hero_bane",
+  "localized_name": "Bane",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Durable"
+  ],
+  "img": "/apps/dota2/images/heroes/bane_full.png?",
+  "icon": "/apps/dota2/images/heroes/bane_icon.png",
+  "url": "Bane",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 37,
+  "base_attack_max": 43,
+  "base_str": 22,
+  "base_agi": 22,
+  "base_int": 22,
+  "str_gain": 2.4,
+  "agi_gain": 2.4,
+  "int_gain": 2.4,
+  "attack_range": 400,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 310,
+  "turn_rate": 0.6,
+  "cm_enabled": true,
+  "legs": 4,
+  "skills": [
+    {
+      "name": "Enfeeble",
+      "image": "https://dotabuff.com//assets/skills/bane-enfeeble-5012-6da100300c2ed9bdad136b495334eb55734251f772855696ac6efe700cab5f55.jpg",
+      "link": null,
+      "description": "Weakens an enemy unit, reducing its physical damage.  Lasts 20 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "REDUCTION",
+          "values": [
+            "30",
+            "60",
+            "90",
+            "120"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        8.0
+      ],
+      "manaCost": [
+        95
+      ]
+    },
+    {
+      "name": "Brain Sap",
+      "image": "https://dotabuff.com//assets/skills/bane-brain-sap-5011-135a8e3cf6a8432344909847907b9c86b30616e5fcea1f9db880e07569b550eb.jpg",
+      "link": null,
+      "description": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "90",
+            "160",
+            "230",
+            "300"
+          ]
+        },
+        {
+          "label": "HEAL AMOUNT",
+          "values": [
+            "90",
+            "160",
+            "230",
+            "300"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "1.5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "manaCost": [
+        70,
+        100,
+        130,
+        160
+      ]
+    },
+    {
+      "name": "Nightmare",
+      "image": "https://dotabuff.com//assets/skills/bane-nightmare-5014-6e694f66da3c336f18edada5cbcbf2f32ef05eb114c304f3862427bce89ebcba.jpg",
+      "link": null,
+      "description": "Puts the target enemy or friendly Hero to sleep and deals damage per second.  Sleeping units are awakened when attacked, but the Nightmare passes to the attacking unit.  The nightmared unit instantly wakes up if it takes damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Creeps, Heroes"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "500",
+            "550",
+            "600",
+            "650"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        22.0,
+        19.0,
+        16.0,
+        13.0
+      ],
+      "manaCost": [
+        165
+      ]
+    },
+    {
+      "name": "Fiend&#39;s Grip",
+      "image": "https://dotabuff.com//assets/skills/bane-fiends-grip-5013-6406b6e8e78bbc6c23b6c372ae56b461194744d61afbcfa2bde85f8ac4eb9324.jpg",
+      "link": null,
+      "description": "CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 seconds based on the unit's maximum mana.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Channelled, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MANA DRAIN",
+          "values": [
+            "5%"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "100",
+            "155",
+            "215"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        100.0
+      ],
+      "manaCost": [
+        200,
+        300,
+        400
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+200 Brain Sap Damage/Heal",
+        "+100 Movement Speed"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+175 Cast Range",
+        "+90 Enfeeble Damage Reduction"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+30% XP Gain",
+        "+250 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+200 Mana",
+        "+6 Armor"
+      ]
+    }
+  ]
+}

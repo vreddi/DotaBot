@@ -1,1 +1,262 @@
-{"id":6,"name":"npc_dota_hero_drow_ranger","localized_name":"Drow Ranger","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Disabler","Pusher"],"img":"/apps/dota2/images/heroes/drow_ranger_full.png?","icon":"/apps/dota2/images/heroes/drow_ranger_icon.png","url":"Drow_Ranger","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-3.0,"base_mr":25.0,"base_attack_min":14,"base_attack_max":25,"base_str":17,"base_agi":26,"base_int":15,"str_gain":1.9,"agi_gain":1.9,"int_gain":1.4,"attack_range":625,"projectile_speed":1250,"attack_rate":1.7,"move_speed":290,"turn_rate":0.7,"cm_enabled":true,"legs":2,"skills":[{"name":"Frost Arrows","image":"https://dotabuff.com//assets/skills/drow-ranger-frost-arrows-5019-f89ab7d0f33aeaac32e3a4f028249a63d0ac1c5dbedfa42b59273a5382dd01cc.jpg","link":null,"description":"Adds a freezing effect to Drow's attacks, slowing enemy movement.  Lasts <span class=\"number\">1.5</span> seconds on Heroes, and <span class=\"number\">7.0</span> seconds on creeps.","effects":[{"key":"behavior","value":"Auto-Cast, Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"MOVEMENT SLOW","values":["-16%","-32%","-48%","-64%"]},{"label":"HERO DURATION","values":["1.5"]},{"label":"CREEP DURATION","values":["7.0"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[0.0],"manaCost":[12]},{"name":"Gust","image":"https://dotabuff.com//assets/skills/drow-ranger-gust-5632-64f359b52c8219151f68ee6735ed22423ed78f3075a6fbf5df13e6e030a190a5.jpg","link":null,"description":"Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to you.","effects":[{"key":"behavior","value":"Point Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"RANGE","values":["900"]},{"label":"WIDTH","values":["250"]},{"label":"SILENCE DURATION","values":["3","4","5","6"]},{"label":"KNOCKBACK DURATION","values":["0.6","0.7","0.8","0.9"]},{"label":"CAST POINT","values":["0.25s"]}],"cooldown":[16.0,15.0,14.0,13.0],"manaCost":[90]},{"name":"Precision Aura","image":"https://dotabuff.com//assets/skills/drow-ranger-precision-aura-5021-9321cb0fbcbac7fb7cd5ce4d099b08e668c3b35e373da8cd697332a2fa7fe5a9.jpg","link":null,"description":"Adds bonus damage to the physical attack of allied, ranged Hero units based on a percentage of Drow's agility.  Affects creeps for <span class=\"number\">30</span> seconds when cast.","effects":[{"key":"behavior","value":"No Target"}],"stats":[{"label":"RANGE DAMAGE BONUS","values":["20%","26%","32%","38%"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[100.0],"manaCost":[]},{"name":"Marksmanship","image":"https://dotabuff.com//assets/skills/drow-ranger-marksmanship-5022-8006a1ac66e7afd9095cf523cab3eef0470608ef7522e201231b785b93393b77.jpg","link":null,"description":"Drow's experiences in battle improve her accuracy and effectiveness in combat, providing a passive bonus to Agility. Grants no bonus if there are enemy heroes within <span class=\"number\">400</span> range.","effects":[{"key":"behavior","value":"Passive"}],"stats":[{"label":"BONUS AGILITY","values":["40","60","80"]},{"label":"SPLIT COUNT","values":["2"]},{"label":"SEARCH RANGE","values":["375"]},{"label":"DAMAGE REDUCTION","values":["50%"]}],"cooldown":[],"manaCost":[]}],"aliases":null,"talents":[{"level":25,"options":["+25 Marksmanship Agility","+400 Gust Distance/Knockback"]},{"level":20,"options":["+14 Strength","+6% Precision Aura Damage"]},{"level":15,"options":["+20 Attack Speed","+175 Health"]},{"level":10,"options":["+5 All Stats","+15 Movement Speed"]}]}
+{
+  "id": 6,
+  "name": "npc_dota_hero_drow_ranger",
+  "localized_name": "Drow Ranger",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Disabler",
+    "Pusher"
+  ],
+  "img": "/apps/dota2/images/heroes/drow_ranger_full.png?",
+  "icon": "/apps/dota2/images/heroes/drow_ranger_icon.png",
+  "url": "Drow_Ranger",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -3.0,
+  "base_mr": 25.0,
+  "base_attack_min": 14,
+  "base_attack_max": 25,
+  "base_str": 17,
+  "base_agi": 26,
+  "base_int": 15,
+  "str_gain": 1.9,
+  "agi_gain": 1.9,
+  "int_gain": 1.4,
+  "attack_range": 625,
+  "projectile_speed": 1250,
+  "attack_rate": 1.7,
+  "move_speed": 290,
+  "turn_rate": 0.7,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Frost Arrows",
+      "image": "https://dotabuff.com//assets/skills/drow-ranger-frost-arrows-5019-f89ab7d0f33aeaac32e3a4f028249a63d0ac1c5dbedfa42b59273a5382dd01cc.jpg",
+      "link": null,
+      "description": "Adds a freezing effect to Drow's attacks, slowing enemy movement.  Lasts 1.5 seconds on Heroes, and 7.0 seconds on creeps.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Auto-Cast, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-16%",
+            "-32%",
+            "-48%",
+            "-64%"
+          ]
+        },
+        {
+          "label": "HERO DURATION",
+          "values": [
+            "1.5"
+          ]
+        },
+        {
+          "label": "CREEP DURATION",
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        0.0
+      ],
+      "manaCost": [
+        12
+      ]
+    },
+    {
+      "name": "Gust",
+      "image": "https://dotabuff.com//assets/skills/drow-ranger-gust-5632-64f359b52c8219151f68ee6735ed22423ed78f3075a6fbf5df13e6e030a190a5.jpg",
+      "link": null,
+      "description": "Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to you.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RANGE",
+          "values": [
+            "900"
+          ]
+        },
+        {
+          "label": "WIDTH",
+          "values": [
+            "250"
+          ]
+        },
+        {
+          "label": "SILENCE DURATION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "KNOCKBACK DURATION",
+          "values": [
+            "0.6",
+            "0.7",
+            "0.8",
+            "0.9"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.25s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0,
+        15.0,
+        14.0,
+        13.0
+      ],
+      "manaCost": [
+        90
+      ]
+    },
+    {
+      "name": "Precision Aura",
+      "image": "https://dotabuff.com//assets/skills/drow-ranger-precision-aura-5021-9321cb0fbcbac7fb7cd5ce4d099b08e668c3b35e373da8cd697332a2fa7fe5a9.jpg",
+      "link": null,
+      "description": "Adds bonus damage to the physical attack of allied, ranged Hero units based on a percentage of Drow's agility.  Affects creeps for 30 seconds when cast.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RANGE DAMAGE BONUS",
+          "values": [
+            "20%",
+            "26%",
+            "32%",
+            "38%"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        100.0
+      ],
+      "manaCost": []
+    },
+    {
+      "name": "Marksmanship",
+      "image": "https://dotabuff.com//assets/skills/drow-ranger-marksmanship-5022-8006a1ac66e7afd9095cf523cab3eef0470608ef7522e201231b785b93393b77.jpg",
+      "link": null,
+      "description": "Drow's experiences in battle improve her accuracy and effectiveness in combat, providing a passive bonus to Agility. Grants no bonus if there are enemy heroes within 400 range.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS AGILITY",
+          "values": [
+            "40",
+            "60",
+            "80"
+          ]
+        },
+        {
+          "label": "SPLIT COUNT",
+          "values": [
+            "2"
+          ]
+        },
+        {
+          "label": "SEARCH RANGE",
+          "values": [
+            "375"
+          ]
+        },
+        {
+          "label": "DAMAGE REDUCTION",
+          "values": [
+            "50%"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+25 Marksmanship Agility",
+        "+400 Gust Distance/Knockback"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+14 Strength",
+        "+6% Precision Aura Damage"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+20 Attack Speed",
+        "+175 Health"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+5 All Stats",
+        "+15 Movement Speed"
+      ]
+    }
+  ]
+}

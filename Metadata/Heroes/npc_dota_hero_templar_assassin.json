@@ -1,1 +1,284 @@
-{"id":46,"name":"npc_dota_hero_templar_assassin","localized_name":"Templar Assassin","primary_attr":"agi","attack_type":"Ranged","roles":["Carry","Escape"],"img":"/apps/dota2/images/heroes/templar_assassin_full.png?","icon":"/apps/dota2/images/heroes/templar_assassin_icon.png","url":"Templar_Assassin","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":1.0,"base_mr":25.0,"base_attack_min":30,"base_attack_max":36,"base_str":18,"base_agi":23,"base_int":20,"str_gain":2.4,"agi_gain":2.3,"int_gain":2.0,"attack_range":140,"projectile_speed":900,"attack_rate":1.7,"move_speed":305,"turn_rate":0.7,"cm_enabled":true,"legs":2,"skills":[{"name":"Refraction","image":"https://dotabuff.com//assets/skills/templar-assassin-refraction-5194-15752b2b4fb01aaeb200ae03858821c4ec8d0625b79029dba1c0614ffcac123e.jpg","link":null,"description":"Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage.  The damage and avoidance effects are separate, and have a limited number of instances.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"INSTANCES","values":["3","4","5","6"]},{"label":"BONUS DAMAGE","values":["20","40","60","80"]},{"label":"DURATION","values":["17"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[17.0],"manaCost":[100]},{"name":"Meld","image":"https://dotabuff.com//assets/skills/templar-assassin-meld-5195-d62b9ec5fcb5d2a4c22513506a5762ff2fa70c3fc6a75fb326fda5672d6f8200.jpg","link":null,"description":"Templar Assassin conceals herself, becoming invisible as long as she remains still.  If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for <span class=\"number\">10</span> seconds.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Physical"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"BONUS DAMAGE","values":["50","100","150","200"]},{"label":"ARMOR REDUCTION","values":["-2","-4","-6","-8"]},{"label":"ARMOR REDUCTION DURATION","values":["10"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[6.0],"manaCost":[50]},{"name":"Psi Blades","image":"https://dotabuff.com//assets/skills/templar-assassin-psi-blades-5196-1fa3b0b6f2189cea4c03b89af841be3d6f871ef01132199329694f044cfbf4cb.jpg","link":null,"description":"Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range.","effects":[{"key":"behavior","value":"Passive"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"BONUS ATTACK RANGE","values":["60","120","180","240"]},{"label":"SPLIT RANGE","values":["590","630","670","710"]}],"cooldown":[],"manaCost":[]},{"name":"Psionic Trap","image":"https://dotabuff.com//assets/skills/templar-assassin-psionic-trap-5197-791e337cf16db0b8a25811dff5d897fac80eb7dca7501191f4bc8fd544108256.jpg","link":null,"description":"Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of <span class=\"number\">30%</span> in the area. Traps charge up to slow an additional <span class=\"number\">5%</span> every second, up to <span class=\"number\">50%</span>.","effects":[{"key":"behavior","value":"Point Target"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"MAX TRAPS","values":["5","8","11"]},{"label":"MIN MOVEMENT SLOW","values":["30%"]},{"label":"MAX MOVEMENT SLOW","values":["60%"]},{"label":"SLOW DURATION","values":["5"]},{"label":"CAST POINT","values":["0.3s"]}],"cooldown":[11.0,8.0,5.0],"manaCost":[15]}],"aliases":null,"talents":[{"level":25,"options":["+3 Refraction Instances","-8 Meld Armor Reduction"]},{"level":20,"options":["+40 Damage","+275 Health"]},{"level":15,"options":["12% Evasion","+6 All Stats"]},{"level":10,"options":["+20 Movement Speed","+25 Attack Speed"]}]}
+{
+  "id": 46,
+  "name": "npc_dota_hero_templar_assassin",
+  "localized_name": "Templar Assassin",
+  "primary_attr": "agi",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/templar_assassin_full.png?",
+  "icon": "/apps/dota2/images/heroes/templar_assassin_icon.png",
+  "url": "Templar_Assassin",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": 1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 30,
+  "base_attack_max": 36,
+  "base_str": 18,
+  "base_agi": 23,
+  "base_int": 20,
+  "str_gain": 2.4,
+  "agi_gain": 2.3,
+  "int_gain": 2.0,
+  "attack_range": 140,
+  "projectile_speed": 900,
+  "attack_rate": 1.7,
+  "move_speed": 305,
+  "turn_rate": 0.7,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Refraction",
+      "image": "https://dotabuff.com//assets/skills/templar-assassin-refraction-5194-15752b2b4fb01aaeb200ae03858821c4ec8d0625b79029dba1c0614ffcac123e.jpg",
+      "link": null,
+      "description": "Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage.  The damage and avoidance effects are separate, and have a limited number of instances.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "INSTANCES",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "BONUS DAMAGE",
+          "values": [
+            "20",
+            "40",
+            "60",
+            "80"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "17"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        17.0
+      ],
+      "manaCost": [
+        100
+      ]
+    },
+    {
+      "name": "Meld",
+      "image": "https://dotabuff.com//assets/skills/templar-assassin-meld-5195-d62b9ec5fcb5d2a4c22513506a5762ff2fa70c3fc6a75fb326fda5672d6f8200.jpg",
+      "link": null,
+      "description": "Templar Assassin conceals herself, becoming invisible as long as she remains still.  If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for 10 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Physical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS DAMAGE",
+          "values": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION",
+          "values": [
+            "-2",
+            "-4",
+            "-6",
+            "-8"
+          ]
+        },
+        {
+          "label": "ARMOR REDUCTION DURATION",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        6.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Psi Blades",
+      "image": "https://dotabuff.com//assets/skills/templar-assassin-psi-blades-5196-1fa3b0b6f2189cea4c03b89af841be3d6f871ef01132199329694f044cfbf4cb.jpg",
+      "link": null,
+      "description": "Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Passive"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "BONUS ATTACK RANGE",
+          "values": [
+            "60",
+            "120",
+            "180",
+            "240"
+          ]
+        },
+        {
+          "label": "SPLIT RANGE",
+          "values": [
+            "590",
+            "630",
+            "670",
+            "710"
+          ]
+        }
+      ],
+      "cooldown": [],
+      "manaCost": []
+    },
+    {
+      "name": "Psionic Trap",
+      "image": "https://dotabuff.com//assets/skills/templar-assassin-psionic-trap-5197-791e337cf16db0b8a25811dff5d897fac80eb7dca7501191f4bc8fd544108256.jpg",
+      "link": null,
+      "description": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow an additional 5% every second, up to 50%.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX TRAPS",
+          "values": [
+            "5",
+            "8",
+            "11"
+          ]
+        },
+        {
+          "label": "MIN MOVEMENT SLOW",
+          "values": [
+            "30%"
+          ]
+        },
+        {
+          "label": "MAX MOVEMENT SLOW",
+          "values": [
+            "60%"
+          ]
+        },
+        {
+          "label": "SLOW DURATION",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.3s"
+          ]
+        }
+      ],
+      "cooldown": [
+        11.0,
+        8.0,
+        5.0
+      ],
+      "manaCost": [
+        15
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "+3 Refraction Instances",
+        "-8 Meld Armor Reduction"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+40 Damage",
+        "+275 Health"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "12% Evasion",
+        "+6 All Stats"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+20 Movement Speed",
+        "+25 Attack Speed"
+      ]
+    }
+  ]
+}

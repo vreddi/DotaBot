@@ -1,1 +1,303 @@
-{"id":39,"name":"npc_dota_hero_queenofpain","localized_name":"Queen of Pain","primary_attr":"int","attack_type":"Ranged","roles":["Carry","Nuker","Escape"],"img":"/apps/dota2/images/heroes/queenofpain_full.png?","icon":"/apps/dota2/images/heroes/queenofpain_icon.png","url":"Queen_of_Pain","base_health":200,"base_health_regen":0.0,"base_mana":75,"base_mana_regen":0.01,"base_armor":-1.0,"base_mr":25.0,"base_attack_min":25,"base_attack_max":33,"base_str":16,"base_agi":18,"base_int":24,"str_gain":2.0,"agi_gain":2.0,"int_gain":2.5,"attack_range":550,"projectile_speed":1500,"attack_rate":1.5,"move_speed":295,"turn_rate":0.5,"cm_enabled":true,"legs":2,"skills":[{"name":"Shadow Strike","image":"https://dotabuff.com//assets/skills/queen-of-pain-shadow-strike-5173-fc97f562d50f4112f77aaa1ef98fc0007a264751246cc8e79d4bf17eb466819a.jpg","link":null,"description":"Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for <span class=\"number\">15</span> seconds.  An instance of damage is dealt every <span class=\"number\">3</span> seconds.","effects":[{"key":"behavior","value":"Unit Target"},{"key":"affects","value":"Enemy Units"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"INITIAL DAMAGE","values":["50","75","100","125"]},{"label":"DAMAGE PER TICK","values":["30","45","60","75"]},{"label":"MOVEMENT SLOW","values":["-20%","-30%","-40%","-50%"]},{"label":"CAST RANGE","values":["450","500","550","600"]},{"label":"DURATION","values":["15"]},{"label":"CAST POINT","values":["0.4s"]}],"cooldown":[16.0,12.0,8.0,4.0],"manaCost":[110]},{"name":"Blink","image":"https://dotabuff.com//assets/skills/queen-of-pain-blink-5174-8be9872305530d12988f4a59bc3ff8214045007079fd2000d687585e39a8c290.jpg","link":null,"description":"Short distance teleportation that allows Queen of Pain to move in and out of combat.","effects":[{"key":"behavior","value":"Point Target"}],"stats":[{"label":"RANGE","values":["1300"]},{"label":"CAST POINT","values":["0.33s"]}],"cooldown":[15.0,12.0,9.0,6.0],"manaCost":[60]},{"name":"Scream Of Pain","image":"https://dotabuff.com//assets/skills/queen-of-pain-scream-of-pain-5175-c877993999c16453ae5d6498dc7383dd135d8e09c320282031d419bab2699203.jpg","link":null,"description":"The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.","effects":[{"key":"behavior","value":"No Target"},{"key":"damage_type","value":"Magical"},{"key":"spell_immunity_type","value":"No"}],"stats":[{"label":"DAMAGE","values":["75","150","225","300"]},{"label":"RADIUS","values":["475"]},{"label":"CAST POINT","values":["0s"]}],"cooldown":[7.0],"manaCost":[110,120,130,140]},{"name":"Sonic Wave","image":"https://dotabuff.com//assets/skills/queen-of-pain-sonic-wave-5176-2bb276e1d9b6a4d4074a6403a5a069de0562d8e2fe20b71cdbc188b23c2ceddc.jpg","link":null,"description":"Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake.","effects":[{"key":"behavior","value":"Point Target"},{"key":"damage_type","value":"Pure"},{"key":"spell_immunity_type","value":"Yes"}],"stats":[{"label":"WAVE MAX RADIUS","values":["450"]},{"label":"DAMAGE","values":["290","380","470"]},{"label":"SCEPTER COOLDOWN","values":["40.0"]},{"label":"SCEPTER DAMAGE","values":["325","440","555"]},{"label":"CAST POINT","values":["0.452s"]}],"cooldown":[135.0],"manaCost":[250,360,500]}],"aliases":null,"talents":[{"level":25,"options":["60% Spell Lifesteal","550 AoE Shadow Strike"]},{"level":20,"options":["+300 Health","+100 Attack Range"]},{"level":15,"options":["+90 Gold/Min","12% Cooldown Reduction"]},{"level":10,"options":["+10 Strength","+25 Damage"]}]}
+{
+  "id": 39,
+  "name": "npc_dota_hero_queenofpain",
+  "localized_name": "Queen of Pain",
+  "primary_attr": "int",
+  "attack_type": "Ranged",
+  "roles": [
+    "Carry",
+    "Nuker",
+    "Escape"
+  ],
+  "img": "/apps/dota2/images/heroes/queenofpain_full.png?",
+  "icon": "/apps/dota2/images/heroes/queenofpain_icon.png",
+  "url": "Queen_of_Pain",
+  "base_health": 200,
+  "base_health_regen": 0.0,
+  "base_mana": 75,
+  "base_mana_regen": 0.01,
+  "base_armor": -1.0,
+  "base_mr": 25.0,
+  "base_attack_min": 25,
+  "base_attack_max": 33,
+  "base_str": 16,
+  "base_agi": 18,
+  "base_int": 24,
+  "str_gain": 2.0,
+  "agi_gain": 2.0,
+  "int_gain": 2.5,
+  "attack_range": 550,
+  "projectile_speed": 1500,
+  "attack_rate": 1.5,
+  "move_speed": 295,
+  "turn_rate": 0.5,
+  "cm_enabled": true,
+  "legs": 2,
+  "skills": [
+    {
+      "name": "Shadow Strike",
+      "image": "https://dotabuff.com//assets/skills/queen-of-pain-shadow-strike-5173-fc97f562d50f4112f77aaa1ef98fc0007a264751246cc8e79d4bf17eb466819a.jpg",
+      "link": null,
+      "description": "Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds.  An instance of damage is dealt every 3 seconds.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "INITIAL DAMAGE",
+          "values": [
+            "50",
+            "75",
+            "100",
+            "125"
+          ]
+        },
+        {
+          "label": "DAMAGE PER TICK",
+          "values": [
+            "30",
+            "45",
+            "60",
+            "75"
+          ]
+        },
+        {
+          "label": "MOVEMENT SLOW",
+          "values": [
+            "-20%",
+            "-30%",
+            "-40%",
+            "-50%"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "450",
+            "500",
+            "550",
+            "600"
+          ]
+        },
+        {
+          "label": "DURATION",
+          "values": [
+            "15"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.4s"
+          ]
+        }
+      ],
+      "cooldown": [
+        16.0,
+        12.0,
+        8.0,
+        4.0
+      ],
+      "manaCost": [
+        110
+      ]
+    },
+    {
+      "name": "Blink",
+      "image": "https://dotabuff.com//assets/skills/queen-of-pain-blink-5174-8be9872305530d12988f4a59bc3ff8214045007079fd2000d687585e39a8c290.jpg",
+      "link": null,
+      "description": "Short distance teleportation that allows Queen of Pain to move in and out of combat.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "RANGE",
+          "values": [
+            "1300"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.33s"
+          ]
+        }
+      ],
+      "cooldown": [
+        15.0,
+        12.0,
+        9.0,
+        6.0
+      ],
+      "manaCost": [
+        60
+      ]
+    },
+    {
+      "name": "Scream Of Pain",
+      "image": "https://dotabuff.com//assets/skills/queen-of-pain-scream-of-pain-5175-c877993999c16453ae5d6498dc7383dd135d8e09c320282031d419bab2699203.jpg",
+      "link": null,
+      "description": "The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "No Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "No"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DAMAGE",
+          "values": [
+            "75",
+            "150",
+            "225",
+            "300"
+          ]
+        },
+        {
+          "label": "RADIUS",
+          "values": [
+            "475"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0s"
+          ]
+        }
+      ],
+      "cooldown": [
+        7.0
+      ],
+      "manaCost": [
+        110,
+        120,
+        130,
+        140
+      ]
+    },
+    {
+      "name": "Sonic Wave",
+      "image": "https://dotabuff.com//assets/skills/queen-of-pain-sonic-wave-5176-2bb276e1d9b6a4d4074a6403a5a069de0562d8e2fe20b71cdbc188b23c2ceddc.jpg",
+      "link": null,
+      "description": "Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        },
+        {
+          "key": "damage_type",
+          "value": "Pure"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "WAVE MAX RADIUS",
+          "values": [
+            "450"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "290",
+            "380",
+            "470"
+          ]
+        },
+        {
+          "label": "SCEPTER COOLDOWN",
+          "values": [
+            "40.0"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE",
+          "values": [
+            "325",
+            "440",
+            "555"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.452s"
+          ]
+        }
+      ],
+      "cooldown": [
+        135.0
+      ],
+      "manaCost": [
+        250,
+        360,
+        500
+      ]
+    }
+  ],
+  "aliases": null,
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "60% Spell Lifesteal",
+        "550 AoE Shadow Strike"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+300 Health",
+        "+100 Attack Range"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+90 Gold/Min",
+        "12% Cooldown Reduction"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+10 Strength",
+        "+25 Damage"
+      ]
+    }
+  ]
+}

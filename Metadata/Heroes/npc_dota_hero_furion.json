@@ -35,12 +35,238 @@
   "turn_rate": 0.6,
   "cm_enabled": true,
   "legs": 2,
-  "skills": [],
+  "skills": [
+    {
+      "name": "Sprout",
+      "image": "https://dotabuff.com//assets/skills/natures-prophet-sprout-5245-b314014635453452e93042ffe1e5379375a1977804dcc0654b1b3281a5db8b7e.jpg",
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
+      "description": "Sprouts a ring of trees around a unit, trapping it in place.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Heroes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "DURATION",
+          "values": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "label": "CAST RANGE",
+          "values": [
+            "625",
+            "700",
+            "775",
+            "850"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.35s"
+          ]
+        }
+      ],
+      "cooldown": [
+        11.0,
+        10.0,
+        9.0,
+        8.0
+      ],
+      "manaCost": [
+        70,
+        90,
+        110,
+        130
+      ]
+    },
+    {
+      "name": "Teleportation",
+      "image": "https://dotabuff.com//assets/skills/natures-prophet-teleportation-5246-746378b8330024e36ac2016f29cb92b0613794d940718c8f9d4ca34e60319570.jpg",
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
+      "description": "Teleports to any point on the map.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        }
+      ],
+      "stats": [],
+      "cooldown": [
+        50.0,
+        40.0,
+        30.0,
+        20.0
+      ],
+      "manaCost": [
+        50
+      ]
+    },
+    {
+      "name": "Nature&#39;s Call",
+      "image": "https://dotabuff.com//assets/skills/natures-prophet-natures-call-5247-8ea452a0ee3f1829cf622ed19546f4a55f46dc48f5957f8405aaa8d3064c27d4.jpg",
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
+      "description": "Converts an area of trees into Treants. Treants have 550 health and deal 30-34 damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target"
+        }
+      ],
+      "stats": [
+        {
+          "label": "TREANT COUNT",
+          "values": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "label": "TREANT DURATION",
+          "values": [
+            "60"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        37.0
+      ],
+      "manaCost": [
+        130,
+        140,
+        150,
+        160
+      ]
+    },
+    {
+      "name": "Wrath of Nature",
+      "image": "https://dotabuff.com//assets/skills/natures-prophet-wrath-of-nature-5248-03cc4cdc44472b79c8a032d3847ee982b2eae8f871906c92a3dede32feaa4d9c.jpg",
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
+      "description": "Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.",
+      "effects": [
+        {
+          "key": "behavior",
+          "value": "Point Target, Unit Target"
+        },
+        {
+          "key": "affects",
+          "value": "Enemy Units"
+        },
+        {
+          "key": "damage_type",
+          "value": "Magical"
+        },
+        {
+          "key": "spell_immunity_type",
+          "value": "Yes"
+        }
+      ],
+      "stats": [
+        {
+          "label": "MAX TARGETS",
+          "values": [
+            "16"
+          ]
+        },
+        {
+          "label": "DAMAGE",
+          "values": [
+            "110",
+            "140",
+            "170"
+          ]
+        },
+        {
+          "label": "ADDED DAMAGE PER BOUNCE",
+          "values": [
+            "11%"
+          ]
+        },
+        {
+          "label": "SCEPTER DAMAGE",
+          "values": [
+            "135",
+            "170",
+            "205"
+          ]
+        },
+        {
+          "label": "SCEPTER TREANT SPAWN TIMER",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "label": "CAST POINT",
+          "values": [
+            "0.5s"
+          ]
+        }
+      ],
+      "cooldown": [
+        90.0,
+        75.0,
+        60.0
+      ],
+      "manaCost": [
+        175,
+        225,
+        275
+      ]
+    }
+  ],
   "aliases": [
     "prophet",
     "nature's prophet",
     "furion",
     "natures prophet"
   ],
-  "talents": []
+  "talents": [
+    {
+      "level": 25,
+      "options": [
+        "2x Treant HP/Damage",
+        "Removed Teleportation Cooldown"
+      ]
+    },
+    {
+      "level": 20,
+      "options": [
+        "+10 Armor",
+        "+35 Attack Speed"
+      ]
+    },
+    {
+      "level": 15,
+      "options": [
+        "+4 Treants Summoned",
+        "+20 Intelligence"
+      ]
+    },
+    {
+      "level": 10,
+      "options": [
+        "+250 Health",
+        "+30 Damage"
+      ]
+    }
+  ]
 }

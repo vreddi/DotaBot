@@ -39,7 +39,7 @@
     {
       "name": "Arcane Curse",
       "image": "https://dotabuff.com//assets/skills/silencer-arcane-curse-5377-280df9dc3e3e69450b40e4d7356687c9cf3515f473ab39428282c8cb06119030.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/silencer/abilities",
       "description": "Curses the target area, causing enemy heroes to take damage and slowing their movement speed. Anytime affected enemies cast a spell, the duration is increased.",
       "effects": [
         {
@@ -115,7 +115,7 @@
     {
       "name": "Glaives of Wisdom",
       "image": "https://dotabuff.com//assets/skills/silencer-glaives-of-wisdom-5378-d7df70ef329e5d86487fe859967bbd2e780a15d1f7c95c0c15131ca4cb746366.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/silencer/abilities",
       "description": "Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence.",
       "effects": [
         {
@@ -156,7 +156,7 @@
     {
       "name": "Last Word",
       "image": "https://dotabuff.com//assets/skills/silencer-last-word-5379-f980e4f35a9732676b0cb0aa1968dbc258331ee108721af7cc0e5b86af543d91.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/silencer/abilities",
       "description": "Enchants a target, causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires.",
       "effects": [
         {
@@ -221,7 +221,7 @@
     {
       "name": "Global Silence",
       "image": "https://dotabuff.com//assets/skills/silencer-global-silence-5380-a5195500136eae4852f9d3cd28791bb525f9a6f2c3a16f05b9866c4ac205f376.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/silencer/abilities",
       "description": "Silencer stops all sound, preventing enemy heroes and units on the map from casting spells.",
       "effects": [
         {
@@ -259,7 +259,9 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "Nortrom"
+  ],
   "talents": [
     {
       "level": 25,

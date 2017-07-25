@@ -37,7 +37,7 @@
     {
       "name": "Ice Shards",
       "image": "https://dotabuff.com//assets/skills/tusk-ice-shards-5565-4d68988fdb3e0125b3366ef7da48f26857ea0d2c3ab771b35474162a20286139.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tusk/abilities",
       "description": "Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 7.0 seconds.",
       "effects": [
         {
@@ -108,7 +108,7 @@
     {
       "name": "Snowball",
       "image": "https://dotabuff.com//assets/skills/tusk-snowball-5566-59d2d27dcb5f9039f1e83bbdb0d4fe4fd2730ad1eb95b1dd176ec3313c9023c8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tusk/abilities",
       "description": "Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage.",
       "effects": [
         {
@@ -188,7 +188,7 @@
     {
       "name": "Frozen Sigil",
       "image": "https://dotabuff.com//assets/skills/tusk-frozen-sigil-5567-ff4482e35243bf98a38421b36e7f852fe77a61603d8617210045b434f28eae1f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tusk/abilities",
       "description": "Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within 600 range.",
       "effects": [
         {
@@ -248,7 +248,7 @@
     {
       "name": "Walrus PUNCH!",
       "image": "https://dotabuff.com//assets/skills/tusk-walrus-punch-5568-7939fd76f138bf815a1811b4410522341458717515002330cf6979092a2a45fd.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tusk/abilities",
       "description": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
       "effects": [
         {
@@ -310,7 +310,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "walrus",
+    "tuskar"
+  ],
   "talents": [
     {
       "level": 25,

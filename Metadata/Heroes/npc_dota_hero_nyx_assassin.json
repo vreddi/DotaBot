@@ -38,7 +38,7 @@
     {
       "name": "Impale",
       "image": "https://dotabuff.com//assets/skills/nyx-assassin-impale-5462-aed085ac4cd4c4a29428c70c1198d90b6f525f053010ff73e5171920c9475294.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/nyx-assassin/abilities",
       "description": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.",
       "effects": [
         {
@@ -97,7 +97,7 @@
     {
       "name": "Mana Burn",
       "image": "https://dotabuff.com//assets/skills/nyx-assassin-mana-burn-5463-cfe4844985f7b3d08e0afc3b515eeffb673685768a8e01fcde38f5d9e33deee8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/nyx-assassin/abilities",
       "description": "Destroys the target hero's mana equal to a multiplier of its Intelligence, and deals damage equal to the mana burned.",
       "effects": [
         {
@@ -147,7 +147,7 @@
     {
       "name": "Spiked Carapace",
       "image": "https://dotabuff.com//assets/skills/nyx-assassin-spiked-carapace-5464-e10eeae19edddad04932b1f36367ea23bf2d6678b73fc7cda97c7069fd1f9f7f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/nyx-assassin/abilities",
       "description": "When activated while above ground, Spiked Carapace reflects and negates damage dealt to Nyx Assassin (max once from each source), as well as stunning the source of the damage. Activating Spiked Carapace will not break Vendetta invisibility.",
       "effects": [
         {
@@ -205,7 +205,7 @@
     {
       "name": "Vendetta",
       "image": "https://dotabuff.com//assets/skills/nyx-assassin-vendetta-5465-7108e92a251943bd0e0d6a05af5a63a0ba68d8f0793299fce127b2c58e3d472a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/nyx-assassin/abilities",
       "description": "Allows Nyx Assassin to become invisible and gain a speed bonus.  If Nyx Assassin attacks to break the invisibility, massive bonus damage is dealt with the attack.",
       "effects": [
         {
@@ -259,7 +259,9 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "nyx"
+  ],
   "talents": [
     {
       "level": 25,

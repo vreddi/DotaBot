@@ -38,7 +38,7 @@
     {
       "name": "Thunder Strike",
       "image": "https://dotabuff.com//assets/skills/disruptor-thunder-strike-5458-f57e4e06fb668cf381c7d053d3b4c62e0cc7919556af43095060e8a50767c2d8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/disruptor/abilities",
       "description": "Repeatedly strikes the targeted unit with lightning.  Each strike damages nearby enemy units in a small radius.  Provides vision of its target.",
       "effects": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Glimpse",
       "image": "https://dotabuff.com//assets/skills/disruptor-glimpse-5459-5e3aa513dac1e062bcf9b202a1df08823ec61399fc05fbbe88ab4ba3a6713dfd.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/disruptor/abilities",
       "description": "Teleports the target hero back to where it was 4 seconds ago.  Instantly kills illusions.",
       "effects": [
         {
@@ -152,7 +152,7 @@
     {
       "name": "Kinetic Field",
       "image": "https://dotabuff.com//assets/skills/disruptor-kinetic-field-5460-f57b3942803d7a0e29aa037a8cd79a15b578469319ebc1ab87e44ff55133568b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/disruptor/abilities",
       "description": "After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass.",
       "effects": [
         {
@@ -206,7 +206,7 @@
     {
       "name": "Static Storm",
       "image": "https://dotabuff.com//assets/skills/disruptor-static-storm-5461-81793eac9a2c80701cf73d764164bf8104e901ef4b139dd5b05e37cb4086f76d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/disruptor/abilities",
       "description": "Creates a damaging static storm that also silences all enemy units in the area for the duration.  The damage starts off weak, but increases in power over the duration.",
       "effects": [
         {
@@ -280,7 +280,9 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "disraptor"
+  ],
   "talents": [
     {
       "level": 25,

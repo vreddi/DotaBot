@@ -37,7 +37,7 @@
     {
       "name": "Laser",
       "image": "https://dotabuff.com//assets/skills/tinker-laser-5150-14cffb75d4e2c3736c99fabb405eef8e4b85a4948f0d7b9eb2dc1e6bc3effa36.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tinker/abilities",
       "description": "Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks. ",
       "effects": [
         {
@@ -120,7 +120,7 @@
     {
       "name": "Heat-Seeking Missile",
       "image": "https://dotabuff.com//assets/skills/tinker-heat-seeking-missile-5151-6a2b789237af796a1313e3cbc940815c1d4ddf6ce588c89a865551fa83e0fddc.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tinker/abilities",
       "description": "Launches a pair of rockets at the nearest visible enemy heroes within 2500 range. ",
       "effects": [
         {
@@ -178,7 +178,7 @@
     {
       "name": "March of the Machines",
       "image": "https://dotabuff.com//assets/skills/tinker-march-of-the-machines-5152-5baed02865c8044a2dc464210c660c06083a64b031166ae5198637ece8b192f3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tinker/abilities",
       "description": "Enlists an army of robotic minions to destroy enemy units in an area around Tinker.",
       "effects": [
         {
@@ -236,7 +236,7 @@
     {
       "name": "Rearm",
       "image": "https://dotabuff.com//assets/skills/tinker-rearm-5153-5fd55feb8e298001f48cc6692e0e5b2c8f537b7b868fc0201af8210bdfbf4d66.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tinker/abilities",
       "description": "CHANNELED - Resets the cooldown on most of Tinker's items and abilities.",
       "effects": [
         {
@@ -270,7 +270,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

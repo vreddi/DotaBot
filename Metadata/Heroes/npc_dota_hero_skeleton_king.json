@@ -39,7 +39,7 @@
     {
       "name": "Wraithfire Blast",
       "image": "https://dotabuff.com//assets/skills/wraith-king-wraithfire-blast-5086-84902118d49e05dc21c18301c2d781f87714bae67851e4e270fff8e08032c2c7.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/wraith-king/abilities",
       "description": "Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target.",
       "effects": [
         {
@@ -113,7 +113,7 @@
     {
       "name": "Vampiric Aura",
       "image": "https://dotabuff.com//assets/skills/wraith-king-vampiric-aura-5087-324d668c7cac247ca4f3ecc9604df6c8788392ad07e4045cbed88fefebab34c0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/wraith-king/abilities",
       "description": "Nearby friendly units restore health based on the damage they deal when attacking enemy units.",
       "effects": [
         {
@@ -138,7 +138,7 @@
     {
       "name": "Mortal Strike",
       "image": "https://dotabuff.com//assets/skills/wraith-king-mortal-strike-5088-a7c7fd78806fe0fc3e5ac229408e243500e469cd3c560cdf340672a2f8c7aa9b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/wraith-king/abilities",
       "description": "Wraith King passively gains a chance to deal bonus damage on an attack.",
       "effects": [
         {
@@ -182,7 +182,7 @@
     {
       "name": "Reincarnation",
       "image": "https://dotabuff.com//assets/skills/wraith-king-reincarnation-5089-c698630129fc8d0fe3cffbea0d7a4a3dc464adeb4bd64e6595b546d23ba01a4b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/wraith-king/abilities",
       "description": "Wraith King's form regroups after death, allowing him to resurrect when killed in battle.  Upon death, enemy units in a 900 radius will be slowed.",
       "effects": [
         {
@@ -246,7 +246,11 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "wraith king",
+    "wraith",
+    "baller"
+  ],
   "talents": [
     {
       "level": 25,

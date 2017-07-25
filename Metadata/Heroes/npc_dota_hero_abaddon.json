@@ -37,7 +37,7 @@
     {
       "name": "Mist Coil",
       "image": "https://dotabuff.com//assets/skills/abaddon-mist-coil-5585-b157c12ffd5aacbfa68946762110f62c39e69b88d3ad3cb44ade48fca6368b26.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/abaddon/abilities",
       "description": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
       "effects": [
         {
@@ -96,7 +96,7 @@
     {
       "name": "Aphotic Shield",
       "image": "https://dotabuff.com//assets/skills/abaddon-aphotic-shield-5586-1a44e07ae66b1ecd1ea452eeb41672b0bd5b45ea3cbc34b3d3ed856635257007.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/abaddon/abilities",
       "description": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.",
       "effects": [
         {
@@ -154,7 +154,7 @@
     {
       "name": "Curse of Avernus",
       "image": "https://dotabuff.com//assets/skills/abaddon-curse-of-avernus-5587-c280ac317a86e0f6e170b5dedbab5b58fbdb4e327528b5ece8857ee8cedf9c3e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/abaddon/abilities",
       "description": "Abaddon strikes an enemy with chilling curse on each attack, causing all units who attack the slowed enemy to gain increased movement speed, along with faster attack speed, for a limited time.",
       "effects": [
         {
@@ -219,7 +219,7 @@
     {
       "name": "Borrowed Time",
       "image": "https://dotabuff.com//assets/skills/abaddon-borrowed-time-5588-7dbf5fd8e8574eedffd4dbc44680d8ad541cb3ce4b4f7c97c4dbaa378dafcffa.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/abaddon/abilities",
       "description": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.",
       "effects": [
         {
@@ -273,7 +273,11 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "abba",
+    "loa",
+    "lord of avernus"
+  ],
   "talents": [
     {
       "level": 25,

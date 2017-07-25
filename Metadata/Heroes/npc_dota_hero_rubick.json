@@ -37,7 +37,7 @@
     {
       "name": "Telekinesis",
       "image": "https://dotabuff.com//assets/skills/rubick-telekinesis-5448-c14d054f7f7e42920379a0076e2e9e67e8c30128112e4d672ce712cbb82100d8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/rubick/abilities",
       "description": "Rubick uses his telekinetic powers to lift the enemy into the air briefly and then hurls them back at the ground. The unit lands on the ground with such force that it stuns nearby enemies.",
       "effects": [
         {
@@ -104,7 +104,7 @@
     {
       "name": "Fade Bolt",
       "image": "https://dotabuff.com//assets/skills/rubick-fade-bolt-5450-f25c7b8d73afe3cadec38e075f6d4bd8b0eb78f7518bd1bd9c1ab7c60f6ebf40.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/rubick/abilities",
       "description": "Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage.  Each jump deals less damage.",
       "effects": [
         {
@@ -187,7 +187,7 @@
     {
       "name": "Null Field",
       "image": "https://dotabuff.com//assets/skills/rubick-null-field-5451-aad0c14d4fb157bf52a9197be9bcc92590b39997e97b9d955d18b572ec4b8c84.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/rubick/abilities",
       "description": "Rubick's mastery of the arcane protects nearby allies against weaker magics, granting them magic resistance.",
       "effects": [
         {
@@ -218,7 +218,7 @@
     {
       "name": "Spell Steal",
       "image": "https://dotabuff.com//assets/skills/rubick-spell-steal-5452-6869a95fb2ca760a4c2e4496586205c4d11952dfcf0ecaee625d02fe3ed8f57f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/rubick/abilities",
       "description": "Rubick studies the trace magical essence of one enemy hero, learning the secrets of the last spell the hero cast. Rubick can use this spell as his own for several minutes or until he dies.",
       "effects": [
         {
@@ -266,7 +266,9 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "grand magus"
+  ],
   "talents": [
     {
       "level": 25,

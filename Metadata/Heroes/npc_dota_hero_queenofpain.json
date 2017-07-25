@@ -37,7 +37,7 @@
     {
       "name": "Shadow Strike",
       "image": "https://dotabuff.com//assets/skills/queen-of-pain-shadow-strike-5173-fc97f562d50f4112f77aaa1ef98fc0007a264751246cc8e79d4bf17eb466819a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/queen-of-pain/abilities",
       "description": "Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds.  An instance of damage is dealt every 3 seconds.",
       "effects": [
         {
@@ -120,7 +120,7 @@
     {
       "name": "Blink",
       "image": "https://dotabuff.com//assets/skills/queen-of-pain-blink-5174-8be9872305530d12988f4a59bc3ff8214045007079fd2000d687585e39a8c290.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/queen-of-pain/abilities",
       "description": "Short distance teleportation that allows Queen of Pain to move in and out of combat.",
       "effects": [
         {
@@ -155,7 +155,7 @@
     {
       "name": "Scream Of Pain",
       "image": "https://dotabuff.com//assets/skills/queen-of-pain-scream-of-pain-5175-c877993999c16453ae5d6498dc7383dd135d8e09c320282031d419bab2699203.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/queen-of-pain/abilities",
       "description": "The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.",
       "effects": [
         {
@@ -207,7 +207,7 @@
     {
       "name": "Sonic Wave",
       "image": "https://dotabuff.com//assets/skills/queen-of-pain-sonic-wave-5176-2bb276e1d9b6a4d4074a6403a5a069de0562d8e2fe20b71cdbc188b23c2ceddc.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/queen-of-pain/abilities",
       "description": "Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake.",
       "effects": [
         {
@@ -269,7 +269,11 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "qop",
+    "queen",
+    "queen of pain"
+  ],
   "talents": [
     {
       "level": 25,

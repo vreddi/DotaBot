@@ -37,7 +37,7 @@
     {
       "name": "Cold Feet",
       "image": "https://dotabuff.com//assets/skills/ancient-apparition-cold-feet-5345-694a72f5349d08b8d7c0e6f172e7a7984f86da602b4efb811ef8bb9923beff6f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ancient-apparition/abilities",
       "description": "Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds.",
       "effects": [
         {
@@ -111,7 +111,7 @@
     {
       "name": "Ice Vortex",
       "image": "https://dotabuff.com//assets/skills/ancient-apparition-ice-vortex-5346-55ffaf41798d30c1f978ee41e558b082d595ff9d0eaf61a25d0cb6b4389b2b97.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ancient-apparition/abilities",
       "description": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range. Lasts 16 seconds.",
       "effects": [
         {
@@ -168,7 +168,7 @@
     {
       "name": "Chilling Touch",
       "image": "https://dotabuff.com//assets/skills/ancient-apparition-chilling-touch-5347-6cafd0dc11314e6b866200c61ad194bd2679776b38b799069227dd048a19fd55.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ancient-apparition/abilities",
       "description": "A frigid gust enchants allied heroes, granting them bonus magical damage for a given number of physical attacks, while slowing their attack speed slightly.  Ancient Apparition always receives the buff. Lasts 30 seconds.",
       "effects": [
         {
@@ -238,7 +238,7 @@
     {
       "name": "Ice Blast",
       "image": "https://dotabuff.com//assets/skills/ancient-apparition-ice-blast-5348-befbc26f7b048f5ab76abf09f677eaa4c15146dfc81e76ca362ea86fcb993758.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ancient-apparition/abilities",
       "description": "Launches a tracer toward any location on the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touch the icy ball of hail as it travels, are Frostbitten, taking damage and prevented from regenerating or healing. If a Frostbitten unit's health drops below a certain percentage, they will instantly shatter.",
       "effects": [
         {
@@ -310,7 +310,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "Kaldr",
+    "aa"
+  ],
   "talents": [
     {
       "level": 25,

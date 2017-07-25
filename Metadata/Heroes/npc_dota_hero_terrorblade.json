@@ -37,7 +37,7 @@
     {
       "name": "Reflection",
       "image": "https://dotabuff.com//assets/skills/terrorblade-reflection-5619-5d862a0f6ada9997150237e7705e2cf904837fafda60797662b95e9bd4e8abdf.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/terrorblade/abilities",
       "description": "Terrorblade brings forth an invulnerable dark reflection of all nearby enemy heroes. Affected enemy heroes are slowed and attacked by their reflection.",
       "effects": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Conjure Image",
       "image": "https://dotabuff.com//assets/skills/terrorblade-conjure-image-5620-9ea74ed1df0073c2c66d55483a6be649a5e7b6aeb3841cb5c45b66956e7eb043.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/terrorblade/abilities",
       "description": "Creates an illusion of Terrorblade that deals damage.",
       "effects": [
         {
@@ -153,7 +153,7 @@
     {
       "name": "Metamorphosis",
       "image": "https://dotabuff.com//assets/skills/terrorblade-metamorphosis-5621-fcb3dd6af5e500be88b0ecc0986c16a51996c3240812d18657f9808a3f848902.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/terrorblade/abilities",
       "description": "Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within 900 range will also be transformed by Metamorphosis.",
       "effects": [
         {
@@ -227,7 +227,7 @@
     {
       "name": "Sunder",
       "image": "https://dotabuff.com//assets/skills/terrorblade-sunder-5622-06ce0c89f89634d255f777c1c76f17578e27d53c019bb0b8dd0d1c4c325416c2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/terrorblade/abilities",
       "description": "Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain.",
       "effects": [
         {
@@ -265,7 +265,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "tb",
+    "soulkeeper"
+  ],
   "talents": [
     {
       "level": 25,

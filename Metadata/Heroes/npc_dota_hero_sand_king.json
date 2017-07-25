@@ -39,7 +39,7 @@
     {
       "name": "Burrowstrike",
       "image": "https://dotabuff.com//assets/skills/sand-king-burrowstrike-5102-b91c3954db70ad11f1dbeacab0fb6314c5196223637a3334b5d921afe5a6984b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sand-king/abilities",
       "description": "Sand King burrows into the ground and tunnels forward, damaging and stunning enemy units above him as he resurfaces.",
       "effects": [
         {
@@ -113,7 +113,7 @@
     {
       "name": "Sand Storm",
       "image": "https://dotabuff.com//assets/skills/sand-king-sand-storm-5103-2d1f46a075c605c08e258b78171b6ced1ad0d491c363c6b7f4a55485dd13f5f2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sand-king/abilities",
       "description": "CHANNELED - Sand King creates a fearsome sandstorm that damages enemy units while hiding him from vision.  The invisibility remains for a short duration after the sandstorm ends.",
       "effects": [
         {
@@ -177,7 +177,7 @@
     {
       "name": "Caustic Finale",
       "image": "https://dotabuff.com//assets/skills/sand-king-caustic-finale-5104-153becb850caa1e45d5feb21df1bec0b361dfe093d350c884680c53e56e5b355.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sand-king/abilities",
       "description": "Sand King's attacks inject a venom that causes enemy units to violently explode when its timer expires, or when the unit dies, damaging and slowing nearby enemies. Deals less damage if its timer expires.",
       "effects": [
         {
@@ -243,7 +243,7 @@
     {
       "name": "Epicenter",
       "image": "https://dotabuff.com//assets/skills/sand-king-epicenter-5105-25d75e8af3ab68cd2ca83dca2de35d1c92c0e364aa92978744002bc83e613d41.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sand-king/abilities",
       "description": "CHANNELED - After channeling for 2 seconds, Sand King sends a disturbance into the earth, causing it to shudder violently. All enemies caught within range will take damage and become slowed. Each subsequent pulse increases the radius of damage dealt.",
       "effects": [
         {
@@ -311,7 +311,13 @@
       ]
     }
   ],
-  "aliases": ["sk", "sand", "sandy claws", "crixalis", "scorpion"],
+  "aliases": [
+    "sk",
+    "sand",
+    "sandy claws",
+    "crixalis",
+    "scorpion"
+  ],
   "talents": [
     {
       "level": 25,

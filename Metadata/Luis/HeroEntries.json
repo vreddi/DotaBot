@@ -2,25 +2,33 @@
   {
     "canonicalForm": "npc_dota_hero_abaddon",
     "list": [
-      "Abaddon"
+      "Abaddon",
+      "abba",
+      "loa",
+      "lord of avernus"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_abyssal_underlord",
     "list": [
-      "Underlord"
+      "Underlord",
+      "pitlord",
+      "underlord"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_alchemist",
     "list": [
-      "Alchemist"
+      "Alchemist",
+      "alch"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_ancient_apparition",
     "list": [
-      "Ancient Apparition"
+      "Ancient Apparition",
+      "Kaldr",
+      "aa"
     ]
   },
   {
@@ -37,7 +45,8 @@
   {
     "canonicalForm": "npc_dota_hero_arc_warden",
     "list": [
-      "Arc Warden"
+      "Arc Warden",
+      "arc"
     ]
   },
   {
@@ -61,13 +70,15 @@
   {
     "canonicalForm": "npc_dota_hero_batrider",
     "list": [
-      "Batrider"
+      "Batrider",
+      "bat"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_beastmaster",
     "list": [
-      "Beastmaster"
+      "Beastmaster",
+      "beast"
     ]
   },
   {
@@ -84,49 +95,63 @@
   {
     "canonicalForm": "npc_dota_hero_bounty_hunter",
     "list": [
-      "Bounty Hunter"
+      "Bounty Hunter",
+      "bh",
+      "bounty",
+      "gondar"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_brewmaster",
     "list": [
-      "Brewmaster"
+      "Brewmaster",
+      "brew",
+      "panda"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_bristleback",
     "list": [
-      "Bristleback"
+      "Bristleback",
+      "Bristleboar",
+      "Bristlebog"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_broodmother",
     "list": [
-      "Broodmother"
+      "Broodmother",
+      "brood"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_centaur",
     "list": [
-      "Centaur Warrunner"
+      "Centaur Warrunner",
+      "Bradwarden"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_chaos_knight",
     "list": [
-      "Chaos Knight"
+      "Chaos Knight",
+      "ck"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_chen",
     "list": [
-      "Chen"
+      "Chen",
+      "chen",
+      "chuan"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_clinkz",
     "list": [
-      "Clinkz"
+      "Clinkz",
+      "clinkz eastwood",
+      "bone fletcher"
     ]
   },
   {
@@ -142,37 +167,46 @@
   {
     "canonicalForm": "npc_dota_hero_dark_seer",
     "list": [
-      "Dark Seer"
+      "Dark Seer",
+      "ds"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_dazzle",
     "list": [
-      "Dazzle"
+      "Dazzle",
+      "shadow pries"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_death_prophet",
     "list": [
-      "Death Prophet"
+      "Death Prophet",
+      "krob",
+      "dp",
+      "krobelus"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_disruptor",
     "list": [
-      "Disruptor"
+      "Disruptor",
+      "disraptor"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_doom_bringer",
     "list": [
-      "Doom"
+      "Doom",
+      "doom"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_dragon_knight",
     "list": [
-      "Dragon Knight"
+      "Dragon Knight",
+      "dk",
+      "davion"
     ]
   },
   {
@@ -183,7 +217,9 @@
       "drow range",
       "dr",
       "ranger",
-      "drowranger"
+      "drowranger",
+      "trax",
+      "traxxex"
     ]
   },
   {
@@ -205,13 +241,18 @@
   {
     "canonicalForm": "npc_dota_hero_elder_titan",
     "list": [
-      "Elder Titan"
+      "Elder Titan",
+      "et",
+      "titan"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_ember_spirit",
     "list": [
-      "Ember Spirit"
+      "Ember Spirit",
+      "ember",
+      "ember spirit",
+      "es"
     ]
   },
   {
@@ -229,19 +270,25 @@
   {
     "canonicalForm": "npc_dota_hero_faceless_void",
     "list": [
-      "Faceless Void"
+      "Faceless Void",
+      "void"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_furion",
     "list": [
-      "Nature's Prophet"
+      "Nature's Prophet",
+      "prophet",
+      "nature's prophet",
+      "furion",
+      "natures prophet"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_gyrocopter",
     "list": [
-      "Gyrocopter"
+      "Gyrocopter",
+      "gyro"
     ]
   },
   {
@@ -253,7 +300,9 @@
   {
     "canonicalForm": "npc_dota_hero_invoker",
     "list": [
-      "Invoker"
+      "Invoker",
+      "invoker",
+      "carl"
     ]
   },
   {
@@ -275,7 +324,8 @@
   {
     "canonicalForm": "npc_dota_hero_keeper_of_the_light",
     "list": [
-      "Keeper of the Light"
+      "Keeper of the Light",
+      "kotl"
     ]
   },
   {
@@ -287,25 +337,33 @@
   {
     "canonicalForm": "npc_dota_hero_legion_commander",
     "list": [
-      "Legion Commander"
+      "Legion Commander",
+      "lc"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_leshrac",
     "list": [
-      "Leshrac"
+      "Leshrac",
+      "lesh"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_lich",
     "list": [
-      "Lich"
+      "Lich",
+      "Ethreain"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_life_stealer",
     "list": [
-      "Lifestealer"
+      "Lifestealer",
+      "ls",
+      "N'aix",
+      "naix",
+      "lifestealer",
+      "life stealer"
     ]
   },
   {
@@ -323,7 +381,11 @@
   {
     "canonicalForm": "npc_dota_hero_lone_druid",
     "list": [
-      "Lone Druid"
+      "Lone Druid",
+      "sylla",
+      "ld",
+      "lone druid",
+      "syllabear"
     ]
   },
   {
@@ -338,19 +400,27 @@
   {
     "canonicalForm": "npc_dota_hero_lycan",
     "list": [
-      "Lycan"
+      "Lycan",
+      "lycan",
+      "lycanthrope",
+      "Banehallow"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_magnataur",
     "list": [
-      "Magnus"
+      "Magnus",
+      "magnataur",
+      "mag",
+      "magnus"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_medusa",
     "list": [
-      "Medusa"
+      "Medusa",
+      "dusa",
+      "gorgon"
     ]
   },
   {
@@ -366,7 +436,9 @@
     "list": [
       "Mirana",
       "potm",
-      "priestess of the moon"
+      "priestess of the moon",
+      "princess",
+      "princess of the moon"
     ]
   },
   {
@@ -390,13 +462,18 @@
   {
     "canonicalForm": "npc_dota_hero_naga_siren",
     "list": [
-      "Naga Siren"
+      "Naga Siren",
+      "naga",
+      "Slithice"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_necrolyte",
     "list": [
-      "Necrophos"
+      "Necrophos",
+      "necro",
+      "necrophos",
+      "necrolyte"
     ]
   },
   {
@@ -411,31 +488,39 @@
   {
     "canonicalForm": "npc_dota_hero_night_stalker",
     "list": [
-      "Night Stalker"
+      "Night Stalker",
+      "Balanar",
+      "night stalker"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_nyx_assassin",
     "list": [
-      "Nyx Assassin"
+      "Nyx Assassin",
+      "nyx"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_obsidian_destroyer",
     "list": [
-      "Outworld Devourer"
+      "Outworld Devourer",
+      "od",
+      "outworld",
+      "outworld devourer"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_ogre_magi",
     "list": [
-      "Ogre Magi"
+      "Ogre Magi",
+      "ogre"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_omniknight",
     "list": [
-      "Omniknight"
+      "Omniknight",
+      "omni"
     ]
   },
   {
@@ -487,19 +572,27 @@
   {
     "canonicalForm": "npc_dota_hero_pugna",
     "list": [
-      "Pugna"
+      "Pugna",
+      "pugnasty"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_queenofpain",
     "list": [
-      "Queen of Pain"
+      "Queen of Pain",
+      "qop",
+      "queen",
+      "queen of pain"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_rattletrap",
     "list": [
-      "Clockwerk"
+      "Clockwerk",
+      "rattletrap",
+      "clock",
+      "clockwerk",
+      "clockwork"
     ]
   },
   {
@@ -514,13 +607,16 @@
   {
     "canonicalForm": "npc_dota_hero_riki",
     "list": [
-      "Riki"
+      "Riki",
+      "rikimaru",
+      "shadow assassin"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_rubick",
     "list": [
-      "Rubick"
+      "Rubick",
+      "grand magus"
     ]
   },
   {
@@ -537,43 +633,58 @@
   {
     "canonicalForm": "npc_dota_hero_shadow_demon",
     "list": [
-      "Shadow Demon"
+      "Shadow Demon",
+      "Archimonde",
+      "sd"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_shadow_shaman",
     "list": [
-      "Shadow Shaman"
+      "Shadow Shaman",
+      "rhasta"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_shredder",
     "list": [
-      "Timbersaw"
+      "Timbersaw",
+      "timber",
+      "timbersaw",
+      "Rizzrack",
+      "shredder"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_silencer",
     "list": [
-      "Silencer"
+      "Silencer",
+      "Nortrom"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_skeleton_king",
     "list": [
-      "Wraith King"
+      "Wraith King",
+      "wraith king",
+      "wraith",
+      "baller"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_skywrath_mage",
     "list": [
-      "Skywrath Mage"
+      "Skywrath Mage",
+      "skywrath",
+      "Dragonus"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_slardar",
     "list": [
-      "Slardar"
+      "Slardar",
+      "slard",
+      "slithereen guard"
     ]
   },
   {
@@ -587,19 +698,27 @@
   {
     "canonicalForm": "npc_dota_hero_sniper",
     "list": [
-      "Sniper"
+      "Sniper",
+      "Kardel Sharpeye",
+      "ho ho ha ha"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_spectre",
     "list": [
-      "Spectre"
+      "Spectre",
+      "Spec",
+      "Mercurial"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_spirit_breaker",
     "list": [
-      "Spirit Breaker"
+      "Spirit Breaker",
+      "space cow",
+      "sb",
+      "Barathrum",
+      "bara"
     ]
   },
   {
@@ -627,19 +746,27 @@
   {
     "canonicalForm": "npc_dota_hero_templar_assassin",
     "list": [
-      "Templar Assassin"
+      "Templar Assassin",
+      "lanaya",
+      "ta",
+      "templar"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_terrorblade",
     "list": [
-      "Terrorblade"
+      "Terrorblade",
+      "tb",
+      "soulkeeper"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_tidehunter",
     "list": [
-      "Tidehunter"
+      "Tidehunter",
+      "watermelon",
+      "tide",
+      "leviathan"
     ]
   },
   {
@@ -661,31 +788,42 @@
   {
     "canonicalForm": "npc_dota_hero_treant",
     "list": [
-      "Treant Protector"
+      "Treant Protector",
+      "rooftrellen",
+      "treant",
+      "tree"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_troll_warlord",
     "list": [
-      "Troll Warlord"
+      "Troll Warlord",
+      "troll",
+      "Jah'rakal"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_tusk",
     "list": [
-      "Tusk"
+      "Tusk",
+      "walrus",
+      "tuskar"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_undying",
     "list": [
-      "Undying"
+      "Undying",
+      "dirge"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_ursa",
     "list": [
-      "Ursa"
+      "Ursa",
+      "bear",
+      "ursa warrior",
+      "ulfsaar"
     ]
   },
   {
@@ -701,31 +839,39 @@
   {
     "canonicalForm": "npc_dota_hero_venomancer",
     "list": [
-      "Venomancer"
+      "Venomancer",
+      "veno",
+      "banana",
+      "bananamancer"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_viper",
     "list": [
-      "Viper"
+      "Viper",
+      "netherdrake"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_visage",
     "list": [
-      "Visage"
+      "Visage",
+      "visage",
+      "versace"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_warlock",
     "list": [
-      "Warlock"
+      "Warlock",
+      "lock"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_weaver",
     "list": [
-      "Weaver"
+      "Weaver",
+      "Skitskurr"
     ]
   },
   {
@@ -742,25 +888,32 @@
   {
     "canonicalForm": "npc_dota_hero_winter_wyvern",
     "list": [
-      "Winter Wyvern"
+      "Winter Wyvern",
+      "wyvern",
+      "winter"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_wisp",
     "list": [
-      "Io"
+      "Io",
+      "wisp",
+      "io"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_witch_doctor",
     "list": [
-      "Witch Doctor"
+      "Witch Doctor",
+      "wd",
+      "witch doctor"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_zuus",
     "list": [
-      "Zeus"
+      "Zeus",
+      "zeus"
     ]
   }
 ]

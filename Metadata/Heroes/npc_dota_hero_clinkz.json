@@ -37,7 +37,7 @@
     {
       "name": "Strafe",
       "image": "https://dotabuff.com//assets/skills/clinkz-strafe-5259-87880a3e8e6cf98c4c7c09c0150b953099a8f154641c3dd8d9e0927791763580.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/clinkz/abilities",
       "description": "Clinkz attacks with a barrage of arrows.  Dramatically increases attack speed for a short time.",
       "effects": [
         {
@@ -81,7 +81,7 @@
     {
       "name": "Searing Arrows",
       "image": "https://dotabuff.com//assets/skills/clinkz-searing-arrows-5260-553770eded3a26c9351b996159f61426124774694568a7cc285bcd7ebbee005d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/clinkz/abilities",
       "description": "Imbues Clinkz's arrows with fire for extra damage.",
       "effects": [
         {
@@ -128,7 +128,7 @@
     {
       "name": "Skeleton Walk",
       "image": "https://dotabuff.com//assets/skills/clinkz-skeleton-walk-5261-0f25bdbd28f949b66ecc5105aed066c144aa995206c715a8cb51a9856c905c31.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/clinkz/abilities",
       "description": "Clinkz moves invisibly through units until the moment he attacks or uses an ability.",
       "effects": [
         {
@@ -175,7 +175,7 @@
     {
       "name": "Death Pact",
       "image": "https://dotabuff.com//assets/skills/clinkz-death-pact-5262-4185b9c0636cc72f3f692462b089e1cea0f8f405589e10fc5639cc60d4410005.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/clinkz/abilities",
       "description": "Clinkz consumes the target friendly or enemy creep, gaining a percent of its hitpoints as max health and damage.",
       "effects": [
         {
@@ -225,7 +225,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "clinkz eastwood",
+    "bone fletcher"
+  ],
   "talents": [
     {
       "level": 25,

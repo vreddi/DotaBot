@@ -37,7 +37,7 @@
     {
       "name": "Penitence",
       "image": "https://dotabuff.com//assets/skills/chen-penitence-5328-19c4cd95b72fe8581c5abff034b18034e23aa8d72e90b6f17f3310e647f424af.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chen/abilities",
       "description": "Forces an enemy unit to move slower and take more damage from attacks and spells.",
       "effects": [
         {
@@ -98,7 +98,7 @@
     {
       "name": "Test of Faith",
       "image": "https://dotabuff.com//assets/skills/chen-test-of-faith-5329-3c9ee4c617046a615ee627fa9834933e80bc2a6b1c776fc69e412ca96241531c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chen/abilities",
       "description": "Deals random damage to test an enemy unit's faith.",
       "effects": [
         {
@@ -157,7 +157,7 @@
     {
       "name": "Holy Persuasion",
       "image": "https://dotabuff.com//assets/skills/chen-holy-persuasion-5330-78c7cbb77bacb38ee748b089440d7962bce0852526cc0ab24aed0e1ddd93d1c5.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chen/abilities",
       "description": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.",
       "effects": [
         {
@@ -201,7 +201,7 @@
     {
       "name": "Hand of God",
       "image": "https://dotabuff.com//assets/skills/chen-hand-of-god-5331-8e4bddf2c759c0fff3c696e293f47fdccf06292aa34b1fc99547dd1167034eaa.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chen/abilities",
       "description": "Heals all allied heroes on the map as well as all units under Chen's control.",
       "effects": [
         {
@@ -249,7 +249,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "chen",
+    "chuan"
+  ],
   "talents": [
     {
       "level": 25,

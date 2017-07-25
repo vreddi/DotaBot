@@ -39,7 +39,7 @@
     {
       "name": "Bloodrage",
       "image": "https://dotabuff.com//assets/skills/bloodseeker-bloodrage-5015-1b7c6e4ead5fdf11adeef79ae1ed0665e723d17443eaa3c0045e668258b1c6d3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bloodseeker/abilities",
       "description": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer.",
       "effects": [
         {
@@ -103,7 +103,7 @@
     {
       "name": "Blood Rite",
       "image": "https://dotabuff.com//assets/skills/bloodseeker-blood-rite-5016-48c13c8bdbf861070609c6da38cd7a8673ccbfad60a60da68706c97f0e9d52aa.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bloodseeker/abilities",
       "description": "Bloodseeker baptizes an area in sacred blood. After 3.0 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced.",
       "effects": [
         {
@@ -164,7 +164,7 @@
     {
       "name": "Thirst",
       "image": "https://dotabuff.com//assets/skills/bloodseeker-thirst-5017-54c433fb9063f97c428c4aff33408d47588c145c8393348038b496f78fd552b6.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bloodseeker/abilities",
       "description": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack damage whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero.",
       "effects": [
         {
@@ -214,7 +214,7 @@
     {
       "name": "Rupture",
       "image": "https://dotabuff.com//assets/skills/bloodseeker-rupture-5018-7cf49cba12aa529d2757c830b70f894ca860e8633c4a2e7f933e0afd918f661b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bloodseeker/abilities",
       "description": "Causes an enemy unit's skin to rupture. If the unit moves, it takes a percentage of the distance traveled as damage.  The damage is dealt through spell immunity.",
       "effects": [
         {
@@ -284,7 +284,13 @@
       ]
     }
   ],
-  "aliases": ["hound", "strygwyr", "blood hound", "blood", "bs"],
+  "aliases": [
+    "hound",
+    "strygwyr",
+    "blood hound",
+    "blood",
+    "bs"
+  ],
   "talents": [
     {
       "level": 25,

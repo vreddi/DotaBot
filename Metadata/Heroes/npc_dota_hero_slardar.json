@@ -39,7 +39,7 @@
     {
       "name": "Guardian Sprint",
       "image": "https://dotabuff.com//assets/skills/slardar-guardian-sprint-5114-7d3b58b78f0e158af012faa0af61977f43e3a1228fe0013e130c183fe75a9205.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/slardar/abilities",
       "description": "Slardar slithers ahead, moving significantly faster and passing through units, though becoming more vulnerable to damage.",
       "effects": [
         {
@@ -84,7 +84,7 @@
     {
       "name": "Slithereen Crush",
       "image": "https://dotabuff.com//assets/skills/slardar-slithereen-crush-5115-ce897983cbe1abf65a468922442e36c1ac2338ebe663e35dade3952ab8c0ba60.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/slardar/abilities",
       "description": "Slams the ground, stunning and damaging nearby enemy land units.  After the stun, the affected units are slowed.",
       "effects": [
         {
@@ -163,7 +163,7 @@
     {
       "name": "Bash of the Deep",
       "image": "https://dotabuff.com//assets/skills/slardar-bash-of-the-deep-5116-abbfd5992b53ac01c4baf09ea740fc9bd12ce3b61147eb0d610b087f9e95b56b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/slardar/abilities",
       "description": "Grants a chance that an attack will do bonus damage and stun an enemy.  The duration is doubled against creeps.",
       "effects": [
         {
@@ -211,7 +211,7 @@
     {
       "name": "Corrosive Haze",
       "image": "https://dotabuff.com//assets/skills/slardar-corrosive-haze-5117-ba86c47f8caa7957c4f7a2e36aeaa4be877803e47b274cc772b26f428e26746f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/slardar/abilities",
       "description": "Reduces enemy armor to amplify physical damage and provides True Sight of the targeted unit, revealing invisibility.",
       "effects": [
         {
@@ -257,7 +257,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "slard",
+    "slithereen guard"
+  ],
   "talents": [
     {
       "level": 25,

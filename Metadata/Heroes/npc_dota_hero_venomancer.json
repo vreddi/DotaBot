@@ -39,7 +39,7 @@
     {
       "name": "Venomous Gale",
       "image": "https://dotabuff.com//assets/skills/venomancer-venomous-gale-5178-73114435b1b7e00f6b946c04899e461e16d92bee97a78332d53c0cbddf7d751c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/venomancer/abilities",
       "description": "Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement.  Venomous Gale deals damage every 3 seconds over its duration.",
       "effects": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Poison Sting",
       "image": "https://dotabuff.com//assets/skills/venomancer-poison-sting-5179-2400ca34a46eb002b562d25c1e3a7c5156850597fd600cecb24eb8fc4aab2a96.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/venomancer/abilities",
       "description": "Adds poison damage to Venomancer's normal attacks, slowing movement speed.",
       "effects": [
         {
@@ -157,7 +157,7 @@
     {
       "name": "Plague Ward",
       "image": "https://dotabuff.com//assets/skills/venomancer-plague-ward-5180-d25674e4d0be1abdf1b4e19b9b8325416db4f68ca290e86f07cf3a2b56483911.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/venomancer/abilities",
       "description": "Summons a plague ward to attack enemy units and structures. The ward is immune to magic. Wards gain the Poison Sting level from Venomancer, dealing 50% of the full damage.",
       "effects": [
         {
@@ -215,7 +215,7 @@
     {
       "name": "Poison Nova",
       "image": "https://dotabuff.com//assets/skills/venomancer-poison-nova-5181-407fee77b1b399fa198b2c058b5d208abb3e1b2864b17cf71b7522a16fa4c0b6.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/venomancer/abilities",
       "description": "A spreading ring of poison that does damage over time to enemy units around Venomancer.  Poison Nova cannot deal lethal damage; targets will be left with at least 1 health.",
       "effects": [
         {
@@ -287,7 +287,11 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "veno",
+    "banana",
+    "bananamancer"
+  ],
   "talents": [
     {
       "level": 25,

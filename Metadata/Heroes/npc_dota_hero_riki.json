@@ -37,7 +37,7 @@
     {
       "name": "Smoke Screen",
       "image": "https://dotabuff.com//assets/skills/riki-smoke-screen-5142-f81d86dd32762c752e6ac1c1970a7544e2548b83953f202ffdfd6d3e93c4c060.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/riki/abilities",
       "description": "Throws down a smoke bomb, silencing enemies, and causing them to miss most attacks, as well as slowing movement.",
       "effects": [
         {
@@ -100,7 +100,7 @@
     {
       "name": "Blink Strike",
       "image": "https://dotabuff.com//assets/skills/riki-blink-strike-5143-d0a5fef5b6f02eea93fc280b78c215d09395ff110b7283fa2e79044adccb944e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/riki/abilities",
       "description": "Teleports behind the target unit, striking for bonus damage if it is an enemy.",
       "effects": [
         {
@@ -152,7 +152,7 @@
     {
       "name": "Cloak and Dagger",
       "image": "https://dotabuff.com//assets/skills/riki-cloak-and-dagger-5144-f2241e52e8092ea812aa3ce17b87331025bfb35fb097f786f22e26f160a68134.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/riki/abilities",
       "description": "Riki fades into the shadows, becoming invisible. Every time Riki strikes his enemy from behind, he deals bonus damage based on his Agility. When Riki attacks, he becomes visible.",
       "effects": [
         {
@@ -194,7 +194,7 @@
     {
       "name": "Tricks of the Trade",
       "image": "https://dotabuff.com//assets/skills/riki-tricks-of-the-trade-5145-cb47b35628c735cf0eb67ed89fb99bbbcd896416030cbacfc921b0bb505a335c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/riki/abilities",
       "description": "CHANNELED - Phases out of the world while striking every enemy from behind in a 500 AoE once per second.",
       "effects": [
         {
@@ -244,7 +244,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "rikimaru",
+    "shadow assassin"
+  ],
   "talents": [
     {
       "level": 25,

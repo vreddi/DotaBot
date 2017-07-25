@@ -37,7 +37,7 @@
     {
       "name": "Arcane Bolt",
       "image": "https://dotabuff.com//assets/skills/skywrath-mage-arcane-bolt-5581-19d06da3ef80f0c8e9e34e47bc65df5d36fe0ba037a6014a771c962b00090c2d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/skywrath-mage/abilities",
       "description": "Skywrath Mage launches a slow-moving bolt of arcane magic, dealing damage to an enemy unit based on Skywrath Mage's intelligence.",
       "effects": [
         {
@@ -93,7 +93,7 @@
     {
       "name": "Concussive Shot",
       "image": "https://dotabuff.com//assets/skills/skywrath-mage-concussive-shot-5582-31135cae3b7b4c781e4fd9aac39533ce0e441c54c6927bb009b521d14ae3518f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/skywrath-mage/abilities",
       "description": "Skywrath Mage sets off a long range shot that hits the closest hero within a long range.  Upon impact, it deals damage and slows in an area of effect.",
       "effects": [
         {
@@ -166,7 +166,7 @@
     {
       "name": "Ancient Seal",
       "image": "https://dotabuff.com//assets/skills/skywrath-mage-ancient-seal-5583-c0c40ec11203e7f3da5a4db78ddf89b455cb6a40a73ca0a01752e4b5502dd923.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/skywrath-mage/abilities",
       "description": "Skywrath Mage seals the targeted unit with an ancient rune, silencing it and causing it to take additional damage from spells.",
       "effects": [
         {
@@ -221,7 +221,7 @@
     {
       "name": "Mystic Flare",
       "image": "https://dotabuff.com//assets/skills/skywrath-mage-mystic-flare-5584-a1d1e44e7ed90be6c7010493f5bbb564e19134f68b7db5f4b72bda9eb4a5b6f4.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/skywrath-mage/abilities",
       "description": "Skywrath Mage uses his ultimate magical ability to conjure a precise and violent mystical field that lays waste to his adversaries. Deals massive damage distributed evenly among any Heroes in the area over 2.4 seconds.",
       "effects": [
         {
@@ -277,7 +277,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "skywrath",
+    "Dragonus"
+  ],
   "talents": [
     {
       "level": 25,

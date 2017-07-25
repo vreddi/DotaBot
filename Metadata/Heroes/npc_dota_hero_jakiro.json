@@ -38,7 +38,7 @@
     {
       "name": "Dual Breath",
       "image": "https://dotabuff.com//assets/skills/jakiro-dual-breath-5297-d61a019ddecf449dea1a65acee54264026b895aa51a25b8813323afe4d0df5c9.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/jakiro/abilities",
       "description": "An icy blast followed by a wave of fire launches out in a path in front of Jakiro. The ice slows enemies, while the fire delivers damage over time.",
       "effects": [
         {
@@ -124,7 +124,7 @@
     {
       "name": "Ice Path",
       "image": "https://dotabuff.com//assets/skills/jakiro-ice-path-5298-d3b52d2dd67dcc553e88de4fcae654b7815a0756813c1d7be81e540529eea0b0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/jakiro/abilities",
       "description": "Creates a path of ice that stuns and damages enemies that touch it.",
       "effects": [
         {
@@ -192,7 +192,7 @@
     {
       "name": "Liquid Fire",
       "image": "https://dotabuff.com//assets/skills/jakiro-liquid-fire-5299-85db84dd0eaab96dfe2b5a06b5090ff365bbaac1fed3b218a8c2d695f7b45065.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/jakiro/abilities",
       "description": "Jakiro burns his enemies in an area of effect with fire added to his attack, while slowing their attacks.",
       "effects": [
         {
@@ -261,7 +261,7 @@
     {
       "name": "Macropyre",
       "image": "https://dotabuff.com//assets/skills/jakiro-macropyre-5300-5cb971079d668f6f491dddb4f74faff7fb12a064455a050ed194484b3f6eb4cc.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/jakiro/abilities",
       "description": "Jakiro exhales a wide line of lasting flames, which deals damage per second to any enemy units caught in the fire.",
       "effects": [
         {
@@ -345,7 +345,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

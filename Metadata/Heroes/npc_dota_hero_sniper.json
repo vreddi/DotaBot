@@ -36,7 +36,7 @@
     {
       "name": "Shrapnel",
       "image": "https://dotabuff.com//assets/skills/sniper-shrapnel-5154-7e81d318110edda4ea0124bc2964b35b0d1017838deede48e9d36167af7d77bf.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sniper/abilities",
       "description": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every 55 seconds.",
       "effects": [
         {
@@ -100,7 +100,7 @@
     {
       "name": "Headshot",
       "image": "https://dotabuff.com//assets/skills/sniper-headshot-5155-4ec4d6d8e0eaaed158b35ceedf251c83d963bf52b9fa4e47a5402a81aca1ba23.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sniper/abilities",
       "description": "Sniper increases his accuracy, giving him a chance to deal extra damage and briefly stop the movements of his enemies.",
       "effects": [
         {
@@ -139,7 +139,7 @@
     {
       "name": "Take Aim",
       "image": "https://dotabuff.com//assets/skills/sniper-take-aim-5156-0e6ce27ab94f8415fdc88f915742d6272981a0fcbf1b87a26659b3bc1e160da0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sniper/abilities",
       "description": "Extends the attack range of Sniper's rifle.",
       "effects": [
         {
@@ -164,7 +164,7 @@
     {
       "name": "Assassinate",
       "image": "https://dotabuff.com//assets/skills/sniper-assassinate-5157-344c25d3265160ac74c78ef64f70965998b1c7b119db52ba065adecb01c14407.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/sniper/abilities",
       "description": "Sniper locks onto a target enemy unit and, after 2 seconds, fires a devastating shot that deals damage at long range, and mini-stuns the target.",
       "effects": [
         {
@@ -232,7 +232,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "Kardel Sharpeye",
+    "ho ho ha ha"
+  ],
   "talents": [
     {
       "level": 25,

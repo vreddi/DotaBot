@@ -38,7 +38,7 @@
     {
       "name": "Gush",
       "image": "https://dotabuff.com//assets/skills/tidehunter-gush-5118-90f1fd2083d7983cee7da7204daf3fa06b1704246e625edbb455b27a645e201d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tidehunter/abilities",
       "description": "Summons a gush of water to damage an enemy unit, reducing their movement speed and armor.  Lasts 4 seconds.",
       "effects": [
         {
@@ -121,7 +121,7 @@
     {
       "name": "Kraken Shell",
       "image": "https://dotabuff.com//assets/skills/tidehunter-kraken-shell-5119-ba9a8a57852c15923b0b4d745b1a1c6c20c871579b5d939d4bbdba5b9efe1268.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tidehunter/abilities",
       "description": "Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.",
       "effects": [
         {
@@ -161,7 +161,7 @@
     {
       "name": "Anchor Smash",
       "image": "https://dotabuff.com//assets/skills/tidehunter-anchor-smash-5120-5489123a467664393b6ecf605f1acfc19ef2dde4a38f7d0fd03e046b82e1f0f3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tidehunter/abilities",
       "description": "Tidehunter swings his mighty anchor to damage nearby enemies and reduce their attack damage.",
       "effects": [
         {
@@ -231,7 +231,7 @@
     {
       "name": "Ravage",
       "image": "https://dotabuff.com//assets/skills/tidehunter-ravage-5121-0394d66dfdb7ab2ec9b6d9523fdf4165c6981ee12d2a7a20fc6eaf01238c0179.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/tidehunter/abilities",
       "description": "Slams the ground, causing tentacles to erupt in all directions, damaging and stunning all nearby enemy units.",
       "effects": [
         {
@@ -287,7 +287,11 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "watermelon",
+    "tide",
+    "leviathan"
+  ],
   "talents": [
     {
       "level": 25,

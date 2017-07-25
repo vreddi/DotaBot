@@ -36,7 +36,7 @@
     {
       "name": "Refraction",
       "image": "https://dotabuff.com//assets/skills/templar-assassin-refraction-5194-15752b2b4fb01aaeb200ae03858821c4ec8d0625b79029dba1c0614ffcac123e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/templar-assassin/abilities",
       "description": "Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage.  The damage and avoidance effects are separate, and have a limited number of instances.",
       "effects": [
         {
@@ -94,7 +94,7 @@
     {
       "name": "Meld",
       "image": "https://dotabuff.com//assets/skills/templar-assassin-meld-5195-d62b9ec5fcb5d2a4c22513506a5762ff2fa70c3fc6a75fb326fda5672d6f8200.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/templar-assassin/abilities",
       "description": "Templar Assassin conceals herself, becoming invisible as long as she remains still.  If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for 10 seconds.",
       "effects": [
         {
@@ -152,7 +152,7 @@
     {
       "name": "Psi Blades",
       "image": "https://dotabuff.com//assets/skills/templar-assassin-psi-blades-5196-1fa3b0b6f2189cea4c03b89af841be3d6f871ef01132199329694f044cfbf4cb.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/templar-assassin/abilities",
       "description": "Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range.",
       "effects": [
         {
@@ -194,7 +194,7 @@
     {
       "name": "Psionic Trap",
       "image": "https://dotabuff.com//assets/skills/templar-assassin-psionic-trap-5197-791e337cf16db0b8a25811dff5d897fac80eb7dca7501191f4bc8fd544108256.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/templar-assassin/abilities",
       "description": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow an additional 5% every second, up to 50%.",
       "effects": [
         {
@@ -250,7 +250,11 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "lanaya",
+    "ta",
+    "templar"
+  ],
   "talents": [
     {
       "level": 25,

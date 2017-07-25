@@ -37,7 +37,7 @@
     {
       "name": "Arctic Burn",
       "image": "https://dotabuff.com//assets/skills/winter-wyvern-arctic-burn-5651-1466237621541d3f7cec428c104b2f831c7b1d794c7e27af72cf3ceb4446a9e4.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/winter-wyvern/abilities",
       "description": "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of 9.0% of their current health each second. Her sight is also hardened against night's chill, granting her 400 additional vision range at night while soaring.",
       "effects": [
         {
@@ -125,7 +125,7 @@
     {
       "name": "Splinter Blast",
       "image": "https://dotabuff.com//assets/skills/winter-wyvern-splinter-blast-5652-84ebf1dc2c13c3facd1969723bd9e89c0cecdc3bcbc038766b22011ccf9b46e3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/winter-wyvern/abilities",
       "description": "Launches a ball of brittle ice toward an enemy. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 radius. Enemies struck by these splinters are slowed by 25%.",
       "effects": [
         {
@@ -193,7 +193,7 @@
     {
       "name": "Cold Embrace",
       "image": "https://dotabuff.com//assets/skills/winter-wyvern-cold-embrace-5653-3d5814e2f3dde8e97573b3f5e38e38c61585ca569138bb25b580e41ecaadc5f5.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/winter-wyvern/abilities",
       "description": "Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage.",
       "effects": [
         {
@@ -251,7 +251,7 @@
     {
       "name": "Winter&#39;s Curse",
       "image": "https://dotabuff.com//assets/skills/winter-wyvern-winters-curse-5654-89d14463b94dcf3e2120a6fcc3a0a2aa0c4c749841ecf3f17ecc78e8ed891e37.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/winter-wyvern/abilities",
       "description": "Winter Wyvern freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies.",
       "effects": [
         {
@@ -309,7 +309,10 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [
+    "wyvern",
+    "winter"
+  ],
   "talents": [
     {
       "level": 25,

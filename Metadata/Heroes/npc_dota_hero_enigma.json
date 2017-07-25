@@ -38,7 +38,7 @@
     {
       "name": "Malefice",
       "image": "https://dotabuff.com//assets/skills/enigma-malefice-5146-544e7770719b10bfb4f077500071974b2928b1ea7ce96724c2de2ecab8f6330a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/enigma/abilities",
       "description": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every 2 seconds.",
       "effects": [
         {
@@ -103,7 +103,7 @@
     {
       "name": "Demonic Conversion",
       "image": "https://dotabuff.com//assets/skills/enigma-demonic-conversion-5147-89632763ef42316c856d7e524a3ea37907440f05b6351c8544f566e9026ab539.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/enigma/abilities",
       "description": "Transforms a creep into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.",
       "effects": [
         {
@@ -159,7 +159,7 @@
     {
       "name": "Midnight Pulse",
       "image": "https://dotabuff.com//assets/skills/enigma-midnight-pulse-5148-82de9f33dab1df06032217088ae5b7fb23a0a82808ac3005907a0647a7d24c70.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/enigma/abilities",
       "description": "Steeps an area in dark resonance, damaging enemy units based on their max HP.",
       "effects": [
         {
@@ -217,7 +217,7 @@
     {
       "name": "Black Hole",
       "image": "https://dotabuff.com//assets/skills/enigma-black-hole-5149-556b68fc2aed71fd4f68f0d70d20d049771f267037ced7c600dac9f1f56d321e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/enigma/abilities",
       "description": "CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.",
       "effects": [
         {
@@ -273,7 +273,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

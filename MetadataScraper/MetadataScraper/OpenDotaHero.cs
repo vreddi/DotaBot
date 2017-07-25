@@ -8,6 +8,14 @@ namespace MetadataScraper
 {
     public class OpenDotaHero
     {
+        public OpenDotaHero()
+        {
+            this.aliases = new List<string>();   
+            this.roles = new List<string>();
+            this.skills = new List<Skill>();
+            this.talents = new List<Talent>();
+        }
+
         public int id { get; set; }
         public string name { get; set; }
         public string localized_name { get; set; }

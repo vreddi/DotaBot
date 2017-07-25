@@ -39,7 +39,7 @@
     {
       "name": "Icarus Dive",
       "image": "https://dotabuff.com//assets/skills/phoenix-icarus-dive-5623-cefb8972be1bf82c3c2b8ce281224e709b3c1eefb04160dbe6d70f9f1f327ab7.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phoenix/abilities",
       "description": "Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends.",
       "effects": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Fire Spirits",
       "image": "https://dotabuff.com//assets/skills/phoenix-fire-spirits-5625-6151ee22f86d09085e1500d1a63f7004453978f080422d3eade863cdf87331d2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phoenix/abilities",
       "description": "Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.",
       "effects": [
         {
@@ -188,7 +188,7 @@
     {
       "name": "Sun Ray",
       "image": "https://dotabuff.com//assets/skills/phoenix-sun-ray-5626-14fa5e776579c402b8fafb80ec40b88cba77d2881e2b173a968c3978ee1a7e45.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phoenix/abilities",
       "description": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire.",
       "effects": [
         {
@@ -270,7 +270,7 @@
     {
       "name": "Supernova",
       "image": "https://dotabuff.com//assets/skills/phoenix-supernova-5630-cd2b04f935957303298bb1904768785b200197874a9487606f3ba5e7691535b3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phoenix/abilities",
       "description": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.",
       "effects": [
         {
@@ -356,7 +356,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

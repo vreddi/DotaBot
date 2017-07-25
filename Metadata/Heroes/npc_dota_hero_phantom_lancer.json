@@ -38,7 +38,7 @@
     {
       "name": "Spirit Lance",
       "image": "https://dotabuff.com//assets/skills/phantom-lancer-spirit-lance-5065-4b29e3cd19df9229d37e2aca7f66e349ff9b1603baf471578c69e8ba5007673c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phantom-lancer/abilities",
       "description": "Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.",
       "effects": [
         {
@@ -136,7 +136,7 @@
     {
       "name": "Doppelganger",
       "image": "https://dotabuff.com//assets/skills/phantom-lancer-doppelganger-5066-694cd471118e8a4f7777d241017726b056b2cb5af05b0fb65b1dc598858b448e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phantom-lancer/abilities",
       "description": "Phantom Lancer briefly vanishes from the battlefield. After 1.0 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 600% damage and deals 20% damage.",
       "effects": [
         {
@@ -189,7 +189,7 @@
     {
       "name": "Phantom Rush",
       "image": "https://dotabuff.com//assets/skills/phantom-lancer-phantom-rush-5068-ad8e0f69deedcaa23ee8e7cb18f88f18564ab4c5461a55d495d4952508b94643.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phantom-lancer/abilities",
       "description": "When targetting an enemy for an attack, Phantom Lancer quickly charges into range, gaining a temporary agility boost upon reaching the target. Phantom Lancer's illusions also have this ability.",
       "effects": [
         {
@@ -234,7 +234,7 @@
     {
       "name": "Juxtapose",
       "image": "https://dotabuff.com//assets/skills/phantom-lancer-juxtapose-5067-7f396a37cdf66d1ecafb1007ea35e22e7974cf2decf34ba72acda3e88400ae5d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/phantom-lancer/abilities",
       "description": "Phantom Lancer has a chance to fracture his presence, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for 8 seconds, while illusions created from other illusions last 4 seconds.",
       "effects": [
         {
@@ -282,7 +282,11 @@
       "manaCost": []
     }
   ],
-  "aliases": ["pl", "azwraith", "lancer"],
+  "aliases": [
+    "pl",
+    "azwraith",
+    "lancer"
+  ],
   "talents": [
     {
       "level": 25,

@@ -26,11 +26,7 @@ class MatchFactory {
                             reject("Getting match data failed. Error: " + err);
                         }
                         else {
-                            let matches = results.map(result => {
-                                if(result != undefined) {
-                                    return new Match(result);
-                                }
-                            });
+                            let matches = results.filter((result) => result !== undefined);
                             resolve(matches);
                         }
             		});

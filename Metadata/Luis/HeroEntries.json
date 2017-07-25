@@ -26,7 +26,12 @@
   {
     "canonicalForm": "npc_dota_hero_antimage",
     "list": [
-      "Anti-Mage"
+      "Anti-Mage",
+      "am",
+      "antimage",
+      "anti-mage",
+      "anti mage",
+      "magina"
     ]
   },
   {
@@ -38,13 +43,19 @@
   {
     "canonicalForm": "npc_dota_hero_axe",
     "list": [
-      "Axe"
+      "Axe",
+      "mogul",
+      "khan",
+      "mogul khan",
+      "axe"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_bane",
     "list": [
-      "Bane"
+      "Bane",
+      "atropos",
+      "bane"
     ]
   },
   {
@@ -158,7 +169,12 @@
   {
     "canonicalForm": "npc_dota_hero_drow_ranger",
     "list": [
-      "Drow Ranger"
+      "Drow Ranger",
+      "drow",
+      "drow range",
+      "dr",
+      "ranger",
+      "drowranger"
     ]
   },
   {
@@ -296,7 +312,10 @@
   {
     "canonicalForm": "npc_dota_hero_luna",
     "list": [
-      "Luna"
+      "Luna",
+      "luna",
+      "moon rider",
+      "nova"
     ]
   },
   {
@@ -332,13 +351,19 @@
   {
     "canonicalForm": "npc_dota_hero_monkey_king",
     "list": [
-      "Monkey King"
+      "Monkey King",
+      "mk",
+      "monkey king",
+      "monkey",
+      "wukong",
+      "sun wukong"
     ]
   },
   {
     "canonicalForm": "npc_dota_hero_morphling",
     "list": [
-      "Morphling"
+      "Morphling",
+      "morph"
     ]
   },
   {
@@ -398,7 +423,9 @@
   {
     "canonicalForm": "npc_dota_hero_phantom_assassin",
     "list": [
-      "Phantom Assassin"
+      "Phantom Assassin",
+      "pa",
+      "mortred"
     ]
   },
   {
@@ -512,7 +539,9 @@
   {
     "canonicalForm": "npc_dota_hero_slark",
     "list": [
-      "Slark"
+      "Slark",
+      "slark",
+      "nightcrawler"
     ]
   },
   {

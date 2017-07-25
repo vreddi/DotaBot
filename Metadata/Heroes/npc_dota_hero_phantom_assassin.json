@@ -221,7 +221,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["pa", "mortred"],
   "talents": [
     {
       "level": 25,

@@ -228,7 +228,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["drow", "drow range", "dr", "ranger", "drowranger"],
   "talents": [
     {
       "level": 25,

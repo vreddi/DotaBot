@@ -183,7 +183,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["invoker", "carl"],
   "talents": [
     {
       "level": 25,

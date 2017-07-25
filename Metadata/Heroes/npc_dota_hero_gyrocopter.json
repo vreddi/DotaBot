@@ -298,7 +298,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["gyro"],
   "talents": [
     {
       "level": 25,

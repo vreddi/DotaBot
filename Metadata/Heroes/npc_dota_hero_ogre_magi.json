@@ -302,7 +302,7 @@
       "manaCost": []
     }
   ],
-  "aliases": null,
+  "aliases": ["ogre"],
   "talents": [
     {
       "level": 25,

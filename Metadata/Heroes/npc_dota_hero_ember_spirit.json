@@ -316,7 +316,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["ember", "ember spirit", "es"],
   "talents": [
     {
       "level": 25,

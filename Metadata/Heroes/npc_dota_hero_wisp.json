@@ -274,7 +274,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["wisp", "io"],
   "talents": [
     {
       "level": 25,

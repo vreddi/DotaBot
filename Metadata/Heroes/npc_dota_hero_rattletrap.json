@@ -282,7 +282,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["rattletrap", "clock", "clockwerk", "clockwork"],
   "talents": [
     {
       "level": 25,

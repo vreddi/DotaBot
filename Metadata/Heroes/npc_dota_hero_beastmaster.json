@@ -367,7 +367,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["beast"],
   "talents": [
     {
       "level": 25,

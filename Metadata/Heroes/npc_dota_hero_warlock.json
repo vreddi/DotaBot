@@ -302,7 +302,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["lock"],
   "talents": [
     {
       "level": 25,

@@ -264,7 +264,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["brew", "panda"],
   "talents": [
     {
       "level": 25,

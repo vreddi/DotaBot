@@ -283,7 +283,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": ["bat"],
   "talents": [
     {
       "level": 25,

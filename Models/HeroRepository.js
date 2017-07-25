@@ -6,6 +6,7 @@ class HeroRepository {
     constructor(metadataFolderPath) {
         this.heroesByCanonicalName = {};
         this.heroesById = {};
+        this.heroesBySkill = {};
         this.heroes = [];
 
         for (let file of fs.readdirSync(metadataFolderPath)) {

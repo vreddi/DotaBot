@@ -4,6 +4,7 @@ const builder = require('botbuilder');
 const HeroRepository = require('./Models/HeroRepository');
 const HeroDialog = require('./Dialogs/HeroDialog');
 const ScheduleDialog = require('./Dialogs/ScheduleDialog');
+const SkillDialog = require('./Dialogs/SkillDialog');
 
 // Configure environment variables
 dotenv.config();
@@ -36,4 +37,5 @@ const luis_endpoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0',
 bot.recognizer(new builder.LuisRecognizer(`${luis_endpoint}/apps/${luis_app_id}?subscription-key=${luis_app_key}`));
 
 new HeroDialog(heroRepository).addTo(bot);
+new SkillDialog(heroRepository).addTo(bot);
 new ScheduleDialog().addTo(bot);

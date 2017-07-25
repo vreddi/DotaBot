@@ -15,10 +15,13 @@ var luisList = selectMany(heroes.map(function(hero) {
     var skills = hero.skills || [];
 
     return hero.skills.map(function(skill) {
+        // TODO: More reliable HTML entity decode
+        var localizedName = skill.localizedName.replace("&#39;", "'");
+
         return {
             canonicalForm: skill.name,
             list: [
-                skill.localized_name
+                localizedName
             ]
         }
     });

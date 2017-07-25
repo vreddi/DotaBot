@@ -1,11 +1,13 @@
 const builder = require('botbuilder');
 
-class HeroDialog {
+class SkillDialog {
     constructor(heroRepository) {
         this.heroRepository = heroRepository;
     }
 
     addTo(bot) {
+        const that = this;
+
         bot.dialog('getSkillDialog', [
             function (session, args) {
                 const skillEntities = builder.EntityRecognizer.findAllEntities(args.intent.entities, 'Skill');
@@ -30,13 +32,17 @@ class HeroDialog {
 
                     const resolution = resolutions[0];
 
-                    const hero = that.heroRepository.getByCanonicalName(resolution),
-                        heroCard = that.getHeroCard(hero);
+                    session.send(resolution);
 
-                    const msg = new builder.Message(session)
-                        .addAttachment(heroCard.cardAttachment);
+                    const [hero, skill] = that.heroRepository.getBySkillName(resolution);
+                    //     heroCard = that.getHeroCard(hero);
 
-                    session.send(msg);
+                    session.send(JSON.stringify(skill));
+
+                    // const msg = new builder.Message(session)
+                    //     .addAttachment(heroCard.cardAttachment);
+
+                    // session.send(msg);
                 }
                 session.endDialog();
             }
@@ -46,4 +52,4 @@ class HeroDialog {
     }
 }
 
-module.exports = HeroDialog;
+module.exports = SkillDialog;

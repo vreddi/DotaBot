@@ -93,6 +93,7 @@ namespace MetadataScraper
             {
                 foreach (var file in files)
                 {
+                    Console.WriteLine("Parsing data from " + file);
                     var fileContent = File.ReadAllText(file);
                     heroes.Add(JsonConvert.DeserializeObject<OpenDotaHero>(fileContent));
                 }

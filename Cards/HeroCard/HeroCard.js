@@ -14,7 +14,7 @@ class HeroCard {
         this.cardAttachment = HeroCardAttachment;
 
         // Populate card header content
-        this.cardAttachment['content']['body'][0]['items'][0]['columns'][0]['items'][0]['url'] = this.image || "http://localhost/missing.png";
+        this.cardAttachment['content']['body'][0]['items'][0]['columns'][0]['items'][0]['url'] = this.image || "missing.png";
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][0]['text'] = "**" + this.name + "**";
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][1]['text'] = this.attribute;
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][1]['color'] = this.getAttributeColor(this.attribute);

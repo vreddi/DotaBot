@@ -4,7 +4,7 @@ const builder = require('botbuilder');
 const MatchResultCard = require('./Cards/MatchResultCard/MatchResultCard');
 const TI7Teams = require('./Metadata/TI7Teams');
 const Utils = require('./Shared/Utils');
-const HeroDialog = require('./Dialogs/HeroDialog');
+const ScheduleDialog = require('./Dialogs/ScheduleDialog');
 const Interpreter = require('./Controller/Interpreter');
 
 // Configure environment variables
@@ -54,13 +54,14 @@ const bot = new builder.UniversalBot(connector, (session) => {
             team2Score: 0
         });
 
-    interpreter.session = session;
-
-    interpreter.queryLuis(query).then(() => {
-        interpreter.handleIntent();
-    }, (error) => {
-        throw error;
-    });
+    session.beginDialog('getSchedule');
+    // interpreter.session = session;
+    //
+    // interpreter.queryLuis(query).then(() => {
+    //     interpreter.handleIntent();
+    // }, (error) => {
+    //     throw error;
+    // });
 });
-
+let sd = new ScheduleDialog(bot);
 const interpreter = new Interpreter(bot);

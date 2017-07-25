@@ -36,7 +36,9 @@
   "legs": 0,
   "skills": [
     {
-      "name": "Poison Attack",
+      "name": "viper-poison-attack",
+      "localizedName": "Poison Attack",
+      "id": 5218,
       "image": "https://dotabuff.com//assets/skills/viper-poison-attack-5218-2071aa6ca42efbc0774e868b5c446111d8d8a3648b19a950a13ec5b02fa072a8.jpg",
       "link": "https://dotabuff.com//heroes/viper/abilities",
       "description": "Intensifies Viper's venom, adding an effect to his normal attack that slows attack and movement speed while dealing damage over time.",
@@ -107,7 +109,9 @@
       ]
     },
     {
-      "name": "Nethertoxin",
+      "name": "viper-nethertoxin",
+      "localizedName": "Nethertoxin",
+      "id": 5219,
       "image": "https://dotabuff.com//assets/skills/viper-nethertoxin-5219-3504f1a14be2f9a227f0f438e6ad13323858915668bf508eae3861a5edde57de.jpg",
       "link": "https://dotabuff.com//heroes/viper/abilities",
       "description": "Nethertoxin causes Viper's normal attack to deal bonus damage to units based on how much health they are missing.  The bonus damage doubles for each 20% of health missing from the target.  Nethertoxin deals half damage to creeps and buildings.",
@@ -155,7 +159,9 @@
       "manaCost": []
     },
     {
-      "name": "Corrosive Skin",
+      "name": "viper-corrosive-skin",
+      "localizedName": "Corrosive Skin",
+      "id": 5220,
       "image": "https://dotabuff.com//assets/skills/viper-corrosive-skin-5220-56adf5652f0b617d310ace2fd22586f84576bcc39aca48c07f880f639e9dc295.jpg",
       "link": "https://dotabuff.com//heroes/viper/abilities",
       "description": "Viper exudes an infectious toxin that damages and slows any enemy that damages it in a 1400 radius. The acid exudate also increases Viper's resistance to magic.",
@@ -227,7 +233,9 @@
       "manaCost": []
     },
     {
-      "name": "Viper Strike",
+      "name": "viper-viper-strike",
+      "localizedName": "Viper Strike",
+      "id": 5221,
       "image": "https://dotabuff.com//assets/skills/viper-viper-strike-5221-fa2b7669e563c4c921df4ad5c63a3b615ee2574eb131686bfe6167ae78d18a23.jpg",
       "link": "https://dotabuff.com//heroes/viper/abilities",
       "description": "Viper slows the targeted enemy unit's movement and attack speed while also dealing poison damage over time.  The slowing effect reduces over the duration of the poison.",

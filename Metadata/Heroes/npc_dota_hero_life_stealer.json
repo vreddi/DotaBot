@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Rage",
+      "name": "lifestealer-rage",
+      "localizedName": "Rage",
+      "id": 5249,
       "image": "https://dotabuff.com//assets/skills/lifestealer-rage-5249-f3850ffe8fe7c7814022c6a9061241d4d44af20eac9c1f1d5551557553ed2d7a.jpg",
       "link": "https://dotabuff.com//heroes/lifestealer/abilities",
       "description": "Launch into a maddened rage, becoming Spell Immune, 100% resistant to magic damage, and gaining increased attack speed.",
@@ -81,7 +83,9 @@
       ]
     },
     {
-      "name": "Feast",
+      "name": "lifestealer-feast",
+      "localizedName": "Feast",
+      "id": 5250,
       "image": "https://dotabuff.com//assets/skills/lifestealer-feast-5250-d13da254249d0b05fdb932b262f1234d139002dca5b802058e88119012e5b3cd.jpg",
       "link": "https://dotabuff.com//heroes/lifestealer/abilities",
       "description": "Lifestealer's attacks damage enemies and heal himself for a percentage of his target's current health.",
@@ -110,7 +114,9 @@
       "manaCost": []
     },
     {
-      "name": "Open Wounds",
+      "name": "lifestealer-open-wounds",
+      "localizedName": "Open Wounds",
+      "id": 5251,
       "image": "https://dotabuff.com//assets/skills/lifestealer-open-wounds-5251-721daa25dd6d53e07117064204dd08741615ae89fc84f8c26b768d38a17e1755.jpg",
       "link": "https://dotabuff.com//heroes/lifestealer/abilities",
       "description": "Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration.",
@@ -177,7 +183,9 @@
       ]
     },
     {
-      "name": "Infest",
+      "name": "lifestealer-infest",
+      "localizedName": "Infest",
+      "id": 5252,
       "image": "https://dotabuff.com//assets/skills/lifestealer-infest-5252-99ec408f0ac6da3571236dda2aa001ad67c0b21f24357bb16f548a51a646c576.jpg",
       "link": "https://dotabuff.com//heroes/lifestealer/abilities",
       "description": "Lifestealer infests the body of a target unit, becoming undetectable inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and when consumed the creep will heal Lifestealer's health equal to the creep's current health.  Does not work on enemy heroes.",

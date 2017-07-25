@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Poison Touch",
+      "name": "dazzle-poison-touch",
+      "localizedName": "Poison Touch",
+      "id": 5233,
       "image": "https://dotabuff.com//assets/skills/dazzle-poison-touch-5233-226ae9ccb2ff24060a2323cb267b675f98cf9d9ba2c3ad888fa6422a1759608e.jpg",
       "link": "https://dotabuff.com//heroes/dazzle/abilities",
       "description": "Casts a poisonous spell on an enemy unit, gradually slowing movement, and causing damage over time.",
@@ -97,7 +99,9 @@
       ]
     },
     {
-      "name": "Shallow Grave",
+      "name": "dazzle-shallow-grave",
+      "localizedName": "Shallow Grave",
+      "id": 5234,
       "image": "https://dotabuff.com//assets/skills/dazzle-shallow-grave-5234-ebefda736f21d8f8f060fc764d1de5437b845a016d6948d97ed8e43bca7b4923.jpg",
       "link": "https://dotabuff.com//heroes/dazzle/abilities",
       "description": "An ally blessed with Shallow Grave, no matter how close to death, cannot die while under its protection.",
@@ -155,7 +159,9 @@
       ]
     },
     {
-      "name": "Shadow Wave",
+      "name": "dazzle-shadow-wave",
+      "localizedName": "Shadow Wave",
+      "id": 5235,
       "image": "https://dotabuff.com//assets/skills/dazzle-shadow-wave-5235-936fe91d423898e8e0fda5546b53edeefd2480c16e1782c85ee7eb638e901cd4.jpg",
       "link": "https://dotabuff.com//heroes/dazzle/abilities",
       "description": "Sends out a bolt of power that arcs between allies, healing them while damaging any units standing nearby.  Dazzle is always healed by Shadow Wave.",
@@ -229,7 +235,9 @@
       ]
     },
     {
-      "name": "Weave",
+      "name": "dazzle-weave",
+      "localizedName": "Weave",
+      "id": 5236,
       "image": "https://dotabuff.com//assets/skills/dazzle-weave-5236-342ac24365df38870efaf9c198a91c4a83247ca6fb54f282831b50a87e3c41d4.jpg",
       "link": "https://dotabuff.com//heroes/dazzle/abilities",
       "description": "Applies a buff that increases the armor of allied heroes while decreasing the armor of enemy heroes in the target area over time.",

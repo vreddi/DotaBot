@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Magic Missile",
+      "name": "vengeful-spirit-magic-missile",
+      "localizedName": "Magic Missile",
+      "id": 5122,
       "image": "https://dotabuff.com//assets/skills/vengeful-spirit-magic-missile-5122-a56042b5e0b87675882b85eaf32ce9ed19162feacdf96d6b01f42ef41c2f144c.jpg",
       "link": "https://dotabuff.com//heroes/vengeful-spirit/abilities",
       "description": "Fires a magic missile at an enemy unit, stunning and dealing damage.",
@@ -99,7 +101,9 @@
       ]
     },
     {
-      "name": "Wave of Terror",
+      "name": "vengeful-spirit-wave-of-terror",
+      "localizedName": "Wave of Terror",
+      "id": 5124,
       "image": "https://dotabuff.com//assets/skills/vengeful-spirit-wave-of-terror-5124-57a54caf9cec047abe2eace0529e82e5c12ff45a5db6722b3851a7032597b69e.jpg",
       "link": "https://dotabuff.com//heroes/vengeful-spirit/abilities",
       "description": "Vengeful Spirit lets loose a wicked cry, weakening the armor of enemies and giving vision of the path ahead.",
@@ -166,7 +170,9 @@
       ]
     },
     {
-      "name": "Vengeance Aura",
+      "name": "vengeful-spirit-vengeance-aura",
+      "localizedName": "Vengeance Aura",
+      "id": 5123,
       "image": "https://dotabuff.com//assets/skills/vengeful-spirit-vengeance-aura-5123-686b28c1f100b54da12c335814339dff7a3be8417839c4b3f2e503d8e27c4237.jpg",
       "link": "https://dotabuff.com//heroes/vengeful-spirit/abilities",
       "description": "Vengeful Spirit's presence increases the physical damage of nearby friendly units. If Vengeful Spirit is slain, her killer will be possessed with a negative Vengeance Aura, reducing the damage of her killer and its nearby allies until Vengeful Spirit revives.",
@@ -197,7 +203,9 @@
       "manaCost": []
     },
     {
-      "name": "Nether Swap",
+      "name": "vengeful-spirit-nether-swap",
+      "localizedName": "Nether Swap",
+      "id": 5125,
       "image": "https://dotabuff.com//assets/skills/vengeful-spirit-nether-swap-5125-8dafd6c5131ce927a50b5ef7015b2db19dd9cbc087c93334de763fc2e127a173.jpg",
       "link": "https://dotabuff.com//heroes/vengeful-spirit/abilities",
       "description": "Instantaneously swaps positions with a target Hero, friend or enemy.  Nether Swap interrupts channeling abilities on the target.",

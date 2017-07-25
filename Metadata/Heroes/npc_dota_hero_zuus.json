@@ -33,7 +33,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Arc Lightning",
+      "name": "zeus-arc-lightning",
+      "localizedName": "Arc Lightning",
+      "id": 5110,
       "image": "https://dotabuff.com//assets/skills/zeus-arc-lightning-5110-c35261edf890a578c5bbdb45877707f4b54db7eca529867ee02a6b939ecba5e1.jpg",
       "link": "https://dotabuff.com//heroes/zeus/abilities",
       "description": "Hurls a bolt of lightning that leaps through nearby enemy units.",
@@ -92,7 +94,9 @@
       ]
     },
     {
-      "name": "Lightning Bolt",
+      "name": "zeus-lightning-bolt",
+      "localizedName": "Lightning Bolt",
+      "id": 5111,
       "image": "https://dotabuff.com//assets/skills/zeus-lightning-bolt-5111-207135f488616b2b1a30afc8def146326be467b7334977e650b337821c969dbd.jpg",
       "link": "https://dotabuff.com//heroes/zeus/abilities",
       "description": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.",
@@ -154,7 +158,9 @@
       ]
     },
     {
-      "name": "Static Field",
+      "name": "zeus-static-field",
+      "localizedName": "Static Field",
+      "id": 5112,
       "image": "https://dotabuff.com//assets/skills/zeus-static-field-5112-d38a55f084423e848a57f5d0fe738a8c8e272eea5cfbcb16d7da912f4a0dbdf3.jpg",
       "link": "https://dotabuff.com//heroes/zeus/abilities",
       "description": "Zeus shocks all nearby enemy units whenever he casts a spell, causing damage proportional to their current health.",
@@ -193,7 +199,9 @@
       "manaCost": []
     },
     {
-      "name": "Thundergod&#39;s Wrath",
+      "name": "zeus-thundergods-wrath",
+      "localizedName": "Thundergod&#39;s Wrath",
+      "id": 5113,
       "image": "https://dotabuff.com//assets/skills/zeus-thundergods-wrath-5113-1fd9dd70dd5a203b18fe167482bda0b45f8dc0af2689503a0e40fd5cf683a362.jpg",
       "link": "https://dotabuff.com//heroes/zeus/abilities",
       "description": "Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",

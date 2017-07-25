@@ -34,7 +34,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Stifling Dagger",
+      "name": "phantom-assassin-stifling-dagger",
+      "localizedName": "Stifling Dagger",
+      "id": 5190,
       "image": "https://dotabuff.com//assets/skills/phantom-assassin-stifling-dagger-5190-fc70aeba17709e9c1484904c1d13fc8e2d3f165870d3b2066bcf990dc7be3db9.jpg",
       "link": "https://dotabuff.com//heroes/phantom-assassin/abilities",
       "description": "Throws a dagger slowing the enemy unit's movement speed, dealing 65+[25, 40, 55, 70]% of Phantom Assassin's attack damage as physical damage and applying attack effects from items and abilities.",
@@ -105,7 +107,9 @@
       ]
     },
     {
-      "name": "Phantom Strike",
+      "name": "phantom-assassin-phantom-strike",
+      "localizedName": "Phantom Strike",
+      "id": 5191,
       "image": "https://dotabuff.com//assets/skills/phantom-assassin-phantom-strike-5191-8a418a73f8e5f09996984ec56951ab27b0f5c7156cbcb0edccc7229ab8cef29c.jpg",
       "link": "https://dotabuff.com//heroes/phantom-assassin/abilities",
       "description": "Teleports to a unit, friendly or enemy, and grants bonus attack speed while attacking if it's an enemy unit.",
@@ -156,7 +160,9 @@
       ]
     },
     {
-      "name": "Blur",
+      "name": "phantom-assassin-blur",
+      "localizedName": "Blur",
+      "id": 5192,
       "image": "https://dotabuff.com//assets/skills/phantom-assassin-blur-5192-8dcf96b8646031932b853b7bfecd121ef316f952eb2b9d678a8fb5e03cd22ddd.jpg",
       "link": "https://dotabuff.com//heroes/phantom-assassin/abilities",
       "description": "Phantom Assassin focuses inward, increasing her ability to evade enemy attacks, and allowing her to blur her body to disappear from the enemy team's minimap when far from enemy heroes.",
@@ -187,7 +193,9 @@
       "manaCost": []
     },
     {
-      "name": "Coup de Grace",
+      "name": "phantom-assassin-coup-de-grace",
+      "localizedName": "Coup de Grace",
+      "id": 5193,
       "image": "https://dotabuff.com//assets/skills/phantom-assassin-coup-de-grace-5193-817879faa6fa4749187a3f0e3f7b9411ca12fea020a74914f95e7a6bc9b660ea.jpg",
       "link": "https://dotabuff.com//heroes/phantom-assassin/abilities",
       "description": "Phantom Assassin refines her combat abilities, gaining a chance of delivering a devastating critical strike to enemy units. Stifling Dagger shares the same critical strike chance.",

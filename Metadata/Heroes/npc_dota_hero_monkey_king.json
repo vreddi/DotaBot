@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Boundless Strike",
+      "name": "monkey-king-boundless-strike",
+      "localizedName": "Boundless Strike",
+      "id": 5716,
       "image": "https://dotabuff.com//assets/skills/monkey-king-boundless-strike-5716-9e5621cea61b5ddeef37b665575fb83b52e2e1add5c97bbe4afec1f9d3035a9a.jpg",
       "link": "https://dotabuff.com//heroes/monkey-king/abilities",
       "description": "Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with a critical hit based on his attack. Has True Strike.",
@@ -94,7 +96,9 @@
       ]
     },
     {
-      "name": "Tree Dance",
+      "name": "monkey-king-tree-dance",
+      "localizedName": "Tree Dance",
+      "id": 5721,
       "image": "https://dotabuff.com//assets/skills/monkey-king-tree-dance-5721-6a89a459a1665fc4a4a49499692b675f2d6d8987e51240faa46d79788673ca28.jpg",
       "link": "https://dotabuff.com//heroes/monkey-king/abilities",
       "description": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability-a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown.",
@@ -150,7 +154,9 @@
       ]
     },
     {
-      "name": "Jingu Mastery",
+      "name": "monkey-king-jingu-mastery",
+      "localizedName": "Jingu Mastery",
+      "id": 5723,
       "image": "https://dotabuff.com//assets/skills/monkey-king-jingu-mastery-5723-c1743e99ce6fab60251a0257f08a99f9a7f9415cacc7f45daa0e7c7f288c0410.jpg",
       "link": "https://dotabuff.com//heroes/monkey-king/abilities",
       "description": "Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns four charged attacks that have bonus damage and lifesteal.",
@@ -208,7 +214,9 @@
       "manaCost": []
     },
     {
-      "name": "Wukong&#39;s Command",
+      "name": "monkey-king-wukongs-command",
+      "localizedName": "Wukong&#39;s Command",
+      "id": 5725,
       "image": "https://dotabuff.com//assets/skills/monkey-king-wukongs-command-5725-9961cf2725b39f36285cc34ca5c05c06df73a7707e09a69c9d9bf907dc3c718f.jpg",
       "link": "https://dotabuff.com//heroes/monkey-king/abilities",
       "description": "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King grants bonus armor for the spell's duration.",

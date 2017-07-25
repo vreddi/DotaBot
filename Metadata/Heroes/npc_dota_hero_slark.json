@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Dark Pact",
+      "name": "slark-dark-pact",
+      "localizedName": "Dark Pact",
+      "id": 5494,
       "image": "https://dotabuff.com//assets/skills/slark-dark-pact-5494-2d89cddc3387c061ac5a3f92b2f98190029b27afdb423e89f209c5b68d44b302.jpg",
       "link": "https://dotabuff.com//heroes/slark/abilities",
       "description": "After a short delay, Slark sacrifices some of his life blood, purging most negative debuffs and dealing damage to enemy units around him and to himself.  Slark only takes 50% of the damage.",
@@ -97,7 +99,9 @@
       ]
     },
     {
-      "name": "Pounce",
+      "name": "slark-pounce",
+      "localizedName": "Pounce",
+      "id": 5495,
       "image": "https://dotabuff.com//assets/skills/slark-pounce-5495-dee050ac33bacda786a359fc4edfb982eac28ef96b70f889b6608b8857bd8933.jpg",
       "link": "https://dotabuff.com//heroes/slark/abilities",
       "description": "Slark leaps forward, grabbing the first hero he connects with.  That unit takes damage and is leashed to Slark, and can only move a limited distance away from Slark's landing position.",
@@ -155,7 +159,9 @@
       ]
     },
     {
-      "name": "Essence Shift",
+      "name": "slark-essence-shift",
+      "localizedName": "Essence Shift",
+      "id": 5496,
       "image": "https://dotabuff.com//assets/skills/slark-essence-shift-5496-2c9c69da1ebedcbdaefdf6d08d3e803e19dd2f34cf9b6275a03cdc29b948021e.jpg",
       "link": "https://dotabuff.com//heroes/slark/abilities",
       "description": "Slark steals the life essence of enemy heroes with his attacks, draining each of their attributes and converting them to bonus Agility.",
@@ -196,7 +202,9 @@
       "manaCost": []
     },
     {
-      "name": "Shadow Dance",
+      "name": "slark-shadow-dance",
+      "localizedName": "Shadow Dance",
+      "id": 5497,
       "image": "https://dotabuff.com//assets/skills/slark-shadow-dance-5497-19e86198b89c1ffcfdb506699e19cdd1e48f4a88901011135119911a7f6f6eb2.jpg",
       "link": "https://dotabuff.com//heroes/slark/abilities",
       "description": "When used, Slark hides himself in a cloud of shadows, becoming immune to detection. Attacking, casting spells, and using items will not reveal Slark.  Passively, when not visible to the enemy team, Slark gains bonus movement speed and health regeneration.",

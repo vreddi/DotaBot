@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Fatal Bonds",
+      "name": "warlock-fatal-bonds",
+      "localizedName": "Fatal Bonds",
+      "id": 5162,
       "image": "https://dotabuff.com//assets/skills/warlock-fatal-bonds-5162-9587e4eb1314de5bf95e0f03a3ef34802fb84ebe21d2c00a7f85eb3e7b051349.jpg",
       "link": "https://dotabuff.com//heroes/warlock/abilities",
       "description": "Binds several enemy units together, causing 25% of the damage dealt to one of them to be felt by the others.",
@@ -87,7 +89,9 @@
       ]
     },
     {
-      "name": "Shadow Word",
+      "name": "warlock-shadow-word",
+      "localizedName": "Shadow Word",
+      "id": 5163,
       "image": "https://dotabuff.com//assets/skills/warlock-shadow-word-5163-fd9d268eeac1847f67bada4bd4812131ae1d27fd0f516cf629a32addd19c78d6.jpg",
       "link": "https://dotabuff.com//heroes/warlock/abilities",
       "description": "Warlock whispers an incantation, healing a friendly unit or damaging an enemy unit over time.",
@@ -143,7 +147,9 @@
       ]
     },
     {
-      "name": "Upheaval",
+      "name": "warlock-upheaval",
+      "localizedName": "Upheaval",
+      "id": 5164,
       "image": "https://dotabuff.com//assets/skills/warlock-upheaval-5164-cd887be4cedf44e89ce35b81ec26759ec0502c3ad361ec70f3fffd71af8906f7.jpg",
       "link": "https://dotabuff.com//heroes/warlock/abilities",
       "description": "CHANNELED - A powerful slowing current that grows stronger as it's channelled. Lasts up to 16 seconds.  Enemies are slowed for 3 seconds after leaving the area or the spell ends.",
@@ -200,7 +206,9 @@
       ]
     },
     {
-      "name": "Chaotic Offering",
+      "name": "warlock-chaotic-offering",
+      "localizedName": "Chaotic Offering",
+      "id": 5165,
       "image": "https://dotabuff.com//assets/skills/warlock-chaotic-offering-5165-8389361d2322cd1ad176a582909119c8dd342bbd2ddb77e740d0bdd59f82422a.jpg",
       "link": "https://dotabuff.com//heroes/warlock/abilities",
       "description": "Summons a Golem from the depths, stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.",

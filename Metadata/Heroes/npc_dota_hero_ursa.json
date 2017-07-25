@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Earthshock",
+      "name": "ursa-earthshock",
+      "localizedName": "Earthshock",
+      "id": 5357,
       "image": "https://dotabuff.com//assets/skills/ursa-earthshock-5357-66d7fa5c82bab2cf5bb4d073d5802a906db368d2c1e96b2390d6ec727acb7a22.jpg",
       "link": "https://dotabuff.com//heroes/ursa/abilities",
       "description": "Ursa slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds.",
@@ -94,7 +96,9 @@
       ]
     },
     {
-      "name": "Overpower",
+      "name": "ursa-overpower",
+      "localizedName": "Overpower",
+      "id": 5358,
       "image": "https://dotabuff.com//assets/skills/ursa-overpower-5358-f041c11ebaab7476c79cd3c382fda822440a9ade03ac5c955f29218248f9e2f7.jpg",
       "link": "https://dotabuff.com//heroes/ursa/abilities",
       "description": "Using his skill in combat, Ursa gains increased attack speed for a number of subsequent attacks.",
@@ -144,7 +148,9 @@
       ]
     },
     {
-      "name": "Fury Swipes",
+      "name": "ursa-fury-swipes",
+      "localizedName": "Fury Swipes",
+      "id": 5359,
       "image": "https://dotabuff.com//assets/skills/ursa-fury-swipes-5359-4c143b5110ac9c9394d71ff84b0a820a5bb591b5c11f47a9900e76067e16f18e.jpg",
       "link": "https://dotabuff.com//heroes/ursa/abilities",
       "description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 15 seconds, the bonus damage is lost.",
@@ -189,7 +195,9 @@
       "manaCost": []
     },
     {
-      "name": "Enrage",
+      "name": "ursa-enrage",
+      "localizedName": "Enrage",
+      "id": 5360,
       "image": "https://dotabuff.com//assets/skills/ursa-enrage-5360-ed02c2caa91b4fdd9a950055cd8d7bc7690dbd489e2f257eb920866230ac4e5e.jpg",
       "link": "https://dotabuff.com//heroes/ursa/abilities",
       "description": "Ursa goes into a frenzy, multiplying his Fury Swipes damage and causing him to take 80% less damage. Removes any existing debuffs.",

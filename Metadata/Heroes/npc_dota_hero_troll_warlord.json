@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Berserker&#39;s Rage",
+      "name": "troll-warlord-berserkers-rage",
+      "localizedName": "Berserker&#39;s Rage",
+      "id": 5508,
       "image": "https://dotabuff.com//assets/skills/troll-warlord-berserkers-rage-5508-1e711087b40939c59555fdae8090e8c3f47149aaa1bd6bd4738bc6f869ce0c79.jpg",
       "link": "https://dotabuff.com//heroes/troll-warlord/abilities",
       "description": "While active, Troll Warlord swaps from using ranged to melee attacks. Melee attacks have a chance to bash, dealing bonus damage and stunning the target. Berserker's Rage also grants additional movement speed, armor, and increased attack speed.",
@@ -103,7 +105,9 @@
       "manaCost": []
     },
     {
-      "name": "Whirling Axes (Ranged)",
+      "name": "troll-warlord-whirling-axes-ranged",
+      "localizedName": "Whirling Axes (Ranged)",
+      "id": 5509,
       "image": "https://dotabuff.com//assets/skills/troll-warlord-whirling-axes-ranged-5509-058970aceb01890a779f3d518c2020b23a7c4c9c211b36932f86eb2c27b4555d.jpg",
       "link": "https://dotabuff.com//heroes/troll-warlord/abilities",
       "description": "Troll hurls a fistful of five axes in a cone shape over 900 range, slowing and damaging enemy units.",
@@ -165,7 +169,9 @@
       ]
     },
     {
-      "name": "Fervor",
+      "name": "troll-warlord-fervor",
+      "localizedName": "Fervor",
+      "id": 5511,
       "image": "https://dotabuff.com//assets/skills/troll-warlord-fervor-5511-11d6b36a869cdc5ccaac375237cd7d14d03e43d180cfe264f80ca7b82bb3e301.jpg",
       "link": "https://dotabuff.com//heroes/troll-warlord/abilities",
       "description": "With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero.",
@@ -196,7 +202,9 @@
       "manaCost": []
     },
     {
-      "name": "Battle Trance",
+      "name": "troll-warlord-battle-trance",
+      "localizedName": "Battle Trance",
+      "id": 5512,
       "image": "https://dotabuff.com//assets/skills/troll-warlord-battle-trance-5512-7a2e697c0bbc81a359bed6ae19f16e83cad53742558d52696eb9b7556423eb41.jpg",
       "link": "https://dotabuff.com//heroes/troll-warlord/abilities",
       "description": "Troll's presence on the battlefield increases the attack speed of himself and all allied heroes.",

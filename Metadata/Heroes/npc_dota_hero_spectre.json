@@ -35,7 +35,9 @@
   "legs": 0,
   "skills": [
     {
-      "name": "Spectral Dagger",
+      "name": "spectre-spectral-dagger",
+      "localizedName": "Spectral Dagger",
+      "id": 5334,
       "image": "https://dotabuff.com//assets/skills/spectre-spectral-dagger-5334-510250ce856e99ebafcd429b93c4ad3cfc0abd43e531794344706b83f2b2a6f1.jpg",
       "link": "https://dotabuff.com//heroes/spectre/abilities",
       "description": "Spectre flings a dagger to draw a Shadow Path, dealing damage and slowing the movement speed of any enemies along the trail. Units hit by the dagger also trail a Shadow Path. While treading the path, Spectre phases through otherwise impassable terrain.",
@@ -100,7 +102,9 @@
       ]
     },
     {
-      "name": "Desolate",
+      "name": "spectre-desolate",
+      "localizedName": "Desolate",
+      "id": 5335,
       "image": "https://dotabuff.com//assets/skills/spectre-desolate-5335-baff12b1bb6915a77dcdaccf6d165d50727be757ed1e09bbd3731c83873724ec.jpg",
       "link": "https://dotabuff.com//heroes/spectre/abilities",
       "description": "Deals bonus damage whenever Spectre attacks an enemy who is alone.",
@@ -139,7 +143,9 @@
       "manaCost": []
     },
     {
-      "name": "Dispersion",
+      "name": "spectre-dispersion",
+      "localizedName": "Dispersion",
+      "id": 5336,
       "image": "https://dotabuff.com//assets/skills/spectre-dispersion-5336-ab3d75e68c95a7845922eb9a146534dd824b1a9947cafb0e576be55450d1abfc.jpg",
       "link": "https://dotabuff.com//heroes/spectre/abilities",
       "description": "Damage done to Spectre is reflected on her enemies, leaving her unharmed. The effect lessens with distance.",
@@ -180,7 +186,9 @@
       "manaCost": []
     },
     {
-      "name": "Haunt",
+      "name": "spectre-haunt",
+      "localizedName": "Haunt",
+      "id": 5337,
       "image": "https://dotabuff.com//assets/skills/spectre-haunt-5337-f6d201f96054f17258375e99588182ce4d98a88c7de724df1286f3f7c7b16116.jpg",
       "link": "https://dotabuff.com//heroes/spectre/abilities",
       "description": "Creates a spectral nemesis to attack each enemy hero after a short delay. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.",

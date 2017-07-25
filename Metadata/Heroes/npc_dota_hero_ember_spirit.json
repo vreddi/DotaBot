@@ -37,7 +37,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Searing Chains",
+      "name": "ember-spirit-searing-chains",
+      "localizedName": "Searing Chains",
+      "id": 5603,
       "image": "https://dotabuff.com//assets/skills/ember-spirit-searing-chains-5603-315d58cf51560735c9f8b05c18115854ac23390a9158859e481326164acdc471.jpg",
       "link": "https://dotabuff.com//heroes/ember-spirit/abilities",
       "description": "Ember Spirit unleashes fiery bolas that wrap around nearby enemies, anchoring them in place and dealing damage each second.",
@@ -113,7 +115,9 @@
       ]
     },
     {
-      "name": "Sleight of Fist",
+      "name": "ember-spirit-sleight-of-fist",
+      "localizedName": "Sleight of Fist",
+      "id": 5604,
       "image": "https://dotabuff.com//assets/skills/ember-spirit-sleight-of-fist-5604-e299d911db35979a673e39827681ff33e39cef708cfd4132cd83acbb9ea92288.jpg",
       "link": "https://dotabuff.com//heroes/ember-spirit/abilities",
       "description": "Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location.  Deals bonus damage to heroes, and less damage to creeps.",
@@ -180,7 +184,9 @@
       ]
     },
     {
-      "name": "Flame Guard",
+      "name": "ember-spirit-flame-guard",
+      "localizedName": "Flame Guard",
+      "id": 5605,
       "image": "https://dotabuff.com//assets/skills/ember-spirit-flame-guard-5605-815302f61a0451e55ade94636daf1debb4cf7ee313831f2ac25a8688b915df7b.jpg",
       "link": "https://dotabuff.com//heroes/ember-spirit/abilities",
       "description": "Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, leaving him unharmed.  Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active.  If the shield is broken, the damage is also lost.",
@@ -250,7 +256,9 @@
       ]
     },
     {
-      "name": "Fire Remnant",
+      "name": "ember-spirit-fire-remnant",
+      "localizedName": "Fire Remnant",
+      "id": 5606,
       "image": "https://dotabuff.com//assets/skills/ember-spirit-fire-remnant-5606-3e1d87930c941fd62da6d9067b173d148bd8bcaa2013fc59c088cc84e414a86e.jpg",
       "link": "https://dotabuff.com//heroes/ember-spirit/abilities",
       "description": "Ember Spirit generates Fire Remnant charges every 35.0 seconds, with a max of 3 charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last.",

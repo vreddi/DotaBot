@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Meat Hook",
+      "name": "pudge-meat-hook",
+      "localizedName": "Meat Hook",
+      "id": 5075,
       "image": "https://dotabuff.com//assets/skills/pudge-meat-hook-5075-686ff5af6666e9f9fe6973787de24e1803a398b2f9bb565a29068f1a2400214a.jpg",
       "link": "https://dotabuff.com//heroes/pudge/abilities",
       "description": "Launches a bloody hook toward a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge and dealing damage if it is an enemy.",
@@ -109,7 +111,9 @@
       ]
     },
     {
-      "name": "Rot",
+      "name": "pudge-rot",
+      "localizedName": "Rot",
+      "id": 5076,
       "image": "https://dotabuff.com//assets/skills/pudge-rot-5076-390739be515f1a2e96818303142b98e956984433df823fe19a5caf1302b460fa.jpg",
       "link": "https://dotabuff.com//heroes/pudge/abilities",
       "description": "A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself.",
@@ -160,7 +164,9 @@
       "manaCost": []
     },
     {
-      "name": "Flesh Heap",
+      "name": "pudge-flesh-heap",
+      "localizedName": "Flesh Heap",
+      "id": 5074,
       "image": "https://dotabuff.com//assets/skills/pudge-flesh-heap-5074-865b62b07bdfdb0fc146301cc61d13d459af05d70ecc4d6fb2c3172fa736e4d0.jpg",
       "link": "https://dotabuff.com//heroes/pudge/abilities",
       "description": "Gives Pudge resistance to magic damage, as well as bonus strength that increases each time Pudge kills an enemy Hero or it dies in his vicinity.  Flesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active.",
@@ -200,7 +206,9 @@
       "manaCost": []
     },
     {
-      "name": "Dismember",
+      "name": "pudge-dismember",
+      "localizedName": "Dismember",
+      "id": 5077,
       "image": "https://dotabuff.com//assets/skills/pudge-dismember-5077-10b4d1902d074d1185c8a638715881e81dfaba7514b23202346c6e9440666716.jpg",
       "link": "https://dotabuff.com//heroes/pudge/abilities",
       "description": "CHANNELED - Pudge chows down on an enemy unit, disabling it and dealing damage over time. Pudge gets healed for the same amount he damages. Lasts 3 seconds on Heroes, 6 seconds on creeps.",

@@ -35,7 +35,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Whirling Death",
+      "name": "timbersaw-whirling-death",
+      "localizedName": "Whirling Death",
+      "id": 5524,
       "image": "https://dotabuff.com//assets/skills/timbersaw-whirling-death-5524-427a581c974ec7cb61f81a4936f525696cdc5a024b61757738f516cadc7e537c.jpg",
       "link": "https://dotabuff.com//heroes/timbersaw/abilities",
       "description": "Timbersaw whirls extremely sharp edges, damaging enemies and destroying trees around him in an area.  If an enemy hero is affected, it loses some of its primary attribute for a short duration.  Whirling Death will deal Pure damage if a tree is cut down in the process.",
@@ -96,7 +98,9 @@
       ]
     },
     {
-      "name": "Timber Chain",
+      "name": "timbersaw-timber-chain",
+      "localizedName": "Timber Chain",
+      "id": 5525,
       "image": "https://dotabuff.com//assets/skills/timbersaw-timber-chain-5525-72791d9452feda45561e1ad665af9f67dba2644265122852f1f7f748cef22889.jpg",
       "link": "https://dotabuff.com//heroes/timbersaw/abilities",
       "description": "Timbersaw fires a chain that embeds itself in the first tree it hits, pulling him towards it.  Any enemy in the path takes damage.",
@@ -166,7 +170,9 @@
       ]
     },
     {
-      "name": "Reactive Armor",
+      "name": "timbersaw-reactive-armor",
+      "localizedName": "Reactive Armor",
+      "id": 5526,
       "image": "https://dotabuff.com//assets/skills/timbersaw-reactive-armor-5526-9ed3d51180557d4c487973a7f563c4ceed92bdd791ecd2784e8afcf41d24d898.jpg",
       "link": "https://dotabuff.com//heroes/timbersaw/abilities",
       "description": "Each time Timbersaw is attacked, he gains increased health regen and armor.",
@@ -218,7 +224,9 @@
       "manaCost": []
     },
     {
-      "name": "Chakram",
+      "name": "timbersaw-chakram",
+      "localizedName": "Chakram",
+      "id": 5527,
       "image": "https://dotabuff.com//assets/skills/timbersaw-chakram-5527-fd8d7e520884caed322e968736f35f4a894e3604887bdb29c4b6199edd89e073.jpg",
       "link": "https://dotabuff.com//heroes/timbersaw/abilities",
       "description": "Fires your main saw blade at the target location where it will spin in place, dealing damage in an area around it.  Enemies caught in the saw blade will move more slowly for every 5% of health missing. The blade deals damage and cuts down trees in its path when fired and retracted.  While active the ability costs mana, and you lose the ability to attack.",

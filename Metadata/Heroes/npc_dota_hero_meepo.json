@@ -38,7 +38,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Earthbind",
+      "name": "meepo-earthbind",
+      "localizedName": "Earthbind",
+      "id": 5430,
       "image": "https://dotabuff.com//assets/skills/meepo-earthbind-5430-ce46f20ff130ec9ecfa2b21055e233fec3c9183285bb259807e966bd62317e6a.jpg",
       "link": "https://dotabuff.com//heroes/meepo/abilities",
       "description": "Tosses a net at the target point, pinning down all enemy units.  Earthbind prevents invisibility and blink.",
@@ -92,7 +94,9 @@
       ]
     },
     {
-      "name": "Poof",
+      "name": "meepo-poof",
+      "localizedName": "Poof",
+      "id": 5431,
       "image": "https://dotabuff.com//assets/skills/meepo-poof-5431-418f786d1269b745a4d456a446a6be9d87edfaa7a81d4955a0cff67d14349505.jpg",
       "link": "https://dotabuff.com//heroes/meepo/abilities",
       "description": "Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations.",
@@ -148,7 +152,9 @@
       ]
     },
     {
-      "name": "Geostrike",
+      "name": "meepo-geostrike",
+      "localizedName": "Geostrike",
+      "id": 5432,
       "image": "https://dotabuff.com//assets/skills/meepo-geostrike-5432-4c4e3c990a3540a677c2c7da56a7ebcd1673a83f8db2fd8f8a8c87e5e2e9c976.jpg",
       "link": "https://dotabuff.com//heroes/meepo/abilities",
       "description": "Meepo enchants his weapon to deal damage per second, as well as slow the movement speed of the attacked unit.  Geostrikes from multiple Meepos stack.",
@@ -192,7 +198,9 @@
       "manaCost": []
     },
     {
-      "name": "Divided We Stand",
+      "name": "meepo-divided-we-stand",
+      "localizedName": "Divided We Stand",
+      "id": 5433,
       "image": "https://dotabuff.com//assets/skills/meepo-divided-we-stand-5433-3345157d0fb9453d74193d9b4106462b3d44eec18553af47f69bf3be81c6df21.jpg",
       "link": "https://dotabuff.com//heroes/meepo/abilities",
       "description": "Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience, attributes and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears.  If any of the clones die, they all die.",

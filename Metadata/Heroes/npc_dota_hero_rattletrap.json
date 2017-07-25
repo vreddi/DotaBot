@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Battery Assault",
+      "name": "clockwerk-battery-assault",
+      "localizedName": "Battery Assault",
+      "id": 5237,
       "image": "https://dotabuff.com//assets/skills/clockwerk-battery-assault-5237-5ddc2befae23b93d5c7b3f8335a550aa01407975a0badf2b9ddbe473058bfa98.jpg",
       "link": "https://dotabuff.com//heroes/clockwerk/abilities",
       "description": "Discharges high-powered shrapnel at random nearby enemy units, dealing minor magical damage and ministun.",
@@ -100,7 +102,9 @@
       ]
     },
     {
-      "name": "Power Cogs",
+      "name": "clockwerk-power-cogs",
+      "localizedName": "Power Cogs",
+      "id": 5238,
       "image": "https://dotabuff.com//assets/skills/clockwerk-power-cogs-5238-fe3d04185abd34f43b58c835b61832f01c2533a6726651b160b0274139c666a7.jpg",
       "link": "https://dotabuff.com//heroes/clockwerk/abilities",
       "description": "Forms a barrier of energized cogs around Clockwerk, trapping any units that are near.  Enemies outside the trap that touch a cog are knocked back, losing health and mana. Once a cog has delivered a shock, it will power down.  Cogs can be destroyed by enemy attacks, but Clockwerk can destroy them with just one.",
@@ -164,7 +168,9 @@
       ]
     },
     {
-      "name": "Rocket Flare",
+      "name": "clockwerk-rocket-flare",
+      "localizedName": "Rocket Flare",
+      "id": 5239,
       "image": "https://dotabuff.com//assets/skills/clockwerk-rocket-flare-5239-0453195f3d912e7ff90e6c0b745b68871f25cde42209b8e14f38f086e9322226.jpg",
       "link": "https://dotabuff.com//heroes/clockwerk/abilities",
       "description": "Fires a global range flare that explodes over a given area, damaging enemies and providing vision for 10 seconds.",
@@ -216,7 +222,9 @@
       ]
     },
     {
-      "name": "Hookshot",
+      "name": "clockwerk-hookshot",
+      "localizedName": "Hookshot",
+      "id": 5240,
       "image": "https://dotabuff.com//assets/skills/clockwerk-hookshot-5240-a5f31682e150814a72f010b164a18d698f9d0d371fd3bc6cc2b9ad1c5831a7c8.jpg",
       "link": "https://dotabuff.com//heroes/clockwerk/abilities",
       "description": "Fires a grappling device rapidly at the target location.  If the hook hits a unit, Clockwerk launches himself into the target, stunning and dealing damage.  Any enemies Clockwerk collides with along the way are damaged and stunned.",

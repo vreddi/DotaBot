@@ -36,7 +36,9 @@
   "legs": 2,
   "skills": [
     {
-      "name": "Crystal Nova",
+      "name": "crystal-maiden-crystal-nova",
+      "localizedName": "Crystal Nova",
+      "id": 5126,
       "image": "https://dotabuff.com//assets/skills/crystal-maiden-crystal-nova-5126-7e29b6550c787df04c526cc0b3ebc9499dd6929e07e26e9eca21e7ba3fe62a7f.jpg",
       "link": "https://dotabuff.com//heroes/crystal-maiden/abilities",
       "description": "A burst of damaging frost slows enemy movement and attack rate in the targeted area.",
@@ -115,7 +117,9 @@
       ]
     },
     {
-      "name": "Frostbite",
+      "name": "crystal-maiden-frostbite",
+      "localizedName": "Frostbite",
+      "id": 5127,
       "image": "https://dotabuff.com//assets/skills/crystal-maiden-frostbite-5127-fc9d8271f2a85d59d450211698c27781f125aae58dae9a11625da6e60a264f67.jpg",
       "link": "https://dotabuff.com//heroes/crystal-maiden/abilities",
       "description": "Encases an enemy unit in ice, prohibiting movement and attack, while dealing 50 damage every half-second. Lasts 10 seconds on creeps level 6 or lower.",
@@ -195,7 +199,9 @@
       ]
     },
     {
-      "name": "Arcane Aura",
+      "name": "crystal-maiden-arcane-aura",
+      "localizedName": "Arcane Aura",
+      "id": 5128,
       "image": "https://dotabuff.com//assets/skills/crystal-maiden-arcane-aura-5128-d4efc7c16bd5a052ef5a137aa7c2623ca63d5573a37276febd94f6107aa8d955.jpg",
       "link": "https://dotabuff.com//heroes/crystal-maiden/abilities",
       "description": "Gives additional mana regeneration to all friendly units on the map. This bonus is increased for Crystal Maiden.",
@@ -235,7 +241,9 @@
       "manaCost": []
     },
     {
-      "name": "Freezing Field",
+      "name": "crystal-maiden-freezing-field",
+      "localizedName": "Freezing Field",
+      "id": 5129,
       "image": "https://dotabuff.com//assets/skills/crystal-maiden-freezing-field-5129-b69509b52172e4584a8c6f01b80fa3a6cd6e0f70857bad006a02425c7ff6866f.jpg",
       "link": "https://dotabuff.com//heroes/crystal-maiden/abilities",
       "description": "CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage.  Lasts 10 seconds.",

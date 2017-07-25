@@ -105,7 +105,13 @@ namespace MetadataScraper
             if (skillImage != null)
             {
                 skill.Image = DotabuffEndpoint + skillImage.Attributes["src"].Value;
-                skill.Name = skillImage.Attributes["alt"].Value;
+                skill.LocalizedName = skillImage.Attributes["alt"].Value;
+
+                var skillTooltipSplit = skillImage.Attributes["data-tooltip-url"].Value.Split('/')[2];
+                var skillSplit = skillTooltipSplit.Split('-');
+                skill.Id = int.Parse(skillSplit.Last());
+
+                skill.Name = string.Join("-", skillSplit.Take(skillSplit.Length - 1));
             }
 
             var abilityLink = skillDocument.DocumentNode.Descendants("a")

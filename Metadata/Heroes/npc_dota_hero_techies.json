@@ -34,7 +34,9 @@
   "legs": 6,
   "skills": [
     {
-      "name": "Proximity Mines",
+      "name": "techies-proximity-mines",
+      "localizedName": "Proximity Mines",
+      "id": 5599,
       "image": "https://dotabuff.com//assets/skills/techies-proximity-mines-5599-b5877b3a613bf4194f4ad79bb111a6ec7eb7de3d72b7e89c212e7e54baa013f6.jpg",
       "link": "https://dotabuff.com//heroes/techies/abilities",
       "description": "Plant an invisible mine that cannot be detected by True Sight, but is visible if an enemy is within the active 400 AoE of the mine. Mines detonate if an enemy is standing within the active AoE for 1.6 seconds. The explosion deals full damage in the blast radius, and deals 25% damage to buildings.",
@@ -98,7 +100,9 @@
       ]
     },
     {
-      "name": "Stasis Trap",
+      "name": "techies-stasis-trap",
+      "localizedName": "Stasis Trap",
+      "id": 5600,
       "image": "https://dotabuff.com//assets/skills/techies-stasis-trap-5600-2fdcb1df90d4c89bb3575695f9a4467933db41c740b348f2133627898582e800.jpg",
       "link": "https://dotabuff.com//heroes/techies/abilities",
       "description": "Plant an invisible trap that roots nearby enemy units instantly when triggered.",
@@ -161,7 +165,9 @@
       ]
     },
     {
-      "name": "Blast Off!",
+      "name": "techies-blast-off",
+      "localizedName": "Blast Off!",
+      "id": 5601,
       "image": "https://dotabuff.com//assets/skills/techies-blast-off-5601-19318d92463b9ac21d11a0dbc0ef9e44962f8a88b0efdd13db545b1e8701d20d.jpg",
       "link": "https://dotabuff.com//heroes/techies/abilities",
       "description": "Techies hurtle themselves into the enemy's midst, detonating charges upon impact which deal massive area of effect damage and silence enemies. Upon landing, the assault deals Techies damage equal to 50% of their max health.",
@@ -228,7 +234,9 @@
       ]
     },
     {
-      "name": "Minefield Sign",
+      "name": "techies-minefield-sign",
+      "localizedName": "Minefield Sign",
+      "id": 5644,
       "image": "https://dotabuff.com//assets/skills/techies-minefield-sign-5644-d3e6b357308108d0841db28a34f27210248bbeb69e74ecf5b806adaa1e1b3456.jpg",
       "link": "https://dotabuff.com//heroes/techies/abilities",
       "description": "Plant a warning sign to remind enemies to step lightly. Only one sign can exist at a time. Lasts 180 seconds.",
@@ -264,7 +272,9 @@
       ]
     },
     {
-      "name": "Remote Mines",
+      "name": "techies-remote-mines",
+      "localizedName": "Remote Mines",
+      "id": 5602,
       "image": "https://dotabuff.com//assets/skills/techies-remote-mines-5602-3ef1b08b7f514cbcf504fc699ee1181e65cc24f8c347ecb3f4fd1bc83558de0e.jpg",
       "link": "https://dotabuff.com//heroes/techies/abilities",
       "description": "Plant an invisible explosive that will only detonate after a brief delay when triggered.  Does not damage buildings.",

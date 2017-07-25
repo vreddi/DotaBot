@@ -38,7 +38,7 @@
     {
       "name": "Vacuum",
       "image": "https://dotabuff.com//assets/skills/dark-seer-vacuum-5255-ba18068ddf768fff80b5c3886a9deff4f2e5e5c1d4145a384e0e98265db98605.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.",
       "effects": [
         {
@@ -93,7 +93,7 @@
     {
       "name": "Ion Shell",
       "image": "https://dotabuff.com//assets/skills/dark-seer-ion-shell-5256-435ff5edf9bab42e7d41f6463719ffdb048f298ac973894d559b1f24f674bc7f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.",
       "effects": [
         {
@@ -155,7 +155,7 @@
     {
       "name": "Surge",
       "image": "https://dotabuff.com//assets/skills/dark-seer-surge-5257-1ee88f4d3cc7d9124815a2d9800d048e2347380386995a872fb4167c07fe173a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Charges a target friendly unit with power, giving it a brief burst of maximum movement speed.",
       "effects": [
         {
@@ -201,7 +201,7 @@
     {
       "name": "Wall of Replica",
       "image": "https://dotabuff.com//assets/skills/dark-seer-wall-of-replica-5258-fd401e54e209c8a858c885f3c99eb0cd781077a00b43b334ef2eb1506db5cef5.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/dark-seer/abilities",
       "description": "Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.",
       "effects": [
         {
@@ -285,7 +285,9 @@
       ]
     }
   ],
-  "aliases": ["ds"],
+  "aliases": [
+    "ds"
+  ],
   "talents": [
     {
       "level": 25,

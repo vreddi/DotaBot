@@ -37,7 +37,7 @@
     {
       "name": "Paralyzing Cask",
       "image": "https://dotabuff.com//assets/skills/witch-doctor-paralyzing-cask-5138-0be68d4d6319c8acfbc3475b8f7390966f324f47aacd2c6d04b30c3580f8ac1b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/witch-doctor/abilities",
       "description": "Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits.",
       "effects": [
         {
@@ -117,7 +117,7 @@
     {
       "name": "Voodoo Restoration",
       "image": "https://dotabuff.com//assets/skills/witch-doctor-voodoo-restoration-5139-bdba139a9702ba99443df597b555618956e13b12cbe348050a5ae1f113eb905e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/witch-doctor/abilities",
       "description": "Witch Doctor focuses his magic to heal nearby allied units.",
       "effects": [
         {
@@ -164,7 +164,7 @@
     {
       "name": "Maledict",
       "image": "https://dotabuff.com//assets/skills/witch-doctor-maledict-5140-7726193887156ba9745f93eea892363b76f39cb01076c8a4817b6e0edab1a72f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/witch-doctor/abilities",
       "description": "Curses all enemy Heroes in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every 4 seconds based on how much health they have lost since the curse began.",
       "effects": [
         {
@@ -231,7 +231,7 @@
     {
       "name": "Death Ward",
       "image": "https://dotabuff.com//assets/skills/witch-doctor-death-ward-5141-4df0dc23117697c0734f5f42ef95c1e33599406b3c5ea72bb98c45334e02bc6d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/witch-doctor/abilities",
       "description": "CHANNELED - Summons a deadly ward with true strike to attack enemy heroes within 700 range. Lasts a maximum of 8 seconds.",
       "effects": [
         {
@@ -277,7 +277,10 @@
       ]
     }
   ],
-  "aliases": ["wd", "witch doctor"],
+  "aliases": [
+    "wd",
+    "witch doctor"
+  ],
   "talents": [
     {
       "level": 25,

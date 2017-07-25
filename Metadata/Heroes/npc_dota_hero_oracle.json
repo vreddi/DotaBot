@@ -38,7 +38,7 @@
     {
       "name": "Fortune&#39;s End",
       "image": "https://dotabuff.com//assets/skills/oracle-fortunes-end-5637-13f0cadcbe16d7c359cc0c4da8fb161cccc7896ac47936c5f987eda5ed7675a8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/oracle/abilities",
       "description": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge. Can be channeled for up to 2.5 seconds. The stop duration is equal to the time spent channeling.",
       "effects": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Fate&#39;s Edict",
       "image": "https://dotabuff.com//assets/skills/oracle-fates-edict-5638-df7e8ed5bde3d2efe9114fbc3c9c651a6465ebeade13dd82e82e8bd952ccc52d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/oracle/abilities",
       "description": "Oracle enraptures a target, disarming them and granting them 100% magic damage resistance. Can be cast on allies and enemies.",
       "effects": [
         {
@@ -152,7 +152,7 @@
     {
       "name": "Purifying Flames",
       "image": "https://dotabuff.com//assets/skills/oracle-purifying-flames-5639-ec99e744b880dabf327bdcc29308b852d716db4b7d411560e21f5c16bb7acfc6.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/oracle/abilities",
       "description": "Burns away impurities, dealing heavy magic damage to the target before causing them to regenerate health over time. The amount of health regenerated over its duration exceeds the amount of initial damage. Can be cast on enemies and allies.",
       "effects": [
         {
@@ -232,7 +232,7 @@
     {
       "name": "False Promise",
       "image": "https://dotabuff.com//assets/skills/oracle-false-promise-5640-55fd52d587a372828e5d879a91311d3bb0aa5a5c780eb15d51e63555db6fc54c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/oracle/abilities",
       "description": "Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is doubled. Removes most negative status effects and disables on initial cast.",
       "effects": [
         {
@@ -270,7 +270,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

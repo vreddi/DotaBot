@@ -39,7 +39,7 @@
     {
       "name": "Devour",
       "image": "https://dotabuff.com//assets/skills/doom-devour-5339-5031acbb6fdcf2015e0a5966cab40f98eb391738dec73610b06f51b31d7dfc81.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/doom/abilities",
       "description": "Consumes an enemy or neutral creep, acquiring any special abilities that it possessed.",
       "effects": [
         {
@@ -80,7 +80,7 @@
     {
       "name": "Scorched Earth",
       "image": "https://dotabuff.com//assets/skills/doom-scorched-earth-5340-917222838ceb192524574673b823a86beefbe902f4cc01dde9af86770e5a6858.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/doom/abilities",
       "description": "Carpets the nearby earth in flames which damage enemies and heal Doom, while also granting him increased movement speed.",
       "effects": [
         {
@@ -147,7 +147,7 @@
     {
       "name": "Infernal Blade",
       "image": "https://dotabuff.com//assets/skills/doom-infernal-blade-5341-a31b267c4827c1c3799735990cdd4e9fcca3d122340b8ce79e5128d42e238892.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/doom/abilities",
       "description": "Doom swings his burning sword, igniting the enemy. Stuns for 0.6 seconds and applies a 4.0 second burn that deals [25, 30, 35, 40] + [1.25, 2.5, 3.75, 5.0]% of the target's Max HP as damage per second.",
       "effects": [
         {
@@ -218,7 +218,7 @@
     {
       "name": "Doom",
       "image": "https://dotabuff.com//assets/skills/doom-doom-5342-44cb9e7edee67e09eebc5a07988e83c72ed092cbe1c3331080c12a6b293cd6c1.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/doom/abilities",
       "description": "Inflicts a curse that prevents an enemy Hero from casting spells or using items, while taking damage over time.",
       "effects": [
         {
@@ -276,7 +276,9 @@
       ]
     }
   ],
-  "aliases": ["doom"],
+  "aliases": [
+    "doom"
+  ],
   "talents": [
     {
       "level": 25,

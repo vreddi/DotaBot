@@ -39,7 +39,7 @@
     {
       "name": "Torrent",
       "image": "https://dotabuff.com//assets/skills/kunkka-torrent-5031-36e9e071273af085c1ea6b5fd73caa5b4fc569f374e052b44162cb8bdd750368.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/kunkka/abilities",
       "description": "Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed.",
       "effects": [
         {
@@ -121,7 +121,7 @@
     {
       "name": "Tidebringer",
       "image": "https://dotabuff.com//assets/skills/kunkka-tidebringer-5032-de0862a83d73e8aca0c2815b968fd57f00c15091d668ebe8cf8118513c60d748.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/kunkka/abilities",
       "description": "Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike.",
       "effects": [
         {
@@ -169,7 +169,7 @@
     {
       "name": "X Marks the Spot",
       "image": "https://dotabuff.com//assets/skills/kunkka-x-marks-the-spot-5033-a0de727150a8de3573613fa9257e70b97ae3466375dfb56adb158129336bac8b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/kunkka/abilities",
       "description": "Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds.  Kunkka can trigger the return at any time during the duration. Lasts twice as long on allied heroes.",
       "effects": [
         {
@@ -227,7 +227,7 @@
     {
       "name": "Ghostship",
       "image": "https://dotabuff.com//assets/skills/kunkka-ghostship-5035-59ea5f77119cbcc903544bf85dec9234ac3792cab331011aac7065f83592212a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/kunkka/abilities",
       "description": "Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.",
       "effects": [
         {
@@ -315,7 +315,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

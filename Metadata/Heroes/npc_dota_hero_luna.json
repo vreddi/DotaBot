@@ -37,7 +37,7 @@
     {
       "name": "Lucent Beam",
       "image": "https://dotabuff.com//assets/skills/luna-lucent-beam-5222-9fb55c965e6585d6fa7d6a7bad2cbe72f7036597e5b28950dc87fe24d7316bc8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/luna/abilities",
       "description": "Calls a beam of lunar energy down upon an enemy, damaging and briefly stunning them.",
       "effects": [
         {
@@ -93,7 +93,7 @@
     {
       "name": "Moon Glaive",
       "image": "https://dotabuff.com//assets/skills/luna-moon-glaive-5223-c79759df9e7bf4be88facb20935353ce6bc1d92bbeb1f00f8480495541b77224.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/luna/abilities",
       "description": "Empowers Luna's glaive, causing her attacks to bounce between enemy units. Deals less damage with each bounce.",
       "effects": [
         {
@@ -134,7 +134,7 @@
     {
       "name": "Lunar Blessing",
       "image": "https://dotabuff.com//assets/skills/luna-lunar-blessing-5224-86a589ed08aadaad6b555d202407c1941e7f93801daf37612517d93d558025cf.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/luna/abilities",
       "description": "Increases the damage dealt by attacks from Luna and nearby allied heroes. Luna is also blessed with increased vision range at night.",
       "effects": [
         {
@@ -174,7 +174,7 @@
     {
       "name": "Eclipse",
       "image": "https://dotabuff.com//assets/skills/luna-eclipse-5225-0dfdcab2d9b9e238f9513f175dd5f55fd19f402974dc4c4848442349dcf5e68f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/luna/abilities",
       "description": "Showers random nearby enemies with strikes from Luna's current level of Lucent Beam. These beams do not stun their targets, and there is a maximum number of times that a single target can be struck. Also turns day into night for 10 seconds.",
       "effects": [
         {
@@ -262,7 +262,11 @@
       ]
     }
   ],
-  "aliases": ["luna", "moon rider", "nova"],
+  "aliases": [
+    "luna",
+    "moon rider",
+    "nova"
+  ],
   "talents": [
     {
       "level": 25,

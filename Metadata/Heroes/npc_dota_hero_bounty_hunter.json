@@ -36,7 +36,7 @@
     {
       "name": "Shuriken Toss",
       "image": "https://dotabuff.com//assets/skills/bounty-hunter-shuriken-toss-5285-6ce2728c1d88d0999c6214ddc9ceac66f79113a7188646d0d25a71efba84ec6f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bounty-hunter/abilities",
       "description": "Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.  The shuriken will bounce between any Tracked units who are within a 1200 radius of each other.",
       "effects": [
         {
@@ -92,7 +92,7 @@
     {
       "name": "Jinada",
       "image": "https://dotabuff.com//assets/skills/bounty-hunter-jinada-5286-0570cd01d427067cff0a8582043f37a96173a827b17e4077b420c62341e7078f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bounty-hunter/abilities",
       "description": "Bounty Hunter plans his next hit, passively adding a critical strike and maim to his next attack.",
       "effects": [
         {
@@ -146,7 +146,7 @@
     {
       "name": "Shadow Walk",
       "image": "https://dotabuff.com//assets/skills/bounty-hunter-shadow-walk-5287-d16ee69c0d3557c58dd7f666ba06223a183b3b89f50dae80873bc9aec1efed5c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bounty-hunter/abilities",
       "description": "Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will deal bonus damage.",
       "effects": [
         {
@@ -207,7 +207,7 @@
     {
       "name": "Track",
       "image": "https://dotabuff.com//assets/skills/bounty-hunter-track-5288-dee746cbffe9076e456c1323d3aa59df7dd4232e1b74b11427571f17552dbf68.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/bounty-hunter/abilities",
       "description": "Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. Allies near the hunted are granted bonus movement speed. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold.",
       "effects": [
         {
@@ -281,7 +281,11 @@
       ]
     }
   ],
-  "aliases": ["bh", "bounty", "gondar"],
+  "aliases": [
+    "bh",
+    "bounty",
+    "gondar"
+  ],
   "talents": [
     {
       "level": 25,

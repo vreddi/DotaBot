@@ -40,7 +40,7 @@
     {
       "name": "Mirror Image",
       "image": "https://dotabuff.com//assets/skills/naga-siren-mirror-image-5467-b4c7b9ba448cd320a702dc27512f3bbdd5613c943ae322654163f6dca7592819.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/naga-siren/abilities",
       "description": "Creates three images of Naga Siren under her control.",
       "effects": [
         {
@@ -93,7 +93,7 @@
     {
       "name": "Ensnare",
       "image": "https://dotabuff.com//assets/skills/naga-siren-ensnare-5468-8e793df60dfa97de01311c12588b71bb9ac111ab71a28e33bafb53ac3e9970d3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/naga-siren/abilities",
       "description": "Interrupts the target and traps them in place, preventing movement or blinking.",
       "effects": [
         {
@@ -136,7 +136,7 @@
     {
       "name": "Rip Tide",
       "image": "https://dotabuff.com//assets/skills/naga-siren-rip-tide-5469-aeb79884aea8a0ca6abe7fede3ce14a5cef5692feeae00ef32c73079a1744e08.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/naga-siren/abilities",
       "description": "The Naga Siren and her images hit all nearby units with a damaging wave of water that lowers armor for 8 seconds.",
       "effects": [
         {
@@ -197,7 +197,7 @@
     {
       "name": "Song of the Siren",
       "image": "https://dotabuff.com//assets/skills/naga-siren-song-of-the-siren-5470-7a530db4d64e5dc5fff731015461b19668df187061040f0251f11658800de6a2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/naga-siren/abilities",
       "description": "All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.",
       "effects": [
         {
@@ -247,7 +247,10 @@
       ]
     }
   ],
-  "aliases": ["naga", "Slithice"],
+  "aliases": [
+    "naga",
+    "Slithice"
+  ],
   "talents": [
     {
       "level": 25,

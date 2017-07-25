@@ -38,7 +38,7 @@
     {
       "name": "Plasma Field",
       "image": "https://dotabuff.com//assets/skills/razor-plasma-field-5082-d275a8a7e2f4ccf85d049272f1fba1eb76bee02b75741e3fa17b13ff67d1fbf8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/razor/abilities",
       "description": "Releases a wave of energetic plasma that grows in power as it expands, but also zaps on contraction, dealing damage to enemy units caught in its path. Damage increases with distance from Razor.",
       "effects": [
         {
@@ -96,7 +96,7 @@
     {
       "name": "Static Link",
       "image": "https://dotabuff.com//assets/skills/razor-static-link-5083-04adb4e9f412299497f0872e34975fd71c675b31bcb5fcac93a44d2350fc0063.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/razor/abilities",
       "description": "Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor.",
       "effects": [
         {
@@ -154,7 +154,7 @@
     {
       "name": "Unstable Current",
       "image": "https://dotabuff.com//assets/skills/razor-unstable-current-5084-e4323dfd55ae1dbef8f4f9627dba0ca2dfad4c6770ffc7a095d2e2c1701a1d1c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/razor/abilities",
       "description": "Razor moves with increased speed, and any abilities targeted at him are instantly countered with a jolt of electricity which damages, slows, and purges buffs from enemies.",
       "effects": [
         {
@@ -205,7 +205,7 @@
     {
       "name": "Eye of the Storm",
       "image": "https://dotabuff.com//assets/skills/razor-eye-of-the-storm-5085-395df22fa026e7986d2b30b4c3f60fb9f8add43a0b9d56936ca437acb31ed6ff.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/razor/abilities",
       "description": "A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor.",
       "effects": [
         {
@@ -283,7 +283,11 @@
       ]
     }
   ],
-  "aliases": ["lightning revenant", "lightning", "revenant"],
+  "aliases": [
+    "lightning revenant",
+    "lightning",
+    "revenant"
+  ],
   "talents": [
     {
       "level": 25,

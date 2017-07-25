@@ -38,7 +38,7 @@
     {
       "name": "Dragon Slave",
       "image": "https://dotabuff.com//assets/skills/lina-dragon-slave-5040-1e6ee5a0618920bcad4acfd3427867f5e3a20b48e974d4f85752b4f11642c1e4.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lina/abilities",
       "description": "Lina channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path.",
       "effects": [
         {
@@ -88,7 +88,7 @@
     {
       "name": "Light Strike Array",
       "image": "https://dotabuff.com//assets/skills/lina-light-strike-array-5041-15af3707e56c58c5bee6ee15ef294b24fa70ae7884315067df70f348bfac02bf.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lina/abilities",
       "description": "Summons a column of flames that damages and stuns enemies.",
       "effects": [
         {
@@ -155,7 +155,7 @@
     {
       "name": "Fiery Soul",
       "image": "https://dotabuff.com//assets/skills/lina-fiery-soul-5042-835358e48bfb8fe727147c9b2d3810ed07606c581ed43e6f52e9c14f6c976dc2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lina/abilities",
       "description": "Grants bonus attack and movement speed each time Lina casts a spell. Stacks with itself. Lasts 10 seconds.",
       "effects": [
         {
@@ -201,7 +201,7 @@
     {
       "name": "Laguna Blade",
       "image": "https://dotabuff.com//assets/skills/lina-laguna-blade-5043-34ba02a00fcf721c14478a9adc4017cfbc3eddbb260b1b06ef16725d2444be70.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lina/abilities",
       "description": "Fires off a bolt of lightning at a single enemy unit, dealing massive damage.",
       "effects": [
         {
@@ -249,7 +249,7 @@
       ]
     }
   ],
-  "aliases": null,
+  "aliases": [],
   "talents": [
     {
       "level": 25,

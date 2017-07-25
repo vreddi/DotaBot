@@ -37,7 +37,7 @@
     {
       "name": "Split Shot",
       "image": "https://dotabuff.com//assets/skills/medusa-split-shot-5504-886ff985cc8960bfe488696ef4c523b2adac510830f868b4549597f203a2a48f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/medusa/abilities",
       "description": "Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.",
       "effects": [
         {
@@ -84,7 +84,7 @@
     {
       "name": "Mystic Snake",
       "image": "https://dotabuff.com//assets/skills/medusa-mystic-snake-5505-e7b0828a4909cf92f98f5b4c6e52b4b467f45baa5c37ea3dbe9740f9cb432c12.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/medusa/abilities",
       "description": "A mystic snake made of energy jumps from target to target dealing damage and stealing mana. After it reaches its last target, it returns to Medusa to replenish her with mana. The snake deals more damage per jump and steals [11, 14, 17, 20]% of the targets' total mana. Deals Pure damage to units petrified by Stone Gaze.",
       "effects": [
         {
@@ -176,7 +176,7 @@
     {
       "name": "Mana Shield",
       "image": "https://dotabuff.com//assets/skills/medusa-mana-shield-5506-63a7c431467b79db519270f0002178fabedf3a19d02c65039cec1da328e86357.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/medusa/abilities",
       "description": "Creates a shield that absorbs 60.0% of the incoming damage in exchange for Medusa's mana.",
       "effects": [
         {
@@ -207,7 +207,7 @@
     {
       "name": "Stone Gaze",
       "image": "https://dotabuff.com//assets/skills/medusa-stone-gaze-5507-82e3bbf5cbe852e51aeef7bced15797d02696043c9dc142f39896f961b827fab.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/medusa/abilities",
       "description": "Any enemy units looking at Medusa will have their movement and attack speed slowed.  If 2 seconds of total time is accumulated looking at Medusa while Stone Gaze is active, that unit will turn to stone.  Petrified units are stunned, have 100% magic damage resistance, and take bonus physical damage.  If the petrified unit is an illusion, it is immediately killed.",
       "effects": [
         {
@@ -271,7 +271,10 @@
       ]
     }
   ],
-  "aliases": ["dusa", "gorgon"],
+  "aliases": [
+    "dusa",
+    "gorgon"
+  ],
   "talents": [
     {
       "level": 25,

@@ -39,7 +39,7 @@
     {
       "name": "Sprout",
       "image": "https://dotabuff.com//assets/skills/natures-prophet-sprout-5245-b314014635453452e93042ffe1e5379375a1977804dcc0654b1b3281a5db8b7e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
       "description": "Sprouts a ring of trees around a unit, trapping it in place.",
       "effects": [
         {
@@ -93,7 +93,7 @@
     {
       "name": "Teleportation",
       "image": "https://dotabuff.com//assets/skills/natures-prophet-teleportation-5246-746378b8330024e36ac2016f29cb92b0613794d940718c8f9d4ca34e60319570.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
       "description": "Teleports to any point on the map.",
       "effects": [
         {
@@ -115,7 +115,7 @@
     {
       "name": "Nature&#39;s Call",
       "image": "https://dotabuff.com//assets/skills/natures-prophet-natures-call-5247-8ea452a0ee3f1829cf622ed19546f4a55f46dc48f5957f8405aaa8d3064c27d4.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
       "description": "Converts an area of trees into Treants. Treants have 550 health and deal 30-34 damage.",
       "effects": [
         {
@@ -159,7 +159,7 @@
     {
       "name": "Wrath of Nature",
       "image": "https://dotabuff.com//assets/skills/natures-prophet-wrath-of-nature-5248-03cc4cdc44472b79c8a032d3847ee982b2eae8f871906c92a3dede32feaa4d9c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/natures-prophet/abilities",
       "description": "Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.",
       "effects": [
         {
@@ -233,7 +233,12 @@
       ]
     }
   ],
-  "aliases": ["prophet", "nature's prophet", "furion", "natures prophet"],
+  "aliases": [
+    "prophet",
+    "nature's prophet",
+    "furion",
+    "natures prophet"
+  ],
   "talents": [
     {
       "level": 25,

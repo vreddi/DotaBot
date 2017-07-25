@@ -39,7 +39,7 @@
     {
       "name": "Firestorm",
       "image": "https://dotabuff.com//assets/skills/underlord-firestorm-5613-73e5069024aa7b8f95ba3ba80aacb240eb4f1e9e5ed6145f3e3a19b7c48414ab.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/underlord/abilities",
       "description": "Calls down waves of fire that damage enemy units in the target area, burning for additional damage over time.",
       "effects": [
         {
@@ -118,7 +118,7 @@
     {
       "name": "Pit of Malice",
       "image": "https://dotabuff.com//assets/skills/underlord-pit-of-malice-5614-6e7d715b1086ea2984af012faa081b4ba248a1d53fe9747697bbdf7ce425a55d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/underlord/abilities",
       "description": "A deadly pit is conjured at the target location; any unit that enters will be rooted. Each enemy unit within the pit are affected every 3.6 seconds.",
       "effects": [
         {
@@ -185,7 +185,7 @@
     {
       "name": "Atrophy Aura",
       "image": "https://dotabuff.com//assets/skills/underlord-atrophy-aura-5615-6cdb362d4de1c7f9f289b5a746dcf96256b9fc16d2480e60bf4ce84aeb7a2d4c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/underlord/abilities",
       "description": "Nearby enemy units are weakened, losing a portion of their base damage. If a unit dies while under this effect, Underlord gains bonus damage.",
       "effects": [
         {
@@ -240,7 +240,7 @@
     {
       "name": "Dark Rift",
       "image": "https://dotabuff.com//assets/skills/underlord-dark-rift-5616-4a3f0363ad359f51f33461df0498c2d775413d236997b82aeb407ee61902de74.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/underlord/abilities",
       "description": "Opens a dark rift at the targeted friendly unit's position.  After a short delay, Underlord and all nearby friendly heroes are teleported to that unit's location.  Dark Rift can be cancelled at anytime during the cast.  If it is cancelled in this way or the target unit dies before the spell becomes active, Dark Rift goes into cooldown.",
       "effects": [
         {
@@ -282,7 +282,10 @@
       ]
     }
   ],
-  "aliases": ["pitlord", "underlord"],
+  "aliases": [
+    "pitlord",
+    "underlord"
+  ],
   "talents": [
     {
       "level": 25,

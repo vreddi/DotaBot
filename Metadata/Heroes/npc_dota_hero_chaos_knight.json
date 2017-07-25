@@ -39,7 +39,7 @@
     {
       "name": "Chaos Bolt",
       "image": "https://dotabuff.com//assets/skills/chaos-knight-chaos-bolt-5426-b51b54229862f3156977e2724fbf316bf58f209b9aeec290242d6d2ad0ec272e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chaos-knight/abilities",
       "description": "Throws a mysterious bolt of energy at the target unit. It stuns for a random duration and deals random damage.",
       "effects": [
         {
@@ -113,7 +113,7 @@
     {
       "name": "Reality Rift",
       "image": "https://dotabuff.com//assets/skills/chaos-knight-reality-rift-5427-4c99154cc28409ca873788cfec5f44bc9e94ffb513ff5bdad4573ce09ca9a210.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chaos-knight/abilities",
       "description": "Teleports you, any images you have and the target unit to a random point along the line between the two of you. Reduces the target's armor for 8 seconds.",
       "effects": [
         {
@@ -174,7 +174,7 @@
     {
       "name": "Chaos Strike",
       "image": "https://dotabuff.com//assets/skills/chaos-knight-chaos-strike-5428-8ad9acd6da6bb8422ccf62632034fc6810d1ff0bbd722f8d602af085a648ef17.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chaos-knight/abilities",
       "description": "Each of Chaos Knight's attacks has a chance to deal bonus damage, also causing the critical strike to lifesteal for 75% of the damage .",
       "effects": [
         {
@@ -211,7 +211,7 @@
     {
       "name": "Phantasm",
       "image": "https://dotabuff.com//assets/skills/chaos-knight-phantasm-5429-f6eb0e1c079229b5b8e522af7fc883231ab997ce721067519dbe7aa36fea948a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/chaos-knight/abilities",
       "description": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. There is a 50% chance an extra phantasm will be summoned. The phantasms deal [100, 100, 100]% damage, but take 260% damage.",
       "effects": [
         {
@@ -279,7 +279,9 @@
       ]
     }
   ],
-  "aliases": ["ck"],
+  "aliases": [
+    "ck"
+  ],
   "talents": [
     {
       "level": 25,

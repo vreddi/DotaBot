@@ -38,7 +38,7 @@
     {
       "name": "Summon Spirit Bear",
       "image": "https://dotabuff.com//assets/skills/lone-druid-summon-spirit-bear-5412-2e977b784e500b1503bd1e998c32005cffc7b73e959c40f7520a45a6bd7b47a9.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lone-druid/abilities",
       "description": "Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 10.0% of his max health as backlash damage if the Spirit Bear dies.  As the bear increases in levels, it can learn the Return, Entangling Claws, and Demolish abilities.  Spirit Bear does not benefit from attributes.",
       "effects": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Rabid",
       "image": "https://dotabuff.com//assets/skills/lone-druid-rabid-5413-b0cba8e2cf7bc2be59940392b89a3e76fb549c4b75e07e9e0f4cee4832eda03c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lone-druid/abilities",
       "description": "Increases the attack and movement speed of Lone Druid and the Spirit Bear.",
       "effects": [
         {
@@ -156,7 +156,7 @@
     {
       "name": "Savage Roar",
       "image": "https://dotabuff.com//assets/skills/lone-druid-savage-roar-5414-6cd859aeef001ce7e2557ef0b372ae171715fbc3db59fdca71b140ac09667cbb.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lone-druid/abilities",
       "description": "Lone Druid roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by 20%.",
       "effects": [
         {
@@ -210,7 +210,7 @@
     {
       "name": "True Form",
       "image": "https://dotabuff.com//assets/skills/lone-druid-true-form-5415-e729949312583574ce6300ba635a7d56f84d6dd3b3ffe1b6b911dc5c412e3ee8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lone-druid/abilities",
       "description": "Lone Druid learns to morph himself into a raging bear, losing his ranged advantage and some base movement speed, but gaining melee power as well as the Battle Cry ability.  He can morph freely between druid and bear form.",
       "effects": [
         {
@@ -268,7 +268,12 @@
       ]
     }
   ],
-  "aliases": ["sylla", "ld", "lone druid", "syllabear"],
+  "aliases": [
+    "sylla",
+    "ld",
+    "lone druid",
+    "syllabear"
+  ],
   "talents": [
     {
       "level": 25,

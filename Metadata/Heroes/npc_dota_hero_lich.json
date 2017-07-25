@@ -36,7 +36,7 @@
     {
       "name": "Frost Blast",
       "image": "https://dotabuff.com//assets/skills/lich-frost-blast-5134-4de6bf4effe9acc97deb113b11056baedd93a42395070c698269b1ef67bc957e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lich/abilities",
       "description": "Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for 4 seconds.  The primary target takes the most damage.",
       "effects": [
         {
@@ -113,7 +113,7 @@
     {
       "name": "Ice Armor",
       "image": "https://dotabuff.com//assets/skills/lich-ice-armor-5135-aeca2aa8f30230aeb002ab255ab9012b3541d4902295a56d14916806c77a1fa8.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lich/abilities",
       "description": "Creates a shield around the target friendly unit or building, which adds armor and slows attacking units. Lasts 40 seconds.",
       "effects": [
         {
@@ -183,7 +183,7 @@
     {
       "name": "Sacrifice",
       "image": "https://dotabuff.com//assets/skills/lich-sacrifice-5136-323131c6c6cc8b7e6bd68aa8f286036e2dd4c2f3e5bac379bc195f2ee1b4c99c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lich/abilities",
       "description": "Sacrifices a friendly creep and converts its current hit points into mana for Lich.",
       "effects": [
         {
@@ -225,7 +225,7 @@
     {
       "name": "Chain Frost",
       "image": "https://dotabuff.com//assets/skills/lich-chain-frost-5137-f2dd0068b3894e4ed36bab0959cc72067f56315b60dd7c1644872ba276851d5b.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/lich/abilities",
       "description": "Releases an orb of frost that bounces between nearby enemy units up to [10, 10, 10] times, slowing and damaging each time it hits.  The first target is mini-stunned.",
       "effects": [
         {
@@ -311,7 +311,9 @@
       ]
     }
   ],
-  "aliases": ["Ethreain"],
+  "aliases": [
+    "Ethreain"
+  ],
   "talents": [
     {
       "level": 25,

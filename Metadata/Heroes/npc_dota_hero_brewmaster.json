@@ -39,7 +39,7 @@
     {
       "name": "Thunder Clap",
       "image": "https://dotabuff.com//assets/skills/brewmaster-thunder-clap-5400-11bcbfc88abd445ee08347da06b2eabf4a821a00fc0b2c5ba7e2dfe1f0e904e0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/brewmaster/abilities",
       "description": "Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.",
       "effects": [
         {
@@ -121,7 +121,7 @@
     {
       "name": "Drunken Haze",
       "image": "https://dotabuff.com//assets/skills/brewmaster-drunken-haze-5401-be9a8f714ab3b533b93ee100227646ff14bcbce1aefd2022897499958d3d887f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/brewmaster/abilities",
       "description": "Drenches a target in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.",
       "effects": [
         {
@@ -179,7 +179,7 @@
     {
       "name": "Drunken Brawler",
       "image": "https://dotabuff.com//assets/skills/brewmaster-drunken-brawler-5402-7c9d5451088d2ba6cf7b105efbe36c2d19d291befdae56baf29b2d2a8bd789a0.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/brewmaster/abilities",
       "description": "Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.",
       "effects": [
         {
@@ -228,7 +228,7 @@
     {
       "name": "Primal Split",
       "image": "https://dotabuff.com//assets/skills/brewmaster-primal-split-5403-e0e4fda994844f3db646e66a9ec5bc86535ac9de7cb15cd8187d2b3e21645af6.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/brewmaster/abilities",
       "description": "Splits Brewmaster into elements, forming 3 specialized warriors, adept at survival. If any of them survive until the end of their summoned timer, the Brewmaster is reborn.",
       "effects": [
         {
@@ -264,7 +264,10 @@
       ]
     }
   ],
-  "aliases": ["brew", "panda"],
+  "aliases": [
+    "brew",
+    "panda"
+  ],
   "talents": [
     {
       "level": 25,

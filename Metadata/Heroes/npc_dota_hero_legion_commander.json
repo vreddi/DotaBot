@@ -39,7 +39,7 @@
     {
       "name": "Overwhelming Odds",
       "image": "https://dotabuff.com//assets/skills/legion-commander-overwhelming-odds-5595-d6f5406933031c0e680774e3cd32aadca9d56cd6faf584ce997805369fccdd41.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/legion-commander/abilities",
       "description": "Turns the enemies' numbers against them, dealing damage and granting you bonus movement speed per unit or per hero.  Deals bonus damage to illusions and summoned units as a percent of their current health.",
       "effects": [
         {
@@ -133,7 +133,7 @@
     {
       "name": "Press The Attack",
       "image": "https://dotabuff.com//assets/skills/legion-commander-press-the-attack-5596-a3767ecb9addb952759b9b174d9bc7db461cc5ffb9c6fcbc76faa9191ba60c0f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/legion-commander/abilities",
       "description": "Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time.",
       "effects": [
         {
@@ -194,7 +194,7 @@
     {
       "name": "Moment of Courage",
       "image": "https://dotabuff.com//assets/skills/legion-commander-moment-of-courage-5597-404e350cd31d85e278f645d9ce69d895182082d0e525db911b093dc4a588a4e5.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/legion-commander/abilities",
       "description": "When attacked, Legion Commander has a chance to immediately counterattack with bonus lifesteal.",
       "effects": [
         {
@@ -230,7 +230,7 @@
     {
       "name": "Duel",
       "image": "https://dotabuff.com//assets/skills/legion-commander-duel-5598-eb5e770951d387e839f5fd2291925d3e771880f6c580d38f721c9c933034bdfe.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/legion-commander/abilities",
       "description": "Legion Commander and the target enemy hero are forced to attack each other for a short duration.  Neither hero can use items or abilities.  If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage.",
       "effects": [
         {
@@ -286,7 +286,9 @@
       ]
     }
   ],
-  "aliases": ["lc"],
+  "aliases": [
+    "lc"
+  ],
   "talents": [
     {
       "level": 25,

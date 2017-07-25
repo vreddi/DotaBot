@@ -38,7 +38,7 @@
     {
       "name": "Berserker&#39;s Call",
       "image": "https://dotabuff.com//assets/skills/axe-berserkers-call-5007-7a2a49cee8958130a6d808f555f799602b0bda0a6bfe9a99d3f758f38db4d7b4.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/axe/abilities",
       "description": "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.",
       "effects": [
         {
@@ -95,7 +95,7 @@
     {
       "name": "Battle Hunger",
       "image": "https://dotabuff.com//assets/skills/axe-battle-hunger-5008-ee628cf379462a374e03fa8fea04b065e97aaf0fe241629a266a102041106267.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/axe/abilities",
       "description": "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger.",
       "effects": [
         {
@@ -169,7 +169,7 @@
     {
       "name": "Counter Helix",
       "image": "https://dotabuff.com//assets/skills/axe-counter-helix-5009-2df53f065ea0a4388da6d03a2c1716deee1a37f464da75c62d7226aea444580c.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/axe/abilities",
       "description": "When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies.",
       "effects": [
         {
@@ -219,7 +219,7 @@
     {
       "name": "Culling Blade",
       "image": "https://dotabuff.com//assets/skills/axe-culling-blade-5010-7334574abc38980c3f2df4040f384572361c4fd4d8c136c766a4c76c49624aee.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/axe/abilities",
       "description": "Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed.",
       "effects": [
         {
@@ -299,7 +299,12 @@
       ]
     }
   ],
-  "aliases": ["mogul", "khan", "mogul khan", "axe"],
+  "aliases": [
+    "mogul",
+    "khan",
+    "mogul khan",
+    "axe"
+  ],
   "talents": [
     {
       "level": 25,

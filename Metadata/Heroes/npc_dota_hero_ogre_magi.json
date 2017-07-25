@@ -39,7 +39,7 @@
     {
       "name": "Fireblast",
       "image": "https://dotabuff.com//assets/skills/ogre-magi-fireblast-5438-d3e7ed629d00e44e83b48d3656e8dc732a09c3a8ea5f84a3b3a375d4f5a97490.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ogre-magi/abilities",
       "description": "Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.",
       "effects": [
         {
@@ -95,7 +95,7 @@
     {
       "name": "Ignite",
       "image": "https://dotabuff.com//assets/skills/ogre-magi-ignite-5439-94eff2f1c3064019ed6c9bb774cdec1e02962b337f441814542997055f7b255a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ogre-magi/abilities",
       "description": "Drenches a target in volatile chemicals, causing it to burst into flames. The target is in immense pain, taking damage and moving more slowly.",
       "effects": [
         {
@@ -160,7 +160,7 @@
     {
       "name": "Bloodlust",
       "image": "https://dotabuff.com//assets/skills/ogre-magi-bloodlust-5440-6089150e1b3ff7236edf0cce43d01f786be068eb31be96ad6c5b864c1a1cf108.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ogre-magi/abilities",
       "description": "Incites a frenzy in a friendly unit, increasing its movement speed and attack speed. Can be cast on towers.",
       "effects": [
         {
@@ -218,7 +218,7 @@
     {
       "name": "Multicast",
       "image": "https://dotabuff.com//assets/skills/ogre-magi-multicast-5441-8d28b780133c9252629d1610112285db25606fb6b5037bb095bbb3beff158662.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/ogre-magi/abilities",
       "description": "Enables Ogre Magi to cast his spells multiple times with each use, while also granting his spells greater potency:",
       "effects": [
         {
@@ -302,7 +302,9 @@
       "manaCost": []
     }
   ],
-  "aliases": ["ogre"],
+  "aliases": [
+    "ogre"
+  ],
   "talents": [
     {
       "level": 25,

@@ -39,7 +39,7 @@
     {
       "name": "Grave Chill",
       "image": "https://dotabuff.com//assets/skills/visage-grave-chill-5480-5aa2a88da7a6a16949bc3ab32d50c51d8ac315bd91435b933298e210a33c4121.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/visage/abilities",
       "description": "Visage drains the movement and attack speed of the targeted unit, gaining it for itself.",
       "effects": [
         {
@@ -97,7 +97,7 @@
     {
       "name": "Soul Assumption",
       "image": "https://dotabuff.com//assets/skills/visage-soul-assumption-5481-0c622dc78ef8e1648239f7136ed7abdf4a92970a7b42b89e526b090aac94cb99.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/visage/abilities",
       "description": "Visage gathers charges of soul essence each time nearby heroes take more than 110 damage. When the essence is released, it deals base damage as well as damage for each gathered soul charge.",
       "effects": [
         {
@@ -177,7 +177,7 @@
     {
       "name": "Gravekeeper&#39;s Cloak",
       "image": "https://dotabuff.com//assets/skills/visage-gravekeepers-cloak-5482-efa31230959a4d16219664b99cd8743d96e1d328bbbd28bfa9cea064ddb59300.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/visage/abilities",
       "description": "Visage generates a layered barrier that protects him from damage.  If he receives damage from a player, one layer is removed, and takes time to recover.",
       "effects": [
         {
@@ -223,7 +223,7 @@
     {
       "name": "Summon Familiars",
       "image": "https://dotabuff.com//assets/skills/visage-summon-familiars-5483-ba03960e51a45b7831fc14750d41b901839c7e3edc90296893dd6fc20b63f366.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/visage/abilities",
       "description": "Conjures two blind Familiars to fight for Visage.  Familiars have high attack power, but each attack drains a charge of damage that recharges slowly over time.  Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing.  While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health.  Familiars grant high bounty when killed.",
       "effects": [
         {
@@ -275,7 +275,10 @@
       ]
     }
   ],
-  "aliases": ["visage", "versace"],
+  "aliases": [
+    "visage",
+    "versace"
+  ],
   "talents": [
     {
       "level": 25,

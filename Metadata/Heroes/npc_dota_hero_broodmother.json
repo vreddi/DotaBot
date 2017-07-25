@@ -38,7 +38,7 @@
     {
       "name": "Spawn Spiderlings",
       "image": "https://dotabuff.com//assets/skills/broodmother-spawn-spiderlings-5279-99951d291eb5f327e838c5b58fd13903d9870d2148282a868b73f6f146b9adbc.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/broodmother/abilities",
       "description": "Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence.",
       "effects": [
         {
@@ -100,7 +100,7 @@
     {
       "name": "Spin Web",
       "image": "https://dotabuff.com//assets/skills/broodmother-spin-web-5280-81c10972220aade41195cf676781b7e853e8d49638c7009475a024f7e3ae7436.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/broodmother/abilities",
       "description": "Spins a large web that renders Broodmother invisible, grants a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every 40.0 seconds. If damage is taken, free movement is disabled and the movement speed increase is halved for 6.0 seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears.",
       "effects": [
         {
@@ -168,7 +168,7 @@
     {
       "name": "Incapacitating Bite",
       "image": "https://dotabuff.com//assets/skills/broodmother-incapacitating-bite-5281-a6b1b960114f2b420e2d85e6820639da0fe7650792a54c13bbd50ea8f12dfd5e.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/broodmother/abilities",
       "description": "Broodmother's venom cripples enemy units, causing her attacks to slow and giving the affected unit a chance to miss its attacks.",
       "effects": [
         {
@@ -208,7 +208,7 @@
     {
       "name": "Insatiable Hunger",
       "image": "https://dotabuff.com//assets/skills/broodmother-insatiable-hunger-5282-151b26f25ad1df8a81497c340f9bffef1a784151727709c649c597dfaf9866b3.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/broodmother/abilities",
       "description": "A violent lust for vital fluids increases Broodmother's attack damage and gives her a vampiric attack.",
       "effects": [
         {
@@ -254,7 +254,9 @@
       ]
     }
   ],
-  "aliases": ["brood"],
+  "aliases": [
+    "brood"
+  ],
   "talents": [
     {
       "level": 25,

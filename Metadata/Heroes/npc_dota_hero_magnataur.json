@@ -38,7 +38,7 @@
     {
       "name": "Shockwave",
       "image": "https://dotabuff.com//assets/skills/magnus-shockwave-5518-3664285feb9da949f28286aecfaa9511d2b4f35878f82ad6584603152f585974.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/magnus/abilities",
       "description": "Magnus sends out a wave of force, damaging enemy units in a line.",
       "effects": [
         {
@@ -100,7 +100,7 @@
     {
       "name": "Empower",
       "image": "https://dotabuff.com//assets/skills/magnus-empower-5519-90d000d905d59d2d73e877ed339101f03dc318fa27a4c3af26401161f25a4873.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/magnus/abilities",
       "description": "Gives an allied unit bonus damage and cleave on attack.",
       "effects": [
         {
@@ -161,7 +161,7 @@
     {
       "name": "Skewer",
       "image": "https://dotabuff.com//assets/skills/magnus-skewer-5520-2e68e433cc2b73018e78411227c396025d2065b6a1deffd0232e87c7019260a2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/magnus/abilities",
       "description": "Magnus rushes forward, goring enemy units on his massive tusk.  Heroes hit on the way will be dragged to the destination, then damaged and slowed.",
       "effects": [
         {
@@ -237,7 +237,7 @@
     {
       "name": "Reverse Polarity",
       "image": "https://dotabuff.com//assets/skills/magnus-reverse-polarity-5521-2a533d4339bd7bf3c50a743278c9d096a7cb1258f9afe5d6e458db7cb89db301.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/magnus/abilities",
       "description": "Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage.",
       "effects": [
         {
@@ -293,7 +293,11 @@
       ]
     }
   ],
-  "aliases": ["magnataur", "mag", "magnus"],
+  "aliases": [
+    "magnataur",
+    "mag",
+    "magnus"
+  ],
   "talents": [
     {
       "level": 25,

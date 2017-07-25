@@ -38,7 +38,7 @@
     {
       "name": "Sticky Napalm",
       "image": "https://dotabuff.com//assets/skills/batrider-sticky-napalm-5320-2df62c7ce27daae5bd2d2d1f15ad8349f459bb8286c44e2ec86aa1a0e570d879.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/batrider/abilities",
       "description": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks.  The extra damage is halved against creeps.",
       "effects": [
         {
@@ -104,7 +104,7 @@
     {
       "name": "Flamebreak",
       "image": "https://dotabuff.com//assets/skills/batrider-flamebreak-5321-66d41a3ca12d8357f1e52c4e229b39fb4b55f4c08a009240a0865748ad5399a9.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/batrider/abilities",
       "description": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area.",
       "effects": [
         {
@@ -174,7 +174,7 @@
     {
       "name": "Firefly",
       "image": "https://dotabuff.com//assets/skills/batrider-firefly-5322-7402635f91ef0d50f02ca66c0cd70f068ade91b4c3703c54b96f91b47eee74fa.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/batrider/abilities",
       "description": "Batrider takes to the skies, laying down a trail of flames from the air.  The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision.",
       "effects": [
         {
@@ -229,7 +229,7 @@
     {
       "name": "Flaming Lasso",
       "image": "https://dotabuff.com//assets/skills/batrider-flaming-lasso-5323-c203aa772f215464dfb2fd8b8540156290d32e22b066a2f9167f4c6d3a21ee6a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/batrider/abilities",
       "description": "Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.",
       "effects": [
         {
@@ -283,7 +283,9 @@
       ]
     }
   ],
-  "aliases": ["bat"],
+  "aliases": [
+    "bat"
+  ],
   "talents": [
     {
       "level": 25,

@@ -39,7 +39,7 @@
     {
       "name": "Void",
       "image": "https://dotabuff.com//assets/skills/night-stalker-void-5275-ab1ad4bc52f22771a2e218f4114da1c4a7d517587fbe6ec1d76d2282ef25e81d.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/night-stalker/abilities",
       "description": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night.",
       "effects": [
         {
@@ -116,7 +116,7 @@
     {
       "name": "Crippling Fear",
       "image": "https://dotabuff.com//assets/skills/night-stalker-crippling-fear-5276-eb930d4435bf63f85ce271fda92e891d564f587c2c356351a8023941e94685d7.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/night-stalker/abilities",
       "description": "Night Stalker horrifies the target enemy Hero, causing it to miss attacks and become silenced.  The effect lasts longer at night.",
       "effects": [
         {
@@ -177,7 +177,7 @@
     {
       "name": "Hunter in the Night",
       "image": "https://dotabuff.com//assets/skills/night-stalker-hunter-in-the-night-5277-546823a7caed13f2e8d0422956f6785c3a47e27e5f2c14ddae423ce84805a9c2.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/night-stalker/abilities",
       "description": "Night Stalker is in his element at night, attacking and moving with great swiftness. Can be activated during night to grant Night Stalker flying movement for 2.0 seconds.",
       "effects": [
         {
@@ -218,7 +218,7 @@
     {
       "name": "Darkness",
       "image": "https://dotabuff.com//assets/skills/night-stalker-darkness-5278-88b0b4f47c07ba1e40d488009b9422990cc2b51ac0091d84b0de657b7f04835f.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/night-stalker/abilities",
       "description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units, wards and buildings have their vision range reduced to 675. ",
       "effects": [
         {
@@ -256,7 +256,10 @@
       ]
     }
   ],
-  "aliases": ["Balanar", "night stalker"],
+  "aliases": [
+    "Balanar",
+    "night stalker"
+  ],
   "talents": [
     {
       "level": 25,

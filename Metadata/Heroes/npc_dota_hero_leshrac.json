@@ -39,7 +39,7 @@
     {
       "name": "Split Earth",
       "image": "https://dotabuff.com//assets/skills/leshrac-split-earth-5241-765d6201975eabd877318d8bbf9c81b968d0c979f59c4d59973c5a6a66ac4143.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/leshrac/abilities",
       "description": "Splits the earth under enemies. Deals damage and stuns for a short duration.",
       "effects": [
         {
@@ -110,7 +110,7 @@
     {
       "name": "Diabolic Edict",
       "image": "https://dotabuff.com//assets/skills/leshrac-diabolic-edict-5242-2a4656cfd393e74a0f1dfbc88220d631b439425f8ff69c887e084528b35d9500.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/leshrac/abilities",
       "description": "Saturates the area around Leshrac with magical explosions that deal physical damage to enemy units and structures.  The fewer units available to attack, the more damage those units will take.  Deals 40% more damage to towers.  Lasts 10 seconds.",
       "effects": [
         {
@@ -172,7 +172,7 @@
     {
       "name": "Lightning Storm",
       "image": "https://dotabuff.com//assets/skills/leshrac-lightning-storm-5243-eba50de5587e302b18fb4f5314d126ac85ab68c84ed56d357da8dd4c9c70492a.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/leshrac/abilities",
       "description": "Summons a lightning storm that blasts the target enemy unit, then strikes any nearby enemy units. Struck enemies are slowed.",
       "effects": [
         {
@@ -264,7 +264,7 @@
     {
       "name": "Pulse Nova",
       "image": "https://dotabuff.com//assets/skills/leshrac-pulse-nova-5244-0c299fe1e73a04498a836eab50b4bff0ec35fb93f2dec5550b90106712931552.jpg",
-      "link": null,
+      "link": "https://dotabuff.com//heroes/leshrac/abilities",
       "description": "Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units.",
       "effects": [
         {
@@ -324,7 +324,9 @@
       ]
     }
   ],
-  "aliases": ["lesh"],
+  "aliases": [
+    "lesh"
+  ],
   "talents": [
     {
       "level": 25,

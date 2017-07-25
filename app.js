@@ -1,14 +1,14 @@
 const dotenv = require('dotenv');
 const restify = require('restify');
 const builder = require('botbuilder');
-const MatchResultCard = require('./Cards/MatchResultCard/MatchResultCard');
-const TI7Teams = require('./Metadata/TI7Teams');
-const Utils = require('./Shared/Utils');
+const HeroRepository = require('./Models/HeroRepository');
+const HeroDialog = require('./Dialogs/HeroDialog');
 const ScheduleDialog = require('./Dialogs/ScheduleDialog');
-const Interpreter = require('./Controller/Interpreter');
 
 // Configure environment variables
 dotenv.config();
+
+const heroRepository = new HeroRepository('./Metadata/Heroes');
 
 // Setup Restify Server
 const server = restify.createServer();
@@ -17,51 +17,23 @@ server.listen(process.env.port || process.env.PORT || 3978, () => {
     console.log('%s listening to %s', server.name, server.url);
 });
 
-// Create chat connector for communicating with the Bot Framework Service
 const connector = new builder.ChatConnector({
     appId: process.env.MICROSOFT_APP_ID,
     appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
-// Listen for messages from users
 server.post('/api/messages', connector.listen());
 
-function createHeroCard(hero, session) {
-    return new builder.HeroCard(session)
-        .title(hero.name)
-        .subtitle(hero.primaryAttr + ' Hero')
-        .text("Base Health: " + hero.baseHealth + "\n\nBase Mana: " + hero.baseMana + "\n\nBaseDamage: " + hero.baseDamage)
-        .images([
-            builder.CardImage.create(session, hero.image)
-        ])
-        .buttons([
-            builder.CardAction.openUrl(session, 'https://docs.microsoft.com/bot-framework/', 'Get Started')
-        ]);
-}
-
-// Receive messages from the user and respond by echoing each message back (prefixed with 'You said:')
 const bot = new builder.UniversalBot(connector, (session) => {
-    let query = session.message.text,
-        randomIndex = Utils.randomIntFromInterval(0, TI7Teams.length - 1);
-        team1 = TI7Teams[randomIndex];
-        team2 = TI7Teams[Utils.randomIntFromInterval(0, TI7Teams.length - 1, [randomIndex])];
-        matchResultCard = new MatchResultCard({
-            team1ImageUrl: team1.teamLogo,
-            team2ImageUrl: team2.teamLogo,
-            team1Name: team1.teamName,
-            team2Name: team2.teamName,
-            team1Score: 2,
-            team2Score: 0
-        });
-
-    session.beginDialog('getSchedule');
-    // interpreter.session = session;
-    //
-    // interpreter.queryLuis(query).then(() => {
-    //     interpreter.handleIntent();
-    // }, (error) => {
-    //     throw error;
-    // });
+    //session.send('Welcome to DotABot!');
+    session.send('Sorry, I did not understand \'%s\'. Type \'help\' if you need assistance.', session.message.text);
 });
-let sd = new ScheduleDialog(bot);
-const interpreter = new Interpreter(bot);
+
+const luis_endpoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0',
+      luis_app_id = process.env.LUIS_APP_ID,
+      luis_app_key = process.env.LUIS_SUBSCRIPTION_KEY;
+
+bot.recognizer(new builder.LuisRecognizer(`${luis_endpoint}/apps/${luis_app_id}?subscription-key=${luis_app_key}`));
+
+new HeroDialog(heroRepository).addTo(bot);
+new ScheduleDialog().addTo(bot);

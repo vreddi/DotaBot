@@ -1,78 +1,86 @@
-const builder = require('botbuilder');
-const HeroCard = require('../Cards/HeroCard/HeroCard');
+const builder = require('botbuilder'),
+      HeroCard = require('../Cards/HeroCard/HeroCard');
 
 class HeroDialog {
+    constructor(heroRepository) {
+        this.heroRepository = heroRepository;
+    }
 
-    constructor(bot) {
-        this.bot = bot;
-        this.heroFactory = null;
-        this.data = null;
+    addTo(bot) {
+        const that = this;
 
-        // Set basic get hero dialog
-        this.bot.dialog('getHeroById', [
-            (session) => {
-                builder.Prompts.text(session, "Please provide the HeroID...");
-            },
-            (session, results) => {
-                if(this.heroFactory.heros.length == 0) {
-                    this.heroFactory.getHeros().then(() => {
-                        let heroCard = this.getHeroCard(parseInt(results.response)),
-                            msg = new builder.Message(session).addAttachment(heroCard.cardAttachment);
-                        session.send(msg);
-                        session.endDialog();
-                    }).catch(() => {
-                        session.send('Something went wrong. Try again.');
-                        session.endDialog();
-                    });
+        bot.dialog('getHeroDialog', [
+            function (session, args) {
+                const heroEntities = builder.EntityRecognizer.findAllEntities(args.intent.entities, 'Hero');
+
+                if (heroEntities.length === 0) {
+                    session.send('I don\'t know anything about that hero');
+                    return;
                 }
-                else {
-                    let heroCard = this.getHeroCard(parseInt(results.response)),
-                        msg = new builder.Message(session).addAttachment(heroCard.cardAttachment);
-                    session.send(msg);
-                    session.endDialog();
-                }
-            }
-        ]);
 
-        this.bot.dialog('getHero', [
-            (session) => {
-                let heroCard = this.getHeroCard(this.data),
-                    msg = new builder.Message(session).addAttachment(heroCard.cardAttachment);
+                if (heroEntities.length > 1) {
+                    session.send('I can only tell you about one hero at a time.');
+                    return;
+                }
+
+                const heroEntity = heroEntities[0];
+
+                const resolutions = heroEntity.resolution.values;
+
+                if (resolutions.length === 0) {
+                    session.send('I was unable to resolve that hero');
+                    return;
+                }
+
+                if (resolutions.length > 1) {
+                    session.send('I\'m not sure what hero you are talking about');
+                    return;
+                }
+
+                const resolution = resolutions[0];
+
+                const hero = that.heroRepository.getByCanonicalName(resolution),
+                      heroCard = that.getHeroCard(hero);
+
+                const msg = new builder.Message(session)
+                    .addAttachment(heroCard.cardAttachment);
+
                 session.send(msg);
                 session.endDialog();
             }
-        ]);
+        ]).triggerAction({
+            matches: 'GetHero' 
+        });
 
-        this.bot.dialog('notSureWhichHero', [
-            (session) => {
-                session.send("Hmmm... I am not really sure which Hero you are reffering to. Give it to me one more time?");
+        bot.dialog('getHeroesByCharacteristicDialog', [
+            function(session, args) {
+                session.send('GetHeroesByCharacteristic ' + JSON.stringify(args));
                 session.endDialog();
             }
-        ]);
+        ]).triggerAction({
+            matches: 'GetHeroesByCharacteristic'
+        });
 
-        // TODO complete this when HeroConfirmationCard is available
-        this.bot.dialog('confirmHero', [
-            (session) => {
-                session.send("Feature Unavailable: Confirm Hero");
+        bot.dialog('confirmHeroDialog', [
+            function(session, args) {
+                // TODO: Resolve hero if the user query returns multiple candidates
                 session.endDialog();
             }
-        ]);
+        ])
     }
 
-    getHeroCard(heroId) {
-        let hero = this.heroFactory.heros[heroId],
-            heroCard = new HeroCard({
-                steamName: hero.steamName,
-                name: hero.name,
-                image: hero.image,
-                attribute: hero.primaryAttr,
-                baseHealth: hero.baseHealth,
-                baseMana: hero.baseMana,
-                attackDamage: hero.baseDamage,
-                movementSpeed: hero.movementSpeed,
+    getHeroCard(hero) {
+            return new HeroCard({
+                steamName: hero.name,
+                name: hero.localized_name,
+                image: hero.img,
+                attribute: hero.primary_attr,
+                baseHealth: hero.base_health,
+                baseMana: hero.base_mana,
+                attackDamage: hero.base_attack_min, // TODO: attack is a range, not a single number
+                movementSpeed: hero.move_speed,
+                skills: hero.skills
             });
-
-        return heroCard;
     }
 }
 

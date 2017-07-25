@@ -3,13 +3,12 @@ const ScheduleCard = require('../Cards/ScheduleCard/ScheduleCard');
 const MatchFactory = require('../Models/MatchFactory');
 
 class ScheduleDialog {
-
-    constructor(bot) {
-        this.bot = bot;
+    constructor() {
         this.matchFactory = new MatchFactory();
-        this.data = null;
+    }
 
-        this.bot.dialog('getSchedule', [
+    addTo(bot) {
+        bot.dialog('getScheduleDialog', [
             (session) => {
                 this.getScheduleCard().then(schedueCard => {
                     let msg = new builder.Message(session).addAttachment(schedueCard.cardAttachment);
@@ -17,7 +16,17 @@ class ScheduleDialog {
                     session.endDialog();
                 });
             }
-        ]);
+        ]).triggerAction({
+            matches: 'GetSchedule'
+        });
+
+        bot.dialog('getResultDialog', [
+            function(session, args) {
+
+            }
+        ]).triggerAction({
+            matches: 'GetResult'
+        });
     }
 
     getScheduleCard() {

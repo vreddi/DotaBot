@@ -7,14 +7,9 @@ class ScheduleCard {
         this.awayTeams = [];
 
         this.cardAttachment = ScheduleCardAttachment;
-        let index = 0;
 
         for(let match of scheduleData) {
 
-            index++;
-            if(index > 5) {
-                return;
-            }
             this.homeTeams.push(match.home);
             this.awayTeams.push(match.away);
 
@@ -29,13 +24,14 @@ class ScheduleCard {
                         "items": [
                             {
                                 "type": "TextBlock",
+                                "weight": "bolder",
                                 "text": match.home.name,
                                 "isSubtle": true
                             },
                             {
                                 "type": "Image",
                                 "size": "small",
-                                "url": "http://wiki.teamliquid.net/commons/images/thumb/0/07/Team_liquid_logo_2017.png/600px-Team_liquid_logo_2017.png"
+                                "url": match.home.image ||"https://image.ibb.co/mMbAFQ/radiant_dota_logo.png"
                             }
                         ]
                     },
@@ -60,6 +56,7 @@ class ScheduleCard {
                         "items": [
                             {
                                 "type": "TextBlock",
+                                "weight": "bolder",
                                 "horizontalAlignment": "right",
                                 "text": match.away.name,
                                 "isSubtle": true
@@ -68,7 +65,7 @@ class ScheduleCard {
                                 "type": "Image",
                                 "horizontalAlignment": "right",
                                 "size": "small",
-                                "url": "https://hydra-media.cursecdn.com/lol.gamepedia.com/thumb/e/ed/Cloud9x.png/300px-Cloud9x.png?version=af26da01f3d1718df00646d5d301606d"
+                                "url": match.away.image || "https://image.ibb.co/fSCT25/dire_dota_logo.png"
                             }
                         ]
                     }
@@ -88,9 +85,8 @@ class ScheduleCard {
                         "items": [
                             {
                                 "type": "TextBlock",
-                                "text": match.datetime.toString(),
-                                "horizontalAlignment": "center",
-                                "weight": "bolder"
+                                "text": (new Date(match.datetime * 1000)).toLocaleString(),
+                                "horizontalAlignment": "center"
                             }
                         ]
                     }

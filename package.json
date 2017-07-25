@@ -20,10 +20,13 @@
   "dependencies": {
     "axios": "^0.16.2",
     "botbuilder": "^3.8.4",
+    "cheerio": "^1.0.0-rc.2",
     "dotenv": "^4.0.0",
     "gosugamers-api": "^0.1.2",
     "microsoft-adaptivecards": "^0.6.0",
     "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
     "restify": "^5.0.0"
   }
 }

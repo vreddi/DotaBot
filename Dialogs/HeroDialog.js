@@ -49,7 +49,7 @@ class HeroDialog {
                 session.endDialog();
             }
         ]).triggerAction({
-            matches: 'GetHero' 
+            matches: 'GetHero'
         });
 
         bot.dialog('getHeroesByCharacteristicDialog', [

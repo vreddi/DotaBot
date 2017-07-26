@@ -17,8 +17,9 @@ class HeroCard {
         this.base_agi = heroData.base_agi;
         this.base_int = heroData.base_int;
         this.roles = heroData.roles;
+        this.talents = heroData.talents;
         
-        this.cardAttachment = HeroCardAttachment;
+        this.cardAttachment = HeroCardAttachment();
 
         // Populate card header content
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][0]['items'][0]['url'] = this.image || "missing.png";
@@ -71,6 +72,54 @@ class HeroCard {
                 });
             });
         }
+
+        heroData.talents.forEach(talent => {
+            this.cardAttachment['content']['body'].push({
+                "type": "ColumnSet",
+                "separation": "none",
+                "columns": [
+                    {
+                        "type": "Column",
+                        "size": 2,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "wrap": true,
+                                "weight": "bolder",
+                                "text": talent.options[0],
+                                "isSubtle": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "size": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "center",
+                                "text": talent.level.toString()
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "size": 2,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "wrap": true,
+                                "weight": "bolder",
+                                "horizontalAlignment": "right",
+                                "text": talent.options[1],
+                                "isSubtle": true
+                            }
+                        ]
+                    }
+                ]
+            });
+        })
+        this.cardAttachment['content']['body'][3]["separation"] = "strong";
     }
 
     getAttributeColor(attribute) {

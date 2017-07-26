@@ -86,7 +86,8 @@ class HeroDialog {
             base_agi: hero.base_agi,
             base_int: hero.base_int,
             skills: hero.skills,
-            roles: hero.roles
+            roles: hero.roles,
+            talents: hero.talents
     });
     }
 }

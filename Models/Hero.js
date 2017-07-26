@@ -26,6 +26,7 @@ class Hero {
         this.agi_gain = data.agi_gain;
         this.int_gain = data.int_gain;
         this.skills = skills.map(function (skillData) { return new Skill(skillData); });
+        this.talents = data.talents;
     }
 }
 

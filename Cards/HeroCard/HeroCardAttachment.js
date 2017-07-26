@@ -1,4 +1,4 @@
-let MatchResultCardAttachment = {
+function HeroCardAttachment() { return {
         contentType: "application/vnd.microsoft.card.adaptive",
         content: {
             "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -29,6 +29,7 @@ let MatchResultCardAttachment = {
                                         {
                                             "type": "TextBlock",
                                             "text": "",
+                                            "weight": "bolder",
                                             "size": "extraLarge",
                                             "wrap": true,
                                             "horizontalAlignment": "center"
@@ -37,6 +38,7 @@ let MatchResultCardAttachment = {
                                         {
                                             "type": "TextBlock",
                                             "separation": "none",
+                                            "weight": "bolder",
                                             "text": "",
                                             "color": "",
                                             "wrap": true,
@@ -124,11 +126,12 @@ let MatchResultCardAttachment = {
                 },
                 {
                     "type": "ColumnSet",
+                    "separation": "strong",
                     "columns": [
                     ]
                 }
             ]
         }
-    };
+    };};
 
-module.exports = MatchResultCardAttachment;
+module.exports = HeroCardAttachment;

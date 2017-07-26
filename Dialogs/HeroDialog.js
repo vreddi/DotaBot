@@ -53,7 +53,7 @@ class HeroDialog {
         });
 
         bot.dialog('getHeroesByCharacteristicDialog', [
-            function(session, args) {
+            function (session, args) {
                 session.send('GetHeroesByCharacteristic ' + JSON.stringify(args));
                 session.endDialog();
             }
@@ -62,7 +62,7 @@ class HeroDialog {
         });
 
         bot.dialog('confirmHeroDialog', [
-            function(session, args) {
+            function (session, args) {
                 // TODO: Resolve hero if the user query returns multiple candidates
                 session.endDialog();
             }
@@ -88,7 +88,7 @@ class HeroDialog {
             skills: hero.skills,
             roles: hero.roles,
             talents: hero.talents
-    });
+        });
     }
 }
 

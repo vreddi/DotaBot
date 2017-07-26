@@ -1,4 +1,5 @@
-function HeroCardAttachment() { return {
+function HeroCardAttachment() {
+    return {
         contentType: "application/vnd.microsoft.card.adaptive",
         content: {
             "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -61,38 +62,38 @@ function HeroCardAttachment() { return {
                 {
                     "type": "ColumnSet",
                     "columns": [{
-                            "type": "Column",
-                            "size": "stretch",
+                        "type": "Column",
+                        "size": "stretch",
+                        "items": [{
+                            "type": "Container",
+                            "separation": "strong",
                             "items": [{
-                                "type": "Container",
-                                "separation": "strong",
-                                "items": [{
-                                    "type": "FactSet",
-                                    "speak": "",
-                                    "facts": [{
-                                            "title": "Base Health:",
-                                            "value": ""
-                                        },
-                                        {
-                                            "title": "Base Mana:",
-                                            "value": ""
-                                        },
-                                        {
-                                            "title": "Attack Damage:",
-                                            "value": ""
-                                        },
-                                        {
-                                            "title": "Movement Speed:",
-                                            "value": ""
-                                        }
-                                    ]
-                                }]
-                            }],
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": null
-                            }
-                        },
+                                "type": "FactSet",
+                                "speak": "",
+                                "facts": [{
+                                    "title": "Base Health:",
+                                    "value": ""
+                                },
+                                    {
+                                        "title": "Base Mana:",
+                                        "value": ""
+                                    },
+                                    {
+                                        "title": "Attack Damage:",
+                                        "value": ""
+                                    },
+                                    {
+                                        "title": "Movement Speed:",
+                                        "value": ""
+                                    }
+                                ]
+                            }]
+                        }],
+                        "selectAction": {
+                            "type": "Action.OpenUrl",
+                            "url": null
+                        }
+                    },
                         {
                             "type": "Column",
                             "size": "stretch",
@@ -103,9 +104,9 @@ function HeroCardAttachment() { return {
                                     "type": "FactSet",
                                     "speak": "",
                                     "facts": [{
-                                            "title": "Str:",
-                                            "value": ""
-                                        },
+                                        "title": "Str:",
+                                        "value": ""
+                                    },
                                         {
                                             "title": "Agi:",
                                             "value": ""
@@ -132,6 +133,7 @@ function HeroCardAttachment() { return {
                 }
             ]
         }
-    };};
+    };
+};
 
 module.exports = HeroCardAttachment;

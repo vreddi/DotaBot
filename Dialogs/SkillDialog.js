@@ -34,8 +34,6 @@ class SkillDialog {
 
                     const resolution = resolutions[0];
 
-                    session.send(resolution);
-
                     const [hero, skill] = that.heroRepository.getBySkillName(resolution);
                     const skillCard = new SkillCard(skill);
 

@@ -5,40 +5,42 @@ let SkillCardAttachment = {
         "type": "AdaptiveCard",
         "body": [{
             "type": "ColumnSet",
+            "size": "13",
             "columns": [{
                 "type": "Column",
                 "items": [{
                     "type": "TextBlock",
                     "text": "",
-                    "color": "attention",
-                    "size": "large",
+                    "color": "warning",
+                    "size": "extraLarge",
                     "speak": "",
                     "wrap": true
                 },
-                    {
-                        "type": "TextBlock",
-                        "text": "",
-                        "speak": "",
-                        "wrap": true
+                {
+                    "type": "TextBlock",
+                    "text": "",
+                    "speak": "",
+                    "wrap": true
+                },
+                {
+                    "type": "FactSet",
+                    "speak": "",
+                    "facts": [{
+                        "title": "Cooldown:",
+                        "value": ""
                     },
-                    {
-                        "type": "FactSet",
-                        "speak": "",
-                        "facts": [{
-                            "title": "Cooldown:",
+                        {
+                            "title": "Mana Cost:",
                             "value": ""
-                        },
-                            {
-                                "title": "Mana Cost:",
-                                "value": ""
-                            }
-                        ]
-                    }
+                        }
+                    ]
+                }
                 ]
             },
                 {
                     "type": "Column",
                     "horizontalAlignment": "right",
+                    "size": "10",
                     "items": [{
                         "type": "Image",
                         "size": "large",

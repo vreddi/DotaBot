@@ -11,8 +11,7 @@ class SkillCard {
         this.stats = skillData.stats;
         this.cooldown = skillData.cooldown;
         this.manaCost = skillData.manaCost;
-        console.log(this.manaCost.join(" / "));
-        console.log(this.cooldown.join(" / "));
+
         this.cardAttachment = SkillCardAttachment;
 
         // Skill description
@@ -40,21 +39,19 @@ class SkillCard {
         // Populate effects and stats
         // Empty items
         this.cardAttachment['content']['body'][1]['items'][0]['facts'] = [];
-        console.log(skillData);
 
         if (skillData.effects) {
             skillData.effects.forEach(effect => {
                 this.cardAttachment['content']['body'][1]['items'][0]['facts'].push(
                     {
-                            "title": effect.key + ": ",
-                            "value": effect.value
+                        "title": effect.key + ": ",
+                        "value": effect.value
                     })
             })
         }
 
         if (skillData.stats) {
             skillData.stats.forEach(statEffect => {
-                console.log(statEffect);
                 this.cardAttachment['content']['body'][1]['items'][0]['facts'].push(
                     {
                         "title": statEffect.label + ": ",

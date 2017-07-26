@@ -16,6 +16,7 @@ class HeroCard {
         this.base_str = heroData.base_str;
         this.base_agi = heroData.base_agi;
         this.base_int = heroData.base_int;
+        this.roles = heroData.roles;
         
         this.cardAttachment = HeroCardAttachment;
 
@@ -24,6 +25,7 @@ class HeroCard {
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][0]['text'] = "**" + this.name + "**";
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][1]['text'] = this.attribute;
         this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][1]['color'] = this.getAttributeColor(this.attribute);
+        this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][2]['text'] = this.roles.join(", ");
 
         // Populate hero details
         this.cardAttachment['content']['body'][1]['columns'][0]['items'][0]['items'][0]['facts'][0]['value'] = this.baseHealth.toString();

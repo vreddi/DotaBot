@@ -70,23 +70,24 @@ class HeroDialog {
     }
 
     getHeroCard(hero) {
-            return new HeroCard({
-                steamName: hero.name,
-                name: hero.localized_name,
-                image: hero.img,
-                attribute: hero.primary_attr,
-                baseHealth: hero.base_health,
-                baseMana: hero.base_mana,
-                attackDamage: hero.base_attack_min + "-" + hero.base_attack_max,
-                movementSpeed: hero.move_speed,
-                str_gain: hero.str_gain,
-                agi_gain: hero.agi_gain,
-                int_gain: hero.int_gain,
-                base_str: hero.base_str,
-                base_agi: hero.base_agi,
-                base_int: hero.base_int,
-                skills: hero.skills
-            });
+        return new HeroCard({
+            steamName: hero.name,
+            name: hero.localized_name,
+            image: hero.img,
+            attribute: hero.primary_attr,
+            baseHealth: hero.base_health,
+            baseMana: hero.base_mana,
+            attackDamage: hero.base_attack_min + "-" + hero.base_attack_max,
+            movementSpeed: hero.move_speed,
+            str_gain: hero.str_gain,
+            agi_gain: hero.agi_gain,
+            int_gain: hero.int_gain,
+            base_str: hero.base_str,
+            base_agi: hero.base_agi,
+            base_int: hero.base_int,
+            skills: hero.skills,
+            roles: hero.roles
+    });
     }
 }
 

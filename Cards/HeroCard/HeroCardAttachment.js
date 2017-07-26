@@ -29,6 +29,7 @@ let MatchResultCardAttachment = {
                                         {
                                             "type": "TextBlock",
                                             "text": "",
+                                            "size": "extraLarge",
                                             "wrap": true,
                                             "horizontalAlignment": "center"
                                         },
@@ -38,6 +39,14 @@ let MatchResultCardAttachment = {
                                             "separation": "none",
                                             "text": "",
                                             "color": "",
+                                            "wrap": true,
+                                            "horizontalAlignment": "center"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "separation": "none",
+                                            "size": "small",
+                                            "text": "",
                                             "wrap": true,
                                             "horizontalAlignment": "center"
                                         }

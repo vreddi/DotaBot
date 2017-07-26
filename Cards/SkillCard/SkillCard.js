@@ -1,30 +1,29 @@
-let HeroCardAttachment = require('./HeroCardAttachment');
+let SkillCardAttachment = require('./SkillCardAttachment');
 
-class HeroCard {
+class SkillCard {
 
-    constructor(heroData) {
-        this.name = heroData.name;
-        this.image = heroData.image;
-        this.attribute = this.getFriendlyHeroAttributeString(heroData.attribute);
-        this.baseHealth = heroData.baseHealth;
-        this.baseMana = heroData.baseMana;
-        this.attackDamage = heroData.attackDamage;
-        this.movementSpeed = heroData.movementSpeed;
+    constructor(skillData) {
+        this.name = skillData.localizedName;
+        this.image = skillData.image;
+        this.description = skillData.description;
+        this.link = skillData.link;
+        this.effects = skillData.effects;
+        this.stats = skillData.stats;
+        this.cooldown = skillData.cooldown;
+        this.manaCost = skillData.manaCost;
 
-        this.cardAttachment = HeroCardAttachment;
+        this.cardAttachment = SkillCardAttachment;
 
-        // Populate card header content
-        this.cardAttachment['content']['body'][0]['items'][0]['columns'][0]['items'][0]['url'] = this.image || "missing.png";
-        this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][0]['text'] = "**" + this.name + "**";
-        this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][1]['text'] = this.attribute;
-        this.cardAttachment['content']['body'][0]['items'][0]['columns'][1]['items'][1]['color'] = this.getAttributeColor(this.attribute);
+        // Skill description
+        this.cardAttachment['content']['body'][0]['columns'][0]['items'][0]['text'] = this.name;
+        this.cardAttachment['content']['body'][0]['columns'][0]['items'][1]['text'] = this.description;
+        this.cardAttachment['content']['body'][0]['columns'][0]['items'][2]['facts'][0]['value'] = this.cooldown;
+        this.cardAttachment['content']['body'][0]['columns'][0]['items'][2]['facts'][0]['value'] = this.manaCost;
 
-        // Populate hero details
-        this.cardAttachment['content']['body'][1]['items'][0]['facts'][0]['value'] = this.baseHealth.toString();
-        this.cardAttachment['content']['body'][1]['items'][0]['facts'][1]['value'] = this.baseMana.toString();
-        this.cardAttachment['content']['body'][1]['items'][0]['facts'][2]['value'] = this.attackDamage.toString();
-        this.cardAttachment['content']['body'][1]['items'][0]['facts'][3]['value'] = this.movementSpeed.toString();
+        // Skill image
+        this.cardAttachment['content']['body'][0]['columns'][1]['items'][0]['url'] = this.link;
 
+        // Todo; more
         // Clear the list
         this.cardAttachment['content']['body'][2]['columns'] = [];
 

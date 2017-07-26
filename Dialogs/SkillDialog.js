@@ -35,14 +35,14 @@ class SkillDialog {
                     session.send(resolution);
 
                     const [hero, skill] = that.heroRepository.getBySkillName(resolution);
-                    //     heroCard = that.getHeroCard(hero);
+                    skillCard = new skillCard(skill);
 
                     session.send(JSON.stringify(skill));
 
-                    // const msg = new builder.Message(session)
-                    //     .addAttachment(heroCard.cardAttachment);
+                     const msg = new builder.Message(session)
+                         .addAttachment(skillCard.cardAttachment);
 
-                    // session.send(msg);
+                     session.send(msg);
                 }
                 session.endDialog();
             }

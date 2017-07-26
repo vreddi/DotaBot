@@ -23,68 +23,31 @@ class SkillCard {
         // Skill image
         this.cardAttachment['content']['body'][0]['columns'][1]['items'][0]['url'] = this.link;
 
-        // Todo; more
-        // Clear the list
-        this.cardAttachment['content']['body'][2]['columns'] = [];
+        // Populate effects and stats
+        // Empty items
+        this.cardAttachment['content']['body'][1]['items'][0]['facets'] = [];
+        this.cardAttachment['content']['body'][1]['items'][1]['facets'] = [];
 
-        // Populate hero skills
-        if(heroData.skills) {
-            heroData.skills.forEach(skill => {
-                this.cardAttachment['content']['body'][2]['columns'].push({
-                    "type": "Column",
-                    "size": "20",
-                    "items": [
+        if (skillData.effects) {
+            skillData.effects.forEach(effect => {
+                this.cardAttachment['content']['body'][1]['items'][0]['facets'].push(
+                    {
+                            "title": effect.key + ": ",
+                            "value": effect.value
+                    })
+            })
+        }
 
-                        {
-                            "type": "Image",
-                            "size": "auto",
-                            "url": skill.image
-                        },
-                        {
-                            "type": "TextBlock",
-                            "horizontalAlignment": "center",
-                            "wrap": true,
-                            "text": skill.localizedName
-                        }
-                    ],
-                    "selectAction": {
-                        "type": "Action.OpenUrl",
-                        "url": skill.link
-                    }
-                });
-            });
+        if (skillData.stats) {
+            skillData.stats.forEach(statEffect => {
+                this.cardAttachment['content']['body'][1]['items'][1]['facets'].push(
+                    {
+                        "title": statEffect.label + ": ",
+                        "value": statEffect.values.join(" / ")
+                    })
+            })
         }
     }
-
-    getAttributeColor(attribute) {
-        switch(attribute) {
-            case "Strength":
-                // Red
-                return "warning";
-
-            case "Agility":
-                // Green
-                return "good";
-
-            case "Intelligence":
-                // Blue
-                return "accent";
-
-            default:
-                return "";
-        }
-    }
-	
-	getFriendlyHeroAttributeString(query) {		
-		let friendlyStrings = {		
-			"agi": "Agility",		
-			"melee": "Melee",		
-			"str": "Strength",		
-			"int": "Intelligence"		
-		}		
-
-		return friendlyStrings[query] === undefined ? query : friendlyStrings[query];		
-	}
 }
 
-module.exports = HeroCard;
+module.exports = SkillCard;

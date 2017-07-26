@@ -51,50 +51,15 @@ let MatchResultCardAttachment = {
                 "type": "Container",
                 "separation": "strong",
                 "items": [
-                    {
-                        "type": "TextBlock",
-                        "text": "",
-                        "separation": "none",
-                        "color": "good",
-                        "speak": "",
-                        "wrap": true
-                    },
-                    {
-                        "type": "TextBlock",
-                        "separation": "none",
-                        "color": "good",
-                        "text": "",
-                        "speak": "",
-                        "wrap": true
-                    },
-                    {
-                        "type": "TextBlock",
-                        "separation": "none",
-                        "color": "good",
-                        "text": "",
-                        "speak": "",
-                        "wrap": true
-                    },
+                   {
+                       "type": "FactSet",
+                       "speak": "",
+                       "facts": []
+                   },
                     {
                         "type": "FactSet",
                         "speak": "",
-                        "facts": [{
-                            "title": "",
-                            "value": ""
-                        },
-                            {
-                                "title": "",
-                                "value": ""
-                            },
-                            {
-                                "title": "",
-                                "value": ""
-                            },
-                            {
-                                "title": "",
-                                "value": ""
-                            }
-                        ]
+                        "facts": []
                     }
                 ]
             }
@@ -102,4 +67,4 @@ let MatchResultCardAttachment = {
     }
 };
 
-module.exports = MatchResultCardAttachment;
+module.exports = SkillCardtCardAttachment;

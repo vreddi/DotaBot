@@ -35,7 +35,7 @@ class SkillDialog {
                     session.send(resolution);
 
                     const [hero, skill] = that.heroRepository.getBySkillName(resolution);
-                    skillCard = new skillCard(skill);
+                    skillCard = new SkillCard(skill);
 
                     session.send(JSON.stringify(skill));
 

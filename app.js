@@ -5,6 +5,7 @@ const HeroRepository = require('./Models/HeroRepository');
 const HeroDialog = require('./Dialogs/HeroDialog');
 const ScheduleDialog = require('./Dialogs/ScheduleDialog');
 const SkillDialog = require('./Dialogs/SkillDialog');
+const UserHelpDialog = require('./Dialogs/UserHelpDialog');
 
 // Configure environment variables
 dotenv.config();
@@ -26,8 +27,14 @@ const connector = new builder.ChatConnector({
 server.post('/api/messages', connector.listen());
 
 const bot = new builder.UniversalBot(connector, (session) => {
-    //session.send('Welcome to DotABot!');
-    session.send('Sorry, I did not understand \'%s\'. Type \'help\' if you need assistance.', session.message.text);
+
+    if(session.message.text.toLowerCase() === "help") {
+        session.beginDialog('getHelp');
+    }
+    else {
+        //session.send('Welcome to DotABot!');
+        session.send('Sorry, I did not understand \'%s\'. Type \'help\' if you need assistance.', session.message.text);
+    }
 });
 
 const luis_endpoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0',
@@ -36,6 +43,7 @@ const luis_endpoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0',
 
 bot.recognizer(new builder.LuisRecognizer(`${luis_endpoint}/apps/${luis_app_id}?subscription-key=${luis_app_key}`));
 
+new UserHelpDialog().addTo(bot);
 new HeroDialog(heroRepository).addTo(bot);
 new SkillDialog(heroRepository).addTo(bot);
 new ScheduleDialog().addTo(bot);

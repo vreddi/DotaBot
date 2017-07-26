@@ -1,4 +1,4 @@
-let MatchResultCardAttachment = {
+let SkillCardAttachment = {
     contentType: "application/vnd.microsoft.card.adaptive",
     content: {
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -67,4 +67,4 @@ let MatchResultCardAttachment = {
     }
 };
 
-module.exports = SkillCardtCardAttachment;
+module.exports = SkillCardAttachment;

@@ -17,20 +17,21 @@ class SkillCard {
         // Skill description
         this.cardAttachment['content']['body'][0]['columns'][0]['items'][0]['text'] = this.name;
         this.cardAttachment['content']['body'][0]['columns'][0]['items'][1]['text'] = this.description;
-        this.cardAttachment['content']['body'][0]['columns'][0]['items'][2]['facts'][0]['value'] = this.cooldown;
-        this.cardAttachment['content']['body'][0]['columns'][0]['items'][2]['facts'][0]['value'] = this.manaCost;
+        this.cardAttachment['content']['body'][0]['columns'][0]['items'][2]['facts'][0]['value'] = this.cooldown.join(" / ");
+        this.cardAttachment['content']['body'][0]['columns'][0]['items'][2]['facts'][0]['value'] = this.manaCost.join(" / ");
 
         // Skill image
-        this.cardAttachment['content']['body'][0]['columns'][1]['items'][0]['url'] = this.link;
+        this.cardAttachment['content']['body'][0]['columns'][1]['items'][0]['url'] = this.image;
 
         // Populate effects and stats
         // Empty items
-        this.cardAttachment['content']['body'][1]['items'][0]['facets'] = [];
-        this.cardAttachment['content']['body'][1]['items'][1]['facets'] = [];
+        this.cardAttachment['content']['body'][1]['items'][0]['facts'] = [];
+        this.cardAttachment['content']['body'][1]['items'][1]['facts'] = [];
+        console.log(skillData);
 
         if (skillData.effects) {
             skillData.effects.forEach(effect => {
-                this.cardAttachment['content']['body'][1]['items'][0]['facets'].push(
+                this.cardAttachment['content']['body'][1]['items'][0]['facts'].push(
                     {
                             "title": effect.key + ": ",
                             "value": effect.value
@@ -40,7 +41,8 @@ class SkillCard {
 
         if (skillData.stats) {
             skillData.stats.forEach(statEffect => {
-                this.cardAttachment['content']['body'][1]['items'][1]['facets'].push(
+                console.log(statEffect);
+                this.cardAttachment['content']['body'][1]['items'][1]['facts'].push(
                     {
                         "title": statEffect.label + ": ",
                         "value": statEffect.values.join(" / ")

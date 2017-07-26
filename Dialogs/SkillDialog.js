@@ -1,4 +1,6 @@
-const builder = require('botbuilder');
+const builder = require('botbuilder'),
+      SkillCard = require('../Cards/SkillCard/SkillCard');
+
 
 class SkillDialog {
     constructor(heroRepository) {
@@ -32,17 +34,13 @@ class SkillDialog {
 
                     const resolution = resolutions[0];
 
-                    session.send(resolution);
-
                     const [hero, skill] = that.heroRepository.getBySkillName(resolution);
-                    //     heroCard = that.getHeroCard(hero);
+                    const skillCard = new SkillCard(skill);
 
-                    session.send(JSON.stringify(skill));
+                    const msg = new builder.Message(session)
+                        .addAttachment(skillCard.cardAttachment);
 
-                    // const msg = new builder.Message(session)
-                    //     .addAttachment(heroCard.cardAttachment);
-
-                    // session.send(msg);
+                    session.send(msg);
                 }
                 session.endDialog();
             }

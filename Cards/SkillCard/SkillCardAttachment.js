@@ -55,12 +55,7 @@ let SkillCardAttachment = {
                        "type": "FactSet",
                        "speak": "",
                        "facts": []
-                   },
-                    {
-                        "type": "FactSet",
-                        "speak": "",
-                        "facts": []
-                    }
+                   }
                 ]
             }
         ]

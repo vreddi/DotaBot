@@ -6,6 +6,7 @@ class HeroRepository {
     constructor(metadataFolderPath) {
         this.heroesByCanonicalName = {};
         this.heroesById = {};
+        this.heroesBySkill = {};
         this.heroes = [];
 
         for (let file of fs.readdirSync(metadataFolderPath)) {
@@ -17,6 +18,13 @@ class HeroRepository {
             this.heroesByCanonicalName[hero.name] = hero;
             this.heroesById[hero.id] = hero;
             this.heroes.push(hero);
+
+            for (var skill of hero.skills) {
+                this.heroesBySkill[skill.name] = [
+                    hero,
+                    skill
+                ];
+            }
         };
     }
 
@@ -38,6 +46,16 @@ class HeroRepository {
         }
 
         return hero;
+    }
+
+    getBySkillName(skillName) {
+        var match = this.heroesBySkill[skillName];
+
+        if (!match) {
+            throw `Unknown skill '${skillName}`;
+        }
+
+        return match;
     }
 
     getAll() {

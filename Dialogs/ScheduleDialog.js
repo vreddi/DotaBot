@@ -12,12 +12,10 @@ class ScheduleDialog {
         this.matchFactory = new MatchFactory();
     }
 
-
     addTo(bot) {
-        session.send("I'm fetching match information. It might take me a few seconds, so thanks for waiting.")
-
-        bot.dialog('getScheduleDialog', [
+       bot.dialog('getScheduleDialog', [
             (session) => {
+                session.send("I'm fetching match information. It might take me a few seconds, so thanks for waiting.");
                 this.getScheduleCard().then(schedueCard => {
                     let msg = new builder.Message(session).addAttachment(schedueCard.cardAttachment);
                     session.send(msg);

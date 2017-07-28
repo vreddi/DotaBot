@@ -12,7 +12,10 @@ class ScheduleDialog {
         this.matchFactory = new MatchFactory();
     }
 
+
     addTo(bot) {
+        session.send("I'm fetching match information. It might take me a few seconds, so thanks for waiting.")
+
         bot.dialog('getScheduleDialog', [
             (session) => {
                 this.getScheduleCard().then(schedueCard => {

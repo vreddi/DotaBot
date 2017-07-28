@@ -28,13 +28,7 @@ server.post('/api/messages', connector.listen());
 
 const bot = new builder.UniversalBot(connector, (session) => {
 
-    if(session.message.text.toLowerCase() === "help") {
-        session.beginDialog('getHelp');
-    }
-    else {
-        //session.send('Welcome to DotABot!');
-        session.send('Sorry, I did not understand \'%s\'. Type \'help\' if you need assistance.', session.message.text);
-    }
+    session.replaceDialog('getHelp');
 });
 
 const luis_endpoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0',

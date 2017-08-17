@@ -1,0 +1,35 @@
+{
+  "popularityRank": 67,
+  "sourceLink": "https://dotabuff.com/items/yasha",
+  "localizedName": "yasha",
+  "name": "Yasha",
+  "lore": "Yasha is regarded as the swiftest weapon ever created.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 1733980,
+  "useRate": 2.507,
+  "winRate": 33.9281,
+  "stats": [
+    {
+      "name": "Agility",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Movement Speed",
+      "value": 8.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1950,
+  "image": null,
+  "aliases": null
+}

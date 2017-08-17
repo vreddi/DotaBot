@@ -1,0 +1,58 @@
+{
+  "popularityRank": 72,
+  "sourceLink": "https://dotabuff.com/items/bloodthorn",
+  "localizedName": "bloodthorn",
+  "name": "Bloodthorn",
+  "lore": "A reviled blade that bites deeper with each wriggle of its victim's final throes.",
+  "descriptions": [
+    {
+      "name": "Soul Rend",
+      "type": 0,
+      "description": " Silences a target for 5.0 seconds. At the end of the silence, an additional 30.0% of all damage taken during the silence will be dealt to the target as magic damage.Range: 900All attacks on the silenced target will have True Strike and 100.0% chance to crit for 140.0% more damage.",
+      "manaCost": 100,
+      "coolDown": [
+        18.0
+      ]
+    },
+    {
+      "name": "Critical Strike",
+      "type": 1,
+      "description": " Grants a 20% chance for attacks to inflict 175% more damage.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1672654,
+  "useRate": 2.4183,
+  "winRate": 64.9616,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 60.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 150.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 7195,
+  "image": null,
+  "aliases": null
+}

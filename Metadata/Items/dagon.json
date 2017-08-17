@@ -1,0 +1,49 @@
+{
+  "popularityRank": 120,
+  "sourceLink": "https://dotabuff.com/items/dagon",
+  "localizedName": "dagon",
+  "name": "Dagon",
+  "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+  "descriptions": [
+    {
+      "name": "Energy Burst",
+      "type": 0,
+      "description": " Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.Damage: 400 / 500 / 600 / 700 / 800Range: 600 / 650 / 700 / 750 / 800Mana Cost: 180.0",
+      "manaCost": 180,
+      "coolDown": [
+        35.0,
+        30.0,
+        25.0,
+        20.0,
+        15.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 407104,
+  "useRate": 0.5886,
+  "winRate": 43.3282,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 13.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "All Attributes",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 9.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2720,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,24 @@
+{
+  "popularityRank": 156,
+  "sourceLink": "https://dotabuff.com/items/tome-of-knowledge",
+  "localizedName": "tome-of-knowledge",
+  "name": "Tome of Knowledge",
+  "lore": "That which raises beast to man and man to god.",
+  "descriptions": [
+    {
+      "name": "Enlighten",
+      "type": 2,
+      "description": "Grants you 500 experience plus 135 per tome consumed by your team.Tomes Used By Team: 0",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 52416,
+  "useRate": 0.0757,
+  "winRate": 43.9846,
+  "stats": [],
+  "cost": 150,
+  "image": null,
+  "aliases": null
+}

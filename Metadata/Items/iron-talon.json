@@ -1,0 +1,40 @@
+{
+  "popularityRank": 86,
+  "sourceLink": "https://dotabuff.com/items/iron-talon",
+  "localizedName": "iron-talon",
+  "name": "Iron Talon",
+  "lore": "A simple but effective weapon devised to quell a great Hellbear uprising.",
+  "descriptions": [
+    {
+      "name": "Chop",
+      "type": 0,
+      "description": "Targets a non-player enemy unit to remove 40% of its current HP.If cast on a tree or ward, instantly destroys it.Unit Range: 350Tree Range: 350Ward Range: 450",
+      "manaCost": 0,
+      "coolDown": [
+        20.0
+      ]
+    },
+    {
+      "name": "Quell",
+      "type": 1,
+      "description": "Increases attack damage against non-hero units by 24 for melee heroes, and 7 for ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1186364,
+  "useRate": 1.7152,
+  "winRate": 35.0176,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 500,
+  "image": null,
+  "aliases": null
+}

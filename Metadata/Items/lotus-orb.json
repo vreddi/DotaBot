@@ -1,0 +1,57 @@
+{
+  "popularityRank": 101,
+  "sourceLink": "https://dotabuff.com/items/lotus-orb",
+  "localizedName": "lotus-orb",
+  "name": "Lotus Orb",
+  "lore": "The jewel at its center still reflects a pale image of its creator.",
+  "descriptions": [
+    {
+      "name": "Echo Shell",
+      "type": 0,
+      "description": "Applies a shield to the target unit for 6.0 seconds which re-casts most targeted spells back to their caster.The shielded unit will still take damage from the spell. Range: 900.0Dispel Type: Basic Dispel",
+      "manaCost": 75,
+      "coolDown": [
+        15.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 788261,
+  "useRate": 1.1396,
+  "winRate": 63.3234,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 125.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Mana",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4000,
+  "image": null,
+  "aliases": null
+}

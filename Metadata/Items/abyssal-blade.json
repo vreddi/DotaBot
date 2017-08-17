@@ -1,0 +1,65 @@
+{
+  "popularityRank": 46,
+  "sourceLink": "https://dotabuff.com/items/abyssal-blade",
+  "localizedName": "abyssal-blade",
+  "name": "Abyssal Blade",
+  "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
+  "descriptions": [
+    {
+      "name": "Overwhelm",
+      "type": 0,
+      "description": " Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity.",
+      "manaCost": 75,
+      "coolDown": [
+        35.0
+      ]
+    },
+    {
+      "name": "Bash",
+      "type": 1,
+      "description": " Grants melee heroes a 25% chance on hit to stun the target for 1.4 seconds and deal 85 bonus damage.  Bash chance for ranged heroes is 10%. ",
+      "manaCost": 0,
+      "coolDown": null
+    },
+    {
+      "name": "Damage Block",
+      "type": 1,
+      "description": "Grants a 50% chance to block 70 damage on melee heroes, and 35 damage on ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2809312,
+  "useRate": 4.0617,
+  "winRate": 70.9049,
+  "stats": [
+    {
+      "name": "Health",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 6400,
+  "image": null,
+  "aliases": null
+}

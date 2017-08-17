@@ -1,0 +1,24 @@
+{
+  "popularityRank": 118,
+  "sourceLink": "https://dotabuff.com/items/clarity",
+  "localizedName": "clarity",
+  "name": "Clarity",
+  "lore": "Clear water that enhances the ability to meditate.",
+  "descriptions": [
+    {
+      "name": "Replenish",
+      "type": 2,
+      "description": " Restores 190 mana to the target unit over 50 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 426431,
+  "useRate": 0.6165,
+  "winRate": 33.2074,
+  "stats": [],
+  "cost": 50,
+  "image": null,
+  "aliases": null
+}

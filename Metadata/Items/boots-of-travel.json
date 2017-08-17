@@ -1,0 +1,33 @@
+{
+  "popularityRank": 97,
+  "sourceLink": "https://dotabuff.com/items/boots-of-travel",
+  "localizedName": "boots-of-travel",
+  "name": "Boots of Travel",
+  "lore": "Winged boots that grant omnipresence.",
+  "descriptions": [
+    {
+      "name": "Teleport",
+      "type": 0,
+      "description": "Teleports you to an allied non-hero unit or structure. Teleporting to a unit is interrupted if the target unit dies.Shares a cooldown with Town Portal Scroll.Flat movement speed bonuses from multiple pairs of boots do not stack.",
+      "manaCost": 75,
+      "coolDown": [
+        45.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 855105,
+  "useRate": 1.2363,
+  "winRate": 71.2346,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 100.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2400,
+  "image": null,
+  "aliases": null
+}

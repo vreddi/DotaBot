@@ -1,0 +1,38 @@
+{
+  "popularityRank": 37,
+  "sourceLink": "https://dotabuff.com/items/monkey-king-bar",
+  "localizedName": "monkey-king-bar",
+  "name": "Monkey King Bar",
+  "lore": "A powerful staff used by a master warrior.",
+  "descriptions": [
+    {
+      "name": "Mini-Bash",
+      "type": 1,
+      "description": "Grants each attack a 35% chance to mini-stun and deal 160 bonus damage.",
+      "manaCost": 0,
+      "coolDown": null
+    },
+    {
+      "name": "True Strike",
+      "type": 1,
+      "description": "Prevents your attacks from missing enemy units.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3063431,
+  "useRate": 4.4291,
+  "winRate": 63.1224,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 66.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5200,
+  "image": null,
+  "aliases": null
+}

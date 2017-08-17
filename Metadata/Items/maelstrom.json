@@ -1,0 +1,37 @@
+{
+  "popularityRank": 29,
+  "sourceLink": "https://dotabuff.com/items/maelstrom",
+  "localizedName": "maelstrom",
+  "name": "Maelstrom",
+  "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
+  "descriptions": [
+    {
+      "name": "Chain Lightning",
+      "type": 1,
+      "description": "Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 120 magical damage to each.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3845460,
+  "useRate": 5.5598,
+  "winRate": 43.7638,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 24.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2800,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,23 @@
+{
+  "popularityRank": 107,
+  "sourceLink": "https://dotabuff.com/items/ring-of-health",
+  "localizedName": "ring-of-health",
+  "name": "Ring of Health",
+  "lore": "A shiny ring found beneath a fat halfling's corpse.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 604341,
+  "useRate": 0.8737,
+  "winRate": 27.4143,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 850,
+  "image": null,
+  "aliases": null
+}

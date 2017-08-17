@@ -1,0 +1,33 @@
+{
+  "popularityRank": 60,
+  "sourceLink": "https://dotabuff.com/items/ghost-scepter",
+  "localizedName": "ghost-scepter",
+  "name": "Ghost Scepter",
+  "lore": "Imbues the wielder with a ghostly presence, allowing them to evade physical damage.",
+  "descriptions": [
+    {
+      "name": "Ghost Form",
+      "type": 0,
+      "description": " You enter ghost form for 4.0 seconds, becoming immune to physical damage, but are unable to attack and -40% more vulnerable to magic damage.",
+      "manaCost": 0,
+      "coolDown": [
+        20.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2035035,
+  "useRate": 2.9422,
+  "winRate": 52.7844,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1500,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,39 @@
+{
+  "popularityRank": 44,
+  "sourceLink": "https://dotabuff.com/items/heart-of-tarrasque",
+  "localizedName": "heart-of-tarrasque",
+  "name": "Heart of Tarrasque",
+  "lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
+  "descriptions": [
+    {
+      "name": "Health Regeneration",
+      "type": 1,
+      "description": "Restores 7.0% of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.",
+      "manaCost": 0,
+      "coolDown": [
+        7.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2815972,
+  "useRate": 4.0713,
+  "winRate": 71.6967,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 40.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Health",
+      "value": 500.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5200,
+  "image": null,
+  "aliases": null
+}

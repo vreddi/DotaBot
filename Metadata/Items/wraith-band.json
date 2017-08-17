@@ -1,0 +1,41 @@
+{
+  "popularityRank": 95,
+  "sourceLink": "https://dotabuff.com/items/wraith-band",
+  "localizedName": "wraith-band",
+  "name": "Wraith Band",
+  "lore": "A circlet with faint whispers echoing about it.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 890284,
+  "useRate": 1.2871,
+  "winRate": 39.6158,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Intelligence",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 485,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,39 @@
+{
+  "popularityRank": 149,
+  "sourceLink": "https://dotabuff.com/items/buckler",
+  "localizedName": "buckler",
+  "name": "Buckler",
+  "lore": "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.",
+  "descriptions": [
+    {
+      "name": "Armor Bonus",
+      "type": 0,
+      "description": " Gives +2 armor to all allied units.  Lasts 25.0 seconds on heroes, 30.0 seconds on units.Radius: 900",
+      "manaCost": 10,
+      "coolDown": [
+        25.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 155675,
+  "useRate": 0.225,
+  "winRate": 28.4959,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "All Attributes",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 800,
+  "image": null,
+  "aliases": null
+}

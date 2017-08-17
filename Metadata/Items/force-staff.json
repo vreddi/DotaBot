@@ -1,0 +1,39 @@
+{
+  "popularityRank": 14,
+  "sourceLink": "https://dotabuff.com/items/force-staff",
+  "localizedName": "force-staff",
+  "name": "Force Staff",
+  "lore": "Allows you to manipulate others, for good or evil.",
+  "descriptions": [
+    {
+      "name": "Force",
+      "type": 0,
+      "description": "Pushes any target unit 600 units in the direction it is facing.Range: 800",
+      "manaCost": 25,
+      "coolDown": [
+        20.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 6984649,
+  "useRate": 10.0985,
+  "winRate": 53.9855,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2250,
+  "image": null,
+  "aliases": null
+}

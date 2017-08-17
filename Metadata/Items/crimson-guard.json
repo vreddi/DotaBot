@@ -1,0 +1,58 @@
+{
+  "popularityRank": 73,
+  "sourceLink": "https://dotabuff.com/items/crimson-guard",
+  "localizedName": "crimson-guard",
+  "name": "Crimson Guard",
+  "lore": "A cuirass originally built to protect against the dreaded Year Beast.",
+  "descriptions": [
+    {
+      "name": "Guard",
+      "type": 0,
+      "description": " For 12 seconds, grant nearby allied heroes and buildings +2 armor, and a 100% chance to block 60 damage from each incoming attack.Units may only be affected by Guard once every 46.0 seconds.Radius: 900",
+      "manaCost": 0,
+      "coolDown": [
+        46.0
+      ]
+    },
+    {
+      "name": "Damage Block",
+      "type": 1,
+      "description": " Grants a 50% chance to block 70 damage on melee heroes, and 35 damage on ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1648928,
+  "useRate": 2.384,
+  "winRate": 58.2096,
+  "stats": [
+    {
+      "name": "Health",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 8.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "All Attributes",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3550,
+  "image": null,
+  "aliases": null
+}

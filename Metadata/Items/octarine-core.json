@@ -1,0 +1,50 @@
+{
+  "popularityRank": 63,
+  "sourceLink": "https://dotabuff.com/items/octarine-core",
+  "localizedName": "octarine-core",
+  "name": "Octarine Core",
+  "lore": "At the core of spellcraft are spectrums only the very gifted can sense.",
+  "descriptions": [
+    {
+      "name": "Cooldown Reduction",
+      "type": 1,
+      "description": "Reduces the cooldown time of all spells and items by 25%.",
+      "manaCost": 0,
+      "coolDown": null
+    },
+    {
+      "name": "Spell Lifesteal",
+      "type": 1,
+      "description": "25.0% of spell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type.  Lifesteal reduced to 5.0% against creeps.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1979081,
+  "useRate": 2.8613,
+  "winRate": 70.9698,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Health",
+      "value": 425.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana",
+      "value": 425.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5900,
+  "image": null,
+  "aliases": null
+}

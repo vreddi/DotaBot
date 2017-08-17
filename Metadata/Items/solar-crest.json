@@ -1,0 +1,45 @@
+{
+  "popularityRank": 76,
+  "sourceLink": "https://dotabuff.com/items/solar-crest",
+  "localizedName": "solar-crest",
+  "name": "Solar Crest",
+  "lore": "A talisman forged to honor the daytime sky.",
+  "descriptions": [
+    {
+      "name": "Shine",
+      "type": 0,
+      "description": "When cast on an ally, grants them 10 armor and 20% evasion. When cast on an enemy, removes 10 of their armor and grants your allies 35% Accuracy on the target. Removes the armor and evasion from the caster when used.  Cannot target magic immune enemies.Range: 1000",
+      "manaCost": 0,
+      "coolDown": [
+        7.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1484845,
+  "useRate": 2.1468,
+  "winRate": 59.686,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 75.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Evasion",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 2625,
+  "image": null,
+  "aliases": null
+}

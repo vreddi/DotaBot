@@ -1,0 +1,26 @@
+{
+  "popularityRank": 49,
+  "sourceLink": "https://dotabuff.com/items/observer-ward",
+  "localizedName": "observer-ward",
+  "name": "Observer Ward",
+  "lore": "A form of half-sentient plant, often cultivated by apprentice wizards.",
+  "descriptions": [
+    {
+      "name": "Plant",
+      "type": 2,
+      "description": "Plants an Observer Ward, an invisible watcher that gives ground vision in a 1600 radius to your team. Lasts 6 minutes.Hold Control to give one Observer Ward to an allied hero.Range: 500",
+      "manaCost": 0,
+      "coolDown": [
+        1.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2717540,
+  "useRate": 3.929,
+  "winRate": 38.1344,
+  "stats": [],
+  "cost": 60,
+  "image": null,
+  "aliases": null
+}

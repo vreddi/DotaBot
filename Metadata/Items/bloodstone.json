@@ -1,0 +1,58 @@
+{
+  "popularityRank": 61,
+  "sourceLink": "https://dotabuff.com/items/bloodstone",
+  "localizedName": "bloodstone",
+  "name": "Bloodstone",
+  "lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
+  "descriptions": [
+    {
+      "name": "Pocket Deny",
+      "type": 0,
+      "description": "Instantly causes you to die.Must ground target to cast.  Cannot self cast.",
+      "manaCost": 0,
+      "coolDown": [
+        300.0
+      ]
+    },
+    {
+      "name": "Bloodpact",
+      "type": 1,
+      "description": "Begins with 12 charges, and gains a charge each time an enemy hero dies within 1600 range. Each charge grants 1 mana regeneration per second, and reduces respawn time by 3 seconds. If the bearer dies, 500 + 30 health per charge is restored to all nearby allies, while the Bloodstone loses a third of its charges. Heal Radius: 1675",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2028673,
+  "useRate": 2.9331,
+  "winRate": 59.1822,
+  "stats": [
+    {
+      "name": "Health",
+      "value": 475.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana",
+      "value": 425.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 9.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 200.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 4850,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,31 @@
+{
+  "popularityRank": 81,
+  "sourceLink": "https://dotabuff.com/items/morbid-mask",
+  "localizedName": "morbid-mask",
+  "name": "Morbid Mask",
+  "lore": "A mask that drains the energy of those caught in its gaze.",
+  "descriptions": [
+    {
+      "name": "Lifesteal",
+      "type": 1,
+      "description": "Heals the attacker for 15% of attack damage dealt. Morbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1330194,
+  "useRate": 1.9232,
+  "winRate": 43.7931,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1100,
+  "image": null,
+  "aliases": null
+}

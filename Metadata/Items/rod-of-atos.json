@@ -1,0 +1,51 @@
+{
+  "popularityRank": 55,
+  "sourceLink": "https://dotabuff.com/items/rod-of-atos",
+  "localizedName": "rod-of-atos",
+  "name": "Rod of Atos",
+  "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
+  "descriptions": [
+    {
+      "name": "Cripple",
+      "type": 0,
+      "description": "Roots the target for 2.0 seconds.Range: 1150",
+      "manaCost": 50,
+      "coolDown": [
+        16.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2278114,
+  "useRate": 3.2937,
+  "winRate": 56.9973,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3080,
+  "image": null,
+  "aliases": null
+}

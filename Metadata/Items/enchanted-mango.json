@@ -1,0 +1,31 @@
+{
+  "popularityRank": 111,
+  "sourceLink": "https://dotabuff.com/items/enchanted-mango",
+  "localizedName": "enchanted-mango",
+  "name": "Enchanted Mango",
+  "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
+  "descriptions": [
+    {
+      "name": "Eat Mango",
+      "type": 2,
+      "description": " Instantly restore 150 mana.Range: 400",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 540591,
+  "useRate": 0.7815,
+  "winRate": 38.9242,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 1.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 100,
+  "image": null,
+  "aliases": null
+}

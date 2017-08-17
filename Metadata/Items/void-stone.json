@@ -1,0 +1,23 @@
+{
+  "popularityRank": 109,
+  "sourceLink": "https://dotabuff.com/items/void-stone",
+  "localizedName": "void-stone",
+  "name": "Void Stone",
+  "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 569924,
+  "useRate": 0.824,
+  "winRate": 33.931,
+  "stats": [
+    {
+      "name": "Mana Regeneration",
+      "value": 100.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 850,
+  "image": null,
+  "aliases": null
+}

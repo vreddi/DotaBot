@@ -1,0 +1,46 @@
+{
+  "popularityRank": 41,
+  "sourceLink": "https://dotabuff.com/items/mjollnir",
+  "localizedName": "mjollnir",
+  "name": "Mjollnir",
+  "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
+  "descriptions": [
+    {
+      "name": "Static Charge",
+      "type": 0,
+      "description": "Places a charged shield on a target unit for 15.0 seconds which has a 20% chance to release a 200 damage shocking bolt at a nearby attacker and 4 additional enemies.Range: 800",
+      "manaCost": 50,
+      "coolDown": [
+        35.0
+      ]
+    },
+    {
+      "name": "Chain Lightning",
+      "type": 1,
+      "description": "Grants a 25 chance on attack to release a bolt of electricity that leaps between 12 targets within a 900 radius, dealing 150 magical damage to each.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2975994,
+  "useRate": 4.3027,
+  "winRate": 63.9731,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 24.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 80.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5700,
+  "image": null,
+  "aliases": null
+}

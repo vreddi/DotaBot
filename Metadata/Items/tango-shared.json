@@ -1,0 +1,26 @@
+{
+  "popularityRank": 155,
+  "sourceLink": "https://dotabuff.com/items/tango-shared",
+  "localizedName": "tango-shared",
+  "name": "Tango (Shared)",
+  "lore": "Om nom nom.",
+  "descriptions": [
+    {
+      "name": "Eat a Tree or Ward",
+      "type": 2,
+      "description": " Consume a target tree or ward to gradually restore 115 health. Heals for double when used on a ward or Ironwood Tree.",
+      "manaCost": 0,
+      "coolDown": [
+        60.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 66991,
+  "useRate": 0.0968,
+  "winRate": 27.1872,
+  "stats": [],
+  "cost": 30,
+  "image": null,
+  "aliases": null
+}

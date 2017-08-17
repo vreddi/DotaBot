@@ -1,0 +1,39 @@
+{
+  "popularityRank": 13,
+  "sourceLink": "https://dotabuff.com/items/tranquil-boots",
+  "localizedName": "tranquil-boots",
+  "name": "Tranquil Boots",
+  "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
+  "descriptions": [
+    {
+      "name": "Break",
+      "type": 1,
+      "description": " Whenever you attack or are attacked, the bonus %bonus_health_health HP regen is lost and the movement speed bonus is reduced to 65 for 13 seconds.Flat movement speed bonuses from multiple pairs of boots do not stack.",
+      "manaCost": 0,
+      "coolDown": [
+        13.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 8166795,
+  "useRate": 11.8077,
+  "winRate": 49.914,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 90.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 14.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 975,
+  "image": null,
+  "aliases": null
+}

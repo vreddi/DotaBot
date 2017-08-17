@@ -1,0 +1,23 @@
+{
+  "popularityRank": 105,
+  "sourceLink": "https://dotabuff.com/items/demon-edge",
+  "localizedName": "demon-edge",
+  "name": "Demon Edge",
+  "lore": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 671830,
+  "useRate": 0.9713,
+  "winRate": 49.7119,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 42.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2200,
+  "image": null,
+  "aliases": null
+}

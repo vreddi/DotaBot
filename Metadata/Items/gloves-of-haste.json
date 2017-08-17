@@ -1,0 +1,23 @@
+{
+  "popularityRank": 119,
+  "sourceLink": "https://dotabuff.com/items/gloves-of-haste",
+  "localizedName": "gloves-of-haste",
+  "name": "Gloves of Haste",
+  "lore": "A pair of magical gloves that seems to render weapons weightless.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 408095,
+  "useRate": 0.59,
+  "winRate": 24.272,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 500,
+  "image": null,
+  "aliases": null
+}

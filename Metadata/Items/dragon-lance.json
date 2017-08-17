@@ -1,0 +1,37 @@
+{
+  "popularityRank": 27,
+  "sourceLink": "https://dotabuff.com/items/dragon-lance",
+  "localizedName": "dragon-lance",
+  "name": "Dragon Lance",
+  "lore": "The forward charge of the wyvern host grants no quarter.",
+  "descriptions": [
+    {
+      "name": "Dragon&#39;s Reach",
+      "type": 1,
+      "description": " Increases attack range of ranged heroes by 140.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 4031394,
+  "useRate": 5.8286,
+  "winRate": 46.8396,
+  "stats": [
+    {
+      "name": "Agility",
+      "value": 12.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 12.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1900,
+  "image": null,
+  "aliases": null
+}

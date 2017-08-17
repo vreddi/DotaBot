@@ -1,0 +1,31 @@
+{
+  "popularityRank": 123,
+  "sourceLink": "https://dotabuff.com/items/headdress",
+  "localizedName": "headdress",
+  "name": "Headdress",
+  "lore": "Creates a soothing aura that restores allies in battle.",
+  "descriptions": [
+    {
+      "name": "Regeneration Aura",
+      "type": 1,
+      "description": "Grants 3 health regeneration to allies.Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 369114,
+  "useRate": 0.5336,
+  "winRate": 31.0394,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 675,
+  "image": null,
+  "aliases": null
+}

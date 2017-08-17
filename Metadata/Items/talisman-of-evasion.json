@@ -1,0 +1,23 @@
+{
+  "popularityRank": 137,
+  "sourceLink": "https://dotabuff.com/items/talisman-of-evasion",
+  "localizedName": "talisman-of-evasion",
+  "name": "Talisman of Evasion",
+  "lore": "A necklace that allows you to anticipate enemy attacks.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 247965,
+  "useRate": 0.3585,
+  "winRate": 53.9378,
+  "stats": [
+    {
+      "name": "Evasion",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1450,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,24 @@
+{
+  "popularityRank": 103,
+  "sourceLink": "https://dotabuff.com/items/aegis-of-the-immortal",
+  "localizedName": "aegis-of-the-immortal",
+  "name": "Aegis of the Immortal",
+  "lore": "The Immortal was said to own a shield that protected him from death itself.",
+  "descriptions": [
+    {
+      "name": "Reincarnation",
+      "type": 1,
+      "description": " Brings you to life with full health and mana 5.0 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage).",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 719092,
+  "useRate": 1.0396,
+  "winRate": 97.897,
+  "stats": [],
+  "cost": 0,
+  "image": null,
+  "aliases": null
+}

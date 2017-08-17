@@ -1,0 +1,23 @@
+{
+  "popularityRank": 117,
+  "sourceLink": "https://dotabuff.com/items/chainmail",
+  "localizedName": "chainmail",
+  "name": "Chainmail",
+  "lore": "A medium weave of metal chains.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 440509,
+  "useRate": 0.6368,
+  "winRate": 23.8912,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 550,
+  "image": null,
+  "aliases": null
+}

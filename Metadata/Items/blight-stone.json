@@ -1,0 +1,24 @@
+{
+  "popularityRank": 79,
+  "sourceLink": "https://dotabuff.com/items/blight-stone",
+  "localizedName": "blight-stone",
+  "name": "Blight Stone",
+  "lore": "An unnerving stone unearthed beneath the Fields of Endless Carnage.",
+  "descriptions": [
+    {
+      "name": "Lesser Corruption",
+      "type": 1,
+      "description": " Your attacks reduce the target's armor by -2 for 8.0 seconds.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1393730,
+  "useRate": 2.015,
+  "winRate": 30.2522,
+  "stats": [],
+  "cost": 300,
+  "image": null,
+  "aliases": null
+}

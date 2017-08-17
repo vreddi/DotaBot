@@ -1,0 +1,23 @@
+{
+  "popularityRank": 133,
+  "sourceLink": "https://dotabuff.com/items/ring-of-protection",
+  "localizedName": "ring-of-protection",
+  "name": "Ring of Protection",
+  "lore": "A glimmering ring that defends its bearer.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 280964,
+  "useRate": 0.4062,
+  "winRate": 35.8565,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 175,
+  "image": null,
+  "aliases": null
+}

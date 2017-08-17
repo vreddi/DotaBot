@@ -1,0 +1,46 @@
+{
+  "popularityRank": 146,
+  "sourceLink": "https://dotabuff.com/items/helm-of-the-dominator",
+  "localizedName": "helm-of-the-dominator",
+  "name": "Helm of the Dominator",
+  "lore": "The powerful headpiece of a dead necromancer.",
+  "descriptions": [
+    {
+      "name": "Dominate",
+      "type": 0,
+      "description": "Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500.Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to %tooltip_bounty gold.Range: 700",
+      "manaCost": 0,
+      "coolDown": [
+        60.0
+      ]
+    },
+    {
+      "name": "Dominator Aura",
+      "type": 1,
+      "description": " Increases nearby allies' attack speed by 10 and health regen by 10.Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 208977,
+  "useRate": 0.3021,
+  "winRate": 56.0999,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2025,
+  "image": null,
+  "aliases": null
+}

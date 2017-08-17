@@ -1,0 +1,57 @@
+{
+  "popularityRank": 21,
+  "sourceLink": "https://dotabuff.com/items/echo-sabre",
+  "localizedName": "echo-sabre",
+  "name": "Echo Sabre",
+  "lore": "A deceptively swift blade imbued with resonant magic.",
+  "descriptions": [
+    {
+      "name": "Echo Strike",
+      "type": 1,
+      "description": " Causes melee attacks to attack twice in quick succession. The double attacks apply a 100% movement slow for 0.7 seconds on each strike.",
+      "manaCost": 0,
+      "coolDown": [
+        5.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 5457953,
+  "useRate": 7.8912,
+  "winRate": 54.9081,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 75.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 2650,
+  "image": null,
+  "aliases": null
+}

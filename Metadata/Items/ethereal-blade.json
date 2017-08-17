@@ -1,0 +1,45 @@
+{
+  "popularityRank": 93,
+  "sourceLink": "https://dotabuff.com/items/ethereal-blade",
+  "localizedName": "ethereal-blade",
+  "name": "Ethereal Blade",
+  "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
+  "descriptions": [
+    {
+      "name": "Ether Blast",
+      "type": 0,
+      "description": "Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and -40% more vulnerable to magic damage.  Lasts for 4.0 seconds on allies and 3.0 seconds on enemies.  Enemy targets are also slowed by -80%, and take 2.0x your primary attribute + 75 as magical damage.Range: 800",
+      "manaCost": 100,
+      "coolDown": [
+        20.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 894384,
+  "useRate": 1.2931,
+  "winRate": 64.4281,
+  "stats": [
+    {
+      "name": "Agility",
+      "value": 40.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4700,
+  "image": null,
+  "aliases": null
+}

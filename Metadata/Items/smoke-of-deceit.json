@@ -1,0 +1,26 @@
+{
+  "popularityRank": 98,
+  "sourceLink": "https://dotabuff.com/items/smoke-of-deceit",
+  "localizedName": "smoke-of-deceit",
+  "name": "Smoke of Deceit",
+  "lore": "The charlatan wizard Myrddin's only true contribution to the arcane arts.",
+  "descriptions": [
+    {
+      "name": "Disguise",
+      "type": 2,
+      "description": " The user and all nearby allied player-controlled units in a 1025 radius gain Deceit and 15% bonus movement speed for 35.0 seconds. Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility. Disguise grants invisibility that is immune to True Sight.",
+      "manaCost": 0,
+      "coolDown": [
+        1.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 843389,
+  "useRate": 1.2193,
+  "winRate": 42.4802,
+  "stats": [],
+  "cost": 50,
+  "image": null,
+  "aliases": null
+}

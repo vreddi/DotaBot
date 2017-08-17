@@ -1,0 +1,41 @@
+{
+  "popularityRank": 40,
+  "sourceLink": "https://dotabuff.com/items/armlet-of-mordiggian",
+  "localizedName": "armlet-of-mordiggian",
+  "name": "Armlet of Mordiggian",
+  "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 2987229,
+  "useRate": 4.319,
+  "winRate": 51.2347,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 9.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 7.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2370,
+  "image": null,
+  "aliases": null
+}

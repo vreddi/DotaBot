@@ -1,0 +1,46 @@
+{
+  "popularityRank": 64,
+  "sourceLink": "https://dotabuff.com/items/shivas-guard",
+  "localizedName": "shivas-guard",
+  "name": "Shiva's Guard",
+  "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
+  "descriptions": [
+    {
+      "name": "Arctic Blast",
+      "type": 0,
+      "description": " Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds.Radius: 900",
+      "manaCost": 100,
+      "coolDown": [
+        30.0
+      ]
+    },
+    {
+      "name": "Freezing Aura",
+      "type": 1,
+      "description": " Reduces the attack speed of all enemies by -45. Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1927758,
+  "useRate": 2.7871,
+  "winRate": 69.7893,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4750,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,44 @@
+{
+  "popularityRank": 9,
+  "sourceLink": "https://dotabuff.com/items/black-king-bar",
+  "localizedName": "black-king-bar",
+  "name": "Black King Bar",
+  "lore": "A powerful staff imbued with the strength of giants.",
+  "descriptions": [
+    {
+      "name": "Avatar",
+      "type": 0,
+      "description": " Grants Spell Immunity and 100% Magic Damage Resistance.  Duration and cooldown decrease with each use. Duration: 10.0 / 9.0 / 8.0 / 7.0 / 6.0 / 5.0 Dispel Type: Basic Dispel",
+      "manaCost": 0,
+      "coolDown": [
+        80.0,
+        75.0,
+        70.0,
+        65.0,
+        60.0,
+        55.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 10170406,
+  "useRate": 14.7046,
+  "winRate": 57.0026,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 24.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3975,
+  "image": null,
+  "aliases": null
+}

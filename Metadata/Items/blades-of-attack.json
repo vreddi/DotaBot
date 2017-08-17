@@ -1,0 +1,23 @@
+{
+  "popularityRank": 148,
+  "sourceLink": "https://dotabuff.com/items/blades-of-attack",
+  "localizedName": "blades-of-attack",
+  "name": "Blades of Attack",
+  "lore": "The damage of these small, concealable blades should not be underestimated.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 181681,
+  "useRate": 0.2626,
+  "winRate": 25.3185,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 9.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 420,
+  "image": null,
+  "aliases": null
+}

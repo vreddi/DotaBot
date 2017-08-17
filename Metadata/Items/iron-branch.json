@@ -1,0 +1,31 @@
+{
+  "popularityRank": 83,
+  "sourceLink": "https://dotabuff.com/items/iron-branch",
+  "localizedName": "iron-branch",
+  "name": "Iron Branch",
+  "lore": "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer.",
+  "descriptions": [
+    {
+      "name": "Plant Tree",
+      "type": 2,
+      "description": " Targets the ground to plant a happy little tree that lasts for 20 seconds.Range: 200",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1317172,
+  "useRate": 1.9043,
+  "winRate": 33.1819,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 1.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 50,
+  "image": null,
+  "aliases": null
+}

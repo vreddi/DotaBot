@@ -1,0 +1,23 @@
+{
+  "popularityRank": 74,
+  "sourceLink": "https://dotabuff.com/items/staff-of-wizardry",
+  "localizedName": "staff-of-wizardry",
+  "name": "Staff of Wizardry",
+  "lore": "A staff of magical powers passed down from the eldest mages.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 1606325,
+  "useRate": 2.3224,
+  "winRate": 27.0224,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1000,
+  "image": null,
+  "aliases": null
+}

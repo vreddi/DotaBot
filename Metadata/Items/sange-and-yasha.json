@@ -1,0 +1,55 @@
+{
+  "popularityRank": 28,
+  "sourceLink": "https://dotabuff.com/items/sange-and-yasha",
+  "localizedName": "sange-and-yasha",
+  "name": "Sange and Yasha",
+  "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
+  "descriptions": [
+    {
+      "name": "Greater Maim",
+      "type": 1,
+      "description": "Each attack has a 40% chance to reduce enemy hero movement speed by -26% and attack speed by -26 when used by a melee hero. Reduces enemy hero movement by -13% and attack speed by -13 when used by a ranged hero. Effect lasts 5.0 seconds.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 4029055,
+  "useRate": 5.8252,
+  "winRate": 60.2366,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Movement Speed",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 3900,
+  "image": null,
+  "aliases": null
+}

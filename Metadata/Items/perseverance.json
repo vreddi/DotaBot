@@ -1,0 +1,35 @@
+{
+  "popularityRank": 78,
+  "sourceLink": "https://dotabuff.com/items/perseverance",
+  "localizedName": "perseverance",
+  "name": "Perseverance",
+  "lore": "A gem that grants heart to the bearer.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 1424933,
+  "useRate": 2.0602,
+  "winRate": 37.8916,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 125.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1700,
+  "image": null,
+  "aliases": null
+}

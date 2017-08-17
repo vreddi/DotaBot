@@ -1,0 +1,23 @@
+{
+  "popularityRank": 140,
+  "sourceLink": "https://dotabuff.com/items/belt-of-strength",
+  "localizedName": "belt-of-strength",
+  "name": "Belt of Strength",
+  "lore": "A valued accessory for improving vitality.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 233609,
+  "useRate": 0.3377,
+  "winRate": 19.3049,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 450,
+  "image": null,
+  "aliases": null
+}

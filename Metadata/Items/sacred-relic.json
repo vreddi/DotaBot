@@ -1,0 +1,23 @@
+{
+  "popularityRank": 150,
+  "sourceLink": "https://dotabuff.com/items/sacred-relic",
+  "localizedName": "sacred-relic",
+  "name": "Sacred Relic",
+  "lore": "An ancient weapon that often turns the tides of war.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 155157,
+  "useRate": 0.2243,
+  "winRate": 56.7779,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 60.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3800,
+  "image": null,
+  "aliases": null
+}

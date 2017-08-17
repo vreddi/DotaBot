@@ -1,0 +1,43 @@
+{
+  "popularityRank": 69,
+  "sourceLink": "https://dotabuff.com/items/eye-of-skadi",
+  "localizedName": "eye-of-skadi",
+  "name": "Eye of Skadi",
+  "lore": "Extremely rare artifact, guarded by the azure dragons.",
+  "descriptions": [
+    {
+      "name": "Cold Attack",
+      "type": 1,
+      "description": " Attacks lower enemy attack speed by -45 and movement speed by -35%. Lasts 5.0 seconds when used by melee heroes, and 2.5 seconds when used by ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1729310,
+  "useRate": 2.5002,
+  "winRate": 71.8041,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Health",
+      "value": 225.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5775,
+  "image": null,
+  "aliases": null
+}

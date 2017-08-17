@@ -1,0 +1,23 @@
+{
+  "popularityRank": 151,
+  "sourceLink": "https://dotabuff.com/items/ring-of-regen",
+  "localizedName": "ring-of-regen",
+  "name": "Ring of Regen",
+  "lore": "This ring is considered a good luck charm among the Gnomes.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 143463,
+  "useRate": 0.2074,
+  "winRate": 25.3772,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 325,
+  "image": null,
+  "aliases": null
+}

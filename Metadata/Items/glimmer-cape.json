@@ -1,0 +1,39 @@
+{
+  "popularityRank": 48,
+  "sourceLink": "https://dotabuff.com/items/glimmer-cape",
+  "localizedName": "glimmer-cape",
+  "name": "Glimmer Cape",
+  "lore": "The stolen cape of a master illusionist.",
+  "descriptions": [
+    {
+      "name": "Glimmer",
+      "type": 0,
+      "description": " After a 0.6 second delay, grants invisibility and 45% magic resistance to you or a target allied unit for 5.0 seconds.Range: 800Can be cast while channelling.",
+      "manaCost": 90,
+      "coolDown": [
+        14.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2794412,
+  "useRate": 4.0402,
+  "winRate": 54.2257,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Magic Resistance",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1850,
+  "image": null,
+  "aliases": null
+}

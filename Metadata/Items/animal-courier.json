@@ -1,0 +1,24 @@
+{
+  "popularityRank": 159,
+  "sourceLink": "https://dotabuff.com/items/animal-courier",
+  "localizedName": "animal-courier",
+  "name": "Animal Courier",
+  "lore": "Losing the courier is punishable by death.",
+  "descriptions": [
+    {
+      "name": "Deploy Courier",
+      "type": 2,
+      "description": " Deploys a creature to carry items to and from your team's base.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 5141,
+  "useRate": 0.0074,
+  "winRate": 21.0853,
+  "stats": [],
+  "cost": 100,
+  "image": null,
+  "aliases": null
+}

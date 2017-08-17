@@ -1,0 +1,46 @@
+{
+  "popularityRank": 70,
+  "sourceLink": "https://dotabuff.com/items/pipe-of-insight",
+  "localizedName": "pipe-of-insight",
+  "name": "Pipe of Insight",
+  "lore": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
+  "descriptions": [
+    {
+      "name": "Barrier",
+      "type": 0,
+      "description": "Gives a shield that blocks 400 spell damage to all nearby allies. Lasts 12 seconds.Radius: 900",
+      "manaCost": 100,
+      "coolDown": [
+        60.0
+      ]
+    },
+    {
+      "name": "Insight Aura",
+      "type": 1,
+      "description": " Gives allied units 4 health regeneration and 10% magic resistance.Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1705843,
+  "useRate": 2.4663,
+  "winRate": 60.682,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 8.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Magic Resistance",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 3200,
+  "image": null,
+  "aliases": null
+}

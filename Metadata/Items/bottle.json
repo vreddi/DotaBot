@@ -1,0 +1,26 @@
+{
+  "popularityRank": 24,
+  "sourceLink": "https://dotabuff.com/items/bottle",
+  "localizedName": "bottle",
+  "name": "Bottle",
+  "lore": "An old bottle that survived the ages, the contents placed inside become enchanted.",
+  "descriptions": [
+    {
+      "name": "Regenerate",
+      "type": 0,
+      "description": "Consumes a charge to restore 90 health and 60 mana over 2.5 seconds.Range: 350Healing stops if attacked by an enemy hero or Roshan.  Bottle can be refilled at your team's fountain. Runes can be stored in the Bottle for later use, and are activated automatically after 2 minutes.",
+      "manaCost": 0,
+      "coolDown": [
+        0.5
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 4850929,
+  "useRate": 7.0135,
+  "winRate": 41.296,
+  "stats": [],
+  "cost": 650,
+  "image": null,
+  "aliases": null
+}

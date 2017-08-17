@@ -1,0 +1,23 @@
+{
+  "popularityRank": 90,
+  "sourceLink": "https://dotabuff.com/items/ultimate-orb",
+  "localizedName": "ultimate-orb",
+  "name": "Ultimate Orb",
+  "lore": "A mystical orb containing the essence of life.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 932581,
+  "useRate": 1.3483,
+  "winRate": 47.3885,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2150,
+  "image": null,
+  "aliases": null
+}

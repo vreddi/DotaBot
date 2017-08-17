@@ -1,0 +1,26 @@
+{
+  "popularityRank": 3,
+  "sourceLink": "https://dotabuff.com/items/town-portal-scroll",
+  "localizedName": "town-portal-scroll",
+  "name": "Town Portal Scroll",
+  "lore": "What a hero truly needs.",
+  "descriptions": [
+    {
+      "name": "Teleport",
+      "type": 2,
+      "description": "After channeling for 3.0 seconds, teleports you to a target friendly building. Double-click to teleport to your team's base fountain.",
+      "manaCost": 75,
+      "coolDown": [
+        80.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 19289660,
+  "useRate": 27.8894,
+  "winRate": 43.4729,
+  "stats": [],
+  "cost": 50,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,31 @@
+{
+  "popularityRank": 59,
+  "sourceLink": "https://dotabuff.com/items/crystalys",
+  "localizedName": "crystalys",
+  "name": "Crystalys",
+  "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+  "descriptions": [
+    {
+      "name": "Critical Strike",
+      "type": 1,
+      "description": "Grants each attack a 20% chance to deal 175% damage. Critical Strike does not work against buildings.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2094682,
+  "useRate": 3.0285,
+  "winRate": 44.7516,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2120,
+  "image": null,
+  "aliases": null
+}

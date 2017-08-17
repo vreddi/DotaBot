@@ -1,0 +1,23 @@
+{
+  "popularityRank": 138,
+  "sourceLink": "https://dotabuff.com/items/energy-booster",
+  "localizedName": "energy-booster",
+  "name": "Energy Booster",
+  "lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 244627,
+  "useRate": 0.3536,
+  "winRate": 49.2553,
+  "stats": [
+    {
+      "name": "Mana",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 900,
+  "image": null,
+  "aliases": null
+}

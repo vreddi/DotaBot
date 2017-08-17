@@ -1,0 +1,46 @@
+{
+  "popularityRank": 102,
+  "sourceLink": "https://dotabuff.com/items/satanic",
+  "localizedName": "satanic",
+  "name": "Satanic",
+  "lore": "Immense power at the cost of your soul.",
+  "descriptions": [
+    {
+      "name": "Unholy Rage",
+      "type": 0,
+      "description": "Increases Lifesteal percentage to 200% for 4.5 seconds. ",
+      "manaCost": 0,
+      "coolDown": [
+        35.0
+      ]
+    },
+    {
+      "name": "Lifesteal",
+      "type": 1,
+      "description": "Heals the attacker for 25% of attack damage dealt. Satanic is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 779902,
+  "useRate": 1.1275,
+  "winRate": 70.336,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5700,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,33 @@
+{
+  "popularityRank": 116,
+  "sourceLink": "https://dotabuff.com/items/shadow-amulet",
+  "localizedName": "shadow-amulet",
+  "name": "Shadow Amulet",
+  "lore": "A small talisman that clouds the senses of one's enemies when held perfectly still.",
+  "descriptions": [
+    {
+      "name": "Fade",
+      "type": 0,
+      "description": "Grants invisibility to you or a target allied hero as long as target unit remains still.  Has a 1.25 second fade time, and breaks instantly upon moving. There is no cooldown when using this item on yourself.",
+      "manaCost": 0,
+      "coolDown": [
+        7.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 447569,
+  "useRate": 0.6471,
+  "winRate": 18.1433,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1300,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,29 @@
+{
+  "popularityRank": 154,
+  "sourceLink": "https://dotabuff.com/items/helm-of-iron-will",
+  "localizedName": "helm-of-iron-will",
+  "name": "Helm of Iron Will",
+  "lore": "The helmet of a legendary warrior who fell in battle.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 76572,
+  "useRate": 0.1107,
+  "winRate": 26.4261,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 900,
+  "image": null,
+  "aliases": null
+}

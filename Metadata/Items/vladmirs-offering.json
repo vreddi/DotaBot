@@ -1,0 +1,31 @@
+{
+  "popularityRank": 31,
+  "sourceLink": "https://dotabuff.com/items/vladmirs-offering",
+  "localizedName": "vladmirs-offering",
+  "name": "Vladmir's Offering",
+  "lore": "An eerie mask that is haunted with the malice of a fallen vampire.",
+  "descriptions": [
+    {
+      "name": "Vladmir&#39;s Aura",
+      "type": 1,
+      "description": "Grants lifesteal (15% for melee heroes, 10% for ranged), 3 health regeneration, 0.8 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3752426,
+  "useRate": 5.4253,
+  "winRate": 55.6298,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2275,
+  "image": null,
+  "aliases": null
+}

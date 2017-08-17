@@ -1,0 +1,41 @@
+{
+  "popularityRank": 124,
+  "sourceLink": "https://dotabuff.com/items/oblivion-staff",
+  "localizedName": "oblivion-staff",
+  "name": "Oblivion Staff",
+  "lore": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 364181,
+  "useRate": 0.5265,
+  "winRate": 24.3129,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 75.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1650,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,51 @@
+{
+  "popularityRank": 87,
+  "sourceLink": "https://dotabuff.com/items/scythe-of-vyse",
+  "localizedName": "scythe-of-vyse",
+  "name": "Scythe of Vyse",
+  "lore": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
+  "descriptions": [
+    {
+      "name": "Hex",
+      "type": 0,
+      "description": "Turns a target unit into a harmless critter for 3.5 seconds. The target has a base movement speed of 140 and will be silenced, muted, and disarmed.Instantly destroys illusions.Range: 800",
+      "manaCost": 100,
+      "coolDown": [
+        22.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1135430,
+  "useRate": 1.6416,
+  "winRate": 63.8958,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Intelligence",
+      "value": 35.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 150.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 5700,
+  "image": null,
+  "aliases": null
+}

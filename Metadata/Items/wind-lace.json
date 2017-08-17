@@ -1,0 +1,23 @@
+{
+  "popularityRank": 50,
+  "sourceLink": "https://dotabuff.com/items/wind-lace",
+  "localizedName": "wind-lace",
+  "name": "Wind Lace",
+  "lore": "Hasten to battle on wind-touched heels",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 2665045,
+  "useRate": 3.8531,
+  "winRate": 42.9901,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 250,
+  "image": null,
+  "aliases": null
+}

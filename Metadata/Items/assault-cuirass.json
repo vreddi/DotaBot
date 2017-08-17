@@ -1,0 +1,37 @@
+{
+  "popularityRank": 54,
+  "sourceLink": "https://dotabuff.com/items/assault-cuirass",
+  "localizedName": "assault-cuirass",
+  "name": "Assault Cuirass",
+  "lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
+  "descriptions": [
+    {
+      "name": "Assault Aura",
+      "type": 1,
+      "description": " Grants 25 attack speed and 5 armor to nearby allied units and structures, and decreases nearby enemy unit and structure armor by -5.Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2338592,
+  "useRate": 3.3811,
+  "winRate": 72.289,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5250,
+  "image": null,
+  "aliases": null
+}

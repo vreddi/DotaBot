@@ -1,0 +1,49 @@
+{
+  "popularityRank": 57,
+  "sourceLink": "https://dotabuff.com/items/observer-and-sentry-wards",
+  "localizedName": "observer-and-sentry-wards",
+  "name": "Observer and Sentry Wards",
+  "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
+  "descriptions": [
+    {
+      "name": "Plant",
+      "type": 2,
+      "description": " Plant the currently active ward.  Double-Click to switch the currently active ward.Range: 500",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2142326,
+  "useRate": 3.0974,
+  "winRate": 37.4316,
+  "stats": [
+    {
+      "name": "OBSERVER VISION RANGE:",
+      "value": 1600.0,
+      "statType": 1,
+      "valueType": 0
+    },
+    {
+      "name": "OBSERVER DURATION (MINUTES):",
+      "value": 6.0,
+      "statType": 1,
+      "valueType": 0
+    },
+    {
+      "name": "SENTRY TRUE SIGHT RANGE:",
+      "value": 850.0,
+      "statType": 1,
+      "valueType": 0
+    },
+    {
+      "name": "SENTRY DURATION (MINUTES):",
+      "value": 4.0,
+      "statType": 1,
+      "valueType": 0
+    }
+  ],
+  "cost": 160,
+  "image": null,
+  "aliases": null
+}

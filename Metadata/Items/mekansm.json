@@ -1,0 +1,46 @@
+{
+  "popularityRank": 77,
+  "sourceLink": "https://dotabuff.com/items/mekansm",
+  "localizedName": "mekansm",
+  "name": "Mekansm",
+  "lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
+  "descriptions": [
+    {
+      "name": "Restore",
+      "type": 0,
+      "description": "Heals 250 health and gives +2 armor to allied units in a 900 radius.",
+      "manaCost": 225,
+      "coolDown": [
+        65.0
+      ]
+    },
+    {
+      "name": "Mekansm Aura",
+      "type": 1,
+      "description": "Grants 4 health regeneration to allied units in a 900 radius.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1445231,
+  "useRate": 2.0895,
+  "winRate": 49.8039,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2375,
+  "image": null,
+  "aliases": null
+}

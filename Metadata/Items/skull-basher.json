@@ -1,0 +1,39 @@
+{
+  "popularityRank": 45,
+  "sourceLink": "https://dotabuff.com/items/skull-basher",
+  "localizedName": "skull-basher",
+  "name": "Skull Basher",
+  "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
+  "descriptions": [
+    {
+      "name": "Bash",
+      "type": 1,
+      "description": " Grants melee heroes a 25% chance on hit to stun the target for 1.4 seconds and deal 85 bonus damage.  Bash chance for ranged heroes is 10%.",
+      "manaCost": 0,
+      "coolDown": [
+        2.3
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2815428,
+  "useRate": 4.0706,
+  "winRate": 54.5899,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2700,
+  "image": null,
+  "aliases": null
+}

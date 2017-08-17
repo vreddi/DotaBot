@@ -1,0 +1,31 @@
+{
+  "popularityRank": 34,
+  "sourceLink": "https://dotabuff.com/items/daedalus",
+  "localizedName": "daedalus",
+  "name": "Daedalus",
+  "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
+  "descriptions": [
+    {
+      "name": "Critical Strike",
+      "type": 1,
+      "description": "Grants each attack a 30% chance to deal 135% additional damage.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3245348,
+  "useRate": 4.6921,
+  "winRate": 64.5524,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 80.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5320,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,58 @@
+{
+  "popularityRank": 20,
+  "sourceLink": "https://dotabuff.com/items/linkens-sphere",
+  "localizedName": "linkens-sphere",
+  "name": "Linken's Sphere",
+  "lore": "This magical sphere once protected one of the most famous heroes in history.",
+  "descriptions": [
+    {
+      "name": "Spellblock",
+      "type": 1,
+      "description": "Blocks most targeted spells once every 13.0 seconds.",
+      "manaCost": 0,
+      "coolDown": [
+        13.0
+      ]
+    },
+    {
+      "name": "Transfer Spellblock",
+      "type": 0,
+      "description": "Temporarily removes Spellblock from the item's owner and transfers it to an allied unit for 13.0 seconds.Range: 700",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 5478782,
+  "useRate": 7.9213,
+  "winRate": 61.7751,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 150.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Damage",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4850,
+  "image": null,
+  "aliases": null
+}

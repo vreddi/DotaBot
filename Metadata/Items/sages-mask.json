@@ -1,0 +1,23 @@
+{
+  "popularityRank": 147,
+  "sourceLink": "https://dotabuff.com/items/sages-mask",
+  "localizedName": "sages-mask",
+  "name": "Sage's Mask",
+  "lore": "A mask commonly used by mages and warlocks for various rituals.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 197237,
+  "useRate": 0.2851,
+  "winRate": 29.7601,
+  "stats": [
+    {
+      "name": "Mana Regeneration",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 325,
+  "image": null,
+  "aliases": null
+}

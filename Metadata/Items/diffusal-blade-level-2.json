@@ -1,0 +1,46 @@
+{
+  "popularityRank": 71,
+  "sourceLink": "https://dotabuff.com/items/diffusal-blade-level-2",
+  "localizedName": "diffusal-blade-level-2",
+  "name": "Diffusal Blade (level 2)",
+  "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+  "descriptions": [
+    {
+      "name": "Purge",
+      "type": 0,
+      "description": " Targets an enemy, removing buffs from the target and slowing it for 4.0 seconds.Range: 600",
+      "manaCost": 0,
+      "coolDown": [
+        4.0
+      ]
+    },
+    {
+      "name": "Manabreak",
+      "type": 1,
+      "description": "Each attack burns 50 mana from the target, and deals 0.8 physical damage per burned mana. Burns 16 mana per attack from melee illusions and 8 mana per attack from ranged illusions. Dispel Type: Basic Dispel",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1688247,
+  "useRate": 2.4409,
+  "winRate": 63.0484,
+  "stats": [
+    {
+      "name": "Agility",
+      "value": 35.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Intelligence",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3850,
+  "image": null,
+  "aliases": null
+}

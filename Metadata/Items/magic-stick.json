@@ -1,0 +1,26 @@
+{
+  "popularityRank": 65,
+  "sourceLink": "https://dotabuff.com/items/magic-stick",
+  "localizedName": "magic-stick",
+  "name": "Magic Stick",
+  "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+  "descriptions": [
+    {
+      "name": "Energy Charge",
+      "type": 0,
+      "description": " Instantly restores 15 health and mana per charge stored. Max 10 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability.",
+      "manaCost": 0,
+      "coolDown": [
+        13.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1778607,
+  "useRate": 2.5715,
+  "winRate": 41.6275,
+  "stats": [],
+  "cost": 200,
+  "image": null,
+  "aliases": null
+}

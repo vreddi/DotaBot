@@ -1,0 +1,31 @@
+{
+  "popularityRank": 115,
+  "sourceLink": "https://dotabuff.com/items/javelin",
+  "localizedName": "javelin",
+  "name": "Javelin",
+  "lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack.",
+  "descriptions": [
+    {
+      "name": "Pierce",
+      "type": 1,
+      "description": "Grants each attack a 25% chance to deal 85 bonus damage.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 503588,
+  "useRate": 0.728,
+  "winRate": 28.9931,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1500,
+  "image": null,
+  "aliases": null
+}

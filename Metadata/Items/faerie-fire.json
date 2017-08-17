@@ -1,0 +1,33 @@
+{
+  "popularityRank": 143,
+  "sourceLink": "https://dotabuff.com/items/faerie-fire",
+  "localizedName": "faerie-fire",
+  "name": "Faerie Fire",
+  "lore": "The ethereal flames from the ever-burning ruins of Kindertree ignite across realities.",
+  "descriptions": [
+    {
+      "name": "Imbue",
+      "type": 2,
+      "description": " Instantly restores 75 HP.",
+      "manaCost": 0,
+      "coolDown": [
+        5.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 222662,
+  "useRate": 0.3219,
+  "winRate": 38.235,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 70,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,31 @@
+{
+  "popularityRank": 89,
+  "sourceLink": "https://dotabuff.com/items/ring-of-basilius",
+  "localizedName": "ring-of-basilius",
+  "name": "Ring of Basilius",
+  "lore": "Ring given as a reward to the greatest mages.",
+  "descriptions": [
+    {
+      "name": "Basilius Aura",
+      "type": 1,
+      "description": "Grants 0.65 mana regeneration and 2 armor in a 900 radius.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 995850,
+  "useRate": 1.4398,
+  "winRate": 42.0923,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 7.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 500,
+  "image": null,
+  "aliases": null
+}

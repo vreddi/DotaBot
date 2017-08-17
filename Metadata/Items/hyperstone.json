@@ -1,0 +1,23 @@
+{
+  "popularityRank": 100,
+  "sourceLink": "https://dotabuff.com/items/hyperstone",
+  "localizedName": "hyperstone",
+  "name": "Hyperstone",
+  "lore": "A mystical, carved stone that boosts the fervor of the holder.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 822090,
+  "useRate": 1.1885,
+  "winRate": 60.4661,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 55.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2000,
+  "image": null,
+  "aliases": null
+}

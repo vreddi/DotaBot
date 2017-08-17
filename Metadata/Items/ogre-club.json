@@ -1,0 +1,23 @@
+{
+  "popularityRank": 58,
+  "sourceLink": "https://dotabuff.com/items/ogre-club",
+  "localizedName": "ogre-club",
+  "name": "Ogre Club",
+  "lore": "You grow stronger just by holding it.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 2124571,
+  "useRate": 3.0717,
+  "winRate": 23.0074,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1000,
+  "image": null,
+  "aliases": null
+}

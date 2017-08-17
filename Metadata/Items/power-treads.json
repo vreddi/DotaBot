@@ -1,0 +1,43 @@
+{
+  "popularityRank": 1,
+  "sourceLink": "https://dotabuff.com/items/power-treads",
+  "localizedName": "power-treads",
+  "name": "Power Treads",
+  "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
+  "descriptions": [
+    {
+      "name": "Switch Attribute",
+      "type": 0,
+      "description": "Switches between +10 Strength, +10 Agility, or +10 Intelligence.Flat movement speed bonuses from multiple pairs of boots do not stack.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 21158305,
+  "useRate": 30.5911,
+  "winRate": 48.7515,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 45.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Selected Attribute",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1350,
+  "image": null,
+  "aliases": null
+}

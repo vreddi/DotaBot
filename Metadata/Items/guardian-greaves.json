@@ -1,0 +1,58 @@
+{
+  "popularityRank": 62,
+  "sourceLink": "https://dotabuff.com/items/guardian-greaves",
+  "localizedName": "guardian-greaves",
+  "name": "Guardian Greaves",
+  "lore": "One of many holy instruments constructed to honor the Omniscience.",
+  "descriptions": [
+    {
+      "name": "Mend",
+      "type": 0,
+      "description": "Restores 250 health and 160 mana to nearby allies, and removes most negative effects from the caster.Radius: 900Dispel Type: Basic Dispel",
+      "manaCost": 0,
+      "coolDown": [
+        40.0
+      ]
+    },
+    {
+      "name": "Guardian Aura",
+      "type": 1,
+      "description": " Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 15 health regeneration and 15 armor.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2012903,
+  "useRate": 2.9103,
+  "winRate": 66.5369,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 55.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "All Attributes",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 5.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5375,
+  "image": null,
+  "aliases": null
+}

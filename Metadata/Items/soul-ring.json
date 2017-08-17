@@ -1,0 +1,39 @@
+{
+  "popularityRank": 38,
+  "sourceLink": "https://dotabuff.com/items/soul-ring",
+  "localizedName": "soul-ring",
+  "name": "Soul Ring",
+  "lore": "A ring that feeds on the souls of those who wear it.",
+  "descriptions": [
+    {
+      "name": "Sacrifice",
+      "type": 0,
+      "description": " Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds.If the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool.",
+      "manaCost": 0,
+      "coolDown": [
+        30.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3038318,
+  "useRate": 4.3928,
+  "winRate": 44.9934,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 750,
+  "image": null,
+  "aliases": null
+}

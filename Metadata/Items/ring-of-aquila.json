@@ -1,0 +1,49 @@
+{
+  "popularityRank": 15,
+  "sourceLink": "https://dotabuff.com/items/ring-of-aquila",
+  "localizedName": "ring-of-aquila",
+  "name": "Ring of Aquila",
+  "lore": "The ring of the fallen Warlord Aquila continues to support armies in battle.",
+  "descriptions": [
+    {
+      "name": "Aquila Aura",
+      "type": 1,
+      "description": "Grants 0.65 mana regeneration and 2 armor to nearby allies.Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 6860889,
+  "useRate": 9.9196,
+  "winRate": 48.1601,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 9.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Intelligence",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 985,
+  "image": null,
+  "aliases": null
+}

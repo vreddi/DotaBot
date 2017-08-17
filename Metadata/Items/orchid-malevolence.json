@@ -1,0 +1,51 @@
+{
+  "popularityRank": 66,
+  "sourceLink": "https://dotabuff.com/items/orchid-malevolence",
+  "localizedName": "orchid-malevolence",
+  "name": "Orchid Malevolence",
+  "lore": "A garnet rod constructed from the essence of a fire demon.",
+  "descriptions": [
+    {
+      "name": "Soul Burn",
+      "type": 0,
+      "description": "Silences the target unit for 5.0 seconds. At the end of the silence, 30.0% of the damage received while silenced is inflicted as bonus magical damage.Range: 900",
+      "manaCost": 100,
+      "coolDown": [
+        18.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1757824,
+  "useRate": 2.5415,
+  "winRate": 46.3957,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 150.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 4075,
+  "image": null,
+  "aliases": null
+}

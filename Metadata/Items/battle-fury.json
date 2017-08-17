@@ -1,0 +1,59 @@
+{
+  "popularityRank": 33,
+  "sourceLink": "https://dotabuff.com/items/battle-fury",
+  "localizedName": "battle-fury",
+  "name": "Battle Fury",
+  "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
+  "descriptions": [
+    {
+      "name": "Chop Tree/Ward",
+      "type": 0,
+      "description": " Destroy a target tree or ward.Tree Cast Range: 350Ward Cast Range: 450 ",
+      "manaCost": 0,
+      "coolDown": [
+        4.0
+      ]
+    },
+    {
+      "name": "Quell",
+      "type": 1,
+      "description": " Increases attack damage against non-hero units by 60% for melee heroes, and 25% for ranged. ",
+      "manaCost": 0,
+      "coolDown": null
+    },
+    {
+      "name": "Cleave",
+      "type": 1,
+      "description": " Deals 40% of attack damage in a cone up to 570 around the target. (Melee Only)",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3488878,
+  "useRate": 5.0442,
+  "winRate": 53.5206,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 55.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 150.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 4500,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,26 @@
+{
+  "popularityRank": 82,
+  "sourceLink": "https://dotabuff.com/items/sentry-ward",
+  "localizedName": "sentry-ward",
+  "name": "Sentry Ward",
+  "lore": "A form of plant originally grown in the garden of a fearful king.",
+  "descriptions": [
+    {
+      "name": "Plant",
+      "type": 2,
+      "description": " Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a 850 radius.Duration: 4 minutes.Does not grant ground vision.Hold Control to give one Sentry Ward to an allied hero.Range: 500",
+      "manaCost": 0,
+      "coolDown": [
+        1.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1319258,
+  "useRate": 1.9074,
+  "winRate": 33.5464,
+  "stats": [],
+  "cost": 100,
+  "image": null,
+  "aliases": null
+}

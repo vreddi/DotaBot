@@ -1,0 +1,24 @@
+{
+  "popularityRank": 84,
+  "sourceLink": "https://dotabuff.com/items/tango",
+  "localizedName": "tango",
+  "name": "Tango",
+  "lore": "Forage to survive on the battlefield.",
+  "descriptions": [
+    {
+      "name": "Devour",
+      "type": 2,
+      "description": " Consume a target tree to restore 115 health over 16.0 seconds. Consuming a ward or Ironwood Tree doubles the heal amount.Comes with 4 charges.  Can be used on an allied hero to give them one Tango.Range: 165Ward Range: 450",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1269271,
+  "useRate": 1.8351,
+  "winRate": 28.5511,
+  "stats": [],
+  "cost": 125,
+  "image": null,
+  "aliases": null
+}

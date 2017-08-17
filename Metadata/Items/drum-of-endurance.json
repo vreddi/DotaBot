@@ -1,0 +1,64 @@
+{
+  "popularityRank": 94,
+  "sourceLink": "https://dotabuff.com/items/drum-of-endurance",
+  "localizedName": "drum-of-endurance",
+  "name": "Drum of Endurance",
+  "lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
+  "descriptions": [
+    {
+      "name": "Endurance",
+      "type": 0,
+      "description": " Gives +25 attack speed and +13% movement speed to nearby allies for 6 seconds. Radius: 900",
+      "manaCost": 0,
+      "coolDown": [
+        30.0
+      ]
+    },
+    {
+      "name": "Swiftness Aura",
+      "type": 1,
+      "description": "Gives 20 movement speed to nearby allies. Radius: 900",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 891916,
+  "useRate": 1.2895,
+  "winRate": 53.0944,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1640,
+  "image": null,
+  "aliases": null
+}

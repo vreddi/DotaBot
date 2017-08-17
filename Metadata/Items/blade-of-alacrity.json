@@ -1,0 +1,23 @@
+{
+  "popularityRank": 104,
+  "sourceLink": "https://dotabuff.com/items/blade-of-alacrity",
+  "localizedName": "blade-of-alacrity",
+  "name": "Blade of Alacrity",
+  "lore": "A long blade imbued with time magic.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 672645,
+  "useRate": 0.9725,
+  "winRate": 21.6326,
+  "stats": [
+    {
+      "name": "Agility",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1000,
+  "image": null,
+  "aliases": null
+}

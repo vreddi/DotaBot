@@ -1,0 +1,52 @@
+{
+  "popularityRank": 88,
+  "sourceLink": "https://dotabuff.com/items/heavens-halberd",
+  "localizedName": "heavens-halberd",
+  "name": "Heaven's Halberd",
+  "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
+  "descriptions": [
+    {
+      "name": "Disarm",
+      "type": 0,
+      "description": "Prevents a target from attacking for 3.0 seconds on melee targets, and 5.0 seconds on ranged targets.Range: 600 ",
+      "manaCost": 100,
+      "coolDown": [
+        18.0
+      ]
+    },
+    {
+      "name": "Lesser Maim",
+      "type": 1,
+      "description": "Each attack has a 35% chance to reduce enemy hero movement speed by -20% and attack speed by -20 if the user is melee. Reduces enemy hero movement by -10% and attack speed by -10 if the user is ranged. Effect lasts 5.0 seconds.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1069966,
+  "useRate": 1.5469,
+  "winRate": 57.356,
+  "stats": [
+    {
+      "name": "Evasion",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Damage",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3400,
+  "image": null,
+  "aliases": null
+}

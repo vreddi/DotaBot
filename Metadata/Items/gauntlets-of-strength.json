@@ -1,0 +1,23 @@
+{
+  "popularityRank": 142,
+  "sourceLink": "https://dotabuff.com/items/gauntlets-of-strength",
+  "localizedName": "gauntlets-of-strength",
+  "name": "Gauntlets of Strength",
+  "lore": "Studded leather gloves that add brute strength.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 225016,
+  "useRate": 0.3253,
+  "winRate": 36.2205,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 150,
+  "image": null,
+  "aliases": null
+}

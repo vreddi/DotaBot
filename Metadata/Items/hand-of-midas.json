@@ -1,0 +1,33 @@
+{
+  "popularityRank": 16,
+  "sourceLink": "https://dotabuff.com/items/hand-of-midas",
+  "localizedName": "hand-of-midas",
+  "name": "Hand of Midas",
+  "lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
+  "descriptions": [
+    {
+      "name": "Transmute",
+      "type": 0,
+      "description": " Kills a non-hero target for 200 gold and 1.85x experience.  Cannot be used on Ancient Creeps.Range: 600",
+      "manaCost": 0,
+      "coolDown": [
+        100.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 6184582,
+  "useRate": 8.9418,
+  "winRate": 45.6565,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2150,
+  "image": null,
+  "aliases": null
+}

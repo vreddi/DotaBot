@@ -1,0 +1,46 @@
+{
+  "popularityRank": 52,
+  "sourceLink": "https://dotabuff.com/items/mask-of-madness",
+  "localizedName": "mask-of-madness",
+  "name": "Mask of Madness",
+  "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
+  "descriptions": [
+    {
+      "name": "Berserk",
+      "type": 0,
+      "description": "Gives 110 attack speed and 17% movement speed, but reduces your armor by 5 and silences you.  Lasts 8.0 seconds.",
+      "manaCost": 25,
+      "coolDown": [
+        20.0
+      ]
+    },
+    {
+      "name": "Lifesteal",
+      "type": 1,
+      "description": "Heals the attacker for 15% of attack damage dealt. Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2584439,
+  "useRate": 3.7366,
+  "winRate": 51.9324,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1975,
+  "image": null,
+  "aliases": null
+}

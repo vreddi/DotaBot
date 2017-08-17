@@ -1,0 +1,45 @@
+{
+  "popularityRank": 30,
+  "sourceLink": "https://dotabuff.com/items/silver-edge",
+  "localizedName": "silver-edge",
+  "name": "Silver Edge",
+  "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
+  "descriptions": [
+    {
+      "name": "Shadow Walk",
+      "type": 0,
+      "description": "Makes you invisible for 14.0 seconds, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 175 bonus damage to the target, and for 5.0 seconds, disable their passive abilities, and reduce their damage output by -50%.",
+      "manaCost": 75,
+      "coolDown": [
+        24.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3800372,
+  "useRate": 5.4946,
+  "winRate": 64.6041,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "All Attributes",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5550,
+  "image": null,
+  "aliases": null
+}

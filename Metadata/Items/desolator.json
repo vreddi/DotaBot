@@ -1,0 +1,31 @@
+{
+  "popularityRank": 12,
+  "sourceLink": "https://dotabuff.com/items/desolator",
+  "localizedName": "desolator",
+  "name": "Desolator",
+  "lore": "A wicked weapon, used in torturing political criminals.",
+  "descriptions": [
+    {
+      "name": "Corruption",
+      "type": 1,
+      "description": " Your attacks reduce the target's armor by -7 for 15.0 seconds.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 8241511,
+  "useRate": 11.9157,
+  "winRate": 57.3109,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 3500,
+  "image": null,
+  "aliases": null
+}

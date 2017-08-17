@@ -1,0 +1,38 @@
+{
+  "popularityRank": 106,
+  "sourceLink": "https://dotabuff.com/items/moon-shard",
+  "localizedName": "moon-shard",
+  "name": "Moon Shard",
+  "lore": "Said to be a tear from the lunar goddess Selemene.",
+  "descriptions": [
+    {
+      "name": "Consume",
+      "type": 2,
+      "description": " Consume the Moon Shard to permanently gain 60 attack speed and 150 bonus night vision. Max 1 use.",
+      "manaCost": 0,
+      "coolDown": null
+    },
+    {
+      "name": "Shade Sight",
+      "type": 1,
+      "description": "Grants 300 bonus night vision.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 626580,
+  "useRate": 0.9059,
+  "winRate": 79.3087,
+  "stats": [
+    {
+      "name": "Attack Speed",
+      "value": 120.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4000,
+  "image": null,
+  "aliases": null
+}

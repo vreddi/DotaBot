@@ -1,0 +1,24 @@
+{
+  "popularityRank": 132,
+  "sourceLink": "https://dotabuff.com/items/healing-salve",
+  "localizedName": "healing-salve",
+  "name": "Healing Salve",
+  "lore": "A magical salve that can quickly mend even the deepest of wounds.",
+  "descriptions": [
+    {
+      "name": "Salve",
+      "type": 2,
+      "description": " Restores 400 health to the target unit over 8 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 285443,
+  "useRate": 0.4126,
+  "winRate": 38.8518,
+  "stats": [],
+  "cost": 110,
+  "image": null,
+  "aliases": null
+}

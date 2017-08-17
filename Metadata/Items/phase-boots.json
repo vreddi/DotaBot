@@ -1,0 +1,39 @@
+{
+  "popularityRank": 4,
+  "sourceLink": "https://dotabuff.com/items/phase-boots",
+  "localizedName": "phase-boots",
+  "name": "Phase Boots",
+  "lore": "Boots that allow the wearer to travel between the ether.",
+  "descriptions": [
+    {
+      "name": "Phase",
+      "type": 0,
+      "description": " Gives 24% increased movement speed on melee heroes, and 20% on ranged heroes, and lets you move through units for 2.5 seconds.Flat movement speed bonuses from multiple pairs of boots do not stack.",
+      "manaCost": 0,
+      "coolDown": [
+        8.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 15387490,
+  "useRate": 22.2475,
+  "winRate": 48.6508,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 45.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 24.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1240,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,33 @@
+{
+  "popularityRank": 42,
+  "sourceLink": "https://dotabuff.com/items/quelling-blade",
+  "localizedName": "quelling-blade",
+  "name": "Quelling Blade",
+  "lore": "The axe of a fallen gnome, it allows you to effectively maneuver the forest.",
+  "descriptions": [
+    {
+      "name": "Chop Tree/Ward",
+      "type": 0,
+      "description": " Destroy a target tree or ward. Chop cast range is increased when targeting wards.Tree Range: 350Ward Range: 450",
+      "manaCost": 0,
+      "coolDown": [
+        4.0
+      ]
+    },
+    {
+      "name": "Quell",
+      "type": 1,
+      "description": " Increases attack damage against non-hero units by 24 for melee heroes, and 7 for ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2896751,
+  "useRate": 4.1881,
+  "winRate": 35.2953,
+  "stats": [],
+  "cost": 200,
+  "image": null,
+  "aliases": null
+}

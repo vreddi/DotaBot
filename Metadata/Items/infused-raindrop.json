@@ -1,0 +1,33 @@
+{
+  "popularityRank": 125,
+  "sourceLink": "https://dotabuff.com/items/infused-raindrop",
+  "localizedName": "infused-raindrop",
+  "name": "Infused Raindrop",
+  "lore": "Elemental protection from magical assaults.",
+  "descriptions": [
+    {
+      "name": "Magical Damage Block",
+      "type": 1,
+      "description": " Consumes a charge to block 120 magic damage from damage instances over 50 damage. Comes with 5 charges. When the charges are gone, the item disappears.",
+      "manaCost": 0,
+      "coolDown": [
+        7.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 353665,
+  "useRate": 0.5113,
+  "winRate": 45.75,
+  "stats": [
+    {
+      "name": "Mana Regeneration",
+      "value": 0.85,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 225,
+  "image": null,
+  "aliases": null
+}

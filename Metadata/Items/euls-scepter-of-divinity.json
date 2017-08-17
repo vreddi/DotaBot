@@ -1,0 +1,45 @@
+{
+  "popularityRank": 19,
+  "sourceLink": "https://dotabuff.com/items/euls-scepter-of-divinity",
+  "localizedName": "euls-scepter-of-divinity",
+  "name": "Eul's Scepter of Divinity",
+  "lore": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
+  "descriptions": [
+    {
+      "name": "Cyclone",
+      "type": 0,
+      "description": " Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can only be cast on enemy units or yourself.Enemy units take 50 magical damage upon landing.Range: 575Dispel Type: Basic Dispel",
+      "manaCost": 175,
+      "coolDown": [
+        23.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 5553461,
+  "useRate": 8.0293,
+  "winRate": 54.2851,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 150.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Movement Speed",
+      "value": 40.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2750,
+  "image": null,
+  "aliases": null
+}

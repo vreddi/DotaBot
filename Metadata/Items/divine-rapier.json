@@ -1,0 +1,31 @@
+{
+  "popularityRank": 112,
+  "sourceLink": "https://dotabuff.com/items/divine-rapier",
+  "localizedName": "divine-rapier",
+  "name": "Divine Rapier",
+  "lore": "So powerful, it cannot have a single owner.",
+  "descriptions": [
+    {
+      "name": "Everlasting",
+      "type": 1,
+      "description": " Dropped on death, and cannot be destroyed. Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 522357,
+  "useRate": 0.7552,
+  "winRate": 86.3319,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 330.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 6000,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,26 @@
+{
+  "popularityRank": 2,
+  "sourceLink": "https://dotabuff.com/items/blink-dagger",
+  "localizedName": "blink-dagger",
+  "name": "Blink Dagger",
+  "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+  "descriptions": [
+    {
+      "name": "Blink",
+      "type": 0,
+      "description": " Teleport to a target point up to 1200 units away. Blink Dagger cannot be used for 3.0 seconds after taking damage from an enemy hero or Roshan.",
+      "manaCost": 0,
+      "coolDown": [
+        12.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 19590267,
+  "useRate": 28.324,
+  "winRate": 55.0178,
+  "stats": [],
+  "cost": 2250,
+  "image": null,
+  "aliases": null
+}

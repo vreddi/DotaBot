@@ -1,0 +1,43 @@
+{
+  "popularityRank": 5,
+  "sourceLink": "https://dotabuff.com/items/aghanims-scepter",
+  "localizedName": "aghanims-scepter",
+  "name": "Aghanim's Scepter",
+  "lore": "The scepter of a wizard with demigod-like powers.",
+  "descriptions": [
+    {
+      "name": "Ultimate Upgrade",
+      "type": 1,
+      "description": "Upgrades the ultimate, and some abilities, of certain heroes.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 14799825,
+  "useRate": 21.3979,
+  "winRate": 59.9269,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Health",
+      "value": 175.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana",
+      "value": 175.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4200,
+  "image": null,
+  "aliases": null
+}

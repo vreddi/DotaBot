@@ -1,0 +1,51 @@
+{
+  "popularityRank": 56,
+  "sourceLink": "https://dotabuff.com/items/butterfly",
+  "localizedName": "butterfly",
+  "name": "Butterfly",
+  "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
+  "descriptions": [
+    {
+      "name": "Flutter",
+      "type": 0,
+      "description": " Trades the 35% evasion for 35% additional movement speed for 4.0 seconds.",
+      "manaCost": 0,
+      "coolDown": [
+        25.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2260278,
+  "useRate": 3.2679,
+  "winRate": 75.1887,
+  "stats": [
+    {
+      "name": "Agility",
+      "value": 35.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Damage",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Evasion",
+      "value": 35.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5525,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,39 @@
+{
+  "popularityRank": 110,
+  "sourceLink": "https://dotabuff.com/items/medallion-of-courage",
+  "localizedName": "medallion-of-courage",
+  "name": "Medallion of Courage",
+  "lore": "The bearer has no fear of combat.",
+  "descriptions": [
+    {
+      "name": "Valor",
+      "type": 0,
+      "description": " If cast on an ally, grants them the 7 armor, and removing it from the caster. If cast on an enemy, reduces 7 armor on both the enemy and the caster. Cannot target magic immune enemies.Range: 1000",
+      "manaCost": 0,
+      "coolDown": [
+        7.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 559957,
+  "useRate": 0.8095,
+  "winRate": 39.6919,
+  "stats": [
+    {
+      "name": "Armor",
+      "value": 7.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1175,
+  "image": null,
+  "aliases": null
+}

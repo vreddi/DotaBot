@@ -1,0 +1,45 @@
+{
+  "popularityRank": 47,
+  "sourceLink": "https://dotabuff.com/items/urn-of-shadows",
+  "localizedName": "urn-of-shadows",
+  "name": "Urn of Shadows",
+  "lore": "Contains the ashes of powerful demons.",
+  "descriptions": [
+    {
+      "name": "Soul Release",
+      "type": 0,
+      "description": " Heals 400 health over 8.0 seconds when cast on allies, and deals 150 pure damage over 8.0 seconds when cast on enemies.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower. Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.Range: 950",
+      "manaCost": 0,
+      "coolDown": [
+        7.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2801460,
+  "useRate": 4.0504,
+  "winRate": 53.3089,
+  "stats": [
+    {
+      "name": "Mana Regeneration",
+      "value": 1.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "All Attributes",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Armor",
+      "value": 2.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 875,
+  "image": null,
+  "aliases": null
+}

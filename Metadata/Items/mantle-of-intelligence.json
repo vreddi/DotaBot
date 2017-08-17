@@ -1,0 +1,23 @@
+{
+  "popularityRank": 153,
+  "sourceLink": "https://dotabuff.com/items/mantle-of-intelligence",
+  "localizedName": "mantle-of-intelligence",
+  "name": "Mantle of Intelligence",
+  "lore": "A beautiful sapphire mantle worn by generations of queens.",
+  "descriptions": [],
+  "notes": null,
+  "timesUsed": 87253,
+  "useRate": 0.1261,
+  "winRate": 39.8782,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 3.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 150,
+  "image": null,
+  "aliases": null
+}

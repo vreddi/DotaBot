@@ -1,0 +1,24 @@
+{
+  "popularityRank": 160,
+  "sourceLink": "https://dotabuff.com/items/flying-courier",
+  "localizedName": "flying-courier",
+  "name": "Flying Courier",
+  "lore": "The faithful mount upon which soar the fortunes of battle.",
+  "descriptions": [
+    {
+      "name": "Upgrade Courier",
+      "type": 2,
+      "description": "Upgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base. Requires a deployed Animal Courier.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2365,
+  "useRate": 0.0034,
+  "winRate": 29.3023,
+  "stats": [],
+  "cost": 150,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,37 @@
+{
+  "popularityRank": 134,
+  "sourceLink": "https://dotabuff.com/items/sange",
+  "localizedName": "sange",
+  "name": "Sange",
+  "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
+  "descriptions": [
+    {
+      "name": "Lesser Maim",
+      "type": 1,
+      "description": "Each attack has a 30% chance to reduce enemy hero movement speed by -20% and attack speed by -20 when used by a melee hero. Reduces enemy hero movement by -10% and attack speed by -10 when used by a ranged hero. Effect lasts 5.0 seconds.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 273707,
+  "useRate": 0.3957,
+  "winRate": 31.4763,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 16.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1950,
+  "image": null,
+  "aliases": null
+}

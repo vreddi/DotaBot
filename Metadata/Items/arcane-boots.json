@@ -1,0 +1,39 @@
+{
+  "popularityRank": 7,
+  "sourceLink": "https://dotabuff.com/items/arcane-boots",
+  "localizedName": "arcane-boots",
+  "name": "Arcane Boots",
+  "lore": "Magi equipped with these boots are valued in battle.",
+  "descriptions": [
+    {
+      "name": "Replenish Mana",
+      "type": 0,
+      "description": "Restores 135 mana to all nearby allies.Flat movement speed bonuses from multiple pairs of boots do not stack.Radius: 900",
+      "manaCost": 0,
+      "coolDown": [
+        55.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 11533711,
+  "useRate": 16.6756,
+  "winRate": 48.3577,
+  "stats": [
+    {
+      "name": "Movement Speed",
+      "value": 50.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 1300,
+  "image": null,
+  "aliases": null
+}

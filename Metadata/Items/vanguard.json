@@ -1,0 +1,37 @@
+{
+  "popularityRank": 53,
+  "sourceLink": "https://dotabuff.com/items/vanguard",
+  "localizedName": "vanguard",
+  "name": "Vanguard",
+  "lore": "A powerful shield that defends its wielder from even the most vicious of attacks.",
+  "descriptions": [
+    {
+      "name": "Damage Block",
+      "type": 1,
+      "description": " Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 2469802,
+  "useRate": 3.5708,
+  "winRate": 47.6449,
+  "stats": [
+    {
+      "name": "Health",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 8.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2150,
+  "image": null,
+  "aliases": null
+}

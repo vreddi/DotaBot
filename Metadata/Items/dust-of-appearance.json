@@ -1,0 +1,26 @@
+{
+  "popularityRank": 17,
+  "sourceLink": "https://dotabuff.com/items/dust-of-appearance",
+  "localizedName": "dust-of-appearance",
+  "name": "Dust of Appearance",
+  "lore": "One may hide visage, but never volume.",
+  "descriptions": [
+    {
+      "name": "Reveal",
+      "type": 2,
+      "description": "Reveals and slows invisible Heroes by -20 in a 1050 radius around the caster for 12 seconds.",
+      "manaCost": 0,
+      "coolDown": [
+        30.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 5988037,
+  "useRate": 8.6576,
+  "winRate": 40.4544,
+  "stats": [],
+  "cost": 180,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,39 @@
+{
+  "popularityRank": 11,
+  "sourceLink": "https://dotabuff.com/items/shadow-blade",
+  "localizedName": "shadow-blade",
+  "name": "Shadow Blade",
+  "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
+  "descriptions": [
+    {
+      "name": "Shadow Walk",
+      "type": 0,
+      "description": "Makes you invisible for 14.0 seconds, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.",
+      "manaCost": 75,
+      "coolDown": [
+        28.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 8620343,
+  "useRate": 12.4634,
+  "winRate": 46.2206,
+  "stats": [
+    {
+      "name": "Damage",
+      "value": 22.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 30.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 2700,
+  "image": null,
+  "aliases": null
+}

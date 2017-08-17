@@ -1,0 +1,45 @@
+{
+  "popularityRank": 91,
+  "sourceLink": "https://dotabuff.com/items/refresher-orb",
+  "localizedName": "refresher-orb",
+  "name": "Refresher Orb",
+  "lore": "A powerful artifact created for wizards.",
+  "descriptions": [
+    {
+      "name": "Reset Cooldowns",
+      "type": 0,
+      "description": "Resets the cooldowns of all your items and abilities.",
+      "manaCost": 375,
+      "coolDown": [
+        195.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 929528,
+  "useRate": 1.3439,
+  "winRate": 67.3844,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 12.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Damage",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 5200,
+  "image": null,
+  "aliases": null
+}

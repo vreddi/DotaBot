@@ -1,0 +1,24 @@
+{
+  "popularityRank": 36,
+  "sourceLink": "https://dotabuff.com/items/orb-of-venom",
+  "localizedName": "orb-of-venom",
+  "name": "Orb of Venom",
+  "lore": "Envenoms your veapon with the venom of a venomous viper.",
+  "descriptions": [
+    {
+      "name": "Poison Attack",
+      "type": 1,
+      "description": "Poisons the target, dealing 5.0 damage per second for 3.0 seconds and slowing movement -12% if the equipped hero is melee, or -4% if they are ranged.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 3119388,
+  "useRate": 4.51,
+  "winRate": 44.6878,
+  "stats": [],
+  "cost": 275,
+  "image": null,
+  "aliases": null
+}

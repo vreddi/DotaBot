@@ -1,0 +1,58 @@
+{
+  "popularityRank": 26,
+  "sourceLink": "https://dotabuff.com/items/hurricane-pike",
+  "localizedName": "hurricane-pike",
+  "name": "Hurricane Pike",
+  "lore": "A legendary pike once held as royal sigil of the ancient wyvern riders.",
+  "descriptions": [
+    {
+      "name": "Hurricane Thrust",
+      "type": 0,
+      "description": " Pushes you and target enemy 450 units away from each other, and for 5.0 seconds, allows you to make 4 attacks against the target without range restrictions and with +100 attack speed.Works like Force Staff when used on self or allies.Allied Range: 800Enemy Range: 400",
+      "manaCost": 25,
+      "coolDown": [
+        15.0
+      ]
+    },
+    {
+      "name": " Dragon&#39;s Reach",
+      "type": 1,
+      "description": " Increases attack range of ranged heroes by 140.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 4363250,
+  "useRate": 6.3084,
+  "winRate": 59.09,
+  "stats": [
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "HP Regeneration",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 20.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Strength",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 4650,
+  "image": null,
+  "aliases": null
+}

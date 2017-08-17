@@ -1,0 +1,26 @@
+{
+  "popularityRank": 122,
+  "sourceLink": "https://dotabuff.com/items/cheese",
+  "localizedName": "cheese",
+  "name": "Cheese",
+  "lore": "Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.",
+  "descriptions": [
+    {
+      "name": "Fondue",
+      "type": 2,
+      "description": " Instantly restores 2500 health and 1500 mana.",
+      "manaCost": 0,
+      "coolDown": [
+        40.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 377580,
+  "useRate": 0.5459,
+  "winRate": 76.2113,
+  "stats": [],
+  "cost": 1000,
+  "image": null,
+  "aliases": null
+}

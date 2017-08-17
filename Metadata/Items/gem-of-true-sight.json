@@ -1,0 +1,31 @@
+{
+  "popularityRank": 68,
+  "sourceLink": "https://dotabuff.com/items/gem-of-true-sight",
+  "localizedName": "gem-of-true-sight",
+  "name": "Gem of True Sight",
+  "lore": "Not one thrall creature of the depths,\nNor spirit bound in drowning's keep,\nNor Maelrawn the Tentacular,\nShall rest till seas, gem comes to sleep.",
+  "descriptions": [
+    {
+      "name": "True Sight",
+      "type": 1,
+      "description": " Grants the ability to see invisible units and wards to any allied vision within 900 range of its carrier. ",
+      "manaCost": 0,
+      "coolDown": null
+    },
+    {
+      "name": "Everlasting",
+      "type": 1,
+      "description": "Dropped on death, and cannot be destroyed.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 1733686,
+  "useRate": 2.5066,
+  "winRate": 82.9142,
+  "stats": [],
+  "cost": 900,
+  "image": null,
+  "aliases": null
+}

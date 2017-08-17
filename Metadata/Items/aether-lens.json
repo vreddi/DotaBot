@@ -1,0 +1,43 @@
+{
+  "popularityRank": 23,
+  "sourceLink": "https://dotabuff.com/items/aether-lens",
+  "localizedName": "aether-lens",
+  "name": "Aether Lens",
+  "lore": "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son.",
+  "descriptions": [
+    {
+      "name": "Aethereal Focus",
+      "type": 1,
+      "description": " Increases targeted spell and item cast range by 220.",
+      "manaCost": 0,
+      "coolDown": null
+    }
+  ],
+  "notes": null,
+  "timesUsed": 4891788,
+  "useRate": 7.0726,
+  "winRate": 56.4199,
+  "stats": [
+    {
+      "name": "Mana",
+      "value": 250.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Mana Regeneration",
+      "value": 100.0,
+      "statType": 0,
+      "valueType": 1
+    },
+    {
+      "name": "Spell Damage",
+      "value": 6.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 2350,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,39 @@
+{
+  "popularityRank": 92,
+  "sourceLink": "https://dotabuff.com/items/hood-of-defiance",
+  "localizedName": "hood-of-defiance",
+  "name": "Hood of Defiance",
+  "lore": "A furred, magic resistant headpiece that is feared by wizards.",
+  "descriptions": [
+    {
+      "name": "Barrier",
+      "type": 0,
+      "description": " Creates a spell shield that absorbs up to 325 magical damage.  Lasts 12 seconds.",
+      "manaCost": 75,
+      "coolDown": [
+        60.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 924356,
+  "useRate": 1.3364,
+  "winRate": 46.4013,
+  "stats": [
+    {
+      "name": "HP Regeneration",
+      "value": 8.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Magic Resistance",
+      "value": 25.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 1725,
+  "image": null,
+  "aliases": null
+}

@@ -1,0 +1,57 @@
+{
+  "popularityRank": 18,
+  "sourceLink": "https://dotabuff.com/items/manta-style",
+  "localizedName": "manta-style",
+  "name": "Manta Style",
+  "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
+  "descriptions": [
+    {
+      "name": "Mirror Image",
+      "type": 0,
+      "description": "Creates 2 images of your hero that last 20 seconds. Melee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage. Cooldown increased by 15.0 seconds on ranged heroes.Dispel Type: Basic Dispel",
+      "manaCost": 125,
+      "coolDown": [
+        45.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 5851054,
+  "useRate": 8.4595,
+  "winRate": 61.5025,
+  "stats": [
+    {
+      "name": "Strength",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Agility",
+      "value": 26.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Intelligence",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Attack Speed",
+      "value": 15.0,
+      "statType": 0,
+      "valueType": 0
+    },
+    {
+      "name": "Movement Speed",
+      "value": 10.0,
+      "statType": 0,
+      "valueType": 1
+    }
+  ],
+  "cost": 5000,
+  "image": null,
+  "aliases": null
+}

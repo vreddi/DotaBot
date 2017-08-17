@@ -1,0 +1,33 @@
+{
+  "popularityRank": 6,
+  "sourceLink": "https://dotabuff.com/items/magic-wand",
+  "localizedName": "magic-wand",
+  "name": "Magic Wand",
+  "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+  "descriptions": [
+    {
+      "name": "Energy Charge",
+      "type": 0,
+      "description": "Instantly restores 15 health and mana per charge stored. Max 17 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability.",
+      "manaCost": 0,
+      "coolDown": [
+        13.0
+      ]
+    }
+  ],
+  "notes": null,
+  "timesUsed": 12432060,
+  "useRate": 17.9745,
+  "winRate": 47.0943,
+  "stats": [
+    {
+      "name": "All Attributes",
+      "value": 4.0,
+      "statType": 0,
+      "valueType": 0
+    }
+  ],
+  "cost": 465,
+  "image": null,
+  "aliases": null
+}

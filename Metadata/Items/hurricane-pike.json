@@ -1,5 +1,5 @@
 {
-  "popularityRank": 26,
+  "popularityRank": 25,
   "sourceLink": "https://dotabuff.com/items/hurricane-pike",
   "localizedName": "hurricane-pike",
   "name": "Hurricane Pike",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 4363250,
-  "useRate": 6.3084,
-  "winRate": 59.09,
+  "timesUsed": 4178705,
+  "useRate": 6.5578,
+  "winRate": 58.8573,
   "stats": [
     {
       "name": "Intelligence",
@@ -54,5 +54,10 @@
   ],
   "cost": 4650,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

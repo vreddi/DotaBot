@@ -6,9 +6,9 @@
   "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 569924,
-  "useRate": 0.824,
-  "winRate": 33.931,
+  "timesUsed": 533174,
+  "useRate": 0.8367,
+  "winRate": 34.3158,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -19,5 +19,10 @@
   ],
   "cost": 850,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

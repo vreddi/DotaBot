@@ -1,5 +1,5 @@
 {
-  "popularityRank": 83,
+  "popularityRank": 81,
   "sourceLink": "https://dotabuff.com/items/iron-branch",
   "localizedName": "iron-branch",
   "name": "Iron Branch",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1317172,
-  "useRate": 1.9043,
-  "winRate": 33.1819,
+  "timesUsed": 1179351,
+  "useRate": 1.8508,
+  "winRate": 33.3156,
   "stats": [
     {
       "name": "All Attributes",
@@ -27,5 +27,10 @@
   ],
   "cost": 50,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

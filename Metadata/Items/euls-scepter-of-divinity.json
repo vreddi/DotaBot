@@ -1,5 +1,5 @@
 {
-  "popularityRank": 19,
+  "popularityRank": 21,
   "sourceLink": "https://dotabuff.com/items/euls-scepter-of-divinity",
   "localizedName": "euls-scepter-of-divinity",
   "name": "Eul's Scepter of Divinity",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 5553461,
-  "useRate": 8.0293,
-  "winRate": 54.2851,
+  "timesUsed": 4922160,
+  "useRate": 7.7245,
+  "winRate": 54.4862,
   "stats": [
     {
       "name": "Intelligence",
@@ -41,5 +41,10 @@
   ],
   "cost": 2750,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

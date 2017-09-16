@@ -1,5 +1,5 @@
 {
-  "popularityRank": 97,
+  "popularityRank": 96,
   "sourceLink": "https://dotabuff.com/items/boots-of-travel",
   "localizedName": "boots-of-travel",
   "name": "Boots of Travel",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 855105,
-  "useRate": 1.2363,
-  "winRate": 71.2346,
+  "timesUsed": 793727,
+  "useRate": 1.2456,
+  "winRate": 71.3804,
   "stats": [
     {
       "name": "Movement Speed",
@@ -29,5 +29,10 @@
   ],
   "cost": 2400,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

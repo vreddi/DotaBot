@@ -1,14 +1,14 @@
 {
-  "popularityRank": 99,
+  "popularityRank": 95,
   "sourceLink": "https://dotabuff.com/items/bracer",
   "localizedName": "bracer",
   "name": "Bracer",
   "lore": "The bracer is a common choice to toughen up defenses and increase longevity.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 822436,
-  "useRate": 1.189,
-  "winRate": 31.6925,
+  "timesUsed": 795045,
+  "useRate": 1.2476,
+  "winRate": 31.9004,
   "stats": [
     {
       "name": "Strength",
@@ -37,5 +37,10 @@
   ],
   "cost": 490,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

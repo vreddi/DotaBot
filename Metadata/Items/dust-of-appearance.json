@@ -1,5 +1,5 @@
 {
-  "popularityRank": 17,
+  "popularityRank": 16,
   "sourceLink": "https://dotabuff.com/items/dust-of-appearance",
   "localizedName": "dust-of-appearance",
   "name": "Dust of Appearance",
@@ -16,11 +16,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 5988037,
-  "useRate": 8.6576,
-  "winRate": 40.4544,
+  "timesUsed": 5694384,
+  "useRate": 8.9364,
+  "winRate": 40.6119,
   "stats": [],
   "cost": 180,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

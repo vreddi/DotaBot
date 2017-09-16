@@ -1,5 +1,5 @@
 {
-  "popularityRank": 89,
+  "popularityRank": 90,
   "sourceLink": "https://dotabuff.com/items/ring-of-basilius",
   "localizedName": "ring-of-basilius",
   "name": "Ring of Basilius",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 995850,
-  "useRate": 1.4398,
-  "winRate": 42.0923,
+  "timesUsed": 897278,
+  "useRate": 1.4081,
+  "winRate": 41.8685,
   "stats": [
     {
       "name": "Damage",
@@ -27,5 +27,10 @@
   ],
   "cost": 500,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

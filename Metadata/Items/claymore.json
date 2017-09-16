@@ -1,14 +1,14 @@
 {
-  "popularityRank": 139,
+  "popularityRank": 136,
   "sourceLink": "https://dotabuff.com/items/claymore",
   "localizedName": "claymore",
   "name": "Claymore",
   "lore": "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 242528,
-  "useRate": 0.3506,
-  "winRate": 20.6363,
+  "timesUsed": 231894,
+  "useRate": 0.3639,
+  "winRate": 20.5611,
   "stats": [
     {
       "name": "Damage",
@@ -19,5 +19,10 @@
   ],
   "cost": 1400,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

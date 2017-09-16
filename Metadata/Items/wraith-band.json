@@ -1,14 +1,14 @@
 {
-  "popularityRank": 95,
+  "popularityRank": 91,
   "sourceLink": "https://dotabuff.com/items/wraith-band",
   "localizedName": "wraith-band",
   "name": "Wraith Band",
   "lore": "A circlet with faint whispers echoing about it.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 890284,
-  "useRate": 1.2871,
-  "winRate": 39.6158,
+  "timesUsed": 880970,
+  "useRate": 1.3825,
+  "winRate": 39.1383,
   "stats": [
     {
       "name": "Strength",
@@ -37,5 +37,10 @@
   ],
   "cost": 485,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

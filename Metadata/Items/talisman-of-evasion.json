@@ -6,9 +6,9 @@
   "lore": "A necklace that allows you to anticipate enemy attacks.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 247965,
-  "useRate": 0.3585,
-  "winRate": 53.9378,
+  "timesUsed": 226646,
+  "useRate": 0.3556,
+  "winRate": 54.3552,
   "stats": [
     {
       "name": "Evasion",
@@ -19,5 +19,10 @@
   ],
   "cost": 1450,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

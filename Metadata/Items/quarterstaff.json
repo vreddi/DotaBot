@@ -1,14 +1,14 @@
 {
-  "popularityRank": 135,
+  "popularityRank": 133,
   "sourceLink": "https://dotabuff.com/items/quarterstaff",
   "localizedName": "quarterstaff",
   "name": "Quarterstaff",
   "lore": "A basic staff that allows you to strike quickly.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 270255,
-  "useRate": 0.3907,
-  "winRate": 37.2326,
+  "timesUsed": 256116,
+  "useRate": 0.4019,
+  "winRate": 37.9542,
   "stats": [
     {
       "name": "Damage",
@@ -25,5 +25,10 @@
   ],
   "cost": 875,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

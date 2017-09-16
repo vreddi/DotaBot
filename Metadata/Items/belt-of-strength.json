@@ -6,9 +6,9 @@
   "lore": "A valued accessory for improving vitality.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 233609,
-  "useRate": 0.3377,
-  "winRate": 19.3049,
+  "timesUsed": 218358,
+  "useRate": 0.3426,
+  "winRate": 19.544,
   "stats": [
     {
       "name": "Strength",
@@ -19,5 +19,10 @@
   ],
   "cost": 450,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

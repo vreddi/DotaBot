@@ -6,9 +6,9 @@
   "lore": "The damage of these small, concealable blades should not be underestimated.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 181681,
-  "useRate": 0.2626,
-  "winRate": 25.3185,
+  "timesUsed": 174036,
+  "useRate": 0.2731,
+  "winRate": 25.4826,
   "stats": [
     {
       "name": "Damage",
@@ -19,5 +19,10 @@
   ],
   "cost": 420,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

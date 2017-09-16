@@ -1,5 +1,5 @@
 {
-  "popularityRank": 111,
+  "popularityRank": 110,
   "sourceLink": "https://dotabuff.com/items/enchanted-mango",
   "localizedName": "enchanted-mango",
   "name": "Enchanted Mango",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 540591,
-  "useRate": 0.7815,
-  "winRate": 38.9242,
+  "timesUsed": 505446,
+  "useRate": 0.7932,
+  "winRate": 39.2825,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -27,5 +27,10 @@
   ],
   "cost": 100,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 33,
+  "popularityRank": 31,
   "sourceLink": "https://dotabuff.com/items/battle-fury",
   "localizedName": "battle-fury",
   "name": "Battle Fury",
@@ -30,9 +30,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3488878,
-  "useRate": 5.0442,
-  "winRate": 53.5206,
+  "timesUsed": 3371158,
+  "useRate": 5.2905,
+  "winRate": 53.5009,
   "stats": [
     {
       "name": "Damage",
@@ -55,5 +55,10 @@
   ],
   "cost": 4500,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

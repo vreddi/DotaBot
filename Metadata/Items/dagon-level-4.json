@@ -1,5 +1,5 @@
 {
-  "popularityRank": 129,
+  "popularityRank": 131,
   "sourceLink": "https://dotabuff.com/items/dagon-level-4",
   "localizedName": "dagon-level-4",
   "name": "Dagon (level 4)",
@@ -20,9 +20,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 303847,
-  "useRate": 0.4393,
-  "winRate": 54.3546,
+  "timesUsed": 263190,
+  "useRate": 0.413,
+  "winRate": 54.0476,
   "stats": [
     {
       "name": "Intelligence",
@@ -45,5 +45,10 @@
   ],
   "cost": 6470,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

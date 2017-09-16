@@ -1,5 +1,5 @@
 {
-  "popularityRank": 31,
+  "popularityRank": 32,
   "sourceLink": "https://dotabuff.com/items/vladmirs-offering",
   "localizedName": "vladmirs-offering",
   "name": "Vladmir's Offering",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3752426,
-  "useRate": 5.4253,
-  "winRate": 55.6298,
+  "timesUsed": 3280481,
+  "useRate": 5.1482,
+  "winRate": 55.2832,
   "stats": [
     {
       "name": "All Attributes",
@@ -27,5 +27,10 @@
   ],
   "cost": 2275,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

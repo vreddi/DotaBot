@@ -1,5 +1,5 @@
 {
-  "popularityRank": 77,
+  "popularityRank": 80,
   "sourceLink": "https://dotabuff.com/items/mekansm",
   "localizedName": "mekansm",
   "name": "Mekansm",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1445231,
-  "useRate": 2.0895,
-  "winRate": 49.8039,
+  "timesUsed": 1210544,
+  "useRate": 1.8997,
+  "winRate": 49.7713,
   "stats": [
     {
       "name": "All Attributes",
@@ -42,5 +42,10 @@
   ],
   "cost": 2375,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

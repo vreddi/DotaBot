@@ -1,14 +1,14 @@
 {
-  "popularityRank": 113,
+  "popularityRank": 115,
   "sourceLink": "https://dotabuff.com/items/mystic-staff",
   "localizedName": "mystic-staff",
   "name": "Mystic Staff",
   "lore": "Enigmatic staff made of only the most expensive crystals.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 516430,
-  "useRate": 0.7466,
-  "winRate": 58.2599,
+  "timesUsed": 454534,
+  "useRate": 0.7133,
+  "winRate": 58.3144,
   "stats": [
     {
       "name": "Intelligence",
@@ -19,5 +19,10 @@
   ],
   "cost": 2700,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

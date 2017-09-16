@@ -1,5 +1,5 @@
 {
-  "popularityRank": 94,
+  "popularityRank": 99,
   "sourceLink": "https://dotabuff.com/items/drum-of-endurance",
   "localizedName": "drum-of-endurance",
   "name": "Drum of Endurance",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 891916,
-  "useRate": 1.2895,
-  "winRate": 53.0944,
+  "timesUsed": 749822,
+  "useRate": 1.1767,
+  "winRate": 53.149,
   "stats": [
     {
       "name": "Intelligence",
@@ -60,5 +60,10 @@
   ],
   "cost": 1640,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

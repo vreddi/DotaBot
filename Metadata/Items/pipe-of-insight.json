@@ -1,5 +1,5 @@
 {
-  "popularityRank": 70,
+  "popularityRank": 64,
   "sourceLink": "https://dotabuff.com/items/pipe-of-insight",
   "localizedName": "pipe-of-insight",
   "name": "Pipe of Insight",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1705843,
-  "useRate": 2.4663,
-  "winRate": 60.682,
+  "timesUsed": 1616161,
+  "useRate": 2.5363,
+  "winRate": 60.6539,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -42,5 +42,10 @@
   ],
   "cost": 3200,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

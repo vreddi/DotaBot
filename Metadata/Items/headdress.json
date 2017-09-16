@@ -1,5 +1,5 @@
 {
-  "popularityRank": 123,
+  "popularityRank": 121,
   "sourceLink": "https://dotabuff.com/items/headdress",
   "localizedName": "headdress",
   "name": "Headdress",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 369114,
-  "useRate": 0.5336,
-  "winRate": 31.0394,
+  "timesUsed": 331183,
+  "useRate": 0.5197,
+  "winRate": 30.8533,
   "stats": [
     {
       "name": "All Attributes",
@@ -27,5 +27,10 @@
   ],
   "cost": 675,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

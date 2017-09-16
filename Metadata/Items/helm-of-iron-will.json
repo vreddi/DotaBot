@@ -6,9 +6,9 @@
   "lore": "The helmet of a legendary warrior who fell in battle.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 76572,
-  "useRate": 0.1107,
-  "winRate": 26.4261,
+  "timesUsed": 70778,
+  "useRate": 0.111,
+  "winRate": 26.7879,
   "stats": [
     {
       "name": "Armor",
@@ -25,5 +25,10 @@
   ],
   "cost": 900,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

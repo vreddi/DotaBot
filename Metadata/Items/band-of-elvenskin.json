@@ -1,14 +1,14 @@
 {
-  "popularityRank": 145,
+  "popularityRank": 146,
   "sourceLink": "https://dotabuff.com/items/band-of-elvenskin",
   "localizedName": "band-of-elvenskin",
   "name": "Band of Elvenskin",
   "lore": "A tensile fabric often used for its light weight and ease of movement.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 209759,
-  "useRate": 0.3032,
-  "winRate": 17.5782,
+  "timesUsed": 195328,
+  "useRate": 0.3065,
+  "winRate": 17.5402,
   "stats": [
     {
       "name": "Agility",
@@ -19,5 +19,10 @@
   ],
   "cost": 450,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

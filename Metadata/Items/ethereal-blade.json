@@ -1,5 +1,5 @@
 {
-  "popularityRank": 93,
+  "popularityRank": 94,
   "sourceLink": "https://dotabuff.com/items/ethereal-blade",
   "localizedName": "ethereal-blade",
   "name": "Ethereal Blade",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 894384,
-  "useRate": 1.2931,
-  "winRate": 64.4281,
+  "timesUsed": 809835,
+  "useRate": 1.2709,
+  "winRate": 64.9611,
   "stats": [
     {
       "name": "Agility",
@@ -41,5 +41,10 @@
   ],
   "cost": 4700,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

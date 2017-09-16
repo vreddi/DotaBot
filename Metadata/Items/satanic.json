@@ -1,5 +1,5 @@
 {
-  "popularityRank": 102,
+  "popularityRank": 101,
   "sourceLink": "https://dotabuff.com/items/satanic",
   "localizedName": "satanic",
   "name": "Satanic",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 779902,
-  "useRate": 1.1275,
-  "winRate": 70.336,
+  "timesUsed": 719261,
+  "useRate": 1.1287,
+  "winRate": 70.3298,
   "stats": [
     {
       "name": "Strength",
@@ -42,5 +42,10 @@
   ],
   "cost": 5700,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

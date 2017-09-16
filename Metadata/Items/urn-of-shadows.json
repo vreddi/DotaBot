@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2801460,
-  "useRate": 4.0504,
-  "winRate": 53.3089,
+  "timesUsed": 2531473,
+  "useRate": 3.9727,
+  "winRate": 53.318,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -41,5 +41,10 @@
   ],
   "cost": 875,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

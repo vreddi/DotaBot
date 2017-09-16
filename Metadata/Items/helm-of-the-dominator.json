@@ -1,5 +1,5 @@
 {
-  "popularityRank": 146,
+  "popularityRank": 144,
   "sourceLink": "https://dotabuff.com/items/helm-of-the-dominator",
   "localizedName": "helm-of-the-dominator",
   "name": "Helm of the Dominator",
@@ -17,15 +17,15 @@
     {
       "name": "Dominator Aura",
       "type": 1,
-      "description": " Increases nearby allies' attack speed by 10 and health regen by 10.Radius: 900",
+      "description": " Increases nearby allies' attack speed by 15 and health regen by 10.Radius: 900",
       "manaCost": 0,
       "coolDown": null
     }
   ],
   "notes": null,
-  "timesUsed": 208977,
-  "useRate": 0.3021,
-  "winRate": 56.0999,
+  "timesUsed": 201251,
+  "useRate": 0.3158,
+  "winRate": 55.789,
   "stats": [
     {
       "name": "All Attributes",
@@ -42,5 +42,10 @@
   ],
   "cost": 2025,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

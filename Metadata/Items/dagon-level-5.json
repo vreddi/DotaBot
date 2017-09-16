@@ -1,5 +1,5 @@
 {
-  "popularityRank": 80,
+  "popularityRank": 85,
   "sourceLink": "https://dotabuff.com/items/dagon-level-5",
   "localizedName": "dagon-level-5",
   "name": "Dagon (level 5)",
@@ -20,9 +20,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1341350,
-  "useRate": 1.9393,
-  "winRate": 62.4107,
+  "timesUsed": 1143434,
+  "useRate": 1.7944,
+  "winRate": 62.043,
   "stats": [
     {
       "name": "Intelligence",
@@ -45,5 +45,10 @@
   ],
   "cost": 7720,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

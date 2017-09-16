@@ -1,5 +1,5 @@
 {
-  "popularityRank": 92,
+  "popularityRank": 89,
   "sourceLink": "https://dotabuff.com/items/hood-of-defiance",
   "localizedName": "hood-of-defiance",
   "name": "Hood of Defiance",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 924356,
-  "useRate": 1.3364,
-  "winRate": 46.4013,
+  "timesUsed": 919371,
+  "useRate": 1.4428,
+  "winRate": 46.9369,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -35,5 +35,10 @@
   ],
   "cost": 1725,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

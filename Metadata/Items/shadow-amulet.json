@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 447569,
-  "useRate": 0.6471,
-  "winRate": 18.1433,
+  "timesUsed": 424966,
+  "useRate": 0.6669,
+  "winRate": 18.4285,
   "stats": [
     {
       "name": "Attack Speed",
@@ -29,5 +29,10 @@
   ],
   "cost": 1300,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

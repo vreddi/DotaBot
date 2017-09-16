@@ -21,9 +21,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 10170406,
-  "useRate": 14.7046,
-  "winRate": 57.0026,
+  "timesUsed": 9164270,
+  "useRate": 14.3818,
+  "winRate": 56.8938,
   "stats": [
     {
       "name": "Strength",
@@ -40,5 +40,10 @@
   ],
   "cost": 3975,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

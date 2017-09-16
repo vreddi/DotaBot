@@ -1,5 +1,5 @@
 {
-  "popularityRank": 126,
+  "popularityRank": 128,
   "sourceLink": "https://dotabuff.com/items/dagon-level-3",
   "localizedName": "dagon-level-3",
   "name": "Dagon (level 3)",
@@ -20,9 +20,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 333712,
-  "useRate": 0.4824,
-  "winRate": 49.9442,
+  "timesUsed": 286757,
+  "useRate": 0.45,
+  "winRate": 49.6019,
   "stats": [
     {
       "name": "Intelligence",
@@ -45,5 +45,10 @@
   ],
   "cost": 5220,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

@@ -1,14 +1,14 @@
 {
-  "popularityRank": 141,
+  "popularityRank": 139,
   "sourceLink": "https://dotabuff.com/items/circlet",
   "localizedName": "circlet",
   "name": "Circlet",
   "lore": "An elegant circlet designed for human princesses.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 232413,
-  "useRate": 0.336,
-  "winRate": 35.9893,
+  "timesUsed": 218746,
+  "useRate": 0.3432,
+  "winRate": 36.439,
   "stats": [
     {
       "name": "All Attributes",
@@ -19,5 +19,10 @@
   ],
   "cost": 165,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

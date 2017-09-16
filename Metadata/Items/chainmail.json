@@ -6,9 +6,9 @@
   "lore": "A medium weave of metal chains.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 440509,
-  "useRate": 0.6368,
-  "winRate": 23.8912,
+  "timesUsed": 414891,
+  "useRate": 0.6511,
+  "winRate": 24.5016,
   "stats": [
     {
       "name": "Armor",
@@ -19,5 +19,10 @@
   ],
   "cost": 550,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

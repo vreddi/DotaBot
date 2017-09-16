@@ -1,14 +1,14 @@
 {
-  "popularityRank": 85,
+  "popularityRank": 84,
   "sourceLink": "https://dotabuff.com/items/mithril-hammer",
   "localizedName": "mithril-hammer",
   "name": "Mithril Hammer",
   "lore": "A hammer forged of pure mithril.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 1219766,
-  "useRate": 1.7635,
-  "winRate": 23.2871,
+  "timesUsed": 1153658,
+  "useRate": 1.8104,
+  "winRate": 23.4947,
   "stats": [
     {
       "name": "Damage",
@@ -19,5 +19,10 @@
   ],
   "cost": 1600,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

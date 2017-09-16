@@ -1,5 +1,5 @@
 {
-  "popularityRank": 42,
+  "popularityRank": 45,
   "sourceLink": "https://dotabuff.com/items/quelling-blade",
   "localizedName": "quelling-blade",
   "name": "Quelling Blade",
@@ -23,11 +23,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2896751,
-  "useRate": 4.1881,
-  "winRate": 35.2953,
+  "timesUsed": 2629336,
+  "useRate": 4.1263,
+  "winRate": 35.1451,
   "stats": [],
   "cost": 200,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

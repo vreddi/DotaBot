@@ -1,14 +1,14 @@
 {
-  "popularityRank": 121,
+  "popularityRank": 122,
   "sourceLink": "https://dotabuff.com/items/soul-booster",
   "localizedName": "soul-booster",
   "name": "Soul Booster",
   "lore": "Regain lost courage.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 380288,
-  "useRate": 0.5498,
-  "winRate": 58.4138,
+  "timesUsed": 327913,
+  "useRate": 0.5146,
+  "winRate": 59.4035,
   "stats": [
     {
       "name": "Health",
@@ -25,5 +25,10 @@
   ],
   "cost": 3200,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 21,
+  "popularityRank": 18,
   "sourceLink": "https://dotabuff.com/items/echo-sabre",
   "localizedName": "echo-sabre",
   "name": "Echo Sabre",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 5457953,
-  "useRate": 7.8912,
-  "winRate": 54.9081,
+  "timesUsed": 5272636,
+  "useRate": 8.2745,
+  "winRate": 54.8007,
   "stats": [
     {
       "name": "Intelligence",
@@ -53,5 +53,10 @@
   ],
   "cost": 2650,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

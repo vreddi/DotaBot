@@ -1,5 +1,5 @@
 {
-  "popularityRank": 28,
+  "popularityRank": 27,
   "sourceLink": "https://dotabuff.com/items/sange-and-yasha",
   "localizedName": "sange-and-yasha",
   "name": "Sange and Yasha",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 4029055,
-  "useRate": 5.8252,
-  "winRate": 60.2366,
+  "timesUsed": 3825072,
+  "useRate": 6.0028,
+  "winRate": 59.9222,
   "stats": [
     {
       "name": "Damage",
@@ -51,5 +51,10 @@
   ],
   "cost": 3900,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

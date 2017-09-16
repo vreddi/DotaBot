@@ -1,5 +1,5 @@
 {
-  "popularityRank": 60,
+  "popularityRank": 61,
   "sourceLink": "https://dotabuff.com/items/ghost-scepter",
   "localizedName": "ghost-scepter",
   "name": "Ghost Scepter",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2035035,
-  "useRate": 2.9422,
-  "winRate": 52.7844,
+  "timesUsed": 1718548,
+  "useRate": 2.6969,
+  "winRate": 53.2267,
   "stats": [
     {
       "name": "All Attributes",
@@ -29,5 +29,10 @@
   ],
   "cost": 1500,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

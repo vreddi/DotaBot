@@ -1,5 +1,5 @@
 {
-  "popularityRank": 143,
+  "popularityRank": 142,
   "sourceLink": "https://dotabuff.com/items/faerie-fire",
   "localizedName": "faerie-fire",
   "name": "Faerie Fire",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 222662,
-  "useRate": 0.3219,
-  "winRate": 38.235,
+  "timesUsed": 206851,
+  "useRate": 0.3246,
+  "winRate": 37.6991,
   "stats": [
     {
       "name": "Damage",
@@ -29,5 +29,10 @@
   ],
   "cost": 70,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

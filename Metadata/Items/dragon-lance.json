@@ -1,5 +1,5 @@
 {
-  "popularityRank": 27,
+  "popularityRank": 29,
   "sourceLink": "https://dotabuff.com/items/dragon-lance",
   "localizedName": "dragon-lance",
   "name": "Dragon Lance",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 4031394,
-  "useRate": 5.8286,
-  "winRate": 46.8396,
+  "timesUsed": 3744219,
+  "useRate": 5.8759,
+  "winRate": 46.7606,
   "stats": [
     {
       "name": "Agility",
@@ -33,5 +33,10 @@
   ],
   "cost": 1900,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

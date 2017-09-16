@@ -30,9 +30,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2809312,
-  "useRate": 4.0617,
-  "winRate": 70.9049,
+  "timesUsed": 2597718,
+  "useRate": 4.0767,
+  "winRate": 70.7372,
   "stats": [
     {
       "name": "Health",
@@ -61,5 +61,10 @@
   ],
   "cost": 6400,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

@@ -1,14 +1,14 @@
 {
-  "popularityRank": 114,
+  "popularityRank": 112,
   "sourceLink": "https://dotabuff.com/items/reaver",
   "localizedName": "reaver",
   "name": "Reaver",
   "lore": "A massive axe capable of tearing whole mountains down.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 510111,
-  "useRate": 0.7375,
-  "winRate": 59.8083,
+  "timesUsed": 494697,
+  "useRate": 0.7763,
+  "winRate": 59.3506,
   "stats": [
     {
       "name": "Strength",
@@ -19,5 +19,10 @@
   ],
   "cost": 3000,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

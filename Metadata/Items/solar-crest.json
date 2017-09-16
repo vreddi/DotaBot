@@ -1,5 +1,5 @@
 {
-  "popularityRank": 76,
+  "popularityRank": 83,
   "sourceLink": "https://dotabuff.com/items/solar-crest",
   "localizedName": "solar-crest",
   "name": "Solar Crest",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1484845,
-  "useRate": 2.1468,
-  "winRate": 59.686,
+  "timesUsed": 1155731,
+  "useRate": 1.8137,
+  "winRate": 59.7835,
   "stats": [
     {
       "name": "Armor",
@@ -41,5 +41,10 @@
   ],
   "cost": 2625,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

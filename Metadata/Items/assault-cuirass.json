@@ -1,5 +1,5 @@
 {
-  "popularityRank": 54,
+  "popularityRank": 55,
   "sourceLink": "https://dotabuff.com/items/assault-cuirass",
   "localizedName": "assault-cuirass",
   "name": "Assault Cuirass",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2338592,
-  "useRate": 3.3811,
-  "winRate": 72.289,
+  "timesUsed": 2145909,
+  "useRate": 3.3676,
+  "winRate": 72.2776,
   "stats": [
     {
       "name": "Attack Speed",
@@ -33,5 +33,10 @@
   ],
   "cost": 5250,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

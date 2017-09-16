@@ -1,14 +1,14 @@
 {
-  "popularityRank": 96,
+  "popularityRank": 98,
   "sourceLink": "https://dotabuff.com/items/platemail",
   "localizedName": "platemail",
   "name": "Platemail",
   "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 859647,
-  "useRate": 1.2428,
-  "winRate": 51.6781,
+  "timesUsed": 750475,
+  "useRate": 1.1777,
+  "winRate": 52.1463,
   "stats": [
     {
       "name": "Armor",
@@ -19,5 +19,10 @@
   ],
   "cost": 1400,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

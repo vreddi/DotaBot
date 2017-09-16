@@ -1,14 +1,14 @@
 {
-  "popularityRank": 130,
+  "popularityRank": 127,
   "sourceLink": "https://dotabuff.com/items/broadsword",
   "localizedName": "broadsword",
   "name": "Broadsword",
   "lore": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 303326,
-  "useRate": 0.4385,
-  "winRate": 22.1728,
+  "timesUsed": 290436,
+  "useRate": 0.4557,
+  "winRate": 22.1046,
   "stats": [
     {
       "name": "Damage",
@@ -19,5 +19,10 @@
   ],
   "cost": 1200,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

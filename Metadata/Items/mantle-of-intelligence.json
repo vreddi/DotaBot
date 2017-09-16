@@ -6,9 +6,9 @@
   "lore": "A beautiful sapphire mantle worn by generations of queens.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 87253,
-  "useRate": 0.1261,
-  "winRate": 39.8782,
+  "timesUsed": 82498,
+  "useRate": 0.1294,
+  "winRate": 39.6991,
   "stats": [
     {
       "name": "Intelligence",
@@ -19,5 +19,10 @@
   ],
   "cost": 150,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

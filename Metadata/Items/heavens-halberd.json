@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1069966,
-  "useRate": 1.5469,
-  "winRate": 57.356,
+  "timesUsed": 942391,
+  "useRate": 1.4789,
+  "winRate": 57.3982,
   "stats": [
     {
       "name": "Evasion",
@@ -48,5 +48,10 @@
   ],
   "cost": 3400,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

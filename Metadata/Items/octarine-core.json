@@ -21,9 +21,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1979081,
-  "useRate": 2.8613,
-  "winRate": 70.9698,
+  "timesUsed": 1679118,
+  "useRate": 2.6351,
+  "winRate": 71.4699,
   "stats": [
     {
       "name": "Intelligence",
@@ -46,5 +46,10 @@
   ],
   "cost": 5900,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

@@ -1,14 +1,14 @@
 {
-  "popularityRank": 22,
+  "popularityRank": 23,
   "sourceLink": "https://dotabuff.com/items/boots-of-speed",
   "localizedName": "boots-of-speed",
   "name": "Boots of Speed",
   "lore": "Fleet footwear, increasing movement.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 5082137,
-  "useRate": 7.3478,
-  "winRate": 34.5924,
+  "timesUsed": 4604449,
+  "useRate": 7.2259,
+  "winRate": 34.8769,
   "stats": [
     {
       "name": "Movement Speed",
@@ -19,5 +19,10 @@
   ],
   "cost": 400,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

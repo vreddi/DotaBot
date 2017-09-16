@@ -1,5 +1,5 @@
 {
-  "popularityRank": 52,
+  "popularityRank": 50,
   "sourceLink": "https://dotabuff.com/items/mask-of-madness",
   "localizedName": "mask-of-madness",
   "name": "Mask of Madness",
@@ -8,10 +8,10 @@
     {
       "name": "Berserk",
       "type": 0,
-      "description": "Gives 110 attack speed and 17% movement speed, but reduces your armor by 5 and silences you.  Lasts 8.0 seconds.",
+      "description": "Gives 110 attack speed and 17% movement speed, but reduces your armor by 6 and silences you.  Lasts 8.0 seconds.",
       "manaCost": 25,
       "coolDown": [
-        20.0
+        22.0
       ]
     },
     {
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2584439,
-  "useRate": 3.7366,
-  "winRate": 51.9324,
+  "timesUsed": 2423977,
+  "useRate": 3.804,
+  "winRate": 51.4678,
   "stats": [
     {
       "name": "Damage",
@@ -42,5 +42,10 @@
   ],
   "cost": 1975,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

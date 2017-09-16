@@ -1,5 +1,5 @@
 {
-  "popularityRank": 82,
+  "popularityRank": 79,
   "sourceLink": "https://dotabuff.com/items/sentry-ward",
   "localizedName": "sentry-ward",
   "name": "Sentry Ward",
@@ -16,11 +16,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1319258,
-  "useRate": 1.9074,
-  "winRate": 33.5464,
+  "timesUsed": 1212122,
+  "useRate": 1.9022,
+  "winRate": 33.2287,
   "stats": [],
   "cost": 100,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

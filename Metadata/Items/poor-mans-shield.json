@@ -1,5 +1,5 @@
 {
-  "popularityRank": 25,
+  "popularityRank": 26,
   "sourceLink": "https://dotabuff.com/items/poor-mans-shield",
   "localizedName": "poor-mans-shield",
   "name": "Poor Man's Shield",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 4446227,
-  "useRate": 6.4284,
-  "winRate": 40.2412,
+  "timesUsed": 4145103,
+  "useRate": 6.505,
+  "winRate": 40.1236,
   "stats": [
     {
       "name": "Agility",
@@ -27,5 +27,10 @@
   ],
   "cost": 500,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

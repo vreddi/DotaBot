@@ -1,5 +1,5 @@
 {
-  "popularityRank": 29,
+  "popularityRank": 28,
   "sourceLink": "https://dotabuff.com/items/maelstrom",
   "localizedName": "maelstrom",
   "name": "Maelstrom",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3845460,
-  "useRate": 5.5598,
-  "winRate": 43.7638,
+  "timesUsed": 3803896,
+  "useRate": 5.9696,
+  "winRate": 44.4096,
   "stats": [
     {
       "name": "Damage",
@@ -33,5 +33,10 @@
   ],
   "cost": 2800,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

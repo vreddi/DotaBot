@@ -1,5 +1,5 @@
 {
-  "popularityRank": 65,
+  "popularityRank": 66,
   "sourceLink": "https://dotabuff.com/items/magic-stick",
   "localizedName": "magic-stick",
   "name": "Magic Stick",
@@ -16,11 +16,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1778607,
-  "useRate": 2.5715,
-  "winRate": 41.6275,
+  "timesUsed": 1589167,
+  "useRate": 2.4939,
+  "winRate": 41.6669,
   "stats": [],
   "cost": 200,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

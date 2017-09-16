@@ -1,5 +1,5 @@
 {
-  "popularityRank": 81,
+  "popularityRank": 78,
   "sourceLink": "https://dotabuff.com/items/morbid-mask",
   "localizedName": "morbid-mask",
   "name": "Morbid Mask",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1330194,
-  "useRate": 1.9232,
-  "winRate": 43.7931,
+  "timesUsed": 1219014,
+  "useRate": 1.913,
+  "winRate": 43.7056,
   "stats": [
     {
       "name": "Damage",
@@ -27,5 +27,10 @@
   ],
   "cost": 1100,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

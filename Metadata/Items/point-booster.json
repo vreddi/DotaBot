@@ -1,14 +1,14 @@
 {
-  "popularityRank": 75,
+  "popularityRank": 76,
   "sourceLink": "https://dotabuff.com/items/point-booster",
   "localizedName": "point-booster",
   "name": "Point Booster",
   "lore": "A perfectly formed amethyst that nourishes body and mind when held.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 1505889,
-  "useRate": 2.1772,
-  "winRate": 39.9881,
+  "timesUsed": 1366049,
+  "useRate": 2.1438,
+  "winRate": 39.7211,
   "stats": [
     {
       "name": "Mana",
@@ -25,5 +25,10 @@
   ],
   "cost": 1200,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

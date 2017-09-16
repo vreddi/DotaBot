@@ -1,14 +1,14 @@
 {
-  "popularityRank": 108,
+  "popularityRank": 107,
   "sourceLink": "https://dotabuff.com/items/vitality-booster",
   "localizedName": "vitality-booster",
   "name": "Vitality Booster",
   "lore": "A ruby gemstone that has been passed down through generations of warrior kin.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 602742,
-  "useRate": 0.8714,
-  "winRate": 48.8573,
+  "timesUsed": 579960,
+  "useRate": 0.9101,
+  "winRate": 48.9787,
   "stats": [
     {
       "name": "Health",
@@ -19,5 +19,10 @@
   ],
   "cost": 1100,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

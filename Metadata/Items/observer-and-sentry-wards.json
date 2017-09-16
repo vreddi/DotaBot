@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2142326,
-  "useRate": 3.0974,
-  "winRate": 37.4316,
+  "timesUsed": 2008072,
+  "useRate": 3.1513,
+  "winRate": 37.3857,
   "stats": [
     {
       "name": "OBSERVER VISION RANGE:",
@@ -45,5 +45,10 @@
   ],
   "cost": 160,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

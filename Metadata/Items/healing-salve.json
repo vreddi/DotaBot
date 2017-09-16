@@ -1,5 +1,5 @@
 {
-  "popularityRank": 132,
+  "popularityRank": 129,
   "sourceLink": "https://dotabuff.com/items/healing-salve",
   "localizedName": "healing-salve",
   "name": "Healing Salve",
@@ -14,11 +14,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 285443,
-  "useRate": 0.4126,
-  "winRate": 38.8518,
+  "timesUsed": 270881,
+  "useRate": 0.4251,
+  "winRate": 38.769,
   "stats": [],
   "cost": 110,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 79,
+  "popularityRank": 77,
   "sourceLink": "https://dotabuff.com/items/blight-stone",
   "localizedName": "blight-stone",
   "name": "Blight Stone",
@@ -14,11 +14,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1393730,
-  "useRate": 2.015,
-  "winRate": 30.2522,
+  "timesUsed": 1326097,
+  "useRate": 2.0811,
+  "winRate": 29.634,
   "stats": [],
   "cost": 300,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

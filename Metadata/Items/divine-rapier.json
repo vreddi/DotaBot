@@ -1,5 +1,5 @@
 {
-  "popularityRank": 112,
+  "popularityRank": 113,
   "sourceLink": "https://dotabuff.com/items/divine-rapier",
   "localizedName": "divine-rapier",
   "name": "Divine Rapier",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 522357,
-  "useRate": 0.7552,
-  "winRate": 86.3319,
+  "timesUsed": 486704,
+  "useRate": 0.7638,
+  "winRate": 86.7042,
   "stats": [
     {
       "name": "Damage",
@@ -27,5 +27,10 @@
   ],
   "cost": 6000,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

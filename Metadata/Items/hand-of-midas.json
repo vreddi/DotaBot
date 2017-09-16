@@ -1,5 +1,5 @@
 {
-  "popularityRank": 16,
+  "popularityRank": 17,
   "sourceLink": "https://dotabuff.com/items/hand-of-midas",
   "localizedName": "hand-of-midas",
   "name": "Hand of Midas",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 6184582,
-  "useRate": 8.9418,
-  "winRate": 45.6565,
+  "timesUsed": 5367703,
+  "useRate": 8.4237,
+  "winRate": 45.5827,
   "stats": [
     {
       "name": "Attack Speed",
@@ -29,5 +29,10 @@
   ],
   "cost": 2150,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

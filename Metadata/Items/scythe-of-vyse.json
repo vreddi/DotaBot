@@ -1,5 +1,5 @@
 {
-  "popularityRank": 87,
+  "popularityRank": 86,
   "sourceLink": "https://dotabuff.com/items/scythe-of-vyse",
   "localizedName": "scythe-of-vyse",
   "name": "Scythe of Vyse",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1135430,
-  "useRate": 1.6416,
-  "winRate": 63.8958,
+  "timesUsed": 1062661,
+  "useRate": 1.6676,
+  "winRate": 64.0172,
   "stats": [
     {
       "name": "Strength",
@@ -47,5 +47,10 @@
   ],
   "cost": 5700,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

@@ -16,11 +16,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 19289660,
-  "useRate": 27.8894,
-  "winRate": 43.4729,
+  "timesUsed": 17499711,
+  "useRate": 27.463,
+  "winRate": 43.4267,
   "stats": [],
   "cost": 50,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

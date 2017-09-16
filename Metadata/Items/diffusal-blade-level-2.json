@@ -23,13 +23,13 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1688247,
-  "useRate": 2.4409,
-  "winRate": 63.0484,
+  "timesUsed": 1497206,
+  "useRate": 2.3496,
+  "winRate": 62.0702,
   "stats": [
     {
       "name": "Agility",
-      "value": 35.0,
+      "value": 30.0,
       "statType": 0,
       "valueType": 0
     },
@@ -42,5 +42,10 @@
   ],
   "cost": 3850,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

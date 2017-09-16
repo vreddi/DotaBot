@@ -6,9 +6,9 @@
   "lore": "A pair of magical gloves that seems to render weapons weightless.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 408095,
-  "useRate": 0.59,
-  "winRate": 24.272,
+  "timesUsed": 381332,
+  "useRate": 0.5984,
+  "winRate": 24.0562,
   "stats": [
     {
       "name": "Attack Speed",
@@ -19,5 +19,10 @@
   ],
   "cost": 500,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

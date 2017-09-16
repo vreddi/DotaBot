@@ -1,5 +1,5 @@
 {
-  "popularityRank": 23,
+  "popularityRank": 22,
   "sourceLink": "https://dotabuff.com/items/aether-lens",
   "localizedName": "aether-lens",
   "name": "Aether Lens",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 4891788,
-  "useRate": 7.0726,
-  "winRate": 56.4199,
+  "timesUsed": 4689853,
+  "useRate": 7.3599,
+  "winRate": 56.5366,
   "stats": [
     {
       "name": "Mana",
@@ -39,5 +39,10 @@
   ],
   "cost": 2350,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

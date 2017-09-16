@@ -1,5 +1,5 @@
 {
-  "popularityRank": 101,
+  "popularityRank": 100,
   "sourceLink": "https://dotabuff.com/items/lotus-orb",
   "localizedName": "lotus-orb",
   "name": "Lotus Orb",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 788261,
-  "useRate": 1.1396,
-  "winRate": 63.3234,
+  "timesUsed": 722636,
+  "useRate": 1.134,
+  "winRate": 63.0848,
   "stats": [
     {
       "name": "Damage",
@@ -53,5 +53,10 @@
   ],
   "cost": 4000,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

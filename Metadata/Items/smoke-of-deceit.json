@@ -1,5 +1,5 @@
 {
-  "popularityRank": 98,
+  "popularityRank": 102,
   "sourceLink": "https://dotabuff.com/items/smoke-of-deceit",
   "localizedName": "smoke-of-deceit",
   "name": "Smoke of Deceit",
@@ -16,11 +16,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 843389,
-  "useRate": 1.2193,
-  "winRate": 42.4802,
+  "timesUsed": 716879,
+  "useRate": 1.125,
+  "winRate": 42.6617,
   "stats": [],
   "cost": 50,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

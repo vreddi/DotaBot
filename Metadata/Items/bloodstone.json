@@ -1,5 +1,5 @@
 {
-  "popularityRank": 61,
+  "popularityRank": 60,
   "sourceLink": "https://dotabuff.com/items/bloodstone",
   "localizedName": "bloodstone",
   "name": "Bloodstone",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2028673,
-  "useRate": 2.9331,
-  "winRate": 59.1822,
+  "timesUsed": 1720585,
+  "useRate": 2.7001,
+  "winRate": 59.6695,
   "stats": [
     {
       "name": "Health",
@@ -54,5 +54,10 @@
   ],
   "cost": 4850,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

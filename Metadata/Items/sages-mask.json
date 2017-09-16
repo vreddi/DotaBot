@@ -6,9 +6,9 @@
   "lore": "A mask commonly used by mages and warlocks for various rituals.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 197237,
-  "useRate": 0.2851,
-  "winRate": 29.7601,
+  "timesUsed": 180014,
+  "useRate": 0.2825,
+  "winRate": 29.9576,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -19,5 +19,10 @@
   ],
   "cost": 325,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

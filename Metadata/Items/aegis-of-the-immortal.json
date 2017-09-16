@@ -1,5 +1,5 @@
 {
-  "popularityRank": 103,
+  "popularityRank": 104,
   "sourceLink": "https://dotabuff.com/items/aegis-of-the-immortal",
   "localizedName": "aegis-of-the-immortal",
   "name": "Aegis of the Immortal",
@@ -14,11 +14,12 @@
     }
   ],
   "notes": null,
-  "timesUsed": 719092,
-  "useRate": 1.0396,
-  "winRate": 97.897,
+  "timesUsed": 639408,
+  "useRate": 1.0034,
+  "winRate": 97.9243,
   "stats": [],
   "cost": 0,
   "image": null,
+  "shops": null,
   "aliases": null
 }

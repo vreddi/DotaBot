@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 21158305,
-  "useRate": 30.5911,
-  "winRate": 48.7515,
+  "timesUsed": 19602129,
+  "useRate": 30.7624,
+  "winRate": 48.7168,
   "stats": [
     {
       "name": "Movement Speed",
@@ -39,5 +39,10 @@
   ],
   "cost": 1350,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

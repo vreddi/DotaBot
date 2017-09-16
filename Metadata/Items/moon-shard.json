@@ -1,5 +1,5 @@
 {
-  "popularityRank": 106,
+  "popularityRank": 105,
   "sourceLink": "https://dotabuff.com/items/moon-shard",
   "localizedName": "moon-shard",
   "name": "Moon Shard",
@@ -21,9 +21,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 626580,
-  "useRate": 0.9059,
-  "winRate": 79.3087,
+  "timesUsed": 630214,
+  "useRate": 0.989,
+  "winRate": 78.9354,
   "stats": [
     {
       "name": "Attack Speed",
@@ -34,5 +34,10 @@
   ],
   "cost": 4000,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

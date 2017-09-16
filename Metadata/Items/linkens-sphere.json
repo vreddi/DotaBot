@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 5478782,
-  "useRate": 7.9213,
-  "winRate": 61.7751,
+  "timesUsed": 5124681,
+  "useRate": 8.0423,
+  "winRate": 62.0026,
   "stats": [
     {
       "name": "All Attributes",
@@ -54,5 +54,10 @@
   ],
   "cost": 4850,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

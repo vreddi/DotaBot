@@ -1,5 +1,5 @@
 {
-  "popularityRank": 32,
+  "popularityRank": 33,
   "sourceLink": "https://dotabuff.com/items/stout-shield",
   "localizedName": "stout-shield",
   "name": "Stout Shield",
@@ -14,11 +14,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3505270,
-  "useRate": 5.0679,
-  "winRate": 35.3839,
+  "timesUsed": 3212201,
+  "useRate": 5.041,
+  "winRate": 35.3454,
   "stats": [],
   "cost": 200,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

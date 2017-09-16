@@ -1,14 +1,14 @@
 {
-  "popularityRank": 35,
+  "popularityRank": 36,
   "sourceLink": "https://dotabuff.com/items/null-talisman",
   "localizedName": "null-talisman",
   "name": "Null Talisman",
   "lore": "A small gemstone attached to several chains.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 3194166,
-  "useRate": 4.6181,
-  "winRate": 36.9713,
+  "timesUsed": 2982166,
+  "useRate": 4.68,
+  "winRate": 37.3151,
   "stats": [
     {
       "name": "Strength",
@@ -37,5 +37,10 @@
   ],
   "cost": 470,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

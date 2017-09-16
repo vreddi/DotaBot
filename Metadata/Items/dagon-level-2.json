@@ -1,5 +1,5 @@
 {
-  "popularityRank": 128,
+  "popularityRank": 130,
   "sourceLink": "https://dotabuff.com/items/dagon-level-2",
   "localizedName": "dagon-level-2",
   "name": "Dagon (level 2)",
@@ -20,9 +20,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 310822,
-  "useRate": 0.4493,
-  "winRate": 45.7712,
+  "timesUsed": 267871,
+  "useRate": 0.4203,
+  "winRate": 45.2628,
   "stats": [
     {
       "name": "Intelligence",
@@ -45,5 +45,10 @@
   ],
   "cost": 3970,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

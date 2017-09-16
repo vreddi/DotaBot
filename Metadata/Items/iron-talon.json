@@ -1,5 +1,5 @@
 {
-  "popularityRank": 86,
+  "popularityRank": 87,
   "sourceLink": "https://dotabuff.com/items/iron-talon",
   "localizedName": "iron-talon",
   "name": "Iron Talon",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1186364,
-  "useRate": 1.7152,
-  "winRate": 35.0176,
+  "timesUsed": 1010220,
+  "useRate": 1.5853,
+  "winRate": 34.7758,
   "stats": [
     {
       "name": "Armor",
@@ -36,5 +36,10 @@
   ],
   "cost": 500,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

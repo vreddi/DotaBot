@@ -1,5 +1,5 @@
 {
-  "popularityRank": 36,
+  "popularityRank": 37,
   "sourceLink": "https://dotabuff.com/items/orb-of-venom",
   "localizedName": "orb-of-venom",
   "name": "Orb of Venom",
@@ -14,11 +14,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3119388,
-  "useRate": 4.51,
-  "winRate": 44.6878,
+  "timesUsed": 2899258,
+  "useRate": 4.5499,
+  "winRate": 44.6357,
   "stats": [],
   "cost": 275,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

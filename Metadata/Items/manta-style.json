@@ -1,5 +1,5 @@
 {
-  "popularityRank": 18,
+  "popularityRank": 19,
   "sourceLink": "https://dotabuff.com/items/manta-style",
   "localizedName": "manta-style",
   "name": "Manta Style",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 5851054,
-  "useRate": 8.4595,
-  "winRate": 61.5025,
+  "timesUsed": 5137888,
+  "useRate": 8.0631,
+  "winRate": 61.5117,
   "stats": [
     {
       "name": "Strength",
@@ -53,5 +53,10 @@
   ],
   "cost": 5000,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

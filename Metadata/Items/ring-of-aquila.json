@@ -1,5 +1,5 @@
 {
-  "popularityRank": 15,
+  "popularityRank": 14,
   "sourceLink": "https://dotabuff.com/items/ring-of-aquila",
   "localizedName": "ring-of-aquila",
   "name": "Ring of Aquila",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 6860889,
-  "useRate": 9.9196,
-  "winRate": 48.1601,
+  "timesUsed": 6569227,
+  "useRate": 10.3093,
+  "winRate": 48.0155,
   "stats": [
     {
       "name": "Damage",
@@ -45,5 +45,10 @@
   ],
   "cost": 985,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

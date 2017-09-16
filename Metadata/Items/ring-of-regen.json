@@ -6,9 +6,9 @@
   "lore": "This ring is considered a good luck charm among the Gnomes.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 143463,
-  "useRate": 0.2074,
-  "winRate": 25.3772,
+  "timesUsed": 126372,
+  "useRate": 0.1983,
+  "winRate": 27.3866,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -19,5 +19,10 @@
   ],
   "cost": 325,
   "image": null,
+  "shops": {
+    "sideShop": true,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

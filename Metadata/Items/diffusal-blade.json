@@ -1,5 +1,5 @@
 {
-  "popularityRank": 39,
+  "popularityRank": 38,
   "sourceLink": "https://dotabuff.com/items/diffusal-blade",
   "localizedName": "diffusal-blade",
   "name": "Diffusal Blade",
@@ -23,13 +23,13 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3015637,
-  "useRate": 4.36,
-  "winRate": 55.0201,
+  "timesUsed": 2870862,
+  "useRate": 4.5053,
+  "winRate": 54.5264,
   "stats": [
     {
       "name": "Agility",
-      "value": 25.0,
+      "value": 20.0,
       "statType": 0,
       "valueType": 0
     },
@@ -42,5 +42,10 @@
   ],
   "cost": 3150,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

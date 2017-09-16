@@ -1,5 +1,5 @@
 {
-  "popularityRank": 72,
+  "popularityRank": 74,
   "sourceLink": "https://dotabuff.com/items/bloodthorn",
   "localizedName": "bloodthorn",
   "name": "Bloodthorn",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1672654,
-  "useRate": 2.4183,
-  "winRate": 64.9616,
+  "timesUsed": 1442963,
+  "useRate": 2.2645,
+  "winRate": 64.8909,
   "stats": [
     {
       "name": "Intelligence",
@@ -54,5 +54,10 @@
   ],
   "cost": 7195,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

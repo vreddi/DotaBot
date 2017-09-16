@@ -1,5 +1,5 @@
 {
-  "popularityRank": 66,
+  "popularityRank": 69,
   "sourceLink": "https://dotabuff.com/items/orchid-malevolence",
   "localizedName": "orchid-malevolence",
   "name": "Orchid Malevolence",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1757824,
-  "useRate": 2.5415,
-  "winRate": 46.3957,
+  "timesUsed": 1517842,
+  "useRate": 2.382,
+  "winRate": 46.7686,
   "stats": [
     {
       "name": "Intelligence",
@@ -47,5 +47,10 @@
   ],
   "cost": 4075,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

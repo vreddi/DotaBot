@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3245348,
-  "useRate": 4.6921,
-  "winRate": 64.5524,
+  "timesUsed": 3064446,
+  "useRate": 4.8091,
+  "winRate": 64.365,
   "stats": [
     {
       "name": "Damage",
@@ -27,5 +27,10 @@
   ],
   "cost": 5320,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": false,
+    "secretShop": true
+  },
   "aliases": null
 }

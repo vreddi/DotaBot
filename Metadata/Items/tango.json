@@ -1,5 +1,5 @@
 {
-  "popularityRank": 84,
+  "popularityRank": 82,
   "sourceLink": "https://dotabuff.com/items/tango",
   "localizedName": "tango",
   "name": "Tango",
@@ -14,11 +14,16 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1269271,
-  "useRate": 1.8351,
-  "winRate": 28.5511,
+  "timesUsed": 1174744,
+  "useRate": 1.8435,
+  "winRate": 28.6001,
   "stats": [],
   "cost": 125,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 91,
+  "popularityRank": 92,
   "sourceLink": "https://dotabuff.com/items/refresher-orb",
   "localizedName": "refresher-orb",
   "name": "Refresher Orb",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 929528,
-  "useRate": 1.3439,
-  "winRate": 67.3844,
+  "timesUsed": 877696,
+  "useRate": 1.3774,
+  "winRate": 67.5371,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -41,5 +41,10 @@
   ],
   "cost": 5200,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

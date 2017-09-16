@@ -1,5 +1,5 @@
 {
-  "popularityRank": 125,
+  "popularityRank": 124,
   "sourceLink": "https://dotabuff.com/items/infused-raindrop",
   "localizedName": "infused-raindrop",
   "name": "Infused Raindrop",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 353665,
-  "useRate": 0.5113,
-  "winRate": 45.75,
+  "timesUsed": 319519,
+  "useRate": 0.5014,
+  "winRate": 45.5941,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -29,5 +29,10 @@
   ],
   "cost": 225,
   "image": null,
+  "shops": {
+    "sideShop": false,
+    "homeShop": true,
+    "secretShop": false
+  },
   "aliases": null
 }

@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 877696,
-  "useRate": 1.3774,
-  "winRate": 67.5371,
+  "timesUsed": 766253,
+  "useRate": 1.3765,
+  "winRate": 67.464,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -46,5 +46,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "perseverance",
+    "perseverance",
+    "recipe:-refresher-orb"
+  ],
+  "buildInto": null
 }

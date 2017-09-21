@@ -1,5 +1,5 @@
 {
-  "popularityRank": 49,
+  "popularityRank": 50,
   "sourceLink": "https://dotabuff.com/items/observer-ward",
   "localizedName": "observer-ward",
   "name": "Observer Ward",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2492665,
-  "useRate": 3.9118,
-  "winRate": 38.414,
+  "timesUsed": 2163939,
+  "useRate": 3.8874,
+  "winRate": 38.4124,
   "stats": [],
   "cost": 60,
   "image": null,
@@ -27,5 +27,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "observer-and-sentry-wards"
+  ]
 }

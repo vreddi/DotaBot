@@ -20,10 +20,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3004555,
-  "useRate": 4.7151,
-  "winRate": 63.0018,
+  "notes": [
+    "True Strike does not work when attacking enemy structures."
+  ],
+  "timesUsed": 2655101,
+  "useRate": 4.7698,
+  "winRate": 62.9916,
   "stats": [
     {
       "name": "Damage",
@@ -39,5 +41,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "javelin",
+    "javelin",
+    "demon-edge"
+  ],
+  "buildInto": null
 }

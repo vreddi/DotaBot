@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1470782,
-  "useRate": 2.3081,
-  "winRate": 71.6212,
+  "notes": [
+    "Lasts 5 seconds with melee Eye of Skadi, 2.5 seconds with ranged Eye of Skadi."
+  ],
+  "timesUsed": 1283320,
+  "useRate": 2.3054,
+  "winRate": 71.672,
   "stats": [
     {
       "name": "All Attributes",
@@ -44,5 +46,12 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ultimate-orb",
+    "ultimate-orb",
+    "point-booster",
+    "orb-of-venom"
+  ],
+  "buildInto": null
 }

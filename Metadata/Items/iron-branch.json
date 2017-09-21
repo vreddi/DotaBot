@@ -1,5 +1,5 @@
 {
-  "popularityRank": 81,
+  "popularityRank": 83,
   "sourceLink": "https://dotabuff.com/items/iron-branch",
   "localizedName": "iron-branch",
   "name": "Iron Branch",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1179351,
-  "useRate": 1.8508,
-  "winRate": 33.3156,
+  "timesUsed": 1007778,
+  "useRate": 1.8104,
+  "winRate": 33.4778,
   "stats": [
     {
       "name": "All Attributes",
@@ -32,5 +32,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "magic-wand",
+    "buckler",
+    "headdress"
+  ]
 }

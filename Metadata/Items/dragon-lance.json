@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3744219,
-  "useRate": 5.8759,
-  "winRate": 46.7606,
+  "notes": [
+    "Passive does not stack."
+  ],
+  "timesUsed": 3249880,
+  "useRate": 5.8383,
+  "winRate": 46.7068,
   "stats": [
     {
       "name": "Agility",
@@ -38,5 +40,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "band-of-elvenskin",
+    "band-of-elvenskin",
+    "ogre-club"
+  ],
+  "buildInto": [
+    "hurricane-pike"
+  ]
 }

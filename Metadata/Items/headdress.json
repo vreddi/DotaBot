@@ -1,5 +1,5 @@
 {
-  "popularityRank": 121,
+  "popularityRank": 123,
   "sourceLink": "https://dotabuff.com/items/headdress",
   "localizedName": "headdress",
   "name": "Headdress",
@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 331183,
-  "useRate": 0.5197,
-  "winRate": 30.8533,
+  "notes": [
+    "Multiple instances of Regeneration Aura do not stack."
+  ],
+  "timesUsed": 282061,
+  "useRate": 0.5067,
+  "winRate": 30.6174,
   "stats": [
     {
       "name": "All Attributes",
@@ -32,5 +34,16 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "iron-branch",
+    "ring-of-regen",
+    "recipe:-headdress"
+  ],
+  "buildInto": [
+    "mekansm",
+    "vladmirs-offering",
+    "pipe-of-insight",
+    "helm-of-the-dominator"
+  ]
 }

@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 2094856,
-  "useRate": 3.2875,
-  "winRate": 75.1924,
+  "notes": [
+    "Stacks diminishingly with other sources of Evasion."
+  ],
+  "timesUsed": 1839371,
+  "useRate": 3.3044,
+  "winRate": 75.1535,
   "stats": [
     {
       "name": "Agility",
@@ -52,5 +54,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "quarterstaff",
+    "talisman-of-evasion",
+    "eaglesong"
+  ],
+  "buildInto": null
 }

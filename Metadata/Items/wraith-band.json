@@ -1,14 +1,14 @@
 {
-  "popularityRank": 91,
+  "popularityRank": 90,
   "sourceLink": "https://dotabuff.com/items/wraith-band",
   "localizedName": "wraith-band",
   "name": "Wraith Band",
   "lore": "A circlet with faint whispers echoing about it.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 880970,
-  "useRate": 1.3825,
-  "winRate": 39.1383,
+  "timesUsed": 774691,
+  "useRate": 1.3917,
+  "winRate": 38.9776,
   "stats": [
     {
       "name": "Strength",
@@ -42,5 +42,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "slippers-of-agility",
+    "circlet",
+    "recipe:-wraith-band"
+  ],
+  "buildInto": [
+    "ring-of-aquila"
+  ]
 }

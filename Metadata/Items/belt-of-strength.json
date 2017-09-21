@@ -6,9 +6,9 @@
   "lore": "A valued accessory for improving vitality.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 218358,
-  "useRate": 0.3426,
-  "winRate": 19.544,
+  "timesUsed": 190921,
+  "useRate": 0.3429,
+  "winRate": 19.7301,
   "stats": [
     {
       "name": "Strength",
@@ -24,5 +24,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "power-treads",
+    "necronomicon",
+    "skull-basher",
+    "sange"
+  ]
 }

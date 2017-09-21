@@ -1,5 +1,5 @@
 {
-  "popularityRank": 68,
+  "popularityRank": 67,
   "sourceLink": "https://dotabuff.com/items/gem-of-true-sight",
   "localizedName": "gem-of-true-sight",
   "name": "Gem of True Sight",
@@ -20,10 +20,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1537700,
-  "useRate": 2.4131,
-  "winRate": 82.9413,
+  "notes": [
+    "Disabled while on a courier."
+  ],
+  "timesUsed": 1346709,
+  "useRate": 2.4193,
+  "winRate": 82.8745,
   "stats": [],
   "cost": 900,
   "image": null,
@@ -32,5 +34,7 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 37040,
-  "useRate": 0.0581,
-  "winRate": 53.4287,
+  "timesUsed": 31730,
+  "useRate": 0.057,
+  "winRate": 52.5307,
   "stats": [
     {
       "name": "Intelligence",
@@ -40,5 +40,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "belt-of-strength",
+    "staff-of-wizardry",
+    "recipe:-necronomicon"
+  ],
+  "buildInto": [
+    "necronomicon-level-2"
+  ]
 }

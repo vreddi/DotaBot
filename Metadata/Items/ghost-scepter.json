@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 1718548,
-  "useRate": 2.6969,
-  "winRate": 53.2267,
+  "notes": [
+    "Ends if you become Spell Immune, and will have no effect if you are already Spell Immune.",
+    "Shares cooldown with Ethereal Blade."
+  ],
+  "timesUsed": 1490449,
+  "useRate": 2.6775,
+  "winRate": 53.2692,
   "stats": [
     {
       "name": "All Attributes",
@@ -34,5 +37,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "ethereal-blade"
+  ]
 }

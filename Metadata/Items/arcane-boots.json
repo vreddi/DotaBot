@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 10365200,
-  "useRate": 16.2665,
-  "winRate": 48.5387,
+  "notes": [
+    "Does not work on Meepo clones."
+  ],
+  "timesUsed": 9006661,
+  "useRate": 16.1803,
+  "winRate": 48.5482,
   "stats": [
     {
       "name": "Movement Speed",
@@ -40,5 +42,12 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "boots-of-speed",
+    "energy-booster"
+  ],
+  "buildInto": [
+    "guardian-greaves"
+  ]
 }

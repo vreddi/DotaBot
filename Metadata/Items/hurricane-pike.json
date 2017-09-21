@@ -22,10 +22,14 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 4178705,
-  "useRate": 6.5578,
-  "winRate": 58.8573,
+  "notes": [
+    "Self-cast will use Hurricane Pike on yourself.",
+    "Hurricane Pike doesn't interrupt the target's actions.",
+    "Will not work on a unit inside Chronosphere, Duel, or Black Hole."
+  ],
+  "timesUsed": 3644010,
+  "useRate": 6.5464,
+  "winRate": 58.8427,
   "stats": [
     {
       "name": "Intelligence",
@@ -59,5 +63,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "force-staff",
+    "dragon-lance",
+    "recipe:-hurricane-pike"
+  ],
+  "buildInto": null
 }

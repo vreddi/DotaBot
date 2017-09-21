@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 942391,
-  "useRate": 1.4789,
-  "winRate": 57.3982,
+  "timesUsed": 830033,
+  "useRate": 1.4911,
+  "winRate": 57.4984,
   "stats": [
     {
       "name": "Evasion",
@@ -53,5 +53,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "talisman-of-evasion",
+    "sange"
+  ],
+  "buildInto": null
 }

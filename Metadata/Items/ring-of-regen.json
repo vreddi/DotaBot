@@ -5,10 +5,12 @@
   "name": "Ring of Regen",
   "lore": "This ring is considered a good luck charm among the Gnomes.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 126372,
-  "useRate": 0.1983,
-  "winRate": 27.3866,
+  "notes": [
+    "Ring of Regen is shareable."
+  ],
+  "timesUsed": 106839,
+  "useRate": 0.1919,
+  "winRate": 28.0571,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -24,5 +26,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "headdress",
+    "hood-of-defiance",
+    "soul-ring",
+    "tranquil-boots"
+  ]
 }

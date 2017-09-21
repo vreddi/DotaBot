@@ -1,5 +1,5 @@
 {
-  "popularityRank": 38,
+  "popularityRank": 39,
   "sourceLink": "https://dotabuff.com/items/diffusal-blade",
   "localizedName": "diffusal-blade",
   "name": "Diffusal Blade",
@@ -22,10 +22,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2870862,
-  "useRate": 4.5053,
-  "winRate": 54.5264,
+  "notes": [
+    "Does not stack with other manabreak abilities."
+  ],
+  "timesUsed": 2537413,
+  "useRate": 4.5584,
+  "winRate": 54.3974,
   "stats": [
     {
       "name": "Agility",
@@ -47,5 +49,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "robe-of-the-magi",
+    "blade-of-alacrity",
+    "blade-of-alacrity",
+    "recipe:-diffusal-blade"
+  ],
+  "buildInto": [
+    "diffusal-blade-level-2"
+  ]
 }

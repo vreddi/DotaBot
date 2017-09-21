@@ -1,5 +1,5 @@
 {
-  "popularityRank": 52,
+  "popularityRank": 51,
   "sourceLink": "https://dotabuff.com/items/veil-of-discord",
   "localizedName": "veil-of-discord",
   "name": "Veil of Discord",
@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 2323147,
-  "useRate": 3.6458,
-  "winRate": 54.3192,
+  "notes": [
+    "Dispellable."
+  ],
+  "timesUsed": 2072804,
+  "useRate": 3.7237,
+  "winRate": 54.3838,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -64,5 +66,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "helm-of-iron-will",
+    "null-talisman",
+    "null-talisman",
+    "recipe:-veil-of-discord"
+  ],
+  "buildInto": null
 }

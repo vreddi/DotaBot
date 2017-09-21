@@ -1,14 +1,14 @@
 {
-  "popularityRank": 73,
+  "popularityRank": 74,
   "sourceLink": "https://dotabuff.com/items/staff-of-wizardry",
   "localizedName": "staff-of-wizardry",
   "name": "Staff of Wizardry",
   "lore": "A staff of magical powers passed down from the eldest mages.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 1454726,
-  "useRate": 2.2829,
-  "winRate": 27.1444,
+  "timesUsed": 1266886,
+  "useRate": 2.2759,
+  "winRate": 27.1785,
   "stats": [
     {
       "name": "Intelligence",
@@ -24,5 +24,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "euls-scepter-of-divinity",
+    "force-staff",
+    "dagon",
+    "necronomicon",
+    "aghanims-scepter",
+    "rod-of-atos"
+  ]
 }

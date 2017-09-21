@@ -1,5 +1,5 @@
 {
-  "popularityRank": 71,
+  "popularityRank": 70,
   "sourceLink": "https://dotabuff.com/items/diffusal-blade-level-2",
   "localizedName": "diffusal-blade-level-2",
   "name": "Diffusal Blade (level 2)",
@@ -22,10 +22,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1497206,
-  "useRate": 2.3496,
-  "winRate": 62.0702,
+  "notes": [
+    "Does not stack with other manabreak abilities."
+  ],
+  "timesUsed": 1315814,
+  "useRate": 2.3638,
+  "winRate": 62.0836,
   "stats": [
     {
       "name": "Agility",
@@ -47,5 +49,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "recipe:-diffusal-blade",
+    "diffusal-blade"
+  ],
+  "buildInto": null
 }

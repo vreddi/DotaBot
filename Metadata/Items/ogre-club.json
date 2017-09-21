@@ -6,9 +6,9 @@
   "lore": "You grow stronger just by holding it.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 1924993,
-  "useRate": 3.0209,
-  "winRate": 23.1906,
+  "timesUsed": 1671932,
+  "useRate": 3.0036,
+  "winRate": 23.1853,
   "stats": [
     {
       "name": "Strength",
@@ -24,5 +24,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "aghanims-scepter",
+    "black-king-bar",
+    "sange",
+    "dragon-lance",
+    "echo-sabre"
+  ]
 }

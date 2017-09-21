@@ -1,5 +1,5 @@
 {
-  "popularityRank": 96,
+  "popularityRank": 94,
   "sourceLink": "https://dotabuff.com/items/boots-of-travel",
   "localizedName": "boots-of-travel",
   "name": "Boots of Travel",
@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 793727,
-  "useRate": 1.2456,
-  "winRate": 71.3804,
+  "timesUsed": 702689,
+  "useRate": 1.2623,
+  "winRate": 71.4462,
   "stats": [
     {
       "name": "Movement Speed",
@@ -34,5 +34,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "boots-of-speed",
+    "recipe:-boots-of-travel"
+  ],
+  "buildInto": [
+    "boots-of-travel"
+  ]
 }

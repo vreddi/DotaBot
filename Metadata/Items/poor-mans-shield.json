@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 4145103,
-  "useRate": 6.505,
-  "winRate": 40.1236,
+  "notes": [
+    "Multiple sources of damage block don't stack."
+  ],
+  "timesUsed": 3636248,
+  "useRate": 6.5324,
+  "winRate": 40.0502,
   "stats": [
     {
       "name": "Agility",
@@ -32,5 +34,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "slippers-of-agility",
+    "slippers-of-agility",
+    "stout-shield"
+  ],
+  "buildInto": null
 }

@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 1062661,
-  "useRate": 1.6676,
-  "winRate": 64.0172,
+  "notes": [
+    "The target will have a base movement speed of 140, but buffs granting maximum movement speed won't be disabled."
+  ],
+  "timesUsed": 928653,
+  "useRate": 1.6683,
+  "winRate": 63.9468,
   "stats": [
     {
       "name": "Strength",
@@ -52,5 +54,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ultimate-orb",
+    "void-stone",
+    "mystic-staff"
+  ],
+  "buildInto": null
 }

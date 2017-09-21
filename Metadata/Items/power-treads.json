@@ -13,10 +13,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 19602129,
-  "useRate": 30.7624,
-  "winRate": 48.7168,
+  "notes": [
+    "Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.",
+    "The attack speed bonus from multiple Power Treads does not stack."
+  ],
+  "timesUsed": 17159367,
+  "useRate": 30.8266,
+  "winRate": 48.7004,
   "stats": [
     {
       "name": "Movement Speed",
@@ -44,5 +47,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "belt-of-strength",
+    "gloves-of-haste",
+    "boots-of-speed"
+  ],
+  "buildInto": null
 }

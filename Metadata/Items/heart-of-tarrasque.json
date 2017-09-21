@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2770356,
-  "useRate": 4.3476,
-  "winRate": 71.6472,
+  "timesUsed": 2441990,
+  "useRate": 4.387,
+  "winRate": 71.5514,
   "stats": [
     {
       "name": "Strength",
@@ -40,5 +40,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "reaver",
+    "vitality-booster",
+    "vitality-booster"
+  ],
+  "buildInto": null
 }

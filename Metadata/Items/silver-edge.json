@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 3493336,
-  "useRate": 5.4822,
-  "winRate": 64.6729,
+  "notes": [
+    "Backstab cannot miss.",
+    "Backstab does not pierce spell immunity."
+  ],
+  "timesUsed": 3049075,
+  "useRate": 5.4776,
+  "winRate": 64.7163,
   "stats": [
     {
       "name": "Damage",
@@ -46,5 +49,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ultimate-orb",
+    "shadow-blade",
+    "recipe:-silver-edge"
+  ],
+  "buildInto": null
 }

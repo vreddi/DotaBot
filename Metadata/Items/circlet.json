@@ -6,9 +6,9 @@
   "lore": "An elegant circlet designed for human princesses.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 218746,
-  "useRate": 0.3432,
-  "winRate": 36.439,
+  "timesUsed": 192437,
+  "useRate": 0.3457,
+  "winRate": 36.5319,
   "stats": [
     {
       "name": "All Attributes",
@@ -24,5 +24,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "magic-wand",
+    "bracer",
+    "wraith-band",
+    "null-talisman",
+    "urn-of-shadows"
+  ]
 }

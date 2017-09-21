@@ -1,5 +1,5 @@
 {
-  "popularityRank": 62,
+  "popularityRank": 63,
   "sourceLink": "https://dotabuff.com/items/guardian-greaves",
   "localizedName": "guardian-greaves",
   "name": "Guardian Greaves",
@@ -22,10 +22,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1685971,
-  "useRate": 2.6458,
-  "winRate": 66.6391,
+  "notes": [
+    "The aura boost only applies to heroes."
+  ],
+  "timesUsed": 1437950,
+  "useRate": 2.5832,
+  "winRate": 66.598,
   "stats": [
     {
       "name": "Movement Speed",
@@ -59,5 +61,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mekansm",
+    "arcane-boots",
+    "recipe:-guardian-greaves"
+  ],
+  "buildInto": null
 }

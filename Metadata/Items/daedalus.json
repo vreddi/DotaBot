@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3064446,
-  "useRate": 4.8091,
-  "winRate": 64.365,
+  "notes": [
+    "Critical Strike does not work against buildings."
+  ],
+  "timesUsed": 2686579,
+  "useRate": 4.8264,
+  "winRate": 64.3253,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +34,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "demon-edge",
+    "recipe:-daedalus",
+    "crystalys"
+  ],
+  "buildInto": null
 }

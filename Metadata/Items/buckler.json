@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 133753,
-  "useRate": 0.2099,
-  "winRate": 28.3971,
+  "timesUsed": 114450,
+  "useRate": 0.2056,
+  "winRate": 28.1441,
   "stats": [
     {
       "name": "Armor",
@@ -40,5 +40,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "chainmail",
+    "iron-branch",
+    "recipe:-buckler"
+  ],
+  "buildInto": [
+    "mekansm",
+    "crimson-guard"
+  ]
 }

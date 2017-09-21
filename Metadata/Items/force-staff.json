@@ -15,10 +15,14 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 6215178,
-  "useRate": 9.7537,
-  "winRate": 53.8832,
+  "notes": [
+    "Self-cast will cause you to use Force on yourself.",
+    "Force Staff doesn't interrupt the target's actions.",
+    "Will not work on a unit inside Chronosphere, Duel, or Black Hole."
+  ],
+  "timesUsed": 5459168,
+  "useRate": 9.8073,
+  "winRate": 53.8896,
   "stats": [
     {
       "name": "Intelligence",
@@ -40,5 +44,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "staff-of-wizardry",
+    "ring-of-health",
+    "recipe:-force-staff"
+  ],
+  "buildInto": [
+    "hurricane-pike"
+  ]
 }

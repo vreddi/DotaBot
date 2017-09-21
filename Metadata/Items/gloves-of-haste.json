@@ -6,9 +6,9 @@
   "lore": "A pair of magical gloves that seems to render weapons weightless.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 381332,
-  "useRate": 0.5984,
-  "winRate": 24.0562,
+  "timesUsed": 331710,
+  "useRate": 0.5959,
+  "winRate": 23.6767,
   "stats": [
     {
       "name": "Attack Speed",
@@ -24,5 +24,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "power-treads",
+    "hand-of-midas",
+    "armlet-of-mordiggian",
+    "helm-of-the-dominator",
+    "maelstrom"
+  ]
 }

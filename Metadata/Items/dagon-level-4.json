@@ -19,10 +19,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 263190,
-  "useRate": 0.413,
-  "winRate": 54.0476,
+  "notes": [
+    "Instantly kills illusions."
+  ],
+  "timesUsed": 227726,
+  "useRate": 0.4091,
+  "winRate": 53.6557,
   "stats": [
     {
       "name": "Intelligence",
@@ -50,5 +52,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "recipe:-dagon",
+    "dagon-level-3"
+  ],
+  "buildInto": [
+    "dagon-level-5"
+  ]
 }

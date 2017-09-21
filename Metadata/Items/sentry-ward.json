@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1212122,
-  "useRate": 1.9022,
-  "winRate": 33.2287,
+  "timesUsed": 1054995,
+  "useRate": 1.8952,
+  "winRate": 33.1584,
   "stats": [],
   "cost": 100,
   "image": null,
@@ -27,5 +27,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "observer-and-sentry-wards"
+  ]
 }

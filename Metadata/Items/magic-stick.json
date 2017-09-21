@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 1589167,
-  "useRate": 2.4939,
-  "winRate": 41.6669,
+  "notes": [
+    "Gains charges for spells cast by visible enemies in 1200 range.",
+    "Certain abilities and item abilities will not add charges."
+  ],
+  "timesUsed": 1364965,
+  "useRate": 2.4521,
+  "winRate": 41.5566,
   "stats": [],
   "cost": 200,
   "image": null,
@@ -27,5 +30,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "magic-wand"
+  ]
 }

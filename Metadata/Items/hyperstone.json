@@ -1,14 +1,14 @@
 {
-  "popularityRank": 97,
+  "popularityRank": 96,
   "sourceLink": "https://dotabuff.com/items/hyperstone",
   "localizedName": "hyperstone",
   "name": "Hyperstone",
   "lore": "A mystical, carved stone that boosts the fervor of the holder.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 788182,
-  "useRate": 1.2369,
-  "winRate": 60.5067,
+  "timesUsed": 689389,
+  "useRate": 1.2384,
+  "winRate": 60.3901,
   "stats": [
     {
       "name": "Attack Speed",
@@ -24,5 +24,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "assault-cuirass",
+    "mjollnir",
+    "moon-shard"
+  ]
 }

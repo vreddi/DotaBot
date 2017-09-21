@@ -5,10 +5,12 @@
   "name": "Perseverance",
   "lore": "A gem that grants heart to the bearer.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 1371399,
-  "useRate": 2.1521,
-  "winRate": 38.1292,
+  "notes": [
+    "Perseverance is shareable."
+  ],
+  "timesUsed": 1204722,
+  "useRate": 2.1642,
+  "winRate": 38.0588,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -36,5 +38,15 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-health",
+    "void-stone"
+  ],
+  "buildInto": [
+    "refresher-orb",
+    "linkens-sphere",
+    "battle-fury",
+    "lotus-orb"
+  ]
 }

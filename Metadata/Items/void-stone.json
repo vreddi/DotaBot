@@ -5,10 +5,12 @@
   "name": "Void Stone",
   "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 533174,
-  "useRate": 0.8367,
-  "winRate": 34.3158,
+  "notes": [
+    "Void Stone is shareable."
+  ],
+  "timesUsed": 463368,
+  "useRate": 0.8324,
+  "winRate": 34.1745,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -24,5 +26,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "perseverance",
+    "scythe-of-vyse",
+    "euls-scepter-of-divinity",
+    "aether-lens"
+  ]
 }

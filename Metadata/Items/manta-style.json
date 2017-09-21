@@ -1,5 +1,5 @@
 {
-  "popularityRank": 19,
+  "popularityRank": 20,
   "sourceLink": "https://dotabuff.com/items/manta-style",
   "localizedName": "manta-style",
   "name": "Manta Style",
@@ -15,10 +15,14 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 5137888,
-  "useRate": 8.0631,
-  "winRate": 61.5117,
+  "notes": [
+    "Has a 0.1 second cast time during which you are invulnerable.",
+    "Many effects are removed upon using Manta.",
+    "Yasha based movement speed bonuses from multiple items do not stack."
+  ],
+  "timesUsed": 4448226,
+  "useRate": 7.9911,
+  "winRate": 61.5146,
   "stats": [
     {
       "name": "Strength",
@@ -58,5 +62,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ultimate-orb",
+    "recipe:-manta-style",
+    "yasha"
+  ],
+  "buildInto": null
 }

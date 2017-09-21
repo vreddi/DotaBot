@@ -1,14 +1,16 @@
 {
-  "popularityRank": 135,
+  "popularityRank": 136,
   "sourceLink": "https://dotabuff.com/items/cloak",
   "localizedName": "cloak",
   "name": "Cloak",
   "lore": "A cloak made of a magical material that works to dispel any magic cast on it.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 232938,
-  "useRate": 0.3655,
-  "winRate": 24.4953,
+  "notes": [
+    "Stacks multiplicatively with other sources of spell resistance."
+  ],
+  "timesUsed": 200799,
+  "useRate": 0.3607,
+  "winRate": 24.4782,
   "stats": [
     {
       "name": "Magic Resistance",
@@ -24,5 +26,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "hood-of-defiance",
+    "glimmer-cape"
+  ]
 }

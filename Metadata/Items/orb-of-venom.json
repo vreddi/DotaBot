@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2899258,
-  "useRate": 4.5499,
-  "winRate": 44.6357,
+  "notes": [
+    "Dispellable."
+  ],
+  "timesUsed": 2551942,
+  "useRate": 4.5845,
+  "winRate": 44.5688,
   "stats": [],
   "cost": 275,
   "image": null,
@@ -25,5 +27,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "eye-of-skadi"
+  ]
 }

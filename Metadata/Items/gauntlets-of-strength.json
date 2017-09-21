@@ -6,9 +6,9 @@
   "lore": "Studded leather gloves that add brute strength.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 211760,
-  "useRate": 0.3323,
-  "winRate": 35.9293,
+  "timesUsed": 182193,
+  "useRate": 0.3273,
+  "winRate": 36.1995,
   "stats": [
     {
       "name": "Strength",
@@ -24,5 +24,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "bracer"
+  ]
 }

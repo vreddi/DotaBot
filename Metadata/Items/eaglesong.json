@@ -6,9 +6,9 @@
   "lore": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 293370,
-  "useRate": 0.4603,
-  "winRate": 66.2685,
+  "timesUsed": 256711,
+  "useRate": 0.4611,
+  "winRate": 66.1327,
   "stats": [
     {
       "name": "Agility",
@@ -24,5 +24,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "butterfly",
+    "ethereal-blade"
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "popularityRank": 123,
+  "popularityRank": 121,
   "sourceLink": "https://dotabuff.com/items/oblivion-staff",
   "localizedName": "oblivion-staff",
   "name": "Oblivion Staff",
   "lore": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 327207,
-  "useRate": 0.5135,
-  "winRate": 25.1171,
+  "timesUsed": 288651,
+  "useRate": 0.5185,
+  "winRate": 25.2592,
   "stats": [
     {
       "name": "Intelligence",
@@ -42,5 +42,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "quarterstaff",
+    "robe-of-the-magi",
+    "sages-mask"
+  ],
+  "buildInto": [
+    "orchid-malevolence",
+    "echo-sabre"
+  ]
 }

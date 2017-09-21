@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 4689853,
-  "useRate": 7.3599,
-  "winRate": 56.5366,
+  "notes": [
+    "Passive does not stack."
+  ],
+  "timesUsed": 4072725,
+  "useRate": 7.3166,
+  "winRate": 56.5623,
   "stats": [
     {
       "name": "Mana",
@@ -44,5 +46,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "void-stone",
+    "energy-booster",
+    "recipe:-aether-lens"
+  ],
+  "buildInto": null
 }

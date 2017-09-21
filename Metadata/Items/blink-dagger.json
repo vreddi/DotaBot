@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 17759525,
-  "useRate": 27.8708,
-  "winRate": 55.0564,
+  "notes": [
+    "Self-casting will cause you to teleport in the direction of your team's fountain.",
+    "If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead."
+  ],
+  "timesUsed": 15494638,
+  "useRate": 27.8359,
+  "winRate": 55.0109,
   "stats": [],
   "cost": 2250,
   "image": null,
@@ -27,5 +30,7 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

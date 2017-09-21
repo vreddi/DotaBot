@@ -1,5 +1,5 @@
 {
-  "popularityRank": 80,
+  "popularityRank": 81,
   "sourceLink": "https://dotabuff.com/items/mekansm",
   "localizedName": "mekansm",
   "name": "Mekansm",
@@ -22,10 +22,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1210544,
-  "useRate": 1.8997,
-  "winRate": 49.7713,
+  "notes": [
+    "Restore does not affect units that have been affected by Restore in the last 25 seconds.",
+    "Multiple instances of Mekansm Aura do not stack."
+  ],
+  "timesUsed": 1015103,
+  "useRate": 1.8236,
+  "winRate": 49.5547,
   "stats": [
     {
       "name": "All Attributes",
@@ -47,5 +50,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "recipe:-mekansm",
+    "buckler",
+    "headdress"
+  ],
+  "buildInto": [
+    "guardian-greaves"
+  ]
 }

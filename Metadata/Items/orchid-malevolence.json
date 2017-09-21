@@ -1,5 +1,5 @@
 {
-  "popularityRank": 69,
+  "popularityRank": 68,
   "sourceLink": "https://dotabuff.com/items/orchid-malevolence",
   "localizedName": "orchid-malevolence",
   "name": "Orchid Malevolence",
@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 1517842,
-  "useRate": 2.382,
-  "winRate": 46.7686,
+  "notes": [
+    "Dispellable."
+  ],
+  "timesUsed": 1337844,
+  "useRate": 2.4034,
+  "winRate": 46.714,
   "stats": [
     {
       "name": "Intelligence",
@@ -52,5 +54,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "oblivion-staff",
+    "oblivion-staff",
+    "recipe:-orchid-malevolence"
+  ],
+  "buildInto": [
+    "bloodthorn"
+  ]
 }

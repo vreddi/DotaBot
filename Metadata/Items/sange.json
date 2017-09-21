@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 252922,
-  "useRate": 0.3969,
-  "winRate": 31.9667,
+  "timesUsed": 220778,
+  "useRate": 0.3966,
+  "winRate": 32.1349,
   "stats": [
     {
       "name": "Damage",
@@ -38,5 +38,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "belt-of-strength",
+    "ogre-club",
+    "recipe:-sange"
+  ],
+  "buildInto": [
+    "sange-and-yasha",
+    "heavens-halberd"
+  ]
 }

@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 8321153,
-  "useRate": 13.0587,
-  "winRate": 46.2169,
+  "notes": [
+    "Has a 0.3 second fade time.",
+    "If the invisibility ends without attacking, the bonus damage is lost."
+  ],
+  "timesUsed": 7304555,
+  "useRate": 13.1225,
+  "winRate": 46.2391,
   "stats": [
     {
       "name": "Damage",
@@ -40,5 +43,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "claymore",
+    "shadow-amulet"
+  ],
+  "buildInto": [
+    "silver-edge"
+  ]
 }

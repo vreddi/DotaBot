@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 5694384,
-  "useRate": 8.9364,
-  "winRate": 40.6119,
+  "notes": [
+    "Places a buff on enemy units in the area that prevents them from becoming invisible."
+  ],
+  "timesUsed": 4991157,
+  "useRate": 8.9665,
+  "winRate": 40.6058,
   "stats": [],
   "cost": 180,
   "image": null,
@@ -27,5 +29,7 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

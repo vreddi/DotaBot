@@ -1,5 +1,5 @@
 {
-  "popularityRank": 99,
+  "popularityRank": 98,
   "sourceLink": "https://dotabuff.com/items/drum-of-endurance",
   "localizedName": "drum-of-endurance",
   "name": "Drum of Endurance",
@@ -22,10 +22,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 749822,
-  "useRate": 1.1767,
-  "winRate": 53.149,
+  "notes": [
+    "Re-purchasing the Drum of Endurance recipe will refresh its charges.",
+    "Multiple instances of Swiftness Aura do not stack."
+  ],
+  "timesUsed": 660959,
+  "useRate": 1.1874,
+  "winRate": 52.7949,
   "stats": [
     {
       "name": "Intelligence",
@@ -65,5 +68,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "sages-mask",
+    "bracer",
+    "recipe:-drum-of-endurance",
+    "wind-lace"
+  ],
+  "buildInto": null
 }

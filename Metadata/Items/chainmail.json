@@ -6,9 +6,9 @@
   "lore": "A medium weave of metal chains.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 414891,
-  "useRate": 0.6511,
-  "winRate": 24.5016,
+  "timesUsed": 362083,
+  "useRate": 0.6504,
+  "winRate": 24.594,
   "stats": [
     {
       "name": "Armor",
@@ -24,5 +24,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "buckler",
+    "assault-cuirass",
+    "blade-mail",
+    "medallion-of-courage"
+  ]
 }

@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 17499711,
-  "useRate": 27.463,
-  "winRate": 43.4267,
+  "notes": [
+    "If multiple heroes teleport to the same location in succession, the channeling time will be increased for each successive hero."
+  ],
+  "timesUsed": 15134165,
+  "useRate": 27.1883,
+  "winRate": 43.3751,
   "stats": [],
   "cost": 50,
   "image": null,
@@ -27,5 +29,7 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

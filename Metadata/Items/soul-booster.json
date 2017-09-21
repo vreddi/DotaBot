@@ -6,9 +6,9 @@
   "lore": "Regain lost courage.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 327913,
-  "useRate": 0.5146,
-  "winRate": 59.4035,
+  "timesUsed": 283846,
+  "useRate": 0.5099,
+  "winRate": 59.4167,
   "stats": [
     {
       "name": "Health",
@@ -30,5 +30,14 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "energy-booster",
+    "point-booster",
+    "vitality-booster"
+  ],
+  "buildInto": [
+    "bloodstone",
+    "octarine-core"
+  ]
 }

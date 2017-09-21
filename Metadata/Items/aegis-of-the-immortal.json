@@ -14,12 +14,14 @@
     }
   ],
   "notes": null,
-  "timesUsed": 639408,
-  "useRate": 1.0034,
-  "winRate": 97.9243,
+  "timesUsed": 555324,
+  "useRate": 0.9976,
+  "winRate": 97.847,
   "stats": [],
   "cost": 0,
   "image": null,
   "shops": null,
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

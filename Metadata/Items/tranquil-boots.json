@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 7539812,
-  "useRate": 11.8325,
-  "winRate": 50.13,
+  "timesUsed": 6552743,
+  "useRate": 11.7719,
+  "winRate": 50.1128,
   "stats": [
     {
       "name": "Movement Speed",
@@ -40,5 +40,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-regen",
+    "boots-of-speed",
+    "wind-lace"
+  ],
+  "buildInto": null
 }

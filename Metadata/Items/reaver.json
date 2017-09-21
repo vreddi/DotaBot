@@ -6,9 +6,9 @@
   "lore": "A massive axe capable of tearing whole mountains down.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 494697,
-  "useRate": 0.7763,
-  "winRate": 59.3506,
+  "timesUsed": 432679,
+  "useRate": 0.7773,
+  "winRate": 59.3248,
   "stats": [
     {
       "name": "Strength",
@@ -24,5 +24,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "heart-of-tarrasque",
+    "satanic"
+  ]
 }

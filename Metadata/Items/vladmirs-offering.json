@@ -13,10 +13,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3280481,
-  "useRate": 5.1482,
-  "winRate": 55.2832,
+  "notes": [
+    "Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir's Offering.",
+    "Multiple instances of Vladmir's Aura do not stack."
+  ],
+  "timesUsed": 2799452,
+  "useRate": 5.0291,
+  "winRate": 55.2022,
   "stats": [
     {
       "name": "All Attributes",
@@ -32,5 +35,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "morbid-mask",
+    "ring-of-basilius",
+    "headdress"
+  ],
+  "buildInto": null
 }

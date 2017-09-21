@@ -6,9 +6,9 @@
   "lore": "A long blade imbued with time magic.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 626430,
-  "useRate": 0.983,
-  "winRate": 21.897,
+  "timesUsed": 546761,
+  "useRate": 0.9822,
+  "winRate": 21.864,
   "stats": [
     {
       "name": "Agility",
@@ -24,5 +24,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "aghanims-scepter",
+    "yasha",
+    "diffusal-blade"
+  ]
 }

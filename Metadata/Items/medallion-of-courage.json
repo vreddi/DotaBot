@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 462679,
-  "useRate": 0.7261,
-  "winRate": 40.093,
+  "timesUsed": 402230,
+  "useRate": 0.7226,
+  "winRate": 40.0504,
   "stats": [
     {
       "name": "Armor",
@@ -40,5 +40,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "chainmail",
+    "sages-mask",
+    "blight-stone"
+  ],
+  "buildInto": [
+    "solar-crest"
+  ]
 }

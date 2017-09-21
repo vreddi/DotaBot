@@ -1,5 +1,5 @@
 {
-  "popularityRank": 83,
+  "popularityRank": 84,
   "sourceLink": "https://dotabuff.com/items/solar-crest",
   "localizedName": "solar-crest",
   "name": "Solar Crest",
@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 1155731,
-  "useRate": 1.8137,
-  "winRate": 59.7835,
+  "notes": [
+    "Dispellable."
+  ],
+  "timesUsed": 1001734,
+  "useRate": 1.7996,
+  "winRate": 59.7371,
   "stats": [
     {
       "name": "Armor",
@@ -46,5 +48,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "talisman-of-evasion",
+    "medallion-of-courage"
+  ],
+  "buildInto": null
 }

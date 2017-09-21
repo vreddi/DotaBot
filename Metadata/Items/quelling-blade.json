@@ -22,10 +22,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2629336,
-  "useRate": 4.1263,
-  "winRate": 35.1451,
+  "notes": [
+    "Cannot carry more than one.",
+    "Chop can be used to destroy Techies' Remote Mines."
+  ],
+  "timesUsed": 2290775,
+  "useRate": 4.1153,
+  "winRate": 35.0425,
   "stats": [],
   "cost": 200,
   "image": null,
@@ -34,5 +37,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "battle-fury",
+    "iron-talon"
+  ]
 }

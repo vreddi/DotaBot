@@ -6,9 +6,9 @@
   "lore": "A perfectly formed amethyst that nourishes body and mind when held.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 1366049,
-  "useRate": 2.1438,
-  "winRate": 39.7211,
+  "timesUsed": 1184058,
+  "useRate": 2.1271,
+  "winRate": 39.7706,
   "stats": [
     {
       "name": "Mana",
@@ -30,5 +30,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "aghanims-scepter",
+    "soul-booster",
+    "eye-of-skadi"
+  ]
 }

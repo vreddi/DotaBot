@@ -1,5 +1,5 @@
 {
-  "popularityRank": 110,
+  "popularityRank": 111,
   "sourceLink": "https://dotabuff.com/items/enchanted-mango",
   "localizedName": "enchanted-mango",
   "name": "Enchanted Mango",
@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 505446,
-  "useRate": 0.7932,
-  "winRate": 39.2825,
+  "notes": [
+    "Hold Control to use on a neaby allied hero."
+  ],
+  "timesUsed": 433748,
+  "useRate": 0.7792,
+  "winRate": 39.2723,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -32,5 +34,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "soul-ring"
+  ]
 }

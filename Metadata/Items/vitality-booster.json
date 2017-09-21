@@ -6,9 +6,9 @@
   "lore": "A ruby gemstone that has been passed down through generations of warrior kin.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 579960,
-  "useRate": 0.9101,
-  "winRate": 48.9787,
+  "timesUsed": 507764,
+  "useRate": 0.9121,
+  "winRate": 49.0302,
   "stats": [
     {
       "name": "Health",
@@ -24,5 +24,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "heart-of-tarrasque",
+    "vanguard",
+    "soul-booster"
+  ]
 }

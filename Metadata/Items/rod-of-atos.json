@@ -1,5 +1,5 @@
 {
-  "popularityRank": 54,
+  "popularityRank": 53,
   "sourceLink": "https://dotabuff.com/items/rod-of-atos",
   "localizedName": "rod-of-atos",
   "name": "Rod of Atos",
@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 2253714,
-  "useRate": 3.5368,
-  "winRate": 57.0006,
+  "notes": [
+    "Dispellable."
+  ],
+  "timesUsed": 1978894,
+  "useRate": 3.555,
+  "winRate": 56.9977,
   "stats": [
     {
       "name": "Intelligence",
@@ -52,5 +54,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "staff-of-wizardry",
+    "bracer",
+    "bracer",
+    "recipe:-rod-of-atos"
+  ],
+  "buildInto": null
 }

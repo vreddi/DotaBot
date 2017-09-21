@@ -5,10 +5,14 @@
   "name": "Armlet of Mordiggian",
   "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 2663853,
-  "useRate": 4.1805,
-  "winRate": 51.6425,
+  "notes": [
+    "The strength change will affect both maximum and current HP, but you cannot die from the change.",
+    "The strength change occurs over 0.6 seconds.",
+    "Activating or deactiving Unholy Strength does not interrupt channeling."
+  ],
+  "timesUsed": 2329415,
+  "useRate": 4.1847,
+  "winRate": 51.6233,
   "stats": [
     {
       "name": "Damage",
@@ -42,5 +46,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "blades-of-attack",
+    "helm-of-iron-will",
+    "gloves-of-haste",
+    "recipe:-armlet-of-mordiggian"
+  ],
+  "buildInto": null
 }

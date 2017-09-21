@@ -6,9 +6,9 @@
   "lore": "A small gemstone attached to several chains.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 2982166,
-  "useRate": 4.68,
-  "winRate": 37.3151,
+  "timesUsed": 2623598,
+  "useRate": 4.7132,
+  "winRate": 37.3829,
   "stats": [
     {
       "name": "Strength",
@@ -42,5 +42,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mantle-of-intelligence",
+    "circlet",
+    "recipe:-null-talisman"
+  ],
+  "buildInto": [
+    "dagon",
+    "veil-of-discord"
+  ]
 }

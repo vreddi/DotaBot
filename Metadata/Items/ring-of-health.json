@@ -5,10 +5,12 @@
   "name": "Ring of Health",
   "lore": "A shiny ring found beneath a fat halfling's corpse.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 568132,
-  "useRate": 0.8915,
-  "winRate": 27.948,
+  "notes": [
+    "Ring of Health is shareable."
+  ],
+  "timesUsed": 495006,
+  "useRate": 0.8892,
+  "winRate": 27.7913,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -24,5 +26,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "perseverance",
+    "force-staff",
+    "vanguard",
+    "hood-of-defiance",
+    "helm-of-the-dominator"
+  ]
 }

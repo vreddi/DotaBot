@@ -20,10 +20,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 9164270,
-  "useRate": 14.3818,
-  "winRate": 56.8938,
+  "notes": [
+    "Purchasing another Black King Bar will not reset its immunity duration.",
+    "Using Black King Bar may remove some positive buffs."
+  ],
+  "timesUsed": 8062726,
+  "useRate": 14.4845,
+  "winRate": 56.9048,
   "stats": [
     {
       "name": "Strength",
@@ -45,5 +48,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mithril-hammer",
+    "ogre-club",
+    "recipe:-black-king-bar"
+  ],
+  "buildInto": null
 }

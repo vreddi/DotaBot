@@ -1,5 +1,5 @@
 {
-  "popularityRank": 90,
+  "popularityRank": 91,
   "sourceLink": "https://dotabuff.com/items/ring-of-basilius",
   "localizedName": "ring-of-basilius",
   "name": "Ring of Basilius",
@@ -13,10 +13,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 897278,
-  "useRate": 1.4081,
-  "winRate": 41.8685,
+  "notes": [
+    "Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir's Offering.",
+    "Multiple instances of Basilius Aura do not stack."
+  ],
+  "timesUsed": 772646,
+  "useRate": 1.388,
+  "winRate": 41.6981,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +35,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-protection",
+    "sages-mask"
+  ],
+  "buildInto": [
+    "vladmirs-offering",
+    "ring-of-aquila"
+  ]
 }

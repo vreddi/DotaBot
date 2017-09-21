@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2008072,
-  "useRate": 3.1513,
-  "winRate": 37.3857,
+  "timesUsed": 1751612,
+  "useRate": 3.1467,
+  "winRate": 37.3712,
   "stats": [
     {
       "name": "OBSERVER VISION RANGE:",
@@ -50,5 +50,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "observer-ward",
+    "sentry-ward"
+  ],
+  "buildInto": null
 }

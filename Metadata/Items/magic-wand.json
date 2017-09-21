@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 11384032,
-  "useRate": 17.8654,
-  "winRate": 47.1157,
+  "notes": [
+    "Gains charges for spells cast by visible enemies in 1200 range.",
+    "Certain abilities and item abilities will not add charges."
+  ],
+  "timesUsed": 9849859,
+  "useRate": 17.6951,
+  "winRate": 47.0868,
   "stats": [
     {
       "name": "All Attributes",
@@ -34,5 +37,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "iron-branch",
+    "iron-branch",
+    "circlet",
+    "magic-stick"
+  ],
+  "buildInto": null
 }

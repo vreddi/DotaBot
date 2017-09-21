@@ -15,10 +15,14 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 4229241,
-  "useRate": 6.6371,
-  "winRate": 41.2269,
+  "notes": [
+    "Bottle is shareable. Stored runes cannot be shared. Hold Control to use Regenerate on an allied hero.",
+    "Bounty runes replenish 2/3 charges.",
+    "If Bottle does not have full charges and is placed on a courier, the courier will move 30% slower."
+  ],
+  "timesUsed": 3671878,
+  "useRate": 6.5964,
+  "winRate": 41.2198,
   "stats": [],
   "cost": 650,
   "image": null,
@@ -27,5 +31,7 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

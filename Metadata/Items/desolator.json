@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 8076707,
-  "useRate": 12.6751,
-  "winRate": 57.2671,
+  "notes": [
+    "Armor reduction works on buildings."
+  ],
+  "timesUsed": 7137389,
+  "useRate": 12.8222,
+  "winRate": 57.194,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +34,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mithril-hammer",
+    "mithril-hammer",
+    "blight-stone"
+  ],
+  "buildInto": null
 }

@@ -6,9 +6,9 @@
   "lore": "The helmet of a legendary warrior who fell in battle.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 70778,
-  "useRate": 0.111,
-  "winRate": 26.7879,
+  "timesUsed": 61427,
+  "useRate": 0.1103,
+  "winRate": 26.8595,
   "stats": [
     {
       "name": "Armor",
@@ -30,5 +30,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "armlet-of-mordiggian",
+    "veil-of-discord"
+  ]
 }

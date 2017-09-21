@@ -6,9 +6,9 @@
   "lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 222620,
-  "useRate": 0.3493,
-  "winRate": 49.456,
+  "timesUsed": 193635,
+  "useRate": 0.3478,
+  "winRate": 49.4827,
   "stats": [
     {
       "name": "Mana",
@@ -24,5 +24,12 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "soul-booster",
+    "arcane-boots",
+    "lotus-orb",
+    "aether-lens"
+  ]
 }

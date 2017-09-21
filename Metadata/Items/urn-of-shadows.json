@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 2531473,
-  "useRate": 3.9727,
-  "winRate": 53.318,
+  "notes": [
+    "Empty urns gain 2 charges.",
+    "If used on a hero with Soul Release already active on them, it will refresh its duration."
+  ],
+  "timesUsed": 2237878,
+  "useRate": 4.0203,
+  "winRate": 53.3116,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -46,5 +49,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-protection",
+    "circlet",
+    "recipe:-urn-of-shadows",
+    "infused-raindrop"
+  ],
+  "buildInto": null
 }

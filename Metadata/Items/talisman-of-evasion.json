@@ -5,10 +5,12 @@
   "name": "Talisman of Evasion",
   "lore": "A necklace that allows you to anticipate enemy attacks.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 226646,
-  "useRate": 0.3556,
-  "winRate": 54.3552,
+  "notes": [
+    "Stacks diminishingly with other sources of Evasion."
+  ],
+  "timesUsed": 199630,
+  "useRate": 0.3586,
+  "winRate": 54.5133,
   "stats": [
     {
       "name": "Evasion",
@@ -24,5 +26,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "butterfly",
+    "heavens-halberd",
+    "solar-crest"
+  ]
 }

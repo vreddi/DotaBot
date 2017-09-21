@@ -29,10 +29,15 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3371158,
-  "useRate": 5.2905,
-  "winRate": 53.5009,
+  "notes": [
+    "Cleave damage is reduced by armor type but not by armor value.",
+    "Cleave damage goes through spell immunity.",
+    "If multiple sources of Cleave are present, each Cleave's damage is applied separately.",
+    "Chop can be used to destroy Techies' Remote Mines."
+  ],
+  "timesUsed": 2953061,
+  "useRate": 5.3051,
+  "winRate": 53.4986,
   "stats": [
     {
       "name": "Damage",
@@ -60,5 +65,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "broadsword",
+    "claymore",
+    "quelling-blade",
+    "perseverance"
+  ],
+  "buildInto": null
 }

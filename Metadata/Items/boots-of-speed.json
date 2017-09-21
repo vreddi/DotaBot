@@ -6,9 +6,9 @@
   "lore": "Fleet footwear, increasing movement.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 4604449,
-  "useRate": 7.2259,
-  "winRate": 34.8769,
+  "timesUsed": 3987328,
+  "useRate": 7.1631,
+  "winRate": 34.9021,
   "stats": [
     {
       "name": "Movement Speed",
@@ -24,5 +24,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "boots-of-travel",
+    "phase-boots",
+    "power-treads",
+    "arcane-boots",
+    "tranquil-boots"
+  ]
 }

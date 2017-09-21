@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 319519,
-  "useRate": 0.5014,
-  "winRate": 45.5941,
+  "notes": [
+    "Uses at most one charge per damage instance."
+  ],
+  "timesUsed": 278211,
+  "useRate": 0.4998,
+  "winRate": 45.7109,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -34,5 +36,9 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "urn-of-shadows"
+  ]
 }

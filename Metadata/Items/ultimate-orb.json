@@ -6,9 +6,9 @@
   "lore": "A mystical orb containing the essence of life.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 843515,
-  "useRate": 1.3237,
-  "winRate": 47.1544,
+  "timesUsed": 735131,
+  "useRate": 1.3206,
+  "winRate": 47.1014,
   "stats": [
     {
       "name": "All Attributes",
@@ -24,5 +24,13 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "scythe-of-vyse",
+    "linkens-sphere",
+    "manta-style",
+    "eye-of-skadi",
+    "silver-edge"
+  ]
 }

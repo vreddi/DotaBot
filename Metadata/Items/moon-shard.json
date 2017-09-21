@@ -20,10 +20,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 630214,
-  "useRate": 0.989,
-  "winRate": 78.9354,
+  "notes": [
+    "The bonus night vision works during Night Stalker's Darkness ability."
+  ],
+  "timesUsed": 548160,
+  "useRate": 0.9847,
+  "winRate": 78.7921,
   "stats": [
     {
       "name": "Attack Speed",
@@ -39,5 +41,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "hyperstone",
+    "hyperstone"
+  ],
+  "buildInto": null
 }

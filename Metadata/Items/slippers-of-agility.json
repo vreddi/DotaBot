@@ -6,9 +6,9 @@
   "lore": "Light boots made from spider skin that tingles your senses.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 122937,
-  "useRate": 0.1929,
-  "winRate": 35.3034,
+  "timesUsed": 105507,
+  "useRate": 0.1895,
+  "winRate": 35.5066,
   "stats": [
     {
       "name": "Agility",
@@ -24,5 +24,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "poor-mans-shield",
+    "wraith-band"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 28,
+  "popularityRank": 27,
   "sourceLink": "https://dotabuff.com/items/maelstrom",
   "localizedName": "maelstrom",
   "name": "Maelstrom",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 3803896,
-  "useRate": 5.9696,
-  "winRate": 44.4096,
+  "timesUsed": 3373699,
+  "useRate": 6.0608,
+  "winRate": 44.4584,
   "stats": [
     {
       "name": "Damage",
@@ -38,5 +38,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mithril-hammer",
+    "gloves-of-haste",
+    "recipe:-maelstrom"
+  ],
+  "buildInto": [
+    "mjollnir"
+  ]
 }

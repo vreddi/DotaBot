@@ -6,9 +6,9 @@
   "lore": "Enigmatic staff made of only the most expensive crystals.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 454534,
-  "useRate": 0.7133,
-  "winRate": 58.3144,
+  "timesUsed": 396178,
+  "useRate": 0.7117,
+  "winRate": 58.2341,
   "stats": [
     {
       "name": "Intelligence",
@@ -24,5 +24,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "scythe-of-vyse",
+    "shivas-guard",
+    "octarine-core"
+  ]
 }

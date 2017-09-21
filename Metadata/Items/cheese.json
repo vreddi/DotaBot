@@ -15,13 +15,17 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 317710,
-  "useRate": 0.4985,
-  "winRate": 75.6233,
+  "notes": [
+    "Cheese is shareable."
+  ],
+  "timesUsed": 277344,
+  "useRate": 0.4982,
+  "winRate": 75.2978,
   "stats": [],
   "cost": 1000,
   "image": null,
   "shops": null,
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": null
 }

@@ -22,10 +22,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1010220,
-  "useRate": 1.5853,
-  "winRate": 34.7758,
+  "notes": [
+    "Has a 4 second cooldown on Trees.",
+    "Cannot target ancients."
+  ],
+  "timesUsed": 863539,
+  "useRate": 1.5513,
+  "winRate": 34.7655,
   "stats": [
     {
       "name": "Armor",
@@ -41,5 +44,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "quelling-blade",
+    "ring-of-protection",
+    "recipe:-iron-talon"
+  ],
+  "buildInto": null
 }

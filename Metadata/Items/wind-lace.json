@@ -1,14 +1,14 @@
 {
-  "popularityRank": 51,
+  "popularityRank": 52,
   "sourceLink": "https://dotabuff.com/items/wind-lace",
   "localizedName": "wind-lace",
   "name": "Wind Lace",
   "lore": "Hasten to battle on wind-touched heels",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 2360872,
-  "useRate": 3.705,
-  "winRate": 43.1982,
+  "timesUsed": 2017436,
+  "useRate": 3.6243,
+  "winRate": 43.2127,
   "stats": [
     {
       "name": "Movement Speed",
@@ -24,5 +24,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "euls-scepter-of-divinity",
+    "drum-of-endurance",
+    "tranquil-boots"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 101,
+  "popularityRank": 100,
   "sourceLink": "https://dotabuff.com/items/satanic",
   "localizedName": "satanic",
   "name": "Satanic",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 719261,
-  "useRate": 1.1287,
-  "winRate": 70.3298,
+  "timesUsed": 626760,
+  "useRate": 1.1259,
+  "winRate": 70.1999,
   "stats": [
     {
       "name": "Strength",
@@ -47,5 +47,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mithril-hammer",
+    "morbid-mask",
+    "reaver"
+  ],
+  "buildInto": null
 }

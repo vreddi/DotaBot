@@ -1,14 +1,14 @@
 {
-  "popularityRank": 132,
+  "popularityRank": 133,
   "sourceLink": "https://dotabuff.com/items/ring-of-protection",
   "localizedName": "ring-of-protection",
   "name": "Ring of Protection",
   "lore": "A glimmering ring that defends its bearer.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 258598,
-  "useRate": 0.4058,
-  "winRate": 36.1487,
+  "timesUsed": 225988,
+  "useRate": 0.4059,
+  "winRate": 36.2559,
   "stats": [
     {
       "name": "Armor",
@@ -24,5 +24,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "ring-of-basilius",
+    "urn-of-shadows",
+    "iron-talon"
+  ]
 }

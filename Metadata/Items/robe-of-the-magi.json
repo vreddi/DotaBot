@@ -1,14 +1,14 @@
 {
-  "popularityRank": 145,
+  "popularityRank": 144,
   "sourceLink": "https://dotabuff.com/items/robe-of-the-magi",
   "localizedName": "robe-of-the-magi",
   "name": "Robe of the Magi",
   "lore": "This robe corrupts the soul of the user, but provides wisdom in return.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 198945,
-  "useRate": 0.3122,
-  "winRate": 13.5761,
+  "timesUsed": 173404,
+  "useRate": 0.3115,
+  "winRate": 13.5637,
   "stats": [
     {
       "name": "Intelligence",
@@ -24,5 +24,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "oblivion-staff",
+    "blade-mail",
+    "diffusal-blade"
+  ]
 }

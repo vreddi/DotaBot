@@ -5,10 +5,12 @@
   "name": "Sage's Mask",
   "lore": "A mask commonly used by mages and warlocks for various rituals.",
   "descriptions": [],
-  "notes": null,
-  "timesUsed": 180014,
-  "useRate": 0.2825,
-  "winRate": 29.9576,
+  "notes": [
+    "Sage's Mask is shareable."
+  ],
+  "timesUsed": 156561,
+  "useRate": 0.2812,
+  "winRate": 29.8988,
   "stats": [
     {
       "name": "Mana Regeneration",
@@ -24,5 +26,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "oblivion-staff",
+    "ring-of-basilius",
+    "soul-ring",
+    "drum-of-endurance",
+    "medallion-of-courage"
+  ]
 }

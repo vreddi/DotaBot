@@ -1,14 +1,14 @@
 {
-  "popularityRank": 133,
+  "popularityRank": 132,
   "sourceLink": "https://dotabuff.com/items/quarterstaff",
   "localizedName": "quarterstaff",
   "name": "Quarterstaff",
   "lore": "A basic staff that allows you to strike quickly.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 256116,
-  "useRate": 0.4019,
-  "winRate": 37.9542,
+  "timesUsed": 226290,
+  "useRate": 0.4065,
+  "winRate": 38.0321,
   "stats": [
     {
       "name": "Damage",
@@ -30,5 +30,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "oblivion-staff",
+    "butterfly",
+    "mask-of-madness"
+  ]
 }

@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 13791872,
-  "useRate": 21.6442,
-  "winRate": 59.9909,
+  "timesUsed": 12045185,
+  "useRate": 21.639,
+  "winRate": 59.9845,
   "stats": [
     {
       "name": "All Attributes",
@@ -44,5 +44,12 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ogre-club",
+    "blade-of-alacrity",
+    "staff-of-wizardry",
+    "point-booster"
+  ],
+  "buildInto": null
 }

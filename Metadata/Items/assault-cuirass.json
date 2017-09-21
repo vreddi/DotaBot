@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2145909,
-  "useRate": 3.3676,
-  "winRate": 72.2776,
+  "notes": [
+    "Multiple instances of Assault Aura do not stack."
+  ],
+  "timesUsed": 1879726,
+  "useRate": 3.3769,
+  "winRate": 72.3048,
   "stats": [
     {
       "name": "Attack Speed",
@@ -38,5 +40,12 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "chainmail",
+    "platemail",
+    "hyperstone",
+    "recipe:-assault-cuirass"
+  ],
+  "buildInto": null
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 27,
+  "popularityRank": 28,
   "sourceLink": "https://dotabuff.com/items/sange-and-yasha",
   "localizedName": "sange-and-yasha",
   "name": "Sange and Yasha",
@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3825072,
-  "useRate": 6.0028,
-  "winRate": 59.9222,
+  "notes": [
+    "Yasha-based movement speed bonuses from multiple items do not stack."
+  ],
+  "timesUsed": 3346559,
+  "useRate": 6.012,
+  "winRate": 59.9451,
   "stats": [
     {
       "name": "Damage",
@@ -56,5 +58,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "sange",
+    "yasha"
+  ],
+  "buildInto": null
 }

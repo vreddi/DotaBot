@@ -1,5 +1,5 @@
 {
-  "popularityRank": 50,
+  "popularityRank": 48,
   "sourceLink": "https://dotabuff.com/items/mask-of-madness",
   "localizedName": "mask-of-madness",
   "name": "Mask of Madness",
@@ -23,9 +23,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 2423977,
-  "useRate": 3.804,
-  "winRate": 51.4678,
+  "timesUsed": 2216240,
+  "useRate": 3.9814,
+  "winRate": 51.3742,
   "stats": [
     {
       "name": "Damage",
@@ -47,5 +47,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "quarterstaff",
+    "morbid-mask"
+  ],
+  "buildInto": null
 }

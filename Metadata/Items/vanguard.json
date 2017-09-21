@@ -1,5 +1,5 @@
 {
-  "popularityRank": 53,
+  "popularityRank": 54,
   "sourceLink": "https://dotabuff.com/items/vanguard",
   "localizedName": "vanguard",
   "name": "Vanguard",
@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2298295,
-  "useRate": 3.6068,
-  "winRate": 48.1211,
+  "notes": [
+    "Multiple sources of damage block don't stack."
+  ],
+  "timesUsed": 1973224,
+  "useRate": 3.5448,
+  "winRate": 48.0808,
   "stats": [
     {
       "name": "Health",
@@ -38,5 +40,14 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-health",
+    "vitality-booster",
+    "stout-shield"
+  ],
+  "buildInto": [
+    "abyssal-blade",
+    "crimson-guard"
+  ]
 }

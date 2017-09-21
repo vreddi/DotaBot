@@ -1,5 +1,5 @@
 {
-  "popularityRank": 111,
+  "popularityRank": 110,
   "sourceLink": "https://dotabuff.com/items/javelin",
   "localizedName": "javelin",
   "name": "Javelin",
@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 495930,
-  "useRate": 0.7782,
-  "winRate": 29.587,
+  "timesUsed": 434839,
+  "useRate": 0.7811,
+  "winRate": 29.6104,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +32,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "monkey-king-bar",
+    "skull-basher"
+  ]
 }

@@ -22,10 +22,14 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2777944,
-  "useRate": 4.3595,
-  "winRate": 64.076,
+  "notes": [
+    "Static Charge cannot trigger more than once per second.",
+    "Static Charge's shock deals magical damage centered on hero with the Static Charge. Static Charge's targets cannot be more than 900 range away.",
+    "Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War."
+  ],
+  "timesUsed": 2462912,
+  "useRate": 4.4245,
+  "winRate": 64.0323,
   "stats": [
     {
       "name": "Damage",
@@ -47,5 +51,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "hyperstone",
+    "recipe:-mjollnir",
+    "maelstrom"
+  ],
+  "buildInto": null
 }

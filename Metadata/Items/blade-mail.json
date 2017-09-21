@@ -15,10 +15,15 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 8912082,
-  "useRate": 13.9861,
-  "winRate": 51.105,
+  "notes": [
+    "Damage Return is calculated before any kind of reduction.",
+    "Damage Return doesn't reflect damage from other forms of Blademail.",
+    "Returned damage type is the same as it was received.",
+    "Can pierce Spell Immunity if the original damage type does."
+  ],
+  "timesUsed": 7855718,
+  "useRate": 14.1127,
+  "winRate": 51.1525,
   "stats": [
     {
       "name": "Damage",
@@ -46,5 +51,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "broadsword",
+    "chainmail",
+    "robe-of-the-magi"
+  ],
+  "buildInto": null
 }

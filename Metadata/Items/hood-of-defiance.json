@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 919371,
-  "useRate": 1.4428,
-  "winRate": 46.9369,
+  "notes": [
+    "Stacks multiplicatively with other sources of spell resistance."
+  ],
+  "timesUsed": 814955,
+  "useRate": 1.464,
+  "winRate": 46.8482,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -40,5 +42,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-regen",
+    "cloak",
+    "ring-of-health"
+  ],
+  "buildInto": [
+    "pipe-of-insight"
+  ]
 }

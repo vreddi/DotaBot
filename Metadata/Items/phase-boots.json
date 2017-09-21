@@ -16,9 +16,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 14544923,
-  "useRate": 22.8259,
-  "winRate": 48.6692,
+  "timesUsed": 12754883,
+  "useRate": 22.914,
+  "winRate": 48.6131,
   "stats": [
     {
       "name": "Movement Speed",
@@ -40,5 +40,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "blades-of-attack",
+    "blades-of-attack",
+    "boots-of-speed"
+  ],
+  "buildInto": null
 }

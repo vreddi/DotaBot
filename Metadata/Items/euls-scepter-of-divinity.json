@@ -15,10 +15,14 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 4922160,
-  "useRate": 7.7245,
-  "winRate": 54.4862,
+  "notes": [
+    "You cannot cyclone allies.",
+    "Cyclones cast on yourself go through spell immunity.",
+    "Cyclone can purge some buffs and debuffs."
+  ],
+  "timesUsed": 4304938,
+  "useRate": 7.7337,
+  "winRate": 54.5369,
   "stats": [
     {
       "name": "Intelligence",
@@ -46,5 +50,12 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "staff-of-wizardry",
+    "void-stone",
+    "recipe:-euls-scepter-of-divinity",
+    "wind-lace"
+  ],
+  "buildInto": null
 }

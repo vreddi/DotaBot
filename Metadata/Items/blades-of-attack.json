@@ -6,9 +6,9 @@
   "lore": "The damage of these small, concealable blades should not be underestimated.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 174036,
-  "useRate": 0.2731,
-  "winRate": 25.4826,
+  "timesUsed": 151366,
+  "useRate": 0.2719,
+  "winRate": 25.2355,
   "stats": [
     {
       "name": "Damage",
@@ -24,5 +24,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "phase-boots",
+    "crystalys",
+    "armlet-of-mordiggian"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 144,
+  "popularityRank": 146,
   "sourceLink": "https://dotabuff.com/items/helm-of-the-dominator",
   "localizedName": "helm-of-the-dominator",
   "name": "Helm of the Dominator",
@@ -22,10 +22,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 201251,
-  "useRate": 0.3158,
-  "winRate": 55.789,
+  "notes": [
+    "Cannot dominate more than one unit at a time.  If a new unit is dominated, the old one will die.",
+    "Selling or upgrading Helm of the Dominator will cause dominated units to die."
+  ],
+  "timesUsed": 169256,
+  "useRate": 0.304,
+  "winRate": 55.1625,
   "stats": [
     {
       "name": "All Attributes",
@@ -47,5 +50,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "gloves-of-haste",
+    "ring-of-health",
+    "headdress"
+  ],
+  "buildInto": null
 }

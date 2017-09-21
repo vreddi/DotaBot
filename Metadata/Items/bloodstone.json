@@ -22,10 +22,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1720585,
-  "useRate": 2.7001,
-  "winRate": 59.6695,
+  "notes": [
+    "Only the first Bloodstone will gain charges."
+  ],
+  "timesUsed": 1491055,
+  "useRate": 2.6786,
+  "winRate": 59.645,
   "stats": [
     {
       "name": "Health",
@@ -59,5 +61,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "recipe:-bloodstone",
+    "soul-booster",
+    "soul-ring"
+  ],
+  "buildInto": null
 }

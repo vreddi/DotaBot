@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 3212201,
-  "useRate": 5.041,
-  "winRate": 35.3454,
+  "notes": [
+    "Multiple sources of damage block don't stack."
+  ],
+  "timesUsed": 2775857,
+  "useRate": 4.9867,
+  "winRate": 35.3382,
   "stats": [],
   "cost": 200,
   "image": null,
@@ -25,5 +27,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "poor-mans-shield",
+    "vanguard"
+  ]
 }

@@ -14,9 +14,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1219014,
-  "useRate": 1.913,
-  "winRate": 43.7056,
+  "timesUsed": 1059122,
+  "useRate": 1.9027,
+  "winRate": 43.6765,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +32,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "vladmirs-offering",
+    "satanic",
+    "mask-of-madness"
+  ]
 }

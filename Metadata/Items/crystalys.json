@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1975604,
-  "useRate": 3.1004,
-  "winRate": 44.6796,
+  "notes": [
+    "Critical Strike does not work against buildings."
+  ],
+  "timesUsed": 1728992,
+  "useRate": 3.1061,
+  "winRate": 44.6567,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +34,14 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "blades-of-attack",
+    "broadsword",
+    "recipe:-crystalys"
+  ],
+  "buildInto": [
+    "daedalus",
+    "bloodthorn"
+  ]
 }

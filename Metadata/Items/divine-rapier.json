@@ -13,10 +13,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 486704,
-  "useRate": 0.7638,
-  "winRate": 86.7042,
+  "notes": [
+    "If Divine Rapier is dropped and picked up by an enemy of its original owner, it cannot be dropped again except by death."
+  ],
+  "timesUsed": 430573,
+  "useRate": 0.7735,
+  "winRate": 86.7179,
   "stats": [
     {
       "name": "Damage",
@@ -32,5 +34,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "demon-edge",
+    "sacred-relic"
+  ],
+  "buildInto": null
 }

@@ -1,5 +1,5 @@
 {
-  "popularityRank": 18,
+  "popularityRank": 17,
   "sourceLink": "https://dotabuff.com/items/echo-sabre",
   "localizedName": "echo-sabre",
   "name": "Echo Sabre",
@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 5272636,
-  "useRate": 8.2745,
-  "winRate": 54.8007,
+  "notes": [
+    "Dispellable."
+  ],
+  "timesUsed": 4676199,
+  "useRate": 8.4007,
+  "winRate": 54.7843,
   "stats": [
     {
       "name": "Intelligence",
@@ -58,5 +60,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ogre-club",
+    "oblivion-staff"
+  ],
+  "buildInto": null
 }

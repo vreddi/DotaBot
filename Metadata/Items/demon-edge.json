@@ -6,9 +6,9 @@
   "lore": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 656371,
-  "useRate": 1.03,
-  "winRate": 49.5779,
+  "timesUsed": 577266,
+  "useRate": 1.037,
+  "winRate": 49.5539,
   "stats": [
     {
       "name": "Damage",
@@ -24,5 +24,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "divine-rapier",
+    "monkey-king-bar",
+    "daedalus"
+  ]
 }

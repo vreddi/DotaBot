@@ -15,10 +15,12 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 2824294,
-  "useRate": 4.4322,
-  "winRate": 45.1975,
+  "notes": [
+    "If this mana is not used before the duration ends, the extra mana is lost."
+  ],
+  "timesUsed": 2465105,
+  "useRate": 4.4285,
+  "winRate": 45.2424,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -40,5 +42,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ring-of-regen",
+    "sages-mask",
+    "enchanted-mango"
+  ],
+  "buildInto": [
+    "bloodstone"
+  ]
 }

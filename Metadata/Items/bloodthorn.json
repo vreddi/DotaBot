@@ -1,5 +1,5 @@
 {
-  "popularityRank": 74,
+  "popularityRank": 73,
   "sourceLink": "https://dotabuff.com/items/bloodthorn",
   "localizedName": "bloodthorn",
   "name": "Bloodthorn",
@@ -22,10 +22,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1442963,
-  "useRate": 2.2645,
-  "winRate": 64.8909,
+  "notes": [
+    "Critical Strike does not work against buildings."
+  ],
+  "timesUsed": 1275470,
+  "useRate": 2.2913,
+  "winRate": 64.7878,
   "stats": [
     {
       "name": "Intelligence",
@@ -59,5 +61,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "orchid-malevolence",
+    "crystalys",
+    "recipe:-bloodthorn"
+  ],
+  "buildInto": null
 }

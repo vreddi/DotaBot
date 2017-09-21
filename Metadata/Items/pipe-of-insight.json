@@ -22,10 +22,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1616161,
-  "useRate": 2.5363,
-  "winRate": 60.6539,
+  "notes": [
+    "Multiple instances of Barrier do not stack.",
+    "Stacks multiplicatively with other sources of spell resistance."
+  ],
+  "timesUsed": 1415891,
+  "useRate": 2.5436,
+  "winRate": 60.5991,
   "stats": [
     {
       "name": "HP Regeneration",
@@ -47,5 +50,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "recipe:-pipe-of-insight",
+    "headdress",
+    "hood-of-defiance"
+  ],
+  "buildInto": null
 }

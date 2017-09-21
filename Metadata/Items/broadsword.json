@@ -6,9 +6,9 @@
   "lore": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 290436,
-  "useRate": 0.4557,
-  "winRate": 22.1046,
+  "timesUsed": 254519,
+  "useRate": 0.4572,
+  "winRate": 22.2325,
   "stats": [
     {
       "name": "Damage",
@@ -24,5 +24,11 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "blade-mail",
+    "battle-fury",
+    "crystalys"
+  ]
 }

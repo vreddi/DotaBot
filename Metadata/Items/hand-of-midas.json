@@ -1,5 +1,5 @@
 {
-  "popularityRank": 17,
+  "popularityRank": 18,
   "sourceLink": "https://dotabuff.com/items/hand-of-midas",
   "localizedName": "hand-of-midas",
   "name": "Hand of Midas",
@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 5367703,
-  "useRate": 8.4237,
-  "winRate": 45.5827,
+  "notes": [
+    "The gold given is reliable gold (you do not get the normal creep bounty).",
+    "Experience gained by using Transmute is not shared."
+  ],
+  "timesUsed": 4580474,
+  "useRate": 8.2287,
+  "winRate": 45.4777,
   "stats": [
     {
       "name": "Attack Speed",
@@ -34,5 +37,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "gloves-of-haste",
+    "recipe:-hand-of-midas"
+  ],
+  "buildInto": null
 }

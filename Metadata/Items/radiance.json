@@ -1,14 +1,14 @@
 {
-  "popularityRank": 39,
+  "popularityRank": 38,
   "sourceLink": "https://dotabuff.com/items/radiance",
   "localizedName": "radiance",
   "name": "Radiance",
   "lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 2859266,
-  "useRate": 4.4871,
-  "winRate": 64.2877,
+  "timesUsed": 2538413,
+  "useRate": 4.5602,
+  "winRate": 64.4522,
   "stats": [
     {
       "name": "Damage",
@@ -24,5 +24,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "sacred-relic",
+    "recipe:-radiance"
+  ],
+  "buildInto": null
 }

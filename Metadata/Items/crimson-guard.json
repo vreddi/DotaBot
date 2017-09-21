@@ -1,5 +1,5 @@
 {
-  "popularityRank": 70,
+  "popularityRank": 71,
   "sourceLink": "https://dotabuff.com/items/crimson-guard",
   "localizedName": "crimson-guard",
   "name": "Crimson Guard",
@@ -22,10 +22,12 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1497735,
-  "useRate": 2.3504,
-  "winRate": 58.5093,
+  "notes": [
+    "Multiple sources of damage block don't stack."
+  ],
+  "timesUsed": 1302012,
+  "useRate": 2.339,
+  "winRate": 58.6187,
   "stats": [
     {
       "name": "Health",
@@ -59,5 +61,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "buckler",
+    "vanguard",
+    "recipe:-crimson-guard"
+  ],
+  "buildInto": null
 }

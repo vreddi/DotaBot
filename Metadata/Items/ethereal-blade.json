@@ -1,5 +1,5 @@
 {
-  "popularityRank": 94,
+  "popularityRank": 95,
   "sourceLink": "https://dotabuff.com/items/ethereal-blade",
   "localizedName": "ethereal-blade",
   "name": "Ethereal Blade",
@@ -15,10 +15,15 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 809835,
-  "useRate": 1.2709,
-  "winRate": 64.9611,
+  "notes": [
+    "Shares cooldown with Ghost Scepter.",
+    "Ethereal units take 40% bonus magic damage.",
+    "Lasts an extra second on Self or Allied cast.",
+    "Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form."
+  ],
+  "timesUsed": 698326,
+  "useRate": 1.2545,
+  "winRate": 64.9047,
   "stats": [
     {
       "name": "Agility",
@@ -46,5 +51,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "ghost-scepter",
+    "eaglesong"
+  ],
+  "buildInto": null
 }

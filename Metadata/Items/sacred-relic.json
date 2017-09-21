@@ -6,9 +6,9 @@
   "lore": "An ancient weapon that often turns the tides of war.",
   "descriptions": [],
   "notes": null,
-  "timesUsed": 153007,
-  "useRate": 0.2401,
-  "winRate": 56.7823,
+  "timesUsed": 135354,
+  "useRate": 0.2431,
+  "winRate": 56.8693,
   "stats": [
     {
       "name": "Damage",
@@ -24,5 +24,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": null,
+  "buildInto": [
+    "divine-rapier",
+    "radiance"
+  ]
 }

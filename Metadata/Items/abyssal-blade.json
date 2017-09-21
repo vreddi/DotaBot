@@ -29,10 +29,14 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 2597718,
-  "useRate": 4.0767,
-  "winRate": 70.7372,
+  "notes": [
+    "The stun is melee range.",
+    "Does not stack with other bashes.",
+    "The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord."
+  ],
+  "timesUsed": 2264978,
+  "useRate": 4.069,
+  "winRate": 70.7128,
   "stats": [
     {
       "name": "Health",
@@ -66,5 +70,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "vanguard",
+    "skull-basher",
+    "recipe:-abyssal-blade"
+  ],
+  "buildInto": null
 }

@@ -13,10 +13,13 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 6569227,
-  "useRate": 10.3093,
-  "winRate": 48.0155,
+  "notes": [
+    "Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir's Offering.",
+    "Multiple instances of Aquila Aura do not stack."
+  ],
+  "timesUsed": 5805003,
+  "useRate": 10.4286,
+  "winRate": 47.9437,
   "stats": [
     {
       "name": "Damage",
@@ -50,5 +53,10 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "wraith-band",
+    "ring-of-basilius"
+  ],
+  "buildInto": null
 }

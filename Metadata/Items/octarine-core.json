@@ -1,5 +1,5 @@
 {
-  "popularityRank": 63,
+  "popularityRank": 62,
   "sourceLink": "https://dotabuff.com/items/octarine-core",
   "localizedName": "octarine-core",
   "name": "Octarine Core",
@@ -21,9 +21,9 @@
     }
   ],
   "notes": null,
-  "timesUsed": 1679118,
-  "useRate": 2.6351,
-  "winRate": 71.4699,
+  "timesUsed": 1460358,
+  "useRate": 2.6235,
+  "winRate": 71.4993,
   "stats": [
     {
       "name": "Intelligence",
@@ -51,5 +51,10 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "mystic-staff",
+    "soul-booster"
+  ],
+  "buildInto": null
 }

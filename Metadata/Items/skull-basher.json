@@ -15,10 +15,13 @@
       ]
     }
   ],
-  "notes": null,
-  "timesUsed": 2670519,
-  "useRate": 4.1909,
-  "winRate": 54.4687,
+  "notes": [
+    "Does not stack with other sources of Bash, however it will stack with Mini-Bash (e.g. Monkey King Bar).",
+    "The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord."
+  ],
+  "timesUsed": 2340230,
+  "useRate": 4.2041,
+  "winRate": 54.4103,
   "stats": [
     {
       "name": "Damage",
@@ -40,5 +43,13 @@
     "homeShop": true,
     "secretShop": false
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "javelin",
+    "belt-of-strength",
+    "recipe:-skull-basher"
+  ],
+  "buildInto": [
+    "abyssal-blade"
+  ]
 }

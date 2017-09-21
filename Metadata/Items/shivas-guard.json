@@ -1,5 +1,5 @@
 {
-  "popularityRank": 67,
+  "popularityRank": 69,
   "sourceLink": "https://dotabuff.com/items/shivas-guard",
   "localizedName": "shivas-guard",
   "name": "Shiva's Guard",
@@ -22,10 +22,14 @@
       "coolDown": null
     }
   ],
-  "notes": null,
-  "timesUsed": 1547454,
-  "useRate": 2.4284,
-  "winRate": 69.6639,
+  "notes": [
+    "The wave extends at a speed of 350 to a max size of 900.",
+    "The Arctic Blast follows its caster.",
+    "Multiple instances of Freezing Aura do not stack."
+  ],
+  "timesUsed": 1332438,
+  "useRate": 2.3937,
+  "winRate": 69.6719,
   "stats": [
     {
       "name": "Intelligence",
@@ -47,5 +51,11 @@
     "homeShop": false,
     "secretShop": true
   },
-  "aliases": null
+  "aliases": null,
+  "builtFrom": [
+    "platemail",
+    "mystic-staff",
+    "recipe:-shivas-guard"
+  ],
+  "buildInto": null
 }

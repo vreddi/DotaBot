@@ -24,3 +24,5 @@ $ npm start
 # Open the Bot Emulator on the side and enter the end point URL as
 # http://127.0.0.1:3978/api/messages and click 'Connect'
 ```
+
+Hackathon: https://garagehackbox.azurewebsites.net/hackathons/1074/projects/65045
